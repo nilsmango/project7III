@@ -1,0 +1,63 @@
+{% set meta = get_image_metadata(path=path) %}
+
+{% if meta.width >= 2400 %}
+{% set width4 = 2400  | int %}
+{% set height4 = (meta.height * 2400) / meta.width | int %}
+
+{% set width3 = width4 / 2  | int %}
+{% set height3 = height4 / 2  | int %}
+{% set width2 = width3 / 2  | int %}
+{% set height2 = height3 / 2  | int %}
+{% set width1 = width3 / 4  | int %}
+{% set height1 = height3 / 4  | int %}
+
+{% set image1 = resize_image(path=path, width=width1, height=height1, op=op, format=format, quality=quality) %}
+{% set image2 = resize_image(path=path, width=width2, height=height2, op=op, format=format, quality=quality) %}
+{% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
+{% set image4 = resize_image(path=path, width=width4, height=height4, op=op, format=format, quality=quality) %}
+
+<figure>
+<a href="{{ image4.url }}" target="_blank">
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, , {{ image4.url }} {{ image4.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
+</a>
+<figcaption>{{ caption }}</figcaption>
+    </figure>
+
+{% endif %}
+
+{% if meta.width >= 1200 and meta.width < 2400 %}
+{% set width3 = 1200  | int %}
+{% set height3 = (meta.height * 1200) / meta.width | int %}
+{% set width2 = width3 / 2  | int %}
+{% set height2 = height3 / 2  | int %}
+{% set width1 = width3 / 4  | int %}
+{% set height1 = height3 / 4  | int %}
+
+{% set image1 = resize_image(path=path, width=width1, height=height1, op=op, format=format, quality=quality) %}
+{% set image2 = resize_image(path=path, width=width2, height=height2, op=op, format=format, quality=quality) %}
+{% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
+<figure>
+<a href="{{ image3.url }}" target="_blank">
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
+</a>
+<figcaption>{{ caption }}</figcaption>
+</figure>
+
+{% elif meta.width < 1200 %}
+{% set width3 = meta.width | int %}
+{% set height3 = meta.height | int %}
+{% set width2 = 600 %}
+{% set height2 = 600 * meta.width / meta.height  | int %}
+{% set width1 = width2 / 2  | int %}
+{% set height1 = height2 / 2  | int %}
+
+{% set image1 = resize_image(path=path, width=width1, height=height1, op=op, format=format, quality=quality) %}
+{% set image2 = resize_image(path=path, width=width2, height=height2, op=op, format=format, quality=quality) %}
+{% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
+<figure>
+<a href="{{ image3.url }}" target="_blank">
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
+</a>
+<figcaption>{{ caption }}</figcaption>
+</figure>
+{% endif %}

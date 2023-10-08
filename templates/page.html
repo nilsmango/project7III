@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block ogp_head %}
+    {% if config.extra.ogp.locale %}
+    <meta property="og:locale" content="{{ config.extra.ogp.locale }}">
+    {% endif %}
+    <meta name="author" content="Nils Mango">
+    <meta property="og:title" content="{{ page.title }}">
+    {% if page.taxonomies.categories %}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ page.date }}">
+    {% if page.taxonomies.tags %}
+    {% for tag in page.taxonomies.tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+    {% endif %}
+    {% if page.updated %}
+    <meta property="article:modified_time" content="{{ page.updated }}">
+    {% endif %}
+    {% else %}
+    <meta property="og:type" content="website">
+    {% endif %}
+    <meta property="og:url" content="{{ page.permalink | safe }}">
+    {% if page.extra.featured_image %}
+    {% set page_permalink = page.permalink | safe %}
+    <meta property="og:image" content="{{ page_permalink ~ page.extra.featured_image }}">
+    {% if page.extra.featured_image_alt %}
+    <meta property="og:image:alt" content="{{ page.extra.featured_image_alt }}">
+    {% endif %}
+    {% else %}
+    <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
+    {% endif %}
+    {% if page.summary %}
+    <meta property="og:description" content="{{ page.summary | striptags }} ...">
+    {%- elif page.description %}
+    <meta property="og:description" content="{{ page.description | safe }}  ...">
+    {%- elif page.content %}
+    <meta property="og:description" content="{{ page.content | striptags | truncate(length=54) | safe }}">
+
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<h1 class="title">
+  {{ page.title }}
+</h1>
+{% if page.taxonomies.categories %}
+<p><span class="post-dates">Posted on <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time></span>
+{% if page.updated %}
+<span class="divider">|</span><span class="post-updated"> Updated: <time datetime="{{ page.updated | date(format="%+") }}">{{ page.updated | date(format="%B %d, %Y") }}</time></span>
+{% endif %}
+{% if page.taxonomies.tags %}
+<span class="divider">|</span>{% for tag in page.taxonomies.tags %}
+ <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
+{% endfor %}
+{% endif %}
+</p>
+{% endif %}
+{{ page.content | safe }}
+{% endblock content %}
+
+{%- block comments %}
+{% if page.taxonomies.categories %}
+<div class="comments">
+<p>Got questions, suggestions, comments, or just want to share this post?<br>
+→ <a href="https://twitter.com/share?text=Your+comment+or+whatever&via=nilsmango&url={{ page.permalink | safe }}" target="_blank" rel="noopener" title="Tweeting can be used for both commenting and sharing">Tweet</a> or <a href="mailto:senf@nilsmango.ch?subject={{ page.title }}" title="Please don't email me if you want to share this post, I am already familiar with the theme">email</a> me and I will add it to this post, if appropriate.
+</p>
+</div>
+{% endif %}
+{%- endblock comments %}
+
+{%- block pagination %}
+{% if page.taxonomies.categories %}
+<nav class="pagenav">
+<ul>
+  {% if page.lower %}
+  <li><a href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a></li>
+  {% else %}
+  <li></li>
+  {% endif %}
+{% if page.higher %}
+{% if page.higher.taxonomies.categories %}
+<li><a href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a></li>
+{% endif %}
+{% endif %}
+
+
+</ul>
+</nav>
+{% endif %}
+{%- endblock pagination %}

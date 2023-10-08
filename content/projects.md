@@ -1,0 +1,21 @@
++++
+title = "7III Projects"
+description = "Projects by project7III"
+date = 2022-09-15
++++
+
+## Apps
+- Tap, an iPhone MIDI controller for Ableton Live (coming soon)  
+- Zetteli (coming soon)  
+- MD Recipes (coming soon)  
+- QR Coder (coming soon)  
+
+## Science
+- [Molecule Store](/moleculestore)
+
+## Art & Design
+- [Nils Mango](/megaduo)
+- [Portfolio/Client Work](/portfolio)
+
+## Sold
+- [Birs73](/birs73)

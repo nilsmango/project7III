@@ -1,0 +1,2 @@
+{% set updated = page.updated %}
+<time datetime="{{ updated | date(format="%+") }}">{{ updated | date(format="%B %d, %Y") }}</time>
