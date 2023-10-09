@@ -20,7 +20,9 @@
 <a href="{{ image4.url }}" target="_blank">
 <img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, , {{ image4.url }} {{ image4.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
 </a>
+{% if caption %}
 <figcaption>{{ caption }}</figcaption>
+{% endif %}
     </figure>
 
 {% endif %}
@@ -40,7 +42,9 @@
 <a href="{{ image3.url }}" target="_blank">
 <img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
 </a>
+{% if caption %}
 <figcaption>{{ caption }}</figcaption>
+{% endif %}
 </figure>
 
 {% elif meta.width < 1200 %}
@@ -58,6 +62,9 @@
 <a href="{{ image3.url }}" target="_blank">
 <img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
 </a>
+{% if caption %}
 <figcaption>{{ caption }}</figcaption>
+{% endif %}
 </figure>
+
 {% endif %}
