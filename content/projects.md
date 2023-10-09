@@ -12,12 +12,9 @@ We make shit happen!
 - QR Coder (coming soon)  
 - [App Example](/app-example)
 
-## Science
+## Other Adventures
 - [Molecule Store](/moleculestore)
-
-## Art & Design
-- [Nils Mango](/megaduo)
+- [Birs73](/birs73)
+- [Nils Mango](https://nilsmango.ch)
 - [Client Work](/client-work)
 
-## Sold
-- [Birs73](/birs73)

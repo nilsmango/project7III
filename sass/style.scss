@@ -49,6 +49,9 @@ $page-width: 850px;
   --fs-logo: 9rem;
 }
 
+
+/* Mobile First */
+
 body {
     margin: 0;
     background: var(--color-background);
@@ -194,7 +197,6 @@ kbd {
 }
 
 
-
 .nav {
   font-size: $font-size-bigger;
   font-weight: 600;
@@ -207,7 +209,7 @@ kbd {
   li {
 
     padding-bottom: 0px;
-    margin-right: 10px;
+    margin-right: 16px;
   //padding-right: 10px;
   }
 
@@ -455,7 +457,7 @@ details {
     flex-wrap : wrap;
     li + li:before {
         content: " ";
-      padding: 0 10px;
+      padding: 0 8px;
   }
   }
 }
@@ -498,7 +500,7 @@ lite-youtube {
     background-position: center center;
     background-size: 100.5%;
     cursor: pointer;
-    max-width: 600px;
+    max-width: $page-width - 80;
     //border-radius: 20px;
 }
 
@@ -544,7 +546,6 @@ lite-youtube > .lty-playbtn {
 lite-youtube:hover > .lty-playbtn,
 lite-youtube .lty-playbtn:focus {
     filter: none;
-
 }
 
 /* Post-click styles */
@@ -552,6 +553,7 @@ lite-youtube.lyt-activated {
     cursor: unset;
     border-radius: 0px;
 }
+
 lite-youtube.lyt-activated::before,
 lite-youtube.lyt-activated > .lty-playbtn {
     opacity: 0;
@@ -569,29 +571,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
   }
 
 
-// @media (min-width: 375px) {
-//   .eliminating {
-//     font-size: 4rem;
-//     line-height: 4rem;
-//   }
-//   h1 {
-//     font-size: 3.5rem;
-//     line-height: 4rem;
-//   }
 
 
-// }
 
-
-// @media (min-width: 460px) {
-//   .eliminating, h1 {
-//     font-size: 5rem;
-//     line-height: 5rem;
-//   }
-
-
-// }
-
+/* Bigger Size */
 @media (min-width: 750px) {
 
   header {
@@ -599,12 +582,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
     justify-content: space-between;
   }
 
-  figcaption {
-    // margin-top: -20px;
-  }
-
 .nav {
-
   ul {
     display: block;
     li {
@@ -612,10 +590,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
       margin-top: 10px;
       // margin-left: 10px;
       text-align: right;
+      }
     }
   }
-  
-}
 }
 
 
@@ -634,5 +611,4 @@ lite-youtube.lyt-activated > .lty-playbtn {
     --clr-mred: #189b04d5;
     --clr-bgreen: #189b04d5;
   }
-
 }
