@@ -17,7 +17,7 @@ $link-hover-color: #0c0c0c;
 $link-hover-logo: #434343;
 $link-visited: #9346b4;
 $mark-color: rgb(255, 209, 188);
-$font-size-normal: 1.25rem;
+$font-size-normal: 1.2rem;
 $font-size-bigger: 1.4375rem;
 $font-size-smaller: 0.75rem;
 $page-width: 850px;
@@ -318,6 +318,11 @@ ul ul {
   color: white;
 }
 
+#yellowButton {
+  background-color: var(--clr-yellow);
+  color: white;
+}
+
 .nobullets {
   list-style: none;
 }
@@ -365,16 +370,19 @@ h1::before {
 }
 
 h2 {
-  font-size: 3rem;
-  line-height: 2.2rem;
-  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 1.62rem;
+  font-weight: 600;
   margin-bottom: 0px;
-  // margin-top: -3.5rem;
+  margin-top: 30px;
 }
+
 h3 {
-  font-size: 2rem;
-  line-height: 1.5rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 figure {
@@ -385,12 +393,15 @@ figure {
   margin-left: 0;
   margin-right: 0;
   .imgset {
-    width: 600px;
+    width: $page-width - 80;
     height: auto;
     max-width: 100%;
   }
   .img {
     max-width: 100%;
+  }
+  figcaption {
+    margin-top: 5px;
   }
 }
 
@@ -588,6 +599,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
     justify-content: space-between;
   }
 
+  figcaption {
+    // margin-top: -20px;
+  }
 
 .nav {
 
@@ -604,21 +618,21 @@ lite-youtube.lyt-activated > .lty-playbtn {
 }
 }
 
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #171717;
-    --color-text: #ececec;
+    --color-background: #202020;
+    --color-text: #cccccc;
     --color-text-sec: #a9a9a9;
     --color-code: #333;
     --color-gray: #333;
-    --color-link: #d562c6;
+    --color-link: #24cd34;
     --color-hover: #ececec;
-    --color-visited: #b132a0;
-    --color-mark: #b63535;
-    --clr-yellow: #e30cd8;
+    --color-visited: #1da033;
+    --color-mark: #ab4c4c;
+    --clr-yellow: #189b04d5;
+    --clr-mred: #189b04d5;
+    --clr-bgreen: #189b04d5;
   }
-
- 
-
 
 }

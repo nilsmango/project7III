@@ -19,6 +19,6 @@ Two main concepts are guiding the project Molecule Store:
 </div>
 
 
-{{ image_sets(path="content/moleculestore/moleculestore_1.png", format="auto", op="fit_width", quality=75, alt="The starting page of Molecule Store with a chemistry necklace", caption="This is how the Molecule Store looks like.") }}
+{{ image_sets(path="content/moleculestore/moleculestore_1.png", format="auto", op="fit_width", quality=75, alt="The starting page of Molecule Store with a chemistry necklace", caption="This is how the Molecule Store looks like") }}
 
-{{ image_sets(path="content/moleculestore/moleculestore_2.png", format="auto", op="fit_width", quality=75, alt="Some nerdy science and chemistry apparel and jewelry by the Molecule Store", caption="Nerdy science and chemistry products to be found there.") }}
+{{ image_sets(path="content/moleculestore/moleculestore_2.png", format="auto", op="fit_width", quality=75, alt="Some nerdy science and chemistry apparel and jewelry by the Molecule Store", caption="Nerdy science and chemistry products to be found there") }}

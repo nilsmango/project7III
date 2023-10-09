@@ -17,7 +17,7 @@ We make shit happen!
 
 ## Art & Design
 - [Nils Mango](/megaduo)
-- [Portfolio/Client Work](/portfolio)
+- [Client Work](/client-work)
 
 ## Sold
 - [Birs73](/birs73)
