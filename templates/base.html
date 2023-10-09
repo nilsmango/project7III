@@ -76,11 +76,7 @@
           <ul class="footernav-list">
           {% for subsec in config.extra.footer_nav %}
           {% set link_url = subsec.url %}
-          {% if subsec.name == "Ko-fi" %}
-            <li class="footernav-item"><a href="{{ link_url }}" target="_blank"><img src="/ko-fi.svg" alt="Buy me a Ko-fi" class="kofi"></a> </li>
-          {% else %}
             <li class="footernav-item"><a {% if current_url and current_url is containing(link_url ~ '/') %}class="active"{% endif %} {% if subsec.newtab == true %}target="_blank" rel="noopener"{% endif %} href="{{ link_url }}">{{ subsec.name }} </a> </li>
-            {% endif %}
             {% endfor %}
           </ul>
         </nav>

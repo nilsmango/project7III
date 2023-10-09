@@ -10,6 +10,7 @@ We make shit happen!
 - Zetteli (coming soon)  
 - MD Recipes (coming soon)  
 - QR Coder (coming soon)  
+- [App Example](/app-example)
 
 ## Science
 - [Molecule Store](/moleculestore)

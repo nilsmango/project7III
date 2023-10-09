@@ -84,8 +84,7 @@ sup {
   // margin-left: -12px;
   margin-top: -2.5em;
   margin-bottom: 3em;
-  animation: 21s linear 4s 73 spinIt;
-  /* transition: all 30s linear; */
+  animation: 21s linear 13s 73 spinIt;
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
   line-height: 1.25em;
@@ -301,7 +300,7 @@ strong {
 
 .comments {
   margin-top: 40px;
-  border-left: 1.5px solid var(--color-text);
+  border-left: 3.5px solid var(--color-link);
   padding-left: 15px;
   //text-align: center;
 }
@@ -393,14 +392,6 @@ details {
   text-align: center;
   font-size: $font-size-smaller;
   line-height: 1.1rem;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid var(--color-text);
-  width: 45%;
-  text-align: left;
-  margin-left: 0;
 }
 
 
@@ -668,11 +659,5 @@ lite-youtube.lyt-activated > .lty-playbtn {
     --color-mark: #b63535;
   }
 
-
-  .kofi {
-    filter: invert(68%) sepia(0%) saturate(140%) hue-rotate(180deg) brightness(100%) contrast(200%) opacity(0.8);
-
-
-  }
 
 }
