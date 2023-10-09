@@ -11,15 +11,16 @@ $gray-color: rgba(0, 0, 0, 0.05);
 $text-color: #333333;
 $text-color-sec: #737373;
 $a11y-gray: #757575;
-$link-color: #53b492;
+$link-color: #d704ad;
 // #104f9c  #3d536c #669caa #6cb49b
 $link-hover-color: #333333;
-$link-visited: #537cb4;
+$link-hover-logo: #434343;
+$link-visited: #9346b4;
 $mark-color: rgb(255, 209, 188);
-$font-size-normal: 1.125rem;
-$font-size-bigger: 1.25rem;
+$font-size-normal: 1.25rem;
+$font-size-bigger: 1.4375rem;
 $font-size-smaller: 0.75rem;
-$page-width: 800px;
+$page-width: 850px;
 
 /* SASS as CSS Variables so we can use them for dark mode */
 :root {
@@ -30,8 +31,22 @@ $page-width: 800px;
   --color-gray: #{$gray-color};
   --color-link: #{$link-color};
   --color-hover: #{$link-hover-color};
+  --color-hover-logo: #{$link-hover-logo};
   --color-visited: #{$link-visited};
   --color-mark: #{$mark-color};
+
+  --clr-primary: #1D1D1D;
+  --clr-secondary: #FFFFFF;
+  --clr-black: #000000;
+  --clr-white: #FFFFFF;
+  --clr-yellow: #FFF001;
+  --clr-bgreen: #65D7B9;
+  --clr-green: #a8fe26;
+  --clr-mred: #E94345;
+  --clr-insta: #F95CB4;
+  --fw-normal: 400;
+  --fw-bold: 800;
+  --fs-logo: 9rem;
 }
 
 body {
@@ -41,7 +56,8 @@ body {
     font-size: $font-size-normal;
     line-height: 1.6rem;
     // font-family: monospace, monospace;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    // font-family: 'Nunito Sans', sans-serif;
 }
 
 sup {
@@ -54,6 +70,49 @@ sup {
   padding: 1.5em 1.5em 0.5em 1.5em;
 }
 
+@keyframes spinIt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  /* width: 176px; */
+  // margin-left: -12px;
+  margin-top: -2.5em;
+  margin-bottom: 3em;
+  animation: 21s linear 4s 73 spinIt;
+  /* transition: all 30s linear; */
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  line-height: 1.25em;
+
+  h1 {
+    font-size: var(--fs-logo);
+    font-weight: var(--fw-bold);
+    letter-spacing: -0.7rem;
+    color: var(--clr-black);
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  h2 {
+    font-size: $font-size-bigger;
+    font-weight: var(--fw-normal);
+    letter-spacing: -0.04rem;
+    color: var(--clr-black);
+    margin-top: -4.8rem;
+    text-align: center;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+}
 
 
 .italic {
@@ -79,11 +138,7 @@ sup {
   }
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
 
-}
 
 ul  {
     padding: 0;
@@ -135,19 +190,19 @@ kbd {
 
 .nav {
   font-size: $font-size-bigger;
-  margin-top: -3.3px;
+  font-weight: 600;
   ul {
+    display: flex;
       margin: 0;
       list-style: none;
       //padding: 1.5em 1.5em 0 1.5em;
-      text-align: right;
+      text-align: left;
   li {
 
-    padding-bottom: 9px;
-  //margin-right: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
   //padding-right: 10px;
   }
-
 
       a {
         text-decoration: none;
@@ -155,35 +210,20 @@ kbd {
       }
       a:hover {
         color: var(--color-hover);
-        text-decoration: underline;
+        background-color: var(--clr-yellow);
 
       }
       a.active {
-        text-decoration: underline;
+        background-color: var(--clr-yellow);
         color: var(--color-hover);
       }
 
   }
 }
 
-.pagenav {
-font-size: $font-size-bigger;
-  ul {
-      margin: 0;
-      list-style: none;
-      //padding: 1.5em 1.5em 0 1.5em;
-      padding-top: 50px;
-      display: flex;
-      justify-content: space-between;
-      li {
-        //margin-bottom: -20px;
-      }
-}
-}
-
 
 .footernav {
-  font-size: $font-size-bigger;
+  font-size: $font-size-normal;
   margin-top: 70px;
   margin-bottom: 10px;
   img {
@@ -206,11 +246,11 @@ font-size: $font-size-bigger;
       }
       a:hover {
         color: var(--color-hover);
-        text-decoration: underline;
+        background-color: var(--clr-yellow);
 
       }
       a.active {
-        text-decoration: underline;
+        background-color: var(--clr-yellow);
         color: var(--color-hover);
 
       }
@@ -255,45 +295,68 @@ blockquote {
   border-left: 3px solid var(--color-link);
 }
 
+strong {
+  font-weight: 600;
+}
+
 .comments {
   margin-top: 40px;
   border-left: 1.5px solid var(--color-text);
   padding-left: 15px;
   //text-align: center;
 }
+
 .smaller {
   font-size: $font-size-smaller;
 }
 
-.eliminating {
-  font-size: 3.5rem;
-  line-height: 3.5rem;
-  //font-family: monospace, monospace;
-}
 
 h1 {
-  font-weight: normal;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
-  margin-bottom: 0px;
-  //font-family: monospace, monospace;
+  font-size: 4rem;
+  font-weight: 600;
+  // letter-spacing: -0.2rem;
+  color: var(--clr-black);
+  background-color: var(--clr-yellow);
+  // margin-bottom: 0px;
 }
 
 h2 {
-  font-weight: normal;
   font-size: 3rem;
-  line-height: 3rem;
+  font-weight: 400;
+  color: var(--clr-black);
   margin-bottom: 0px;
-  //font-family: monospace, monospace;
+  // margin-top: -3.5rem;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  // line-height: 1.7rem;
+  color: var(--clr-black);
 }
 
-h3 {
-  font-weight: normal;
-  font-size: 2rem;
-  line-height: 2rem;
-  margin-bottom: 0px;
-  //font-family: monospace, monospace;
-}
+// h1 {
+//   font-weight: normal;
+//   font-size: 3.5rem;
+//   line-height: 3.5rem;
+//   margin-bottom: 0px;
+//   //font-family: monospace, monospace;
+// }
+
+// h2 {
+//   font-weight: normal;
+//   font-size: 3rem;
+//   line-height: 3rem;
+//   margin-bottom: 0px;
+//   //font-family: monospace, monospace;
+// }
+
+// h3 {
+//   font-weight: normal;
+//   font-size: 2rem;
+//   line-height: 2rem;
+//   margin-bottom: 0px;
+//   //font-family: monospace, monospace;
+// }
 
 figure {
   padding: 0em 0em;
@@ -319,12 +382,11 @@ details {
 }
 
 
-
 .copyright {
-  border-radius: 10px;
-  background-color: var(--color-gray);
+  // border-radius: 10px;
+  // background-color: var(--color-gray);
   margin: auto;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -400,22 +462,6 @@ hr {
   }
 }
 
-.logo {
-  height: 172.5px;
-  width: 83.95px;
-  position: relative;
-  //padding: 10px;
-  filter: invert(14%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(95%) contrast(81%) opacity(1);
-  animation: flicker 9s linear infinite;
-  //animation: spin-it 25s linear 1;
-  animation-delay: 2s;
-}
-
-.logo:hover {
-  animation: spin-it 5s linear infinite;
-  //filter: opacity(0.8);
-}
-// für dark mode einfach filter: invert(1); machen bei .logo
 
 
 
@@ -555,30 +601,35 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
 
 
-@media (min-width: 375px) {
-  .eliminating {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-  h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
+// @media (min-width: 375px) {
+//   .eliminating {
+//     font-size: 4rem;
+//     line-height: 4rem;
+//   }
+//   h1 {
+//     font-size: 3.5rem;
+//     line-height: 4rem;
+//   }
 
 
-}
+// }
 
 
-@media (min-width: 460px) {
-  .eliminating, h1 {
-    font-size: 5rem;
-    line-height: 5rem;
-  }
+// @media (min-width: 460px) {
+//   .eliminating, h1 {
+//     font-size: 5rem;
+//     line-height: 5rem;
+//   }
 
 
-}
+// }
 
-@media (min-width: 550px) {
+@media (min-width: 750px) {
+  // header {
+  //   display: grid;
+  //   grid-template-columns: 50% 50%;
+  //   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -590,17 +641,18 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
 
 .nav {
-    ul {
-        display: flex;
 
-    li + li:before {
-        content: " ";
-        //padding: 0 10px;
-      padding: 0 10px;
-  }
-
+  ul {
+    display: block;
+    li {
+      margin-right: 0px;
+      margin-top: 10px;
+      // margin-left: 10px;
+      text-align: right;
     }
   }
+  
+}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -616,11 +668,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
     --color-mark: #b63535;
   }
 
-  .logo {
-
-    filter: invert(98%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(98%) contrast(81%) opacity(1);
-
-  }
 
   .kofi {
     filter: invert(68%) sepia(0%) saturate(140%) hue-rotate(180deg) brightness(100%) contrast(200%) opacity(0.8);

@@ -42,10 +42,11 @@ external_links_target_blank = true
 menu_items = [
     { name = "contact", url = "/contact" },
     { name = "projects", url = "/projects" },
+    { name = "shop", url = "/shop" },
 ]
 # Footer Navigation Items
 footer_nav = [
-    { name = "legal notice & privacy policy", url = "/privacy", newtab = false },
+    { name = "privacy policy", url = "/privacy", newtab = false },
     { name = "contact", url = "/contact", newtab = false  },
     { name = "X", url = "https://twitter.com/project7iii", newtab = true },
     { name = "Instagram", url = "https://www.instagram.com/project7iii", newtab = true },

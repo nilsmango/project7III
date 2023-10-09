@@ -1,5 +1,5 @@
 +++
-title = "legal notice & privacy policy"
+title = "privacy policy"
 description = "Privacy policy of project7III"
 date = 2023-10-08
 updated = 2023-10-08

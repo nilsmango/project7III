@@ -27,6 +27,10 @@
   <meta property="og:url" content="{{ config.base_url }}">
   <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
 {% endblock ogp_head %}
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
   <!-- My CSS -->
   <link rel="stylesheet" href="{{ config.base_url }}/style.css">
 </head>
@@ -37,11 +41,14 @@
       {% block header %}
 
     <header>
+      
       <div class="logo">
+        <a href="{{ config.base_url }}">
         <h1>7III</h1>
         <h2>project7III</h2>
+      </a>
       </div>
-
+      
         <nav class="nav">
             <ul class="nav-list">
             {% block nav_bar %}

@@ -1,8 +1,9 @@
 +++
-title = "7III Projects"
+title = "projects"
 description = "Projects by project7III"
-date = 2022-09-15
+date = 2023-10-08
 +++
+We make shit happen!
 
 ## Apps
 - Tap, an iPhone MIDI controller for Ableton Live (coming soon)  

@@ -1,5 +1,5 @@
 +++
-title = "Contact"
+title = "contact"
 description = "Contact project7III"
 date = 2023-10-08
 updated = 2023-10-08
