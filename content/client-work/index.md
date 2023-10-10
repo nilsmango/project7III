@@ -20,4 +20,4 @@ Here are some some of the things we’ve made for others over the years.
 
 {{ image_sets(path="content/client-work/Herz_Partnershirt.jpg", format="auto", op="fit_width", quality=75, alt="A heart partner t-shirt by project7III", caption="A t-shirt design") }}
 
-{{ image_sets(path="content/client-work/Website_Guggemuusig.png", format="auto", op="fit_width", quality=75, alt="A website designed by project7III", caption="Website design") }}
+{{ image_sets(path="content/client-work/Website_Guggemuusig.png", format="auto", op="fit_width", quality=75, alt="A website designed by project7III", caption='A website, check it <a href="https://www.quaetschkomode.ch" target="_blank">here</a>') }}

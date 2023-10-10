@@ -21,7 +21,7 @@
 <img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, , {{ image4.url }} {{ image4.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
 </a>
 {% if caption %}
-<figcaption>{{ caption }}</figcaption>
+<figcaption>{{ caption | safe }}</figcaption>
 {% endif %}
     </figure>
 
@@ -43,7 +43,7 @@
 <img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
 </a>
 {% if caption %}
-<figcaption>{{ caption }}</figcaption>
+<figcaption>{{ caption | safe }}</figcaption>
 {% endif %}
 </figure>
 
@@ -63,7 +63,7 @@
 <img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
 </a>
 {% if caption %}
-<figcaption>{{ caption }}</figcaption>
+<figcaption>{{ caption | safe }}</figcaption>
 {% endif %}
 </figure>
 
