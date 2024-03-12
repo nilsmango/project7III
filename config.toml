@@ -4,11 +4,14 @@ base_url = "https://project7iii.com"
 title = "project7III"
 description = "Making things."
 
+# The default language; used in feeds.
+default_language = "en"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 # When set to "true", a feed is automatically generated.
 generate_feed = false
@@ -19,7 +22,8 @@ taxonomies = [
    { name = "categories", feed = true },
 ]
 
-
+[search]
+index_format = "elasticlunr_json"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -31,7 +35,6 @@ highlight_theme = "base16-ocean-dark"
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
 external_links_target_blank = true
-
 
 
 [extra]

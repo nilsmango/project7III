@@ -195,10 +195,12 @@ kbd {
 .nav {
   font-size: $font-size-bigger;
   font-weight: 600;
+  padding-top: 20px;
   ul {
     display: flex;
-      margin: 0;
-      list-style: none;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
       //padding: 1.5em 1.5em 0 1.5em;
       text-align: left;
   li {
@@ -258,6 +260,18 @@ kbd {
 
       }
 
+  }
+}
+
+.footernav {
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    li + li:before {
+        content: " ";
+      padding: 0 8px;
+    }
   }
 }
 
@@ -441,18 +455,6 @@ details {
   color: var(--color-text-sec);
 }
 
-.footernav {
-  ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap : wrap;
-    li + li:before {
-        content: " ";
-      padding: 0 8px;
-    }
-  }
-}
-
 
 .youtube {
   padding: 0em 0em;
@@ -479,6 +481,64 @@ details {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* SEARCH */
+
+.search-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type=search], textarea {
+  font-size: $font-size-normal;
+  width: 100%;
+  max-width: 225px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: var(--color-gray);
+  border-radius: 35px; 
+  color: var(--color-text);
+  background-color: var(--color-gray);
+  
+}
+
+.search-results {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  text-align: left;
+  background: var(--color-background);
+  overflow: auto;
+  width: 100%;
+  margin-top: 35px;
+  margin-left: -40px;
+  padding-left: 40px;
+  margin-right: -40px;
+  padding-right: 40px;
+  padding-bottom: 35px;
+  //max-height: 80%;
+  //border-radius: 50px;
+}
+
+.search-results__items {
+  list-style:none;
+  margin-top: -2rem;
+}
+
+.results_list_item {
+  margin-top: 0px;
+}
+
+.search-results li:first-of-type {
+  margin-top: 0px;
+}
+
+.search-results__item {
+  margin-bottom:0rem
 }
 
 /*  lite-yt-stylesheet */
@@ -560,10 +620,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
     width: 1px;
   }
 
-
-
-
-
 /* Bigger Size */
 @media (min-width: 750px) {
 
@@ -573,8 +629,11 @@ lite-youtube.lyt-activated > .lty-playbtn {
   }
 
 .nav {
+  padding-top: 0px;
   ul {
     display: block;
+
+
     li {
       margin-right: 0px;
       margin-top: 10px;
@@ -583,6 +642,11 @@ lite-youtube.lyt-activated > .lty-playbtn {
       }
     }
   }
+.search-container {
+  text-align: right;
+  margin-top: -45px;
+}
+
 }
 
 

@@ -41,7 +41,6 @@
       {% block header %}
 
     <header>
-      
       <div class="logo">
         <a href="{{ config.base_url }}">
         <h1>7III</h1>
@@ -49,7 +48,7 @@
       </a>
       </div>
       
-        <nav class="nav">
+        <div class="nav">
             <ul class="nav-list">
             {% block nav_bar %}
             {% for subsec in config.extra.menu_items %}
@@ -59,8 +58,15 @@
 
             {% endblock nav_bar %}
             </ul>
-        </nav>
+          </div>
     </header>
+    <div class="search-container">
+      <input id="search" type="search" placeholder="Search project7III">
+      <div class="search-results">
+          <div class="search-results__items"></div>
+          <hr>
+      </div>
+    </div>
     {% endblock header %}
       {% block content %}
       {% endblock content %}
@@ -69,7 +75,7 @@
       {%- block pagination %}
       {%- endblock pagination %}
 
-
+    </section>
   {%- block footer %}
     <footer>
         <nav class="footernav">
@@ -85,7 +91,9 @@
     </footer>
   {%- endblock footer %}
 </div>
-</section>
+
+<script type="text/javascript" src="/elasticlunr.min.js"></script>
+<script type="text/javascript" src="/search.js"></script>
 </body>
 
 </html>
