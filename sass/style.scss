@@ -68,10 +68,18 @@ sup {
     line-height: 0;
   }
 
+  .container {
+    /* Min Height calculated minus footer+ height */
+    min-height: calc(100vh - 240px);
+    display: flex;
+    flex-direction: column;
+  }
+
 .section {
   max-width: $page-width;
   margin: auto;
   padding: 1.5em 1.5em 0.5em 1.5em;
+  flex: 1;
 }
 
 @keyframes spinIt {
@@ -102,7 +110,6 @@ sup {
     color: var(--color-text);
     position: relative;
     line-height: 1.6rem;
-
   }
 
   h1::before {
@@ -118,6 +125,8 @@ sup {
     text-align: center;
     color: var(--color-text);
   }
+
+
 
   a:hover {
     text-decoration: none;
@@ -530,7 +539,7 @@ input[type=search], textarea {
 }
 
 .results_list_item {
-  margin-top: 0px;
+  margin-top: 2px;
 }
 
 .search-results li:first-of-type {
@@ -628,24 +637,27 @@ lite-youtube.lyt-activated > .lty-playbtn {
     justify-content: space-between;
   }
 
-.nav {
-  padding-top: 0px;
-  ul {
-    display: block;
+  .container {
+    /* Min Height calculated minus footer+ height */
+    min-height: calc(100vh - 200px);
+  }
 
-
-    li {
-      margin-right: 0px;
-      margin-top: 10px;
-      // margin-left: 10px;
-      text-align: right;
+  .nav {
+    padding-top: 0px;
+    ul {
+      display: block;
+      li {
+        margin-right: 0px;
+        margin-top: 10px;
+        // margin-left: 10px;
+        text-align: right;
+        }
       }
     }
+  .search-container {
+    text-align: right;
+    margin-top: -45px;
   }
-.search-container {
-  text-align: right;
-  margin-top: -45px;
-}
 
 }
 
