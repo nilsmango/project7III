@@ -48,6 +48,7 @@ $page-width: 850px;
   --fw-normal: 400;
   --fw-bold: 800;
   --fs-logo: 9rem;
+  --clr-blackWhite: #1D1D1D;
 }
 
 
@@ -338,8 +339,8 @@ ul ul {
 }
 
 #yellowButton {
-  background-color: var(--clr-darkgreen);
-  color: white;
+  background-color: var(--clr-yellow);
+  color: var(--clr-blackWhite);
 }
 
 .nobullets {
@@ -637,6 +638,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
     justify-content: space-between;
   }
 
+  .logo {
+    margin-top: 0em;
+  }
+
   .container {
     /* Min Height calculated minus footer+ height */
     min-height: calc(100vh - 200px);
@@ -646,6 +651,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
     padding-top: 0px;
     ul {
       display: block;
+      margin-top: -1em;
       li {
         margin-right: 0px;
         margin-top: 10px;
@@ -657,6 +663,14 @@ lite-youtube.lyt-activated > .lty-playbtn {
   .search-container {
     text-align: right;
     margin-top: -45px;
+  }
+
+  .search-results {
+    max-width: $page-width;
+  }
+
+  .search-results__items {
+    padding-left: 3px;
   }
 
 }
@@ -676,5 +690,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
     --clr-yellow: #189b04d5;
     --clr-mred: #189b04d5;
     --clr-bgreen: #189b04d5;
+    --clr-blackWhite: #ffffff;
   }
 }
