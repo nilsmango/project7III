@@ -174,21 +174,26 @@ ul  {
   //margin-top: -20px;
 }
 
+
 code {
-      border-radius: 6px;
-      background-color: var(--color-code);
-      font-size: 1rem;
-      padding:.15rem .3rem;
-      max-width: 100%;
-      overflow:auto;
+  border-radius: 6px;
+  background-color: var(--color-code);
+  font-size: 1rem;
+  padding:.15rem .3rem;
+  max-width: 100%;
+  overflow:auto;
 }
 
 pre {
       border-radius: 15px;
-      background-color: var(--color-code);
+      background-color: var(--color-code) !important;
       padding: 15px;
       max-width: 100%;
       overflow:auto;
+
+      code {
+        color: var(--color-text);
+      }
 }
 
 mark {
@@ -201,6 +206,7 @@ kbd {
   background-color: var(--color-code);
   padding: 0.2rem 0.28rem;
 }
+
 
 .nav {
   font-size: $font-size-bigger;
@@ -464,7 +470,6 @@ details {
   font-size: 1rem;
   color: var(--color-text-sec);
 }
-
 
 .youtube {
   padding: 0em 0em;
