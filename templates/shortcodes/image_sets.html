@@ -17,9 +17,9 @@
 {% set image4 = resize_image(path=path, width=width4, height=height4, op=op, format=format, quality=quality) %}
 
 <figure>
-<a href="{{ image4.url }}" target="_blank">
-<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, , {{ image4.url }} {{ image4.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
-</a>
+<!-- <a href="{{ image4.url }}" target="_blank"> -->
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, {{ image4.url }} {{ image4.width }}w" src="{{ image3.url }}" alt="{{ alt }}" class="imgset">
+<!-- </a> -->
 {% if caption %}
 <figcaption>{{ caption | safe }}</figcaption>
 {% endif %}
@@ -39,9 +39,9 @@
 {% set image2 = resize_image(path=path, width=width2, height=height2, op=op, format=format, quality=quality) %}
 {% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
 <figure>
-<a href="{{ image3.url }}" target="_blank">
-<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
-</a>
+<!-- <a href="{{ image3.url }}" target="_blank"> -->
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image3.url }}" alt="{{ alt }}" class="imgset">
+<!-- </a> -->
 {% if caption %}
 <figcaption>{{ caption | safe }}</figcaption>
 {% endif %}
@@ -59,9 +59,9 @@
 {% set image2 = resize_image(path=path, width=width2, height=height2, op=op, format=format, quality=quality) %}
 {% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
 <figure>
-<a href="{{ image3.url }}" target="_blank">
-<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image2.url }}" alt="{{ alt }}" class="imgset">
-</a>
+<!-- <a href="{{ image3.url }}" target="_blank"> -->
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image3.url }}" alt="{{ alt }}" class="imgset">
+<!-- </a> -->
 {% if caption %}
 <figcaption>{{ caption | safe }}</figcaption>
 {% endif %}

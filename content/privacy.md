@@ -13,7 +13,7 @@ Albert-Anker-Weg 11
 2502 Biel/Bienne  
 Switzerland
 
-[hi@project7III.com](mailto:hi@project7iii.com)
+[hi@project7III.com](mailto:0@project7iii.com)
 
 - We don't collect or store any information about you on this website.
 - We don't have any cookies for you to accept. Sorry cookie monster!

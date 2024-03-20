@@ -41,6 +41,7 @@ external_links_target_blank = true
 # List of navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
     { name = "contact", url = "/contact" },
+    { name = "apps", url = "/apps" },
     { name = "projects", url = "/projects" },
     { name = "shop", url = "/shop" },
 ]

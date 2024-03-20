@@ -1,15 +1,12 @@
 +++
-title = "Apps"
-description = "All apps by project7III in one place"
-date = 2023-10-10
-[extra]
-share = true
+title = "apps"
+description = "Apps by project7III"
+date = 2024-03-19
 +++
+You get an app! And you get an app! Everybody gets an app!!
 
-All our apps in one place.
-
-- Tap, an iPhone MIDI controller for Ableton Live (coming soon)  
-- Zetteli (coming soon)  
-- MD Recipes (coming soon)  
-- QR Coder (coming soon)  
-- [App Example](/app-example)
+- [Tap](/tap), a MIDI controller for iPhone
+- Zetteli (coming soon)
+- Recipes (coming soon)
+- QR (coming soon)
+- Location (coming soon)

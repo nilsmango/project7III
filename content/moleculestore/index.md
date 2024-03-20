@@ -15,10 +15,10 @@ Two main concepts are guiding the project Molecule Store:
 2. Shop nerdy and do good. We donate 1 USD for each product ordered to science education. We have so far collected over 6.000 USD.
 
 <div class="button">
-<a href="https://moleculestore.com" target="_blank" class="btn" id="redButton">Visit Molecule Store</a>
+<a href="https://moleculestore.com" target="_blank" class="btn" id="yellowButton">Visit Molecule Store</a>
 </div>
 
 
-{{ image_sets(path="content/moleculestore/moleculestore_1.png", format="auto", op="fit_width", quality=75, alt="The starting page of Molecule Store with a chemistry necklace", caption="This is how the Molecule Store looks like") }}
+{{ image_sets(path="content/moleculestore/moleculestore_1.png", format="auto", op="fit_width", quality=75, alt="The starting page of Molecule Store with a chemistry necklace", caption="This is how the Molecule Store looks like.") }}
 
-{{ image_sets(path="content/moleculestore/moleculestore_2.png", format="auto", op="fit_width", quality=75, alt="Some nerdy science and chemistry apparel and jewelry by the Molecule Store", caption="Nerdy science and chemistry products to be found there") }}
+{{ image_sets(path="content/moleculestore/moleculestore_2.png", format="auto", op="fit_width", quality=75, alt="Some nerdy science and chemistry apparel and jewelry by the Molecule Store", caption="Nerdy science and chemistry products to be found there.") }}
