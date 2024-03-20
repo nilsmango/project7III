@@ -16,7 +16,7 @@ featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 </div>
 
 <!-- <div class="button"> -->
-<a href="tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script</a> <a href="tap/manual" class="btn" id="yellowButton">Read User Manual</a>
+<a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script</a> <a href="https://project7iii.com/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
 <!-- </div> -->
 
 Invite only at the moment. Send us an [email](mailto:0@project7iii.com) if you want to test Tap!
