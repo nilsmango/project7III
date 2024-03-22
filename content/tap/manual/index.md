@@ -54,7 +54,7 @@ If it is not already visible, select the <em>Window -&gt; Audio Devices</em> men
 <li>Assign your iPhone as input and output ports.</li>
 </ol>
 
-{{ image_sets(path="content/tap/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III MIDI setting in Ableton Live", caption='The right settings for Tap.') }}
+{{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III MIDI setting in Ableton Live", caption='The right settings for Tap.') }}
 
 ## User Interface
 There are 5 Views in Tap.  
@@ -136,3 +136,6 @@ Show the mixer section. Use the [Tracks Bar](#tracks-bar) to navigate.
 ### Encoders View
 Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can have more than one page and you can choose the MIDI channel and CC for each encoder. Navigation of the pages is done through the [Footer Bar](#footer-bar) arrows.  
 For encoder functionality check the [Encoders Section](#encoders-section).
+
+<div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
+<br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>
