@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}{{ section.title }} - {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block ogp_head %}
+    {% if config.extra.ogp.locale %}
+    <meta property="og:locale" content="{{ config.extra.ogp.locale }}">
+    {% endif %}
+    <meta name="project7III" content="project7III">
+    <meta property="og:title" content="{{ section.title }}">
+    {% if section.taxonomies.categories %}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ section.date }}">
+    {% if section.taxonomies.tags %}
+    {% for tag in section.taxonomies.tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+    {% endif %}
+    {% if section.updated %}
+    <meta property="article:modified_time" content="{{ section.updated }}">
+    {% endif %}
+    {% else %}
+    <meta property="og:type" content="website">
+    {% endif %}
+    <meta property="og:url" content="{{ section.permalink | safe }}">
+    {% if section.extra.featured_image %}
+    {% set section_permalink = section.permalink | safe %}
+    <meta property="og:image" content="{{ section_permalink ~ section.extra.featured_image }}">
+    {% if section.extra.featured_image_alt %}
+    <meta property="og:image:alt" content="{{ section.extra.featured_image_alt }}">
+    {% endif %}
+    {% else %}
+    <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
+    {% endif %}
+    {% if section.summary %}
+    <meta property="og:description" content="{{ section.summary | striptags }} ...">
+    {%- elif section.description %}
+    <meta property="og:description" content="{{ section.description | safe }}  ...">
+    {%- elif section.content %}
+    <meta property="og:description" content="{{ section.content | striptags | truncate(length=54) | safe }}">
+
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+{% if section.taxonomies.categories %}
+<p><span class="post-dates">Posted on <time datetime="{{ section.date | date(format="%+") }}">{{ section.date | date(format="%B %d, %Y") }}</time></span>
+{% if section.updated %}
+<span class="divider">|</span><span class="post-updated"> Updated: <time datetime="{{ section.updated | date(format="%+") }}">{{ section.updated | date(format="%B %d, %Y") }}</time></span>
+{% endif %}
+{% if section.taxonomies.tags %}
+<span class="divider">|</span>{% for tag in section.taxonomies.tags %}
+ <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
+{% endfor %}
+{% endif %}
+</p>
+{% endif %}
+<div class="content">
+{{ section.content | safe }}
+</div>
+{% endblock content %}
+
+{%- block comments %}
+{% if section.extra.share %}
+<div class="comments">
+  Click <a href="https://twitter.com/share?text=Add+some+words+of+wisdom+here+if+appropriate&via=project7iii&url={{ section.permalink | safe }}" target="_blank" rel="noopener" title="Share this page on X!">here</a> to share this page on X!
+  </div>
+{% endif %}
+{%- endblock comments %}
+
+{%- block pagination %}
+{% if section.taxonomies.categories %}
+<nav class="pagenav">
+<ul>
+  {% if section.lower %}
+  <li><a href="{{ section.lower.permalink }}">← {{ section.lower.title }}</a></li>
+  {% else %}
+  <li></li>
+  {% endif %}
+{% if section.higher %}
+{% if section.higher.taxonomies.categories %}
+<li><a href="{{ section.higher.permalink }}">{{ section.higher.title }} →</a></li>
+{% endif %}
+{% endif %}
+
+
+</ul>
+</nav>
+{% endif %}
+{%- endblock pagination %}
