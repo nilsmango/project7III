@@ -4,7 +4,6 @@ description = "Privacy policy of project7III"
 date = 2023-10-08
 updated = 2023-10-23
 +++
-
 Our website address is: [https://project7iii.com](https://project7iii.com)
 
 project7III  
@@ -13,7 +12,7 @@ Albert-Anker-Weg 11
 2502 Biel/Bienne  
 Switzerland
 
-[hi@project7III.com](mailto:0@project7iii.com)
+[hi@project7III.com](mailto:hi@project7iii.com)
 
 - We don't collect or store any information about you on this website.
 - We don't have any cookies for you to accept. Sorry cookie monster!
@@ -28,4 +27,4 @@ Additionally, log data is collected from our servers. This data includes the IP 
 This website links to external sites that are not operated by project7III. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their content and privacy policies.
 
 
-Effective Date: 2023-10-23
+Effective Date: {{ date_updated() }}

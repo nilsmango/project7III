@@ -1,6 +1,5 @@
 # The URL the site will be built for
 base_url = "https://project7iii.com"
-
 title = "project7III"
 description = "Making things."
 

@@ -2,12 +2,14 @@
 title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone"
 date = 2024-03-15
+updated = 2024-04-12
 [extra]
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
 >This is the user manual for the MIDI controller app [7III Tap](/tap) for iPhone.
+
 
 ## Set Up
 To run as an Ableton Live controller you will need to [add the Tap MIDI Remote Script](#add-the-tap-midi-remote-script) first. If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [Connect your iPhone](#connect-your-iphone).

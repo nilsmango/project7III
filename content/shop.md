@@ -5,4 +5,4 @@ date = 2023-10-09
 +++
 Coming soon!
 
-Send us an [email](mailto:shop@project7iii.com) if you want to get informed when the shop launches!
+Send us an [email](mailto:hi@project7iii.com) if you want to get informed when the shop launches!
