@@ -20,7 +20,9 @@ featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script</a> <a href="/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
 <!-- </div> -->
 
-Invite only at the moment. Send us an [email](mailto:hi@project7iii.com) if you want to test Tap!
+In beta at the moment. **Subscribe to our 7III Tap Newsletter** if you want to join the beta and/or get informed once Tap launches for the public:
+
+<iframe src="https://embeds.beehiiv.com/ca2f2e50-b638-498a-a4b4-8e1b29f0cc5e?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
 
 {{ image_sets(path="content/tap/7III Tap Ableton Live Controller Device Center.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller in front of a laptop with Ableton Live running", caption='7III Tap in action.') }}
 
