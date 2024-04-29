@@ -8,8 +8,9 @@ share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
+Your MIDI controller for iPhone
 
-<div>7III Tap is a MIDI controller for iPhone boasting two primary features: 
+<div>7III Tap is boasting two primary features: 
 <ul>
 <li>a dedicated Ableton Live controller and</li>
 <li>a universal and customizable MIDI CC encoder interface.</li>
