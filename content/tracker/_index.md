@@ -35,7 +35,10 @@ The downwind foiling tracker app for you and your crew.
 
 >This app was developed with downwind foiling in mind, but you can track any outdoor activity.
 
-If you want to help testing it, let us [know](mailto:hi@project7iii.com) (iPhone only at the moment)!
+**If you want to help test Tracker, enter your email below** and you will get an invitation soon after (iPhone only at the moment)!
+
+<iframe src="https://embeds.beehiiv.com/027d2f73-51e7-4d95-8776-d32e01222bfc?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+
 
 {{ image_sets(path="content/tracker/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="The iPhone App 7III Tracker showing a map with the path of a downwind foiling run", caption='A downwind run a day keeps the doctor away.') }}
 
