@@ -10,13 +10,15 @@ This is the Privacy Policy for [7III Tracker](/tracker), it explains how we coll
 
 ## Information Collection and Usage
 
-We don't collect any data about you for longer than needed. During the duration of your run, the only data persisting in our database is your username, location and speed, with no other associated data except for a random ID. When you exit a run, we promptly delete your location data from our database and remove you from the run. If you are only watching a run, we do not collect any location data. Additionally, when the last person exits a run, we remove the run from our database.
+We don't collect any data about you for longer than needed. During the duration of your online location sharing, the only data persisting in our database is your username, location, battery level and speed, with no other associated data except for a random ID. When you exit a run, we promptly delete your location data from our database. If you are only watching others, we do not collect any location data. We keep a record of awards you where gifted on the server.
 
-The app saves your tracked runs on your device only.
+The app saves your tracked water sport sessions on your device only.
+
+We also don't share or sell any of your data with anybody else. We don't use your data for anything else than the use cases stated above.
 
 ## Data Deletion
 
-If you wish to remove your username and ID from our database and delete all your locally saved data, simply navigate to the options menu in the app and tap the button labeled "Delete All My Data."
+If you wish to remove your username and ID from our database and delete all your in app data, simply navigate to the options menu in the app and tap the button labeled "Delete All My Data."
 
 
 ## Contact
