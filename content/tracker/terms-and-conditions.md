@@ -2,14 +2,14 @@
 title = "Tracker Terms & Conditions"
 description = "The terms & conditions for 7III Tracker"
 date = 2024-07-08
-updated = 2024-07-08
+updated = 2024-07-10
 +++
 Last updated: {{ date_updated() }}
 
 By downloading or using [7III Tracker](/tracker) ("the App"), these terms will automatically apply to you.
 
 ## In-App Purchases
-The App offers in-app purchases like **GOAT**, **Weekend Warrior** and **Kook**.
+The App offers in-app purchases named **GOAT**, **Weekend Warrior** and **Kook**.
 
 All purchases are processed through the Apple App Store. By making a purchase, you agree to the terms and conditions of the App Store.
 
@@ -29,13 +29,13 @@ By using the App, you agree to:
 - Not use the App for any illegal or unauthorized purpose.
 - Not attempt to interfere with the proper working of the App.
 - Respect the privacy and personal information of other users.
-- This app is designed for recreational use and should not be considered a substitute for emergency beacons or other rescue devices. Safety is our top priority, and you should always exercise caution and adhere to maritime safety guidelines while using this app.
+- This App is designed for recreational use and should not be considered a substitute for emergency beacons or other rescue devices. Safety is our top priority, and you should always exercise caution and adhere to maritime safety guidelines while using this App.
 
 ## Privacy
 Your privacy is important to us. Please read our [Privacy Policy](/tracker/privacy-policy) for information on how we collect, use, and protect your data.
 
 ## Apple's Standard End User License Agreement
-This app is licensed to you under the standard Apple End User License Agreement (EULA). You can review the EULA by visiting the following link:
+The App is licensed to you under the standard Apple End User License Agreement (EULA). You can review the EULA by visiting the following link:
 [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 ## Changes to Terms and Conditions
