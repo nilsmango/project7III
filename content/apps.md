@@ -6,7 +6,7 @@ date = 2024-03-19
 You get an app! And you get an app! Everybody gets an app!!
 
 - [Tap](/tap), a MIDI controller for iPhone
-- [Tracker](/tracker), a GPS tracker for downwind foiling
+- [Water](/water), a GPS tracker for downwind foiling & all water sports.
 - Note (coming soon)
 - Recipes (coming soon)
 - QR (coming soon)

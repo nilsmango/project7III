@@ -1,12 +1,12 @@
 +++
-title = "Tracker"
-description = "Downwind tracking for you and your crew"
+title = "Water"
+description = "Water sports tracking for iPhone and Apple Watch"
 date = 2024-04-11
-updated = 2024-07-08
+updated = 2024-07-15
 [extra]
 share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
-featured_image_alt = "The iPhone App 7III Tracker showing a map with the path of downwind foiling run"
+featured_image_alt = "The iPhone App 7III Water showing a map with the path of downwind foiling run"
 +++
 The downwind foiling and water sport tracker app for you and your crew.
 
@@ -39,14 +39,14 @@ The downwind foiling and water sport tracker app for you and your crew.
 <p>* Premium features. Paid upgrade required to unlock these features fully.</p>
 </div>
 
-**If you want to help test Tracker, enter your email below** and you will get an invitation soon after (iPhone only at the moment)!
+**If you want to help test Water, enter your email below** and you will get an invitation soon after (iPhone only at the moment)!
 
 <iframe src="https://embeds.beehiiv.com/027d2f73-51e7-4d95-8776-d32e01222bfc?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
 
 
-{{ image_sets(path="content/tracker/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="The iPhone App 7III Tracker showing a map with the path of a downwind foiling run", caption='A downwind run a day keeps the doctor away.') }}
+{{ image_sets(path="content/water/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="The iPhone App 7III Water showing a map with the path of a downwind foiling run", caption='A downwind run a day keeps the doctor away.') }}
 
-Check our [privacy policy](/tracker/privacy-policy) and [terms & conditions](/tracker/terms-and-conditions) for 7III Tracker.
+Check our [privacy policy](/water/privacy-policy) and [terms & conditions](/water/terms-and-conditions) for 7III Water.
 
 <div class="footnote-definition"><p>iPhone and Apple Watch are trademarks of Apple Inc., registered in the United States and other countries.</p>
 </div>

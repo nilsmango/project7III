@@ -1,12 +1,12 @@
 +++
-title = "Tracker Terms & Conditions"
-description = "The terms & conditions for 7III Tracker"
+title = "Water Terms & Conditions"
+description = "The terms & conditions for 7III Water"
 date = 2024-07-08
 updated = 2024-07-10
 +++
 Last updated: {{ date_updated() }}
 
-By downloading or using [7III Tracker](/tracker) ("the App"), these terms will automatically apply to you.
+By downloading or using [7III Water](/water) ("the App"), these terms will automatically apply to you.
 
 ## In-App Purchases
 The App offers in-app purchases named **GOAT**, **Weekend Warrior** and **Kook**.
@@ -32,7 +32,7 @@ By using the App, you agree to:
 - This App is designed for recreational use and should not be considered a substitute for emergency beacons or other rescue devices. Safety is our top priority, and you should always exercise caution and adhere to maritime safety guidelines while using this App.
 
 ## Privacy
-Your privacy is important to us. Please read our [Privacy Policy](/tracker/privacy-policy) for information on how we collect, use, and protect your data.
+Your privacy is important to us. Please read our [Privacy Policy](/water/privacy-policy) for information on how we collect, use, and protect your data.
 
 ## Apple's Standard End User License Agreement
 The App is licensed to you under the standard Apple End User License Agreement (EULA). You can review the EULA by visiting the following link:
