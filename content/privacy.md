@@ -7,7 +7,7 @@ updated = 2023-10-23
 Our website address is: [https://project7iii.com](https://project7iii.com)
 
 project7III  
-Simon Lang  
+c/o Simon Lang  
 Albert-Anker-Weg 11  
 2502 Biel/Bienne  
 Switzerland

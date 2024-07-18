@@ -36,7 +36,7 @@ The downwind foiling and water sport tracker app for you and your crew.
 </ul>
 </div>
 <div class="footnote-definition">
-<p>* Premium features. Paid upgrade required to unlock these features fully.</p>
+<p>* Premium features. <a href="/water/support#what-premium-upgrades-are-available">Paid upgrade required</a> to unlock these features fully.</p>
 </div>
 
 **If you want to help test Water, enter your email below** and you will get an invitation soon after (iPhone only at the moment)!
@@ -46,7 +46,7 @@ The downwind foiling and water sport tracker app for you and your crew.
 
 {{ image_sets(path="content/water/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="The iPhone App 7III Water showing a map with the path of a downwind foiling run", caption='A downwind run a day keeps the doctor away.') }}
 
-Check our [privacy policy](/water/privacy-policy) and [terms & conditions](/water/terms-and-conditions) for 7III Water.
+Check our [support page](/water/support), [privacy policy](/water/privacy-policy), and [terms & conditions](/water/terms-and-conditions) for 7III Water.
 
 <div class="footnote-definition"><p>iPhone and Apple Watch are trademarks of Apple Inc., registered in the United States and other countries.</p>
 </div>
