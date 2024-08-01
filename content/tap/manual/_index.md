@@ -1,9 +1,9 @@
 +++
 title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone"
+[extra]
 date = 2024-03-15
 updated = 2024-04-12
-[extra]
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
@@ -24,7 +24,7 @@ To run as an Ableton Live controller you will need to [add the Tap MIDI Remote S
  <br><strong>Mac</strong><br><code>Macintosh HD/Users/[username]/Music/Ableton/User Library</code>
  </blockquote>
  </li>
-<li>Place the remote script folder called <code>Tap</code> into the <code>Remote Scripts</code> folder you just created.</li>
+<li>Place the unzipped remote script folder called <code>Tap</code> into the <code>Remote Scripts</code> folder you just created.</li>
 </ol>
 
 

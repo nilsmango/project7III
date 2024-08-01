@@ -1,9 +1,9 @@
 +++
 title = "Water"
 description = "Water sports tracking for iPhone and Apple Watch"
+[extra]
 date = 2024-04-11
 updated = 2024-07-15
-[extra]
 share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
 featured_image_alt = "The iPhone App 7III Water showing a map with the path of downwind foiling run"

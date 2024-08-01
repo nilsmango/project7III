@@ -1,9 +1,9 @@
 +++
 title = "Tap"
 description = "A dedicated Ableton Live MIDI controller for iPhone"
-date = 2024-03-15
-updated = 2024-04-12
 [extra]
+date = 2024-03-15
+updated = 2024-08-01
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
@@ -27,7 +27,7 @@ In beta at the moment. **Subscribe to our 7III Tap Newsletter** if you want to g
 
 {{ image_sets(path="content/tap/7III Tap Ableton Live Controller Device Center.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller in front of a laptop with Ableton Live running", caption='7III Tap in action.') }}
 
-Find our privacy policy for 7III Tap [here](/tap/privacy-policy).
+Check our [privacy policy](/tap/privacy-policy) and [support page](/tap/support).
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
 <br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>

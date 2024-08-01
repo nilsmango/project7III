@@ -1,2 +1,6 @@
-{% set updated = page.updated %}
+{% if page.updated is defined %}
+    {% set updated = page.updated %}
+{% else %}
+    {% set updated = page.extra.updated %}
+{% endif %}
 <time datetime="{{ updated | date(format="%+") }}">{{ updated | date(format="%B %d, %Y") }}</time>
