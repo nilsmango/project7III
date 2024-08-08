@@ -27,7 +27,7 @@ In beta at the moment. **Subscribe to our 7III Tap Newsletter** if you want to g
 
 {{ image_sets(path="content/tap/7III Tap Ableton Live Controller Device Center.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller in front of a laptop with Ableton Live running", caption='7III Tap in action.') }}
 
-Check our [privacy policy](/tap/privacy-policy) and [support page](/tap/support).
+Check our [terms & conditions](/tap/terms-and-conditions), [privacy policy](/tap/privacy-policy) and [support page](/tap/support).
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
 <br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>

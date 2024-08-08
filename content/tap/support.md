@@ -16,12 +16,11 @@ Need help? We're here for you. (We can't help you with your music, though)
 ### How do I connect to Ableton?
 Check the Manual [here](/tap/manual#set-up)!
 
+### Is 7III Tap a free Ableton Live Controller App for iPhone?
+Yes, 7III Tap is free to test. There is however a 15 minutes per day limit for sending and receiving MIDI.
+
 ### What Premium upgrades are available? 
-There is a one-time purchase for lifetime access to all Premium features
-
-### How do I upgrade to Premium?
-Open the app, go to "Options" or "Help". Tap on "Get Premium" and choose your preferred option.
-
+There is a one-time purchase for lifetime access to unlimited Tap use.
 
 ## Feature Requests
 We love hearing your ideas (you can also send us your music made with 7III Tap)! Send your feature requests to [hi@project7III.com](mailto:hi@project7III.com).
