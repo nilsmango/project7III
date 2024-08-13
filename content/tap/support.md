@@ -22,6 +22,9 @@ Yes, 7III Tap is free to test. There is however a 15 minutes per day limit for s
 ### What Premium upgrades are available? 
 There is a one-time purchase for lifetime access to unlimited Tap use.
 
+### Where is Undo and Redo?
+Long-press on the arrows in the footer bar for undo and redo!
+
 ## Feature Requests
 We love hearing your ideas (you can also send us your music made with 7III Tap)! Send your feature requests to [hi@project7III.com](mailto:hi@project7III.com).
 

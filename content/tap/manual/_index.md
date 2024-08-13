@@ -17,7 +17,7 @@ To run as an Ableton Live controller you will need to [add the Tap MIDI Remote S
 ### Add the Tap MIDI Remote Script
 <ol>
 <li>On your computer, download the MIDI Remote Script at <a href="/tap/Tap.zip" download>project7iii.com/tap/Tap.zip</a>.</li>
-<li>Manually create a folder called <code>Remote Scripts</code> within your User Library if it does not already exist. The default User Library location are:
+<li>Manually create a folder called <code>Remote Scripts</code> within your User Library if it does not already exist. The default User Library locations are:
  <blockquote class="list_block">
  <strong>Windows</strong><br><code>\Users\[username]\Documents\Ableton\User Library</code>
  <br>
@@ -45,8 +45,8 @@ You might also need some iOS drivers, as described <a href="https://www.copytran
 <strong>Mac</strong>
 <ol>
 <li>Open the app <strong>Audio MIDI Setup</strong>.</li>
-<li>Open the <em>Audio Devices</em> window.<br>
-If it is not already visible, select the <em>Window -&gt; Audio Devices</em> menu to display it.</li>
+<li>Open the <code>Audio Devices</code> window.<br>
+If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
 <li>Find your iOS device in the sidebar and click the <code>Enable</code> button.</li>
 </ol>
 </blockquote>
@@ -65,9 +65,9 @@ The main Tap interfaces are the known views of Ableton Live: [Device View](#devi
 Tap also has one extra view which are customizable encoder pages to control about anything that accepts MIDI CC: [Encoders](#encoders-view).
 
 ### Options
-Tap `Connected to Ableton Live` and then `Play Tap` to play Tap.  
-Tap `Test Tap without connection` to explore Tap without connection.  
-Tap `Encoders` to get to the stand-alone encoders interface.  
+Tap `Try to connect to Ableton Live` and then `Play Tap` to play Tap.  
+Tap `Test Tap without Connection` to explore Tap without connection.  
+Tap `Start Encoders` to get to the stand-alone encoders interface.  
 You can change the order of view switching and set the default quantize settings.
 
 ### Main Views
@@ -75,7 +75,7 @@ Each view of the main Ableton Live controller engine has some of the same elemen
 
 #### Tracks Bar
 The top bar showing the tracks of your Live project.  
-Navigate between tracks by swiping. To select a track, tap on it. Long-press opens the tracks context menu where you can delete tracks, add tracks, go to the [Options](#options) or [Encoders](#encoders-view).
+Navigate between tracks by swiping. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, go to the [Options](#options) or [Encoders](#encoders-view).
 
 #### Footer Bar
 A deep dive into the buttons of the footer bar. Left to right. The footer bar is present in all the pages except the Options View.
@@ -85,7 +85,7 @@ The side panel opens the options for the midi grid. Long-press opens the encoder
 In the mixer view the button shows up as the encoder button. You get to the encoders view by pressing it.
 
 ##### Navigation Buttons
-Navigate the 3 main views via the arrow buttons. In the [Encoders](#encoders-view) this will mover forwards and backward in the encoder pages if you have more than one.  
+Navigate the three main views via the arrow buttons. In the [Encoders](#encoders-view) this will move forwards and backward in the encoder pages if you have more than one page.  
 Long-press on the left pointing arrow to undo, long-press on the other to redo.
 
 ##### Duplicate/Stop
@@ -136,8 +136,11 @@ Show the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, use 
 Show the mixer section. Use the [Tracks Bar](#tracks-bar) to navigate.
 
 ### Encoders View
-Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can have more than one page and you can choose the MIDI channel and CC for each encoder. Navigation of the pages is done through the [Footer Bar](#footer-bar) arrows.  
+Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can include multiple pages. You can adjust the MIDI channel and CC for each encoder. The navigation of the pages is done through the [Footer Bar](#footer-bar) arrows.  
 For encoder functionality check the [Encoders Section](#encoders-section).
+
+
+
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
 <br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>
