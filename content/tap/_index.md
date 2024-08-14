@@ -8,14 +8,15 @@ share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
-Your MIDI controller for iPhone
+Tap is the ultimate Ableton Live controller for iPhone!  
+Make music anywhere you go with:
 
-<div>7III Tap is boasting two primary features: 
-<ul>
-<li>a dedicated Ableton Live controller and</li>
-<li>a universal and customizable MIDI CC encoder interface.</li>
-</ul>
-</div>
+- Device view to play around with MIDI keyboards, scales, devices, banks, parameters, etc.
+- Mixer view for mixing with ease
+- Clips view for trigger clips and scenes, etc.
+- Customizable and universal MIDI CC: Control any MIDI-compatible device or software
+
+Tap is simply the best controller for Ableton Live when you are on the go, but we are also using it in the studio because it's so much fun.
 
 <!-- <div class="button"> -->
 <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script</a> <a href="/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
@@ -27,6 +28,13 @@ In beta at the moment. **Subscribe to our 7III Tap Newsletter** if you want to g
 
 {{ image_sets(path="content/tap/7III Tap Ableton Live Controller Device Center.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller in front of a laptop with Ableton Live running", caption='7III Tap in action.') }}
 
+## TV
+>You can find the complete Tap Playlist [here](https://youtube.com/playlist?list=PLcN8qnz0I9JhlHCpBz7QITk3D2pSIf0Qo&si=44xqGsoMvxHOu0Pp).
+
+{{ youtube(id="rdS8q2a1YWA", start="0") }}
+
+
+## Help
 Check our [terms & conditions](/tap/terms-and-conditions), [privacy policy](/tap/privacy-policy) and [support page](/tap/support).
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
