@@ -12,9 +12,9 @@ featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 
 
 ## Set Up
-To run as an Ableton Live controller you will need to [add the Tap MIDI Remote Script](#add-the-tap-midi-remote-script) first. If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [Connect your iPhone](#connect-your-iphone).
+Note: If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [2. Connect your iPhone](#2-connect-your-iphone).
 
-### Add the Tap MIDI Remote Script
+### 1. Add the Tap MIDI Remote Script
 <ol>
 <li>On your computer, download the MIDI Remote Script at <a href="/tap/Tap.zip" download>project7iii.com/tap/Tap.zip</a>.</li>
 <li>Manually create a folder called <code>Remote Scripts</code> within your User Library if it does not already exist. The default User Library locations are:
@@ -27,65 +27,74 @@ To run as an Ableton Live controller you will need to [add the Tap MIDI Remote S
 <li>Place the unzipped remote script folder called <code>Tap</code> into the <code>Remote Scripts</code> folder you just created.</li>
 </ol>
 
+### 2. Connect your iPhone
+Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone to Live. If you are never using MIDI over WiFi, you can disable `MIDI over WiFi enabled` in options.
 
-### Connect your iPhone
+#### Over USB (Mac Only)
 <ol>
-<li>Connect your iPhone to your computer using a USB cable.</li>
-<li>Enable Connection:</li>
+<li>Connect your iPhone to your Mac using a USB cable.</li>
+<li>Open the app <strong>Audio MIDI Setup</strong>.</li>
+<li>Open the <code>Audio Devices</code> window.<br>
+→ If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
+<li>Find your iOS device in the sidebar and click the <code>Enable</code> button.</li>
+</ol>
+
+#### Over WiFi
+<ol>
+<li>Connect your iPhone to the same WiFi as your computer (best would be an ad hoc WiFi network).</li>
+<li>Configure RTP-MIDI:</li>
 <blockquote class="list_block">
 <strong>Windows</strong>
 <ol>
-<li>Try to use <a href="https://www.tobias-erichsen.de/software/rtpmidi.html">rtpMIDI</a> to connect your iPhone with your PC.<br>
-If it works by simply connecting or an ad-hoc Wi-Fi network, please let us know and we will include it in this guide!<br>
-You might also need some iOS drivers, as described <a href="https://www.copytrans.net/support/install-iphone-ipod-touch-and-ipad-drivers-without-installing-itunes/">here</a>.</li>
-<li>???</li>
-<li>Profit!</li>
+<li>Download <a href="https://www.tobias-erichsen.de/wp-content/uploads/2020/01/rtpMIDISetup_1_1_14_247.zip">rtpMIDI</a>.</li>
+<li>Follow this <a href="https://www.tobias-erichsen.de/software/rtpmidi/rtpmidi-tutorial.html" target="_blank">guide</a> to install rtpMIDI and connect your iPhone (no <strong>Advanced Configuration</strong> necessary).</li>
 </ol>
 <br>
 <strong>Mac</strong>
 <ol>
-<li>Open the app <strong>Audio MIDI Setup</strong>.</li>
-<li>Open the <code>Audio Devices</code> window.<br>
-If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
-<li>Find your iOS device in the sidebar and click the <code>Enable</code> button.</li>
+<li>Simply follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">guide</a> (no need to do <strong>Step 9</strong>).</li>
 </ol>
 </blockquote>
+</ol>
+
+### 3. Set Up Live
+<ol>
 <li>Launch Live.</li>
 <li>Open Live&#39;s Preferences and navigate to the <strong>MIDI</strong> tab.</li>
 <li>Select the script <code>Tap</code> using the dropdown menu in the Control Surface column.</li>
-<li>Assign your iPhone as input and output ports.</li>
+<li>Assign your iPhone or Network Session as input and output ports.</li>
+<li>Activate <code>Track</code> and <code>Remote</code> for your active MIDI Ports.</li>
 </ol>
 
 {{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III MIDI setting in Ableton Live", caption='The right settings for Tap.') }}
 
 ## User Interface
-There are 5 Views in Tap.  
-The first is called [Options](#options) - here you can get infos and choose your options.  
+There are 5 views in Tap.  
 The main Tap interfaces are the known views of Ableton Live: [Device View](#device-view), [Clip View](#clip-view) and [Mixer View](#mixer-view).  
 Tap also has one extra view which are customizable encoder pages to control about anything that accepts MIDI CC: [Encoders](#encoders-view).
 
-### Options
-Tap `Try to connect to Ableton Live` and then `Play Tap` to play Tap.  
+### Home
+Select `Try to connect to Ableton Live` and then `Play Tap` to play Tap.  
 Tap `Test Tap without Connection` to explore Tap without connection.  
 Tap `Start Encoders` to get to the stand-alone encoders interface.  
-You can change the order of view switching and set the default quantize settings.
+Get `Help` and dive into `Settings`.
 
 ### Main Views
-Each view of the main Ableton Live controller engine has some of the same elements described below.
+The main Ableton Live controller views share some common elements, described below.
 
 #### Tracks Bar
 The top bar showing the tracks of your Live project.  
-Navigate between tracks by swiping. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, go to the [Options](#options) or [Encoders](#encoders-view).
+Navigate between tracks by swiping left or right. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, go to [Home](#home) or [Encoders](#encoders-view).
 
 #### Footer Bar
-A deep dive into the buttons of the footer bar. Left to right. The footer bar is present in all the pages except the Options View.
+Here's a detailed look at the buttons in the footer bar, from left to right: 
 
 ##### Side Panel/Encoders
 The side panel opens the options for the midi grid. Long-press opens the encoders view.  
-In the mixer view the button shows up as the encoder button. You get to the encoders view by pressing it.
+In the mixer view, the button shows up as the encoders button. You get to the encoders view by pressing it.
 
 ##### Navigation Buttons
-Navigate the three main views via the arrow buttons. In the [Encoders](#encoders-view) this will move forwards and backward in the encoder pages if you have more than one page.  
+Navigate the three main views via the arrow buttons. In the [Encoders](#encoders-view) this will move forward and backward in the encoder pages if you have more than one page.  
 Long-press on the left pointing arrow to undo, long-press on the other to redo.
 
 ##### Duplicate/Stop
@@ -118,7 +127,7 @@ Navigate and select banks of the chosen device here.
 The 8 encoders of the current bank.  
 You can swipe from in between the encoders to get to adjacent banks directly.
 
-<div>Activate an encoder by touching it<br>
+<div>Activate an encoder by touching it, then:<br>
 <ul>
 <li>Adjust the encoder value by moving your finger up or down.</li>
 <li>Fine-tune the value by moving your finger left or right.</li>

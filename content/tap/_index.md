@@ -15,6 +15,7 @@ Make music anywhere you go with:
 - Mixer view for mixing with ease
 - Clips view for trigger clips and scenes, etc.
 - Customizable and universal MIDI CC: Control any MIDI-compatible device or software
+- Connect via USB (Mac only) or WiFi.
 
 Tap is simply the best controller for Ableton Live when you are on the go, but we are also using it in the studio because it's so much fun.
 

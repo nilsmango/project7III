@@ -97,8 +97,8 @@
 <p>This is the user manual for the MIDI controller app <a href="/tap">7III Tap</a> for iPhone.</p>
 </blockquote>
 <h2 id="set-up">Set Up</h2>
-<p>To run as an Ableton Live controller you will need to <a href="https://project7iii.com/tap/manual/#add-the-tap-midi-remote-script">add the Tap MIDI Remote Script</a> first. If you are only going to use the <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a>, then you can directly jump to <a href="https://project7iii.com/tap/manual/#connect-your-iphone">Connect your iPhone</a>.</p>
-<h3 id="add-the-tap-midi-remote-script">Add the Tap MIDI Remote Script</h3>
+<p>Note: If you are only going to use the <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a>, then you can directly jump to <a href="https://project7iii.com/tap/manual/#2-connect-your-iphone">2. Connect your iPhone</a>.</p>
+<h3 id="1-add-the-tap-midi-remote-script">1. Add the Tap MIDI Remote Script</h3>
 <ol>
 <li>On your computer, download the MIDI Remote Script at <a href="/tap/Tap.zip" download>project7iii.com/tap/Tap.zip</a>.</li>
 <li>Manually create a folder called <code>Remote Scripts</code> within your User Library if it does not already exist. The default User Library locations are:
@@ -110,32 +110,40 @@
  </li>
 <li>Place the unzipped remote script folder called <code>Tap</code> into the <code>Remote Scripts</code> folder you just created.</li>
 </ol>
-<h3 id="connect-your-iphone">Connect your iPhone</h3>
+<h3 id="2-connect-your-iphone">2. Connect your iPhone</h3>
+<p>Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone to Live. If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi enabled</code> in options.</p>
+<h4 id="over-usb-mac-only">Over USB (Mac Only)</h4>
 <ol>
-<li>Connect your iPhone to your computer using a USB cable.</li>
-<li>Enable Connection:</li>
+<li>Connect your iPhone to your Mac using a USB cable.</li>
+<li>Open the app <strong>Audio MIDI Setup</strong>.</li>
+<li>Open the <code>Audio Devices</code> window.<br>
+→ If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
+<li>Find your iOS device in the sidebar and click the <code>Enable</code> button.</li>
+</ol>
+<h4 id="over-wifi">Over WiFi</h4>
+<ol>
+<li>Connect your iPhone to the same WiFi as your computer (best would be an ad hoc WiFi network).</li>
+<li>Configure RTP-MIDI:</li>
 <blockquote class="list_block">
 <strong>Windows</strong>
 <ol>
-<li>Try to use <a href="https://www.tobias-erichsen.de/software/rtpmidi.html">rtpMIDI</a> to connect your iPhone with your PC.<br>
-If it works by simply connecting or an ad-hoc Wi-Fi network, please let us know and we will include it in this guide!<br>
-You might also need some iOS drivers, as described <a href="https://www.copytrans.net/support/install-iphone-ipod-touch-and-ipad-drivers-without-installing-itunes/">here</a>.</li>
-<li>???</li>
-<li>Profit!</li>
+<li>Download <a href="https://www.tobias-erichsen.de/wp-content/uploads/2020/01/rtpMIDISetup_1_1_14_247.zip">rtpMIDI</a>.</li>
+<li>Follow this <a href="https://www.tobias-erichsen.de/software/rtpmidi/rtpmidi-tutorial.html" target="_blank">guide</a> to install rtpMIDI and connect your iPhone (no <strong>Advanced Configuration</strong> necessary).</li>
 </ol>
 <br>
 <strong>Mac</strong>
 <ol>
-<li>Open the app <strong>Audio MIDI Setup</strong>.</li>
-<li>Open the <code>Audio Devices</code> window.<br>
-If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
-<li>Find your iOS device in the sidebar and click the <code>Enable</code> button.</li>
+<li>Simply follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">guide</a> (no need to do <strong>Step 9</strong>).</li>
 </ol>
 </blockquote>
+</ol>
+<h3 id="3-set-up-live">3. Set Up Live</h3>
+<ol>
 <li>Launch Live.</li>
 <li>Open Live&#39;s Preferences and navigate to the <strong>MIDI</strong> tab.</li>
 <li>Select the script <code>Tap</code> using the dropdown menu in the Control Surface column.</li>
-<li>Assign your iPhone as input and output ports.</li>
+<li>Assign your iPhone or Network Session as input and output ports.</li>
+<li>Activate <code>Track</code> and <code>Remote</code> for your active MIDI Ports.</li>
 </ol>
 
 
@@ -163,27 +171,26 @@ If it is not already visible, select the <code>Window</code> → <code>Audio Dev
 
 
 <h2 id="user-interface">User Interface</h2>
-<p>There are 5 Views in Tap.<br />
-The first is called <a href="https://project7iii.com/tap/manual/#options">Options</a> - here you can get infos and choose your options.<br />
+<p>There are 5 views in Tap.<br />
 The main Tap interfaces are the known views of Ableton Live: <a href="https://project7iii.com/tap/manual/#device-view">Device View</a>, <a href="https://project7iii.com/tap/manual/#clip-view">Clip View</a> and <a href="https://project7iii.com/tap/manual/#mixer-view">Mixer View</a>.<br />
 Tap also has one extra view which are customizable encoder pages to control about anything that accepts MIDI CC: <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a>.</p>
-<h3 id="options">Options</h3>
-<p>Tap <code>Try to connect to Ableton Live</code> and then <code>Play Tap</code> to play Tap.<br />
+<h3 id="home">Home</h3>
+<p>Select <code>Try to connect to Ableton Live</code> and then <code>Play Tap</code> to play Tap.<br />
 Tap <code>Test Tap without Connection</code> to explore Tap without connection.<br />
 Tap <code>Start Encoders</code> to get to the stand-alone encoders interface.<br />
-You can change the order of view switching and set the default quantize settings.</p>
+Get <code>Help</code> and dive into <code>Settings</code>.</p>
 <h3 id="main-views">Main Views</h3>
-<p>Each view of the main Ableton Live controller engine has some of the same elements described below.</p>
+<p>The main Ableton Live controller views share some common elements, described below.</p>
 <h4 id="tracks-bar">Tracks Bar</h4>
 <p>The top bar showing the tracks of your Live project.<br />
-Navigate between tracks by swiping. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, go to the <a href="https://project7iii.com/tap/manual/#options">Options</a> or <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a>.</p>
+Navigate between tracks by swiping left or right. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, go to <a href="https://project7iii.com/tap/manual/#home">Home</a> or <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a>.</p>
 <h4 id="footer-bar">Footer Bar</h4>
-<p>A deep dive into the buttons of the footer bar. Left to right. The footer bar is present in all the pages except the Options View.</p>
+<p>Here's a detailed look at the buttons in the footer bar, from left to right:</p>
 <h5 id="side-panel-encoders">Side Panel/Encoders</h5>
 <p>The side panel opens the options for the midi grid. Long-press opens the encoders view.<br />
-In the mixer view the button shows up as the encoder button. You get to the encoders view by pressing it.</p>
+In the mixer view, the button shows up as the encoders button. You get to the encoders view by pressing it.</p>
 <h5 id="navigation-buttons">Navigation Buttons</h5>
-<p>Navigate the three main views via the arrow buttons. In the <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a> this will move forwards and backward in the encoder pages if you have more than one page.<br />
+<p>Navigate the three main views via the arrow buttons. In the <a href="https://project7iii.com/tap/manual/#encoders-view">Encoders</a> this will move forward and backward in the encoder pages if you have more than one page.<br />
 Long-press on the left pointing arrow to undo, long-press on the other to redo.</p>
 <h5 id="duplicate-stop">Duplicate/Stop</h5>
 <p>In device view: Duplicates the selected clip. Long press shows a context menu.<br />
@@ -207,7 +214,7 @@ Tap on the <code>+</code> to add a new random device. You can choose between add
 <h4 id="encoders-section">Encoders Section</h4>
 <p>The 8 encoders of the current bank.<br />
 You can swipe from in between the encoders to get to adjacent banks directly.</p>
-<div>Activate an encoder by touching it<br>
+<div>Activate an encoder by touching it, then:<br>
 <ul>
 <li>Adjust the encoder value by moving your finger up or down.</li>
 <li>Fine-tune the value by moving your finger left or right.</li>
