@@ -19,6 +19,7 @@ The downwind foiling and water sport tracker app for you and your crew.
 <li>Lifetime option available</li>
 <li>Simple and beautiful design</li>
 <li>Cool water sport sticker pack</li>
+<li>Your workout data stays on your device. You’re the customer, not the product</li>
 </ul>
 </div>
 
