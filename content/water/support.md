@@ -4,7 +4,7 @@ description = "Support Page for Water Sports Tracker 7III Water"
 date = 2024-07-18
 updated = 2024-07-18
 +++
-→ Back to [7III Water](/water)  
+← Back to [7III Water](/water)  
 
 Need help? We're here for you.
 

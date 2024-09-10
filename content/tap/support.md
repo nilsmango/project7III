@@ -4,7 +4,7 @@ description = "Support Page for Ableton Live MIDI Controller 7III Tap"
 date = 2024-07-20
 updated = 2024-07-20
 +++
-→ Back to [7III Tap](/tap)  
+← Back to [7III Tap](/tap)  
 
 Need help? We're here for you. (We can't help you with your music, though)
 
@@ -14,7 +14,7 @@ Need help? We're here for you. (We can't help you with your music, though)
 ## FAQ
 
 ### How do I connect to Ableton?
-Check the Manual [here](/tap/manual#set-up)!
+Check the manual [here](/tap/manual)!
 
 ### Is 7III Tap a free Ableton Live Controller App for iPhone?
 Yes, 7III Tap is free to test. There is however a 15 minutes per day limit for sending and receiving MIDI.

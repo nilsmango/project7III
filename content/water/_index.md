@@ -10,40 +10,30 @@ featured_image_alt = "The iPhone App 7III Water showing a map with the path of d
 +++
 The downwind foiling and water sport tracker app for you and your crew.
 
-<div>Features:
-<ul>
-<li>GPS tracking for all water sports</li>
-<li>iPhone and Apple Watch support</li>
-<li>Seamless water sports workout import and export with Health*</li>
-<li>Statistics, tags, and editing of routes*</li>
-<li>Lifetime option available</li>
-<li>Simple and beautiful design</li>
-<li>Cool water sport sticker pack</li>
-<li>Your workout data stays on your device. You’re the customer, not the product</li>
-</ul>
-</div>
+Features:
+- GPS tracking for all water sports
+- iPhone and Apple Watch support
+- Seamless water sports workout import and export with Health*
+- Statistics, tags, and editing of routes*
+- Lifetime option available
+- Simple and beautiful design
+- Cool water sport sticker pack
+- Your workout data stays on your device. You’re the customer, not the product
 
-<div>Roadmap:
-<ul>
-<li>Online location sharing
-<ul>
-<li>Share your location with family and friends*</li>
-<li>View active friends: map or list with direction and distance</li>
-</ul>
-</li>
-<li>Awards system</li>
-<li>Universal web app</li>
-<li>Set waypoints for downwind runs</li>
-</ul>
-</div>
+Roadmap (help us shape the perfect app by [requesting features](/water/support#feature-requests)):
+- More data, more statistics
+- Set waypoints for downwind runs
+- Online location sharing
+  - Share your location with family and friends*
+  - View active friends: map or list with direction and distance
+- Awards system
+- Universal web app
+
 <div class="footnote-definition">
 <p>* Premium features. <a href="/water/support#what-premium-upgrades-are-available">Paid upgrade required</a> to unlock these features fully.</p>
 </div>
 
-**If you want to help test Water, enter your email below** and you will get an invitation soon after (iPhone only at the moment)!
-
-<iframe src="https://embeds.beehiiv.com/027d2f73-51e7-4d95-8776-d32e01222bfc?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
-
+{{ appstore_button(tagline="The water's nice – come try it out!", url="https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780") }}
 
 {{ image_sets(path="content/water/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="The iPhone App 7III Water showing a map with the path of a downwind foiling run", caption='A downwind run a day keeps the doctor away.') }}
 

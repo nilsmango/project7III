@@ -10,6 +10,10 @@ featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
 >This is the user manual for the MIDI controller app [7III Tap](/tap) for iPhone.
 
+## Quick Start
+Below is a video to help you get started. It follows the Mac version of this manual, but most steps are similar for other systems. You can start by following along with the [Set Up](#set-up) section.
+
+{{ youtube(id="CBXZ1DxyzfE", start="0") }}
 
 ## Set Up
 Note: If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [2. Connect your iPhone](#2-connect-your-iphone).

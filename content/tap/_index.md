@@ -23,9 +23,7 @@ Tap is simply the best controller for Ableton Live when you are on the go, but w
 <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script</a> <a href="/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
 <!-- </div> -->
 
-In beta at the moment. **Subscribe to our 7III Tap Newsletter** if you want to get informed once Tap launches for the public:
-
-<iframe src="https://embeds.beehiiv.com/ca2f2e50-b638-498a-a4b4-8e1b29f0cc5e?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+{{ appstore_button(tagline="Let's jam! Free trial.", url="https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273") }}
 
 {{ image_sets(path="content/tap/7III Tap Ableton Live Controller Device Center.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller in front of a laptop with Ableton Live running", caption='7III Tap in action.') }}
 

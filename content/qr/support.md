@@ -4,7 +4,7 @@ description = "Support Page for the QR code creator app 7III QR"
 date = 2024-09-04
 updated = 2024-09-04
 +++
-→ Back to [7III QR](/qr)  
+← Back to [7III QR](/qr)  
 
 Need help? We're here for you.
 

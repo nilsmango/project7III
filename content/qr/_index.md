@@ -19,6 +19,8 @@ Features:
 -	Privacy-focused
 -	Sleek and minimalistic design
 
+{{ appstore_button(tagline="QR-ious? Try for free!", url="https://apps.apple.com/app/7iii-qr/id6670425489") }}
+
 {{ image_sets(path="content/qr/7III QR Code Creator.jpg", format="auto", op="fit_width", quality=100, alt="7III QR, a simple QR code maker app showing some QR codes.", caption='Create all the QR codes you will ever need and then some.') }}
 
 
