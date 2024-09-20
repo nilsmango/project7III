@@ -32,6 +32,9 @@ Tap is simply the best controller for Ableton Live when you are on the go, but w
 
 {{ youtube(id="rdS8q2a1YWA", start="0") }}
 
+## Stay Connected
+If you’d like to stay updated on Tap’s development and contribute to new feature implementations, subscribe to our **7III Tap newsletter**.
+<iframe src="https://embeds.beehiiv.com/ca2f2e50-b638-498a-a4b4-8e1b29f0cc5e?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
 
 ## Help
 Check our [terms & conditions](/tap/terms-and-conditions), [privacy policy](/tap/privacy-policy) and [support page](/tap/support).
