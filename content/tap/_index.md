@@ -3,11 +3,14 @@ title = "Tap"
 description = "A dedicated Ableton Live MIDI controller for iPhone"
 [extra]
 date = 2024-03-15
-updated = 2024-08-01
+updated = 2024-09-27
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
+>Update **{{ date_updated() }}**  
+>We are blown away by the love we are getting for our little MIDI app. We are working on the iPad version now!
+
 Tap is the ultimate Ableton Live controller for iPhone!  
 Make music anywhere you go with:
 
@@ -31,6 +34,8 @@ Tap is simply the best controller for Ableton Live when you are on the go, but w
 >You can find the complete Tap Playlist [here](https://youtube.com/playlist?list=PLcN8qnz0I9JhlHCpBz7QITk3D2pSIf0Qo&si=44xqGsoMvxHOu0Pp).
 
 {{ youtube(id="rdS8q2a1YWA", start="0") }}
+
+{{ youtube(id="WL16ab43W9w", start="0") }}
 
 ## Stay Connected
 If you’d like to stay updated on Tap’s development and contribute to new feature implementations, subscribe to our **7III Tap newsletter**.
