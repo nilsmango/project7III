@@ -16,7 +16,7 @@ Need help? We're here for you. (We can't help you with your music, though)
 ### How do I connect to Ableton?
 Check the manual [here](/tap/manual)!
 
-### Is 7III Tap a free Ableton Live Controller App for iPhone?
+### Is 7III Tap a free Ableton Live Controller App for iPhone and iPad?
 Yes, 7III Tap is free to test. There is however a 15 minutes per day limit for sending and receiving MIDI.
 
 ### What Premium upgrades are available? 
@@ -30,4 +30,4 @@ We love hearing your ideas (you can also send us your music made with 7III Tap)!
 
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
-<br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>
+<br>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>

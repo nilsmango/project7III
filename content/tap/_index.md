@@ -1,17 +1,17 @@
 +++
 title = "Tap"
-description = "A dedicated Ableton Live MIDI controller for iPhone"
+description = "A dedicated Ableton Live MIDI controller for iPhone and iPad"
 [extra]
 date = 2024-03-15
-updated = 2024-09-27
+updated = 2024-10-21
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
 >Update **{{ date_updated() }}**  
->We are blown away by the love we are getting for our little MIDI app. We are working on the iPad version now!
+>Tap now also works on iPad!
 
-Tap is the ultimate Ableton Live controller for iPhone!  
+Tap is the ultimate Ableton Live controller for iPhone & iPad!  
 Make music anywhere you go with:
 
 - Device view to play around with MIDI keyboards, scales, devices, banks, parameters, etc.
@@ -20,7 +20,7 @@ Make music anywhere you go with:
 - Customizable and universal MIDI CC: Control any MIDI-compatible device or software
 - Connect via USB (Mac only) or WiFi.
 
-Tap is simply the best controller for Ableton Live when you are on the go, but we are also using it in the studio because it's so much fun.
+Tap is simply the best controller for Ableton Live when you're on the go, and with iPad support, it’s also a must-have in the studio.
 
 <!-- <div class="button"> -->
 <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script</a> <a href="/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
@@ -45,4 +45,4 @@ If you’d like to stay updated on Tap’s development and contribute to new fea
 Check our [terms & conditions](/tap/terms-and-conditions), [privacy policy](/tap/privacy-policy) and [support page](/tap/support).
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
-<br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>
+<br>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>

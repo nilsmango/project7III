@@ -1,6 +1,6 @@
 +++
 title = "Tap User Manual"
-description = "The user manual for 7III Tap, a MIDI controller for iPhone"
+description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
 updated = 2024-04-12
@@ -8,7 +8,7 @@ share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
->This is the user manual for the MIDI controller app [7III Tap](/tap) for iPhone.
+>This is the user manual for the MIDI controller app [7III Tap](/tap) for iPhone and iPad.
 
 ## Quick Start
 Below is a video to help you get started. It follows the Mac version of this manual, but most steps are similar for other systems. You can start by following along with the [Set Up](#set-up) section.
@@ -16,7 +16,7 @@ Below is a video to help you get started. It follows the Mac version of this man
 {{ youtube(id="CBXZ1DxyzfE", start="0") }}
 
 ## Set Up
-Note: If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [2. Connect your iPhone](#2-connect-your-iphone).
+Note: If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [2. Connect your iPhone or iPad](#2-connect-your-iphone-or-ipad).
 
 ### 1. Add the Tap MIDI Remote Script
 <ol>
@@ -31,12 +31,12 @@ Note: If you are only going to use the [Encoders](#encoders-view), then you can 
 <li>Place the unzipped remote script folder called <code>Tap</code> into the <code>Remote Scripts</code> folder you just created.</li>
 </ol>
 
-### 2. Connect your iPhone
-Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone to Live. If you are never using MIDI over WiFi, you can disable `MIDI over WiFi enabled` in options.
+### 2. Connect your iPhone or iPad
+Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or iPad to Live. If you are never using MIDI over WiFi, you can disable `MIDI over WiFi enabled` in options.
 
 #### Over USB (Mac Only)
 <ol>
-<li>Connect your iPhone to your Mac using a USB cable.</li>
+<li>Connect your device to your Mac using a USB cable.</li>
 <li>Open the app <strong>Audio MIDI Setup</strong>.</li>
 <li>Open the <code>Audio Devices</code> window.<br>
 → If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
@@ -45,13 +45,13 @@ Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone to
 
 #### Over WiFi
 <ol>
-<li>Connect your iPhone to the same WiFi as your computer (best would be an ad hoc WiFi network).</li>
+<li>Connect your device to the same WiFi as your computer (best would be an ad hoc WiFi network).</li>
 <li>Configure RTP-MIDI:</li>
 <blockquote class="list_block">
 <strong>Windows</strong>
 <ol>
 <li>Download <a href="https://www.tobias-erichsen.de/wp-content/uploads/2020/01/rtpMIDISetup_1_1_14_247.zip">rtpMIDI</a>.</li>
-<li>Follow this <a href="https://www.tobias-erichsen.de/software/rtpmidi/rtpmidi-tutorial.html" target="_blank">guide</a> to install rtpMIDI and connect your iPhone (no <strong>Advanced Configuration</strong> necessary).</li>
+<li>Follow this <a href="https://www.tobias-erichsen.de/software/rtpmidi/rtpmidi-tutorial.html" target="_blank">guide</a> to install rtpMIDI and connect your device (no <strong>Advanced Configuration</strong> necessary).</li>
 </ol>
 <br>
 <strong>Mac</strong>
@@ -66,7 +66,7 @@ Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone to
 <li>Launch Live.</li>
 <li>Open Live&#39;s Preferences and navigate to the <strong>MIDI</strong> tab.</li>
 <li>Select the script <code>Tap</code> using the dropdown menu in the Control Surface column.</li>
-<li>Assign your iPhone or Network Session as input and output ports.</li>
+<li>Assign your device or Network Session as input and output ports.</li>
 <li>Activate <code>Track</code> and <code>Remote</code> for your active MIDI Ports.</li>
 </ol>
 
@@ -156,4 +156,4 @@ For encoder functionality check the [Encoders Section](#encoders-section).
 
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
-<br>iPhone is a trademark of Apple Inc., registered in the United States and other countries.</p></div>
+<br>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
