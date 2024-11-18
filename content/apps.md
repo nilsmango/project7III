@@ -8,7 +8,7 @@ You get an app! And you get an app! Everybody gets an app!!
 - [Tap](/tap), a MIDI controller for iPhone & iPad
 - [Water](/water), a GPS tracker for downwind foiling & all water sports.
 - [QR](/qr), a QR Code generator app for iPhone, iPad, Mac and Apple Watch.
-- Meditation (coming soon)
+- [Meditation](/meditation), a meditation timer and Buddha Machine/soundtoy for iPhone & iPad.
 - Recipes (coming soon)
 
 
