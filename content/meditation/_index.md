@@ -30,4 +30,4 @@ Features:
 
 Check our [privacy policy](/meditation/privacy-policy) and [support page](/meditation/support).
 
-<div class="footnote-definition"><p>iPhone amd iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
+<div class="footnote-definition"><p>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
