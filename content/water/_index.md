@@ -21,13 +21,8 @@ Features:
 - Your workout data stays on your device. You’re the customer, not the product
 
 Roadmap (help us shape the perfect app by [requesting features](/water/support#feature-requests)):
-- More data, more statistics
-- Set waypoints for downwind runs
-- Online location sharing
-  - Share your location with family and friends*
-  - View active friends: map or list with direction and distance
-- Awards system
-- Universal web app
+- More data like 10 seconds top speed etc. 
+- More statistics
 
 <div class="footnote-definition">
 <p>* Premium features. <a href="/water/support#what-premium-upgrades-are-available">Paid upgrade required</a> to unlock these features fully.</p>
