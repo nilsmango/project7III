@@ -117,7 +117,7 @@ In all other views this will get you back to the options view.
 Activates or deactivates the session record button.
 
 ##### Play/Stop
-Starts or stops the playback.
+Starts or stops the playback. Long press shows a context menu for stopping and starting clips.
 
 ### Device View
 #### Devices Bar
@@ -141,6 +141,9 @@ Double tap an encoder to reset to 0 (or center for Panning), triple tap to reset
 
 #### MIDI Grid
 Play notes with the MIDI grid. You have the option of choosing from different scales, velocity modes, mood wheel, grids etc. via the side panel button in the [Footer Bar](#footer-bar).
+
+#### Step Sequencer
+Add notes by tapping and move them by dragging. Dragging slowly enables non-quantized fine movement. Change octaves using the side panel. Use the green rectangle at the top of the step sequencer to move the loop and perform other useful actions. Drag horizontally to navigate through the pages of the step sequencer. Drag the small rectangle at the end of a note to adjust its length.
 
 ### Clip View
 Show the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, use the clips for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#device-view). Long-press on any clip slot to bring up a context menu.
