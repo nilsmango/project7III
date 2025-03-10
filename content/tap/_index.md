@@ -3,19 +3,19 @@ title = "Tap"
 description = "A dedicated Ableton Live MIDI controller for iPhone and iPad"
 [extra]
 date = 2024-03-15
-updated = 2024-10-24
+updated = 2025-03-10
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
 >Update **{{ date_updated() }}**  
->Hello Tap 1.1: now also works on iPad!  
+>Hello Tap 1.2: now with step sequencer!  
 >Try it [for free](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273).
 
 Tap is the ultimate Ableton Live controller for iPhone & iPad!  
 Make music anywhere you go with:
 
-- Device view to play around with MIDI keyboards, scales, devices, banks, parameters, etc.
+- Device view to play around with MIDI keyboards, step squencer, scales, devices, banks, parameters, etc.
 - Mixer view for mixing with ease
 - Clips view for trigger clips and scenes, etc.
 - Customizable and universal MIDI CC: Control any MIDI-compatible device or software
@@ -24,7 +24,7 @@ Make music anywhere you go with:
 Tap is simply the best controller for Ableton Live when you're on the go, and with iPad support, it’s also a must-have in the studio.
 
 <!-- <div class="button"> -->
-<a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script 1.0.3</a> <a href="/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
+<a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton" download>Download MIDI Remote Script 1.1</a> <a href="/tap/manual" class="btn" id="yellowButton">Read User Manual</a>
 <!-- </div> -->
 
 {{ appstore_button(tagline="Let's jam! Free trial.", url="https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273") }}
