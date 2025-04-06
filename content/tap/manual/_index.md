@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-03-10
+updated = 2025-04-10
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
@@ -88,30 +88,31 @@ The main Ableton Live controller views share some common elements, described bel
 
 #### Tracks Bar
 The top bar showing the tracks of your Live project.  
-Navigate between tracks by swiping left or right. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, go to [Home](#home) or [Encoders](#encoders-view).
+Navigate between tracks by swiping left or right. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, configure the standard note length for the step sequencers, go to [Home](#home) or [Encoders](#encoders-view).
 
 #### Footer Bar
 Here's a detailed look at the buttons in the footer bar, from left to right: 
 
-##### Side Panel/Encoders
-The side panel opens the options for the midi grid. Long-press opens the encoders view.  
-In the mixer view, the button shows up as the encoders button. You get to the encoders view by pressing it.
+##### Side Panel/Encoders Button
+The side panel opens the options for the MIDI grid (layout, velocity, pitch-bend/modwheel, scale, root, octave/drums page). Long-press opens the [Encoders View](#encoders-view).  
+In the mixer view, the button shows up as the encoders button. You get to the Encoders View by pressing it.
 
 ##### Navigation Buttons
-Navigate the three main views via the arrow buttons. In the [Encoders](#encoders-view) this will move forward and backward in the encoder pages if you have more than one page.  
+Navigate the three main views via the arrow buttons. In the [Encoders View](#encoders-view) this will move forward and backward in the encoder pages if you have more than one page.  
 Long-press on the left pointing arrow to undo, long-press on the other to redo.
 
 ##### Duplicate/Stop
-In device view: Duplicates the selected clip. Long press shows a context menu.  
+In device view: Duplicates the selected clip. Long press shows a context menu where you can duplicate the selected scene.  
 In the other views: Stops all the clips.
 
 ##### Quantize
 Quantizes the notes of the clip selected.  
 Long-press will show detailed quantize options.
 
-##### Capture/Options
-Capture in clips, captures the midi just played in the grid.  
-In all other views this will get you back to the options view.
+##### Capture/Double Loop/Home
+In [Device View](#device-view) with a keyboard or pads active, this captures the MIDI just played in the grid.
+If you are in the step sequencer layout, this will double the selected loop.
+In all other views this will get you back to the Home view.
 
 ##### Record
 Activates or deactivates the session record button.
@@ -140,16 +141,21 @@ You can swipe from in between the encoders to get to adjacent banks directly.
 Double tap an encoder to reset to 0 (or center for Panning), triple tap to reset to center (63).
 
 #### MIDI Grid
-Play notes with the MIDI grid. You have the option of choosing from different scales, velocity modes, mood wheel, grids etc. via the side panel button in the [Footer Bar](#footer-bar).
+Play notes with the MIDI grid. You have the option of choosing from different scales, velocity modes, mod wheel, layouts, and more via the side panel button in the [Footer Bar](#footer-bar).
 
 #### Step Sequencer
-Add notes by tapping and move them by dragging. Dragging slowly enables non-quantized fine movement. Change octaves using the side panel. Use the green rectangle at the top of the step sequencer to move the loop and perform other useful actions. Drag horizontally to navigate through the pages of the step sequencer. Drag the small rectangle at the end of a note to adjust its length.
+Add notes by tapping and move them by dragging. Dragging slowly enables non-quantized fine movement.  
+Use the green rectangle at the top of the step sequencer to move the loop and perform other useful actions like changing the drums page or octave. You can also change octaves/pages by using the side panel.  
+Drag horizontally to navigate through the pages of the step sequencer.  
+Drag the small rectangle at the end of a note to adjust its length. On iPhone this might be a bit tricky to do, that is why we have added a context menu to the [Tracks Bar](#tracks-bar), where you can adjust the note length via buttons.
 
 ### Clip View
-Show the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, use the clips for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#device-view). Long-press on any clip slot to bring up a context menu.
+Shows the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, drag in the Clip View for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#device-view). Long-press on any clip slot to bring up a context menu.  
+The selected device's Banks Bar and Encoders Section are displayed above the clip view exactly like in the Device View.
 
 ### Mixer View
-Show the mixer section. Use the [Tracks Bar](#tracks-bar) to navigate.
+Shows the mixer section. Use the [Tracks Bar](#tracks-bar) to navigate. Double tap on the volume fader to set the volume to zero. User sends, panning, mute and solo at your discretion.  
+Below the mixer section, there is a compact Clip View that allows you to interact with clips.
 
 ### Encoders View
 Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can include multiple pages. You can adjust the MIDI channel and CC for each encoder. The navigation of the pages is done through the [Footer Bar](#footer-bar) arrows.  

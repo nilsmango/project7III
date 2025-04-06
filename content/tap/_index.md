@@ -3,21 +3,24 @@ title = "Tap"
 description = "A dedicated Ableton Live MIDI controller for iPhone and iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-03-10
+updated = 2025-04-10
 share = true
-featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
+featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
 >Update **{{ date_updated() }}**  
->Hello Tap 1.2: now with step sequencer!  
+>Hello Tap 1.2: now with step sequencers and other new features! 
 >Try it [for free](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273).
+
+{{ image_sets(path="content/tap/7III Tap Ableton MIDI Controller Step Sequencer.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller running on an iPad, showing the drum step sequencer", caption='7III Tap drum step sequencer') }}
+
 
 Tap is the ultimate Ableton Live controller for iPhone & iPad!  
 Make music anywhere you go with:
 
-- Device view to play around with MIDI keyboards, step squencer, scales, devices, banks, parameters, etc.
-- Mixer view for mixing with ease
-- Clips view for trigger clips and scenes, etc.
+- Device view with MIDI keyboards & pads, drum/melodic step sequencer (NEW!), devices, banks, 8 parameter encoders, etc.
+- Clips view for triggering clips and scenes, with device control (NEW!)
+- Mixer view for mixing with ease, with a small clips panel (NEW!)
 - Customizable and universal MIDI CC: Control any MIDI-compatible device or software
 - Connect via USB (Mac only) or WiFi.
 
