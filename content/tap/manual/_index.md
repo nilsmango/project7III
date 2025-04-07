@@ -74,7 +74,7 @@ Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or
 
 ## User Interface
 There are 5 views in Tap.  
-The main Tap interfaces are the known views of Ableton Live: [Device View](#device-view), [Clip View](#clip-view) and [Mixer View](#mixer-view).  
+The main Tap interfaces are the known views of Ableton Live: [Device View](#device-view), [Clips View](#clips-view) and [Mixer View](#mixer-view).  
 Tap also has one extra view which are customizable encoder pages to control about anything that accepts MIDI CC: [Encoders](#encoders-view).
 
 ### Home
@@ -149,13 +149,13 @@ Use the green rectangle at the top of the step sequencer to move the loop and pe
 Drag horizontally to navigate through the pages of the step sequencer.  
 Drag the small rectangle at the end of a note to adjust its length. On iPhone this might be a bit tricky to do, that is why we have added a context menu to the [Tracks Bar](#tracks-bar), where you can adjust the note length via buttons.
 
-### Clip View
-Shows the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, drag in the Clip View for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#device-view). Long-press on any clip slot to bring up a context menu.  
+### Clips View
+Shows the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, drag in the Clips View for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#device-view). Long-press on any clip slot to bring up a context menu.  
 The selected device's Banks Bar and Encoders Section are displayed above the clip view exactly like in the Device View.
 
 ### Mixer View
 Shows the mixer section. Use the [Tracks Bar](#tracks-bar) to navigate. Double tap on the volume fader to set the volume to zero. User sends, panning, mute and solo at your discretion.  
-Below the mixer section, there is a compact Clip View that allows you to interact with clips.
+Below the mixer section, there is a compact Clips View that allows you to interact with clips.
 
 ### Encoders View
 Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can include multiple pages. You can adjust the MIDI channel and CC for each encoder. The navigation of the pages is done through the [Footer Bar](#footer-bar) arrows.  
