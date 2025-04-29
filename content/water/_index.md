@@ -8,7 +8,9 @@ share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
 featured_image_alt = "The iPhone App 7III Water showing a map with the route of downwind foiling run"
 +++
-Simply the best downwind foiling and water sport tracking app for iPhone, Apple Watch, Garmin and other smartwatches.
+Simply the best downwind foiling and water sport tracking app for iPhone, Apple Watch, Garmin and other smartwatches.  
+
+>Got questions? Visit the [7III Water Support Page](/water/support).
 
 {{ image_sets(path="content/water/7III Water Downwind Foiling Statistics.jpg", format="auto", op="fit_width", quality=100, alt="7III Water with statistics like number of sessions, days on water, and distances covered", caption='So many great stats.') }}
 
@@ -40,7 +42,7 @@ Simply the best downwind foiling and water sport tracking app for iPhone, Apple 
 
 {{ image_sets(path="content/water/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="The iPhone App 7III Water showing a map with the path of a downwind foiling run", caption='A downwind run a day keeps the doctor away.') }}
 
-Check our [support page](/water/support), [privacy policy](/water/privacy-policy), and [terms & conditions](/water/terms-and-conditions) for 7III Water.
+Check our [privacy policy](/water/privacy-policy), and [terms & conditions](/water/terms-and-conditions) for 7III Water.
 
 >Are you a wake thief using 7III Water to track your pump foiling sessions in Switzerland? Check out this great app for finding wakes near you: [Next Wave](https://apps.apple.com/ch/app/next-wave/id6739363035)
 
