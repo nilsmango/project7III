@@ -4,9 +4,11 @@ description = "The terms & conditions for 7III Tap"
 date = 2024-08-08
 updated = 2024-08-08
 +++
+<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a>
+
 Last updated: {{ date_updated() }}
 
-By downloading or using [7III Tap](/tap) ("the App"), these terms will automatically apply to you.
+By downloading or using 7III Tap ("the App"), these terms will automatically apply to you.
 
 ## In-App Purchases
 The App offers a in-app purchase named Premium.

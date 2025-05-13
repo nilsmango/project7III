@@ -4,9 +4,11 @@ description = "The privacy policy for 7III Tap"
 date = 2024-04-12
 updated = 2024-04-12
 +++
+<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a>
+
 Last updated: {{ date_updated() }}
 
-This is the Privacy Policy for [7III Tap](/tap), it explains how we collect, use, and protect your information when you use Tap.
+This is the Privacy Policy for 7III Tap, it explains how we collect, use, and protect your information when you use Tap.
 
 ## Information Collection and Usage
 
