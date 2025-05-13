@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-04-10
+updated = 2025-05-13
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"

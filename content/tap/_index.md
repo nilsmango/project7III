@@ -3,7 +3,7 @@ title = "Tap"
 description = "A dedicated Ableton Live MIDI controller for iPhone and iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-04-09
+updated = 2025-05-13
 share = true
 featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
