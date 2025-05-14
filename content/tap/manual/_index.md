@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-05-13
+updated = 2025-05-14
 share = true
 featured_image = "7III Tap Ableton Live Controller Device Center.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
@@ -11,15 +11,17 @@ featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 
 <a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a>
 
-## Quick Start
-Below is a video to help you get started. It follows the Mac version of this manual, but most steps are similar for other systems. You can start by following along with the [Set Up](#set-up) section.
+<!-- toc -->
+
+## 1. Quick Start
+Below is a video to help you get started. It follows the Mac version of this manual, but most steps are similar for other systems. You can start by following along with the [Set Up](#2-set-up) section.
 
 {{ youtube(id="CBXZ1DxyzfE", start="0") }}
 
-## Set Up
-Note: If you are only going to use the [Encoders](#encoders-view), then you can directly jump to [2. Connect your iPhone or iPad](#2-connect-your-iphone-or-ipad).
+## 2. Set Up
+Note: If you are only going to use the [Encoders](#3-6-encoders-view), then you can directly jump to [Connect your iPhone or iPad](#2-2-connect-your-iphone-or-ipad).
 
-### 1. Add the Tap MIDI Remote Script
+### 2.1 Add the Tap MIDI Remote Script
 <ol>
 <li>On your computer, download the MIDI Remote Script at <a href="/tap/Tap.zip" download>project7iii.com/tap/Tap.zip</a>.</li>
 <li>Manually create a folder called <code>Remote Scripts</code> within your User Library if it does not already exist. The default User Library locations are:
@@ -29,22 +31,22 @@ Note: If you are only going to use the [Encoders](#encoders-view), then you can 
  <br><strong>Mac</strong><br><code>Macintosh HD/Users/[username]/Music/Ableton/User Library</code>
  </blockquote>
  </li>
-<li>Place the unzipped remote script folder called <code>Tap</code> into the <code>Remote Scripts</code> folder you just created.</li>
+<li>Place the unzipped remote script folder called <strong>Tap</strong> into the <strong>Remote Scripts</strong> folder you just created.</li>
 </ol>
 
-### 2. Connect your iPhone or iPad
-Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or iPad to Live. If you are never using MIDI over WiFi, you can disable `MIDI over WiFi enabled` in options.
+### 2.2 Connect your iPhone or iPad
+Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or iPad to Live. If you are never using MIDI over WiFi, you can disable **MIDI over WiFi enabled** in options.
 
-#### Over USB (Mac Only)
+#### 2.2.1 Over USB (Mac Only)
 <ol>
 <li>Connect your device to your Mac using a USB cable.</li>
 <li>Open the app <strong>Audio MIDI Setup</strong>.</li>
-<li>Open the <code>Audio Devices</code> window.<br>
-→ If it is not already visible, select the <code>Window</code> → <code>Audio Devices</code> menu to display it.</li>
-<li>Find your iOS device in the sidebar and click the <code>Enable</code> button.</li>
+<li>Open the <strong>Audio Devices</strong> window.<br>
+→ If it is not already visible, select the <strong>Window</strong> → <strong>Audio Devices</strong> menu to display it.</li>
+<li>Find your iOS device in the sidebar and click the <strong>Enable</strong> button.</li>
 </ol>
 
-#### Over WiFi
+#### 2.2.2 Over WiFi
 <ol>
 <li>Connect your device to the same WiFi as your computer (best would be an ad hoc WiFi network).</li>
 <li>Configure RTP-MIDI:</li>
@@ -62,74 +64,74 @@ Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or
 </blockquote>
 </ol>
 
-### 3. Set Up Live
+### 2.3 Set Up Live
 <ol>
 <li>Launch Live.</li>
 <li>Open Live&#39;s Preferences and navigate to the <strong>MIDI</strong> tab.</li>
-<li>Select the script <code>Tap</code> using the dropdown menu in the Control Surface column.</li>
+<li>Select the script <strong>Tap</strong> using the dropdown menu in the Control Surface column.</li>
 <li>Assign your device or Network Session as input and output ports.</li>
-<li>Activate <code>Track</code> and <code>Remote</code> for your active MIDI Ports.</li>
+<li>Activate <strong>Track</strong> and <strong>Remote</strong> for your active MIDI Ports.</li>
 </ol>
 
-{{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III MIDI setting in Ableton Live", caption='The right settings for Tap.') }}
+{{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III MIDI setting in Ableton Live", caption='The correct settings for Tap.') }}
 
-## User Interface
+## 3. User Interface
 There are 5 views in Tap.  
-The main Tap interfaces are the known views of Ableton Live: [Device View](#device-view), [Clips View](#clips-view) and [Mixer View](#mixer-view).  
-Tap also has one extra view which are customizable encoder pages to control about anything that accepts MIDI CC: [Encoders](#encoders-view).
+The main Tap interfaces are the known views of Ableton Live: [Device View](#3-3-device-view), [Clips View](#3-4-clips-view) and [Mixer View](#3-5-mixer-view).  
+Tap also has one extra view which are customizable encoder pages to control about anything that accepts MIDI CC: [Encoders](#3-6-encoders-view).
 
-### Home
-Select `Try to connect to Ableton Live` and then `Play Tap` to play Tap.  
-Tap `Test Tap without Connection` to explore Tap without connection.  
-Tap `Start Encoders` to get to the stand-alone encoders interface.  
-Get `Help` and dive into `Settings`.
+### 3.1 Home
+Select **Try to connect to Ableton Live** and then **Play Tap** to play Tap.  
+Tap **Test Tap without Connection** to explore Tap without connection.  
+Tap **Start Encoders** to go straight to the stand-alone [Encoders View](#3-6-encoders-view).  
+Also available in the home screen: **Help** and **Settings**.
 
-### Main Views
+### 3.2 Main Views
 The main Ableton Live controller views share some common elements, described below.
 
-#### Tracks Bar
+#### 3.2.1 Tracks Bar
 The top bar showing the tracks of your Live project.  
-Navigate between tracks by swiping left or right. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, configure the standard note length for the step sequencers, go to [Home](#home) or [Encoders](#encoders-view).
+Navigate between tracks by swiping left or right. To select a track, tap on it. A long-press opens the track’s context menu where you can delete tracks, add tracks, configure the standard note length for the step sequencers, go to [Home](#3-1-home) or [Encoders](#3-6-encoders-view).
 
-#### Footer Bar
+#### 3.2.2 Footer Bar
 Here's a detailed look at the buttons in the footer bar, from left to right: 
 
-##### Side Panel/Encoders Button
-The side panel opens the options for the MIDI grid (layout, velocity, pitch-bend/modwheel, scale, root, octave/drums page). Long-press opens the [Encoders View](#encoders-view).  
+1. Side Panel/Encoders Button  
+The side panel opens the options for the MIDI grid (layout, velocity, pitch-bend/modwheel, scale, root, octave/drums page). Long-press opens the [Encoders View](#3-6-encoders-view).  
 In the mixer view, the button shows up as the encoders button. You get to the Encoders View by pressing it.
 
-##### Navigation Buttons
-Navigate the three main views via the arrow buttons. In the [Encoders View](#encoders-view) this will move forward and backward in the encoder pages if you have more than one page.  
+2. Navigation Buttons  
+Navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view) this will move forward and backward in the encoder pages if you have more than one page.  
 Long-press on the left pointing arrow to undo, long-press on the other to redo.
 
-##### Duplicate/Stop
+3. Duplicate/Stop
 In device view: Duplicates the selected clip. Long press shows a context menu where you can duplicate the selected scene.  
 In the other views: Stops all the clips.
 
-##### Quantize
+4. Quantize  
 Quantizes the notes of the clip selected.  
 Long-press will show detailed quantize options.
 
-##### Capture/Double Loop/Home
-In [Device View](#device-view) with a keyboard or pads active, this captures the MIDI just played in the grid.
+5. Capture/Double Loop/Home  
+In [Device View](#3-3-device-view) with a keyboard or pads active, this captures the MIDI just played in the grid.
 If you are in the step sequencer layout, this will double the selected loop.
 In all other views this will get you back to the Home view.
 
-##### Record
+6. Record  
 Activates or deactivates the session record button.
 
-##### Play/Stop
+7. Play/Stop  
 Starts or stops the playback. Long press shows a context menu for stopping and starting clips.
 
-### Device View
-#### Devices Bar
+### 3.3 Device View
+#### 3.3.1 Devices Bar
 The devices are shown here, you can navigate by swiping left or right. Select a device by tapping on it.  
-Tap on the `+` to add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track) or effect.
+Tap the **+ symbol** to add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track) or effect.
 
-#### Banks Bar
+#### 3.3.2 Banks Bar
 Navigate and select banks of the chosen device here.
 
-#### Encoders Section
+#### 3.3.3 Encoders Section
 The 8 encoders of the current bank.  
 You can swipe from in between the encoders to get to adjacent banks directly.
 
@@ -141,26 +143,26 @@ You can swipe from in between the encoders to get to adjacent banks directly.
 
 Double tap an encoder to reset to 0 (or center for Panning), triple tap to reset to center (63).
 
-#### MIDI Grid
-Play notes with the MIDI grid. You have the option of choosing from different scales, velocity modes, mod wheel, layouts, and more via the side panel button in the [Footer Bar](#footer-bar).
+#### 3.3.4 MIDI Grid
+Play notes with the MIDI grid. You have the option of choosing from different scales, velocity modes, mod wheel, layouts, and more via the side panel button in the [Footer Bar](#3-2-2-footer-bar).
 
-#### Step Sequencer
+#### 3.3.5 Step Sequencer
 Add notes by tapping and move them by dragging. Dragging slowly enables non-quantized fine movement.  
 Use the green rectangle at the top of the step sequencer to move the loop and perform other useful actions like changing the drums page or octave. You can also change octaves/pages by using the side panel.  
 Drag horizontally to navigate through the pages of the step sequencer.  
-Drag the small rectangle at the end of a note to adjust its length. On iPhone this might be a bit tricky to do, that is why we have added a context menu to the [Tracks Bar](#tracks-bar), where you can adjust the note length via buttons.
+Drag the small rectangle at the end of a note to adjust its length. On iPhone this might be a bit tricky to do, that is why we have added a context menu to the [Tracks Bar](#3-2-1-tracks-bar), where you can adjust the note length via buttons.
 
-### Clips View
-Shows the clips. Use the [Tracks Bar](#tracks-bar) to navigate horizontally, drag in the Clips View for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#device-view). Long-press on any clip slot to bring up a context menu.  
+### 3.4 Clips View
+Shows the clips. Use the [Tracks Bar](#3-2-1-tracks-bar) to navigate horizontally, drag in the Clips View for navigating vertically. Start and stop clips by tapping on a clip. If you tap on an empty clip slot Tap will take you to the [Device View](#3-3-device-view). Long-press on any clip slot to bring up a context menu.  
 The selected device's Banks Bar and Encoders Section are displayed above the clip view exactly like in the Device View.
 
-### Mixer View
-Shows the mixer section. Use the [Tracks Bar](#tracks-bar) to navigate. Double tap on the volume fader to set the volume to zero. User sends, panning, mute and solo at your discretion.  
+### 3.5 Mixer View
+Shows the mixer section. Use the [Tracks Bar](#3-2-1-tracks-bar) to navigate. Double tap on the volume fader to set the volume to zero. User sends, panning, mute and solo at your discretion.  
 Below the mixer section, there is a compact Clips View that allows you to interact with clips.
 
-### Encoders View
-Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can include multiple pages. You can adjust the MIDI channel and CC for each encoder. The navigation of the pages is done through the [Footer Bar](#footer-bar) arrows.  
-For encoder functionality check the [Encoders Section](#encoders-section).
+### 3.6 Encoders View
+Shows custom encoder layouts. You can create a custom encoder layout, or load a previously created layout by tapping the button in the top right-hand corner and choose your adventure. Encoder layouts can include multiple pages. You can adjust the MIDI channel and CC for each encoder. The navigation of the pages is done through the [Footer Bar](#3-2-2-footer-bar) arrows.  
+For encoder functionality check the [Encoders Section](#3-3-3-encoders-section).
 
 
 
