@@ -466,6 +466,27 @@ figure {
     height: auto;
     max-width: 100%;
   }
+  .imgset-half {
+      max-width: $page-width / 3;
+  }
+  
+  .imgset-twothird {
+      max-width: $page-width / 2;
+      
+  }
+  
+  .imgset-half,
+  .imgset-twothird {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .imgset-half + figcaption,
+  .imgset-twothird + figcaption {
+    text-align: left;
+  }
+  
   .img {
     max-width: 100%;
   }
@@ -759,7 +780,14 @@ ol p {
   .search-results__items {
     padding-left: 3px;
   }
-
+  figure {
+    .imgset-half {
+        max-width: $page-width / 2.3;
+    }
+    .imgset-twothird {
+        max-width: $page-width / 1.8;
+    }
+  }
 }
 
 
