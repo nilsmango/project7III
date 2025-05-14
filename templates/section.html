@@ -1,3 +1,4 @@
+{% import "macros/toc_macros.html" as toc %}
 {% extends "base.html" %}
 {% block title %}{{ section.title }} - {{ config.title }}{% endblock title %}
 {% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
@@ -59,7 +60,8 @@
 </p>
 {% endif %}
 <div class="content">
-{{ section.content | safe }}
+  {% set content_with_toc = section.content | replace(from="<!-- toc -->", to=toc::render_toc()) %}
+  {{ content_with_toc | safe }}
 </div>
 {% endblock content %}
 

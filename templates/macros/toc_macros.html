@@ -1,0 +1,47 @@
+{% macro render_toc() %}
+    {% set toc = [] %}
+    {% if page is defined and page.toc is defined %}
+        {% set toc = page.toc %}
+    {% elif section is defined and section.toc is defined %}
+        {% set toc = section.toc %}
+    {% endif %}
+
+    {% if toc | length > 0 %}
+    <h2 class="toc-title">Table of Contents</h2>
+    <p></p>
+    <ul class="toc">
+        {% for h1 in toc %}
+        <li>
+            <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+            {% if h1.children %}
+            <ul>
+                {% for h2 in h1.children %}
+                <li>
+                    <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                    {% if h2.children %}
+                    <ul>
+                        {% for h3 in h2.children %}
+                        <li>
+                            <a href="{{ h3.permalink | safe }}">{{ h3.title }}</a>
+                            {% if h3.children %}
+                            <ul>
+                                {% for h4 in h3.children %}
+                                <li>
+                                    <a href="{{ h4.permalink | safe }}">{{ h4.title }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+{% endmacro %}
