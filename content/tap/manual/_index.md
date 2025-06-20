@@ -76,7 +76,7 @@ Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or
 <li>Activate <strong>Track</strong> and <strong>Remote</strong> for your active MIDI ports.</li>
 </ol>
 
-{{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III Tap MIDI setting in Ableton Live", caption='The correct settings for Tap.' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III Tap MIDI setting in Ableton Live", caption='The correct settings for Tap. Set Takeover Mode to "None" for the best experience.' imgset_class="imgset-twothird") }}
 
 ## 3. User Interface
 There are 5 views in Tap.  
@@ -188,8 +188,8 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 1. Move helper buttons: Use these if you don't want to drag the Lil Green Helper by hand. Moves the green rectangle to the start or end of the sequencer window.
 2. Move buttons: Move up and down the octave in instruments, and up and down the drums page for drums.
 3. See 2.
-4. Page to Clip End: Moves the sequencer page to the end of the clip.
-5. Page to Loop Start: Moves the sequencer page to the start of the loop.
+4. Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.
+5. Page to Loop Start/End: Moves the sequencer page to the start/end of the loop.
 6. Crop Clip: Crops the clip to the loop length.
 7. Move Loop Start/End & Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits.
 8. Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.
