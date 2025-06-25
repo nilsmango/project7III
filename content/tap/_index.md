@@ -3,15 +3,15 @@ title = "Tap"
 description = "A dedicated Ableton Live MIDI controller for iPhone and iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-05-15
+updated = 2025-06-28
 share = true
 featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
-<a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton">↓ MIDI Remote Script 1.1</a> 
+<a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="yellowButton">↓ MIDI Remote Script 1.3</a> 
 
 >Last Update: **{{ date_updated() }}**  
->Hello Tap 1.2: now with step sequencers and other new features! 
+>Oh hi there Tap 1.3: now with landscape mode for iPad and many other new features! 
 >Try it [for free](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273).
 
 {{ image_sets(path="content/tap/7III Tap Ableton MIDI Controller Step Sequencer.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap MIDI controller running on an iPad, showing the drum step sequencer", caption='7III Tap drum step sequencer') }}
