@@ -74,6 +74,10 @@
         <loc>https://project7iii.com/tap/</loc>
     </url>
     <url>
+        <loc>https://project7iii.com/tap/history/</loc>
+        <lastmod>2025-06-27</lastmod>
+    </url>
+    <url>
         <loc>https://project7iii.com/tap/manual/</loc>
     </url>
     <url>
@@ -93,6 +97,10 @@
     </url>
     <url>
         <loc>https://project7iii.com/water/</loc>
+    </url>
+    <url>
+        <loc>https://project7iii.com/water/history/</loc>
+        <lastmod>2025-06-27</lastmod>
     </url>
     <url>
         <loc>https://project7iii.com/water/privacy-policy/</loc>

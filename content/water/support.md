@@ -4,7 +4,8 @@ description = "Support Page for Water Sports Tracker 7III Water"
 date = 2024-07-18
 updated = 2025-04-10
 +++
-← Back to [7III Water](/water)  
+
+<a href="/water" class="btn" id="yellowButton">← 7III Water</a> <a href="/water/history" class="btn" id="yellowButton">Version History</a> 
 
 Need help? We're here for you. This is the official support page for the water sports tracker app 7III Water.
 

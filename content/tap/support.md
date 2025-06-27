@@ -4,7 +4,7 @@ description = "Support Page for Ableton Live MIDI Controller 7III Tap"
 date = 2024-07-20
 updated = 2025-05-13
 +++
-<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> 
+<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/history" class="btn" id="yellowButton">Version History</a>
 
 Need help? We're here for you. (We can't help you with your music, though)
 

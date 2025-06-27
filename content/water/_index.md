@@ -8,9 +8,10 @@ share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
 featured_image_alt = "The iPhone App 7III Water showing a map with the route of downwind foiling run"
 +++
-Simply the best downwind foiling and water sport tracking app for iPhone, Apple Watch, Garmin and other smartwatches.  
 
->Got questions? Visit the [7III Water Support Page](/water/support).
+<a href="/water/support" class="btn" id="yellowButton">Support</a> <a href="/water/history" class="btn" id="yellowButton">Version History</a> 
+
+Simply the best downwind foiling and water sport tracking app for iPhone, Apple Watch, Garmin and other smartwatches.  
 
 {{ image_sets(path="content/water/7III Water Downwind Foiling Statistics.jpg", format="auto", op="fit_width", quality=100, alt="7III Water with statistics like number of sessions, days on water, and distances covered", caption='So many great stats.') }}
 
@@ -24,7 +25,7 @@ Simply the best downwind foiling and water sport tracking app for iPhone, Apple 
 - Track average speeds, time on foil, max distance, turns completed and more (**NEW!**)
 - Filter statistics by discipline, location and tags (**NEW!**)
 - Editing of routes*
-- Export your stats as a map, image, or video overlay
+- Export your stats as a map, image, video or sticker overlay (**NEW!**)
 - No subscription traps: Unlock premium features with a one-time payment
 - Simple and beautiful design
 - Cool water sport sticker pack

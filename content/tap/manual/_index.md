@@ -9,7 +9,7 @@ featured_image = "mixer.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 +++
 
-<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a>
+<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="/tap/history" class="btn" id="yellowButton">Version History</a>
 
 >Last Update: **{{ date_updated() }}**  
 >If you find any mistakes or notice anything missing in this User Manual, please reach out and let us know!
