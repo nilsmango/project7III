@@ -23,9 +23,9 @@ Make music anywhere you go with:
 - Device view with MIDI keyboards & pads, drum/melodic step sequencer (**NEW!**), devices, banks, 8 parameter encoders, etc.
 - Clips view for triggering clips and scenes, with device control (**NEW!**)
 - Mixer view for mixing with ease, with a small clips panel (**NEW!**)
-- Landscape mode for iPad (**NEW!**)
 - Customizable and universal MIDI CC: Control any MIDI-compatible device or software
-- Connect via USB (Mac only) or WiFi.
+- Connect via USB (Mac only) or WiFi
+- Portrait and landscape mode on iPad (**NEW!**)
 
 Tap is simply the best controller for Ableton Live when you're on the go, and with iPad support, it’s also a must-have in the studio.
 
