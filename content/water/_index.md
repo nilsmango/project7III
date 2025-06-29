@@ -3,7 +3,7 @@ title = "Water"
 description = "Water sports tracking for iPhone, Apple Watch & Garmin"
 [extra]
 date = 2024-04-11
-updated = 2025-04-08
+updated = 2025-06-28
 share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
 featured_image_alt = "The iPhone App 7III Water showing a map with the route of downwind foiling run"
