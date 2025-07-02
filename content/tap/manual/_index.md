@@ -238,8 +238,19 @@ Shows custom encoder layouts.
 - The navigation of the pages is done through the [Footer Bar](#3-2-2-footer-bar) arrows.  
 - For encoder functionality, check the [Encoders Section](#3-3-3-encoders-section).
 
+## 4. Tips and Tricks
 
+### 4.1 Octave Buttons
+Once you are comfortable with Tap, you might want to enable settings that will help you get the most out of it. To do this:
+1. Go to **Settings**.
+2. Activate **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
+3. Activate the now visible **Make Navigation Buttons Undo & Redo Only** and **Make Navigation Buttons Octave Up & Down in Device View (Undo & Redo on long-press)**. → With these enabled, you’ll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
+If you’re on iPad in landscape mode, you’ll always see the octave buttons in the Device View, regardless of these settings, as there’s more space available for buttons.
 
+{{ image_sets(path="content/tap/manual/best_tap_navigation_settings.jpeg", format="auto", op="fit_width", quality=75, alt="7III Tap Navigation Settings", caption='Our favorite Tap navigation Settings.' imgset_class="imgset-twothird") }}
+
+### 4.2 Velocity
+When using the MIDI pads or the step sequencer, you can tap the **Side Panel** button in the [Footer Bar](#3-2-2-footer-bar) and navigate to the **Velocity** section. From there, you can directly adjust the velocity of notes you play on the pads or add in the step sequencer.
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
 <br>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
