@@ -2,10 +2,16 @@
 title = "Tap Version History"
 description = "The version history of 7III Tap"
 date = 2025-06-27
-updated = 2025-06-27
+updated = 2025-07-02
 +++
 
 <a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a>
+
+## Version 1.3.1 + 1.3.2
+*July 2025*
+Added some stuff:
+- Added a Tips & Tricks section
+- Version history updated for version 1.3
 
 ## Version 1.3  
 *July 2025*  
