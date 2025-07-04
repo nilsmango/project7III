@@ -19,6 +19,7 @@ A simple plate calculator for iPhone, iPad and your Mac.
 - Shows how many plates are on your bar
 - Add plates in pounds or kilograms, leave the calculations to Plates Calc
 
+**Coming Soon**
 
 ### Support  
 Send us an [email](mailto:hi@project7III.com) if you need help or have suggestions.
