@@ -22,7 +22,7 @@ Landscape Mode!
 - You can now change velocity of notes in the Step Sequencers  
 - New Setting to have octave / drum page up and down buttons  
 - Ability to select a drum pad via duplicate button  
-- Now displaying the root note in pads  
+- Now displaying the note names in pads  
 - Many performance improvements  
 
 ## Version 1.2  
