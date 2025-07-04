@@ -6,13 +6,13 @@ updated = 2025-07-04
 +++
 Last updated: {{ date_updated() }}
 
-This is the Privacy Policy for [7III Recipes](/plates-calc  ) ("the App"), it explains how we collect, use, and protect your information when you use our App.
+This is the Privacy Policy for [Plates Calc](/plates-calc) ("the App"), it explains how we collect, use, and protect your information when you use our App.
 
 ## Information Collection and Usage
 
 We do not collect or see any of your data.
 
-We also don't share or sell any of your data with anybody else.
+We also don't share or sell any of your data.
 
 ## Contact
 
