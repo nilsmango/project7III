@@ -22,6 +22,7 @@ A simple plate calculator for iPhone, iPad and your Mac.
 **Coming Soon**
 
 ### Support  
-Send us an [email](mailto:hi@project7III.com) if you need help or have suggestions.
+Send us an [email](mailto:hi@project7III.com) if you need help or have suggestions.  
+You can find the Privacy Policy [here](/plates-calc/privacy-policy).
 
 <div class="footnote-definition"><p>iPhone, iPad & Mac are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
