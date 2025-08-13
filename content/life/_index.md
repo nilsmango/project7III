@@ -11,12 +11,13 @@ featured_image_alt = "7III Life/Meditation, a simple meditation timer app runnin
 
 7III Life is a collection of tools for iPhone, iPad and Mac. Currently featuring Meditation and Blocker.
 
-Blocker lets you block distracting websites and apps, the right way.
+Blocker lets you block distracting websites and apps, the right way. It makes you go to the 7III Life app to top up an exact time for blocked apps and website so you can enjoy those things consciously.
 
 Features:
 -	Block websites and apps
--	Unblock websites and apps for a set time
+-	Unblock websites and apps for a set time only in the app itself
 -	Helping you consciously choosing the time you spend with apps and websites
+- Define alternative activities and see them before you top up time 
 - Solving the apps and websites addiction for good
 
 Meditation is a simple meditation timer with a Buddha Machine/soundtoy/noise generator.
