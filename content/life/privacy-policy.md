@@ -1,16 +1,16 @@
 +++
-title = "Meditation Privacy Policy"
-description = "The privacy policy for 7III Meditation"
+title = "Life Privacy Policy"
+description = "The privacy policy for 7III Life"
 date = 2024-11-18
-updated = 2024-11-18
+updated = 2025-08-13
 +++
 Last updated: {{ date_updated() }}
 
-This is the Privacy Policy for [7III Meditation](/meditation) ("the App"), it explains how we collect, use, and protect your information when you use our App.
+This is the Privacy Policy for [7III Life](/life) ("the App"), it explains how we collect, use, and protect your information when you use our App.
 
 ## Information Collection and Usage
 
-The App saves your mindfulness sessions and recorded audio in the Buddha Machine on your device only.
+The App saves your blocked apps, websites, mindfulness sessions, and recorded audio in the Buddha Machine on your devices only.
 
 We also don't share or sell any of your data.
 
