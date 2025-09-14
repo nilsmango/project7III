@@ -90,6 +90,48 @@ sup {
   }
 }
 
+@keyframes glitch {
+  0%, 7% {
+    clip-path: inset(0 0 0 0);
+    transform: none;
+    filter: none;
+  }
+
+  1% {
+    clip-path: inset(5% 0 10% 0);
+    transform: translate(-8px, 3px);
+    filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(200deg);
+  }
+
+  2% {
+    clip-path: inset(10% 0 20% 0);
+    transform: translate(8px, -5px) scale(1.1) ;
+    filter: hue-rotate(-120deg) contrast(5) saturate(4);
+  }
+
+  3% {
+    clip-path: inset(10% 0 30% 0);
+    transform: translate(-6px, -4px) ;
+    filter: invert(100%) sepia(100%) saturate(5000%) hue-rotate(700deg);
+  }
+
+  4%  {
+    clip-path: inset(20% 0 4% 34%);
+    transform: translate(5px, 6px) scale(1.05);
+    filter: invert(100%) sepia(100%) saturate(5000%) hue-rotate(59deg);
+  }
+  5%  {
+    clip-path: inset(0% 20% 0% 4%);
+    transform: translate(5px, 6px) scale(0.8);
+    filter: invert(100%) sepia(100%) saturate(5000%) hue-rotate(28deg);
+  }
+  6%  {
+    clip-path: inset(12% 60% 0% 10%);
+    transform: translate(5px, 6px) scale(1.2);
+    filter: invert(100%) sepia(100%) hue-rotate(-579deg) contrast(6) saturate(304%);
+  }
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 600;
@@ -138,43 +180,21 @@ h5 {
 
 
 .logo {
-  /* width: 176px; */
-  // margin-left: -12px;
-  margin-top: -2.5em;
-  margin-bottom: 3em;
-  animation: 21s linear 13s 73 spinIt;
-  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 2em;
+  animation: 21s linear 13s 73 spinIt, glitch 2s steps(1, end) 1, glitch 1.7s steps(1, end) 1 11s;
+  text-align: center;
+}
+
+.logo img {
+  width: 173px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+.logo a:hover {
   text-decoration: none;
-  line-height: 1.25em;
-
-  h1 {
-    font-size: var(--fs-logo);
-    font-weight: var(--fw-bold);
-    letter-spacing: -0.7rem;
-    text-align: center;
-    background-color: transparent;
-    color: var(--color-text);
-    position: relative;
-    line-height: 1.6rem;
-  }
-
-  h1::before {
-    background-color: transparent;
-  }
-  
-  h2 {
-    font-size: $font-size-bigger;
-    font-weight: var(--fw-normal);
-    line-height: 1.6rem;
-    letter-spacing: -0.04rem;
-    margin-top: -4.8rem;
-    text-align: center;
-    color: var(--color-text);
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
 }
 
 .italic {
@@ -574,7 +594,7 @@ details {
 .search-container {
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 input[type=search], textarea {
@@ -774,7 +794,7 @@ ol p {
     }
   .search-container {
     text-align: right;
-    margin-top: -45px;
+    margin-top: -1rem;
   }
 
   .search-results {
@@ -818,4 +838,8 @@ ol p {
   mark {
     color: var(--color-hover);
   }
+  
+  .logo img {
+      filter: invert(1);
+    }
 }
