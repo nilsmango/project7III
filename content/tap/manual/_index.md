@@ -159,6 +159,7 @@ The 8 encoders of the current bank.
   - Adjust the encoder value by moving your finger up or down.
   - Fine-tune the value by moving your finger left or right.
 - Double-tap an encoder to reset to 0 (or center for Panning); triple-tap to reset to center (63).
+- Encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
 
 #### 3.3.4 MIDI Grid
 The MIDI grid is for playing notes (huge surprise!).  
@@ -177,6 +178,7 @@ Step sequence away!
 - Each note you add will have the velocity set in the Side Panel (see button 1 in the [Footer Bar](#3-2-2-footer-bar))
 - Drag horizontally on the background to navigate through the pages of the Step Sequencer. 
 - Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when the "Make Navigation Buttons Octave Up & Down..." setting is enabled (see [Footer Bar](#3-2-2-footer-bar) button 2).
+- To select a drum pad, long press on an empty step in the step sequencer.
 
 Let's dive into the Tap step sequencer in detail:
 {{ image_sets(path="content/tap/manual/Step_Sequencer.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer", caption='The Step Sequencer.' imgset_class="imgset-twothird") }}
