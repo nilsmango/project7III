@@ -88,7 +88,11 @@ This is where every adventure starts.
 - Select **Try to connect to Ableton Live** and then **Play Tap** to play Tap.  
 - Tap **Test Tap without Connection** to explore Tap without connection.  
 - Tap **Start Encoders** to go straight to the standalone [Encoders View](#3-6-encoders-view).  
-- Also available in the Home View: **Help** and **Settings**.
+- Also available in the Home View: **Help** and [Settings](#3-1-1-settings).
+
+### 3.1.1 Settings
+In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).
+- You will also find a button to enable/disable all **Performance Features**. This is highly recommended to turn Tap into the powerhouse instrument to play Ableton Live.
 
 ### 3.2 Main Views
 The main Ableton Live controller views share some common elements, described below.
@@ -99,14 +103,24 @@ The top bar showing the tracks of your Live project.
 - A little half circle at the start or end indicates that there are more tracks to be found in that direction. 
 - Navigate between tracks by swiping left or right. To select a track, tap on it. The currently selected track is displayed in bold font.   
 - When you tap on a track that is already selected, you switch the main view!
-- A long-press opens the track’s context menu where you can add tracks, delete tracks, configure the standard note length for the step sequencers, go [Home](#3-1-home-view), or go to [Encoders](#3-6-encoders-view).
+- A long-press opens the track’s context menu where you can:
+  - add track
+  - delete track
+  - toggle arm of the track (if audio track)
+  - activate "select a drum pad without playing it" (only with active drum pad layout)
+  - configure the standard note length (only with active step sequencer)
+  - go [Home](#3-1-home-view)
+  - go to [Encoders](#3-6-encoders-view)
 
 {{ image_sets(path="content/tap/manual/Tap_tracks_context_menu.jpg", format="auto", op="fit_width", quality=75, alt="Tracks Bar Context Menu", caption='The Tracks Bar context menu.' imgset_class="imgset-twothird") }}
 
 #### 3.2.2 Footer Bar
-Here's a detailed look at the buttons in the footer bar:
+Here's a detailed look at the buttons in the footer bar in vertical mode:
 
-{{ image_sets(path="content/tap/manual/Footer_Bar.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar", caption='The Footer Bar buttons.' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/Footer_Bar.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar", caption='The Footer Bar buttons in the step sequencers.' imgset_class="imgset-twothird") }}
+
+Here it is in horizontal mode:
+// TODO: add new image(s?)
 
 1. Side Panel/Encoders Button  
 The side panel opens the options side panel in the [Device View](#3-3-device-view), where you will find layout, velocity, pitch-bend/modwheel, scale, root, and octave/drums page.  
@@ -116,11 +130,10 @@ Long-press opens the [Encoders View](#3-6-encoders-view).
 2. Navigation Buttons  
 Navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
 Long-press on the left-pointing arrow to undo; long-press on the other to redo.  
-In the [Home View](#3-1-home-view) Settings, you can disable navigation with these buttons (**Header View Switching** active) to undo and redo with a single tap (**Make Navigation Buttons Undo & Redo Only** active). With this setting enabled, you will need to use the [Tracks Bar](3-2-1-tracks-bar) for navigation instead.  
-**New in 1.3:** Turn those arrows to octave/drums page up and down in Device View. Long-press is still redo and undo (you need to have **Header View Switching** active for this option to show up).
+In the [Settings](#3-1-1-settings), you can activate all **Performance Features**; with that feature you will need to use the [Tracks Bar](3-2-1-tracks-bar) for navigation by tapping on the active Track to switch the view. Long-press is still redo and undo, but you can use these buttons in Device View to move up and down through the octaves/drums pages and going forward and backwards through the [Step Sequencer](#3-3-5-step-sequencer) pages. To change the mode, you simply swipe left or right over the navigation buttons. In the rest of the views, the buttons will remain undo and redo.
 
 3. Duplicate/Stop
-In Device View: Duplicates the selected clip. Long-press shows a context menu where you can duplicate the selected scene and in drums you can also select a pad.  
+In Device View: Duplicates the selected clip. Long-press will duplicate the selected scene.  
 In the other views: Stops all the clips.
 
 4. Quantize  
@@ -129,23 +142,32 @@ Long-press will show detailed quantize options.
 
 5. Capture/Double Loop/Home  
 In [Device View](#3-3-device-view), with a keyboard or pads active, this captures the MIDI just played.  
-If you are in the step sequencer layout, this will double the selected loop.  
+If you are in the [Step Sequencer](#3-3-5-step-sequencer) layout, this will double the selected loop.  
 In all other views, this will get you back to the [Home View](#3-1-home-view).
 
 6. Record  
 Activates or deactivates the session record button.
 
-7. Play/Stop  
-Starts or stops the playback. Long-press shows a context menu for stopping and starting clips.
+7. Play/Stop/Play Menu/Tempo
+In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to clips + tempo.  
+In the step sequencer with **Performance Features**: Single Tap opens that menu. Long-press opens the Tempo Overlay (see below).  
+In all other layouts and views: Starts or stops the playback. Long-press opens the tempo overlay.  
+  
+Tempo Overlay
+{{ image_sets(path="content/tap/manual/Tempo_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-twothird") }}
+Tapping the plus and minus buttons will adjust the tempo by the amount indicated in the center.  
+Tapping on the BPM digits lets you type in the exact tempo you want.
+
 
 ### 3.3 Device View
 #### 3.3.1 Devices Bar
 The devices are shown here.
 - You can navigate by swiping left or right. 
-- Select a device by tapping on it.  
+- Select a device by tapping on it. The selected device has a bold font. 
 - Tap the ⊕ symbol to add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.
+- < (open) and > (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets.
 
-{{ image_sets(path="content/tap/manual/Devices Bar.jpeg", format="auto", op="fit_width", quality=75, alt="7III Tap Devices Bar", caption='The Devices Bar.') }}
+{{ image_sets(path="content/tap/manual/Devices Bar.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Devices Bar", caption='The Devices Bar.') }}
 
 #### 3.3.2 Banks Bar
 Navigate and select banks of the chosen device here.
@@ -161,12 +183,15 @@ The 8 encoders of the current bank.
 - Double-tap an encoder to reset to 0 (or center for Panning); triple-tap to reset to center (63).
 - Encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
 
+{{ image_sets(path="content/tap/manual/encoder.jpg", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-twothird") }}
+
 #### 3.3.4 MIDI Grid
 The MIDI grid is for playing notes (huge surprise!).  
 - The pads show names if you are in a drum rack, the note names if in a MIDI track.  
 - Root notes are in a different color than the rest of the pads. If you are in a drum rack, the selected drum pad is in the channel color.  
 - You have the option of choosing different scales, velocity modes, mod wheel, pitch wheel, layouts, and more via the Side Panel button in the [Footer Bar](#3-2-2-footer-bar).  
 - Many keyboard and pad layouts are available. The layouts **Keys** and **7 Pads** are velocity-sensitive - the higher up you hit a pad, the greater the velocity. You can invert or fix the velocity in the Side Panel.
+- Notes played by the playing clip are lit up.
 
 {{ image_sets(path="content/tap/manual/MIDI pads.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap MIDI grid", caption='One of the many MIDI grid pads layouts.') }}
 
@@ -176,11 +201,13 @@ Step sequence away!
 - Drag up or down in the little rectangle at the end of a note to change the velocity of that note.  
 - Drag left or right in the little rectange at the end of a note to change the length of that note.  
 - Each note you add will have the velocity set in the Side Panel (see button 1 in the [Footer Bar](#3-2-2-footer-bar))
-- Drag horizontally on the background to navigate through the pages of the Step Sequencer. 
-- Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when the "Make Navigation Buttons Octave Up & Down..." setting is enabled (see [Footer Bar](#3-2-2-footer-bar) button 2).
-- To select a drum pad, long press on an empty step in the step sequencer.
+- Drag horizontally on the background to navigate through the pages of the Step Sequencer. With **Performance Features** enabled you only change pages with the Footer Bar arrows.
+- Drag vertically first on the background to activate [Selection Mode](#3-3-5-1-selection-mode). With **Performance Features** enabled you can simply drag on the background to activate Selection Mode.
+- Long press on a note to also enter Selection Mode (or if already in Selection Mode, this will add/remove the note from the selection).
+- Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when **Performance Features** are enabled (see [Footer Bar](#3-2-2-footer-bar) button 2).
+- To select a drum pad, long press on an empty step in the Step Sequencer.
 
-Let's dive into the Tap step sequencer in detail:
+Let's dive into the Tap Step Sequencer in detail:
 {{ image_sets(path="content/tap/manual/Step_Sequencer.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer", caption='The Step Sequencer.' imgset_class="imgset-twothird") }}
 
 1. The Start and Stop are marked with dark triangles.
@@ -195,33 +222,92 @@ Let's dive into the Tap step sequencer in detail:
 
 When you tap the Lil Green Helper rectangle, you will see the following menu:
 
-{{ image_sets(path="content/tap/manual/Step Seq Context Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer Context Menu", caption='The Lil Green Helper menu.', imgset_class="imgset-half") }}
+{{ image_sets(path="content/tap/manual/Step Seq Context Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Lil Green Helper menu", caption='The Lil Green Helper menu.', imgset_class="imgset-half") }}
 
-1. Move helper buttons: Use these if you don't want to drag the Lil Green Helper by hand. Moves the green rectangle to the start or end of the sequencer window.
-2. Move buttons: Move up and down the octave in instruments, and up and down the drums page for drums.
-3. See 2.
-4. Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.
-5. Page to Loop Start/End: Moves the sequencer page to the start/end of the loop.
-6. Crop Clip: Crops the clip to the loop length.
-7. Move Loop Start/End & Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits.
-8. Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.
-9. See 7.
-10. See 8.
-12. Stop playing Clip: Will stop the playing clip.
-13. To playing Clip: Will move the selection (and the step sequencer) to the playing clip.
-14. New empty Clip: Will create a new empty clip and select it.
-15. & 16. Start/End Marker: Moves the start/end marker to the Lil Green Helper rectangle.
+1. Move helper to End/Start: Use these if you don't want to drag the Lil Green Helper by hand. Moves the green rectangle to the start or end of the sequencer window.
+2. Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.
+3. Page to Loop Start/End: Moves the sequencer page to the start/end of the loop.
+4. Crop Clip: Crops the clip to the loop length.
+5. Move Loop Start/End & Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits.
+6. Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.
+7. Start/End Marker: Moves the start/end marker to the Lil Green Helper rectangle.
 
+##### 3.3.5.1 Selection Mode
+Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
+Selections work the same way as in Ableton Live. You can add or substract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and substract from the range of the selection, without selecting additional notes. This is important for duplication and copy pasting.  
+You can move around selected notes by dragging them.
+Info: You can't undo and redo selections.
+
+{{ image_sets(path="content/tap/manual/Footer_Bar_Selection_mode.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in Selection Mode", caption='The Footer Bar buttons in Selection Mode.' imgset_class="imgset-twothird") }}
+
+Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) buttons available, here are the new ones:
+1. Trash: Deletes the selected notes.
+4. Edit Overlay: Opens and closes the edit overlay.
+6. Modulation Menu: Opens and closes the modulation menu.
+7. Selection Menu: Opens and closes the selection menu.
+
+**Edit Overlay**  
+{{ image_sets(path="content/tap/manual/Edit_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap MIDI Notes Edit Overlay", caption='The notes Edit Overlay.' imgset_class="imgset-twothird") }}
+1. Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
+2. Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
+3. Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc.
+4. Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to x2 and /2 buttons. These multiply or divide the duration of the selected notes by 2.
+5. Cut button. Cuts the selected range and notes into the copy buffer. To paste, see "3. Copy button".
+6. Duplicate button. Duplicates the selected range and notes to the end of the selected range.
+7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to x2 and /2 buttons.
+8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selected range and notes by one beat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
+
+**Modulation Menu**  
+{{ image_sets(path="content/tap/manual/Modulation_Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap MIDI notes modulation menu", caption='The Modulation Menu.' imgset_class="imgset-twothird") }}
+There are four modulation categories:  
+- Timing
+  - Random will get you random timings inside the selected range.
+  - Vary will vary the timing of the selected notes by up to 4 grid cells
+  - Reverse reverses the timing of the selected notes inside the selected range.
+  - Falling person will humanize the timing.
+- Pitch
+  - Shuffle will shuffle the pitches of the selected notes.
+  - Vary will vary the pitches of the selected notes by up to 4 semitones.
+  - Invert will invert the pitches of the selected notes.
+- Velocity
+  - Random will randomize the velocities of the selected notes.
+  - Vary will vary the velocities of the selected notes by up to 30% or so.
+- Probability
+  - Random will randomize the probabilities of the selected notes.
+  - Vary will vary the probabilities of the selected notes by up to 30% or so.
+
+**Selection Menu**  
+You can: 
+- select all notes
+- invert the selection
+- randomize the selection
 
 ### 3.4 Clips View
+{{ image_sets(path="content/tap/manual/clips.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Clips View", caption='The Clips View.') }}
+
 Shows the clips. 
 - Use the [Tracks Bar](#3-2-1-tracks-bar) to navigate horizontally; drag in the Clips View for navigating vertically.  
-- Start and stop clips by tapping on a clip. If you tap on an empty clip slot, Tap will take you to the [Device View](#3-3-device-view). 
-- Long-press on any clip slot to bring up a context menu.  
+- Start and stop clips by tapping on a clip. If you tap on an empty clip slot in a MIDI Track, Tap will take you to the [Device View](#3-3-device-view). If you tap an emptry clip in an armed audio track (arm by long-press in the Tracks Bar, then tap "Toggle Arm"), the recording will start. Tap it again to stop the recording.
+- Long-press on any clip slot to bring up a context menu (see below).  
 - Pressing the Side Panel button in the [Footer Bar](#3-2-2-footer-bar) activates the Scene Launch buttons to launch scenes.  
 - The selected device's Banks Bar and Encoders Section are displayed above the clip view, exactly like in the Device View.
 
-{{ image_sets(path="content/tap/manual/clips.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Clips View", caption='The Clips View.') }}
+**Clip Slot Context Menu**
+{{ image_sets(path="content/tap/manual/Clip_Slot_Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Clip Slot menu", caption='The Clip Slot Menu.' imgset_class="imgset-twothird") }}
+
+Inside the context menu, you can:
+- Select the clip/clip slot
+- Duplicate the scene
+- if a clip is on the slot:
+  - Duplicate the loop of the clip
+  - Stop the clip
+  - Append the clip to another clip
+    - Simply tap on the clip you want to append to. The original clip will get added to the end of the tapped clip. The original clip will get removed.
+  - Copy the clip 
+    - To paste simply tap on an empty clip slot
+  - Duplicate the clip
+  - Delete the clip
+
 
 ### 3.5 Mixer View
 Shows the mixer section. 
