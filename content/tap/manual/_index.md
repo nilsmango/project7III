@@ -235,7 +235,7 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 ##### 3.3.5.1 Selection Mode
 Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
 Selections work the same way as in Ableton Live. You can add or substract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and substract from the range of the selection, without selecting additional notes. This is important for duplication and copy pasting.  
-You can move around selected notes by dragging them.
+You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an edit overlay for easy and quick editing (see below).
 Info: You can't undo and redo selections.
 
 {{ image_sets(path="content/tap/manual/Footer_Bar_Selection_mode.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in Selection Mode", caption='The Footer Bar buttons in Selection Mode.' imgset_class="imgset-twothird") }}
@@ -328,14 +328,18 @@ Shows custom encoder layouts.
 
 ## 4. Tips and Tricks
 
-### 4.1 Octave Buttons
+### 4.1 Performance Features
 Once you are comfortable with Tap, you might want to enable settings that will help you get the most out of it. To do this:
 1. Go to **Settings**.
-2. Activate **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
-3. Activate the now visible **Make Navigation Buttons Undo & Redo Only** and **Make Navigation Buttons Octave Up & Down in Device View (Undo & Redo on long-press)**. → With these enabled, you’ll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
-If you’re on iPad in landscape mode, you’ll always see the octave buttons in the Device View, regardless of these settings, as there’s more space available for buttons.
+2. Scroll down to **Performance Features**, then tap on the button "Activate all".
 
-{{ image_sets(path="content/tap/manual/best_tap_navigation_settings.jpeg", format="auto", op="fit_width", quality=75, alt="7III Tap Navigation Settings", caption='Our favorite Tap navigation Settings.' imgset_class="imgset-twothird") }}
+This will activate all the performance features:
+1. **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
+2. **Undo & Redo instead of Navigation** and **Octave Up & Down in Device View** → With these enabled, you’ll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
+If you’re on iPad in landscape mode, you’ll always see the octave buttons in the Device View, regardless of these settings, as there’s more space available for buttons.
+3. **Sequencer Page Changing in Footer Bar Only** -> This makes it so you can page through the Sequencer pages with arrow buttons, you can swipe over the Octave buttons to get to the page buttons in vertical mode. In horizontal mode you will always see the page move buttons. This makes it faster to select MIDI notes (and turn pages) as there is no more swipe action for page changing in the grid.
+4. **Play Button Menu** -> Turns the play button into a menu in the Sequencer (instead of a context menu).
+
 
 ### 4.2 Velocity
 When using the MIDI pads or the step sequencer, you can tap the **Side Panel** button in the [Footer Bar](#3-2-2-footer-bar) and navigate to the **Velocity** section. From there, you can directly adjust the velocity of notes you play on the pads or add in the step sequencer.
