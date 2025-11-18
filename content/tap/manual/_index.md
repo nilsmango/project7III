@@ -103,7 +103,7 @@ The top bar showing the tracks of your Live project.
 - A little half circle at the start or end indicates that there are more tracks to be found in that direction. 
 - Navigate between tracks by swiping left or right. To select a track, tap on it. The currently selected track is displayed in bold font.   
 - When you tap on a track that is already selected, you switch the main view!
-- A long-press opens the track’s context menu where you can:
+- A long-press opens the track's context menu where you can:
   - add track
   - delete track
   - toggle arm of the track (if audio track)
@@ -115,12 +115,12 @@ The top bar showing the tracks of your Live project.
 {{ image_sets(path="content/tap/manual/Tap_tracks_context_menu.jpg", format="auto", op="fit_width", quality=75, alt="Tracks Bar Context Menu", caption='The Tracks Bar context menu.' imgset_class="imgset-twothird") }}
 
 #### 3.2.2 Footer Bar
-Here's a detailed look at the buttons in the footer bar in vertical mode:
+Here's a detailed look at the buttons in the Footer Bar in vertical mode:
 
 {{ image_sets(path="content/tap/manual/Footer_Bar.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar", caption='The Footer Bar buttons in the step sequencers.' imgset_class="imgset-twothird") }}
 
-Here it is in horizontal mode:
-// TODO: add new image(s?)
+Here is the Footer Bar in horizontal mode in the [Device View](#3-3-device-view), in all other views it looks like the one above, simply turned 90 degrees:
+{{ image_sets(path="content/tap/manual/Footer_Bar_Horizontal.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in horizontal mode", caption='The horizontal Footer Bar in the step sequencers.' imgset_class="imgset-twothird") }}
 
 1. Side Panel/Encoders Button  
 The side panel opens the options side panel in the [Device View](#3-3-device-view), where you will find layout, velocity, pitch-bend/modwheel, scale, root, and octave/drums page.  
@@ -130,7 +130,7 @@ Long-press opens the [Encoders View](#3-6-encoders-view).
 2. Navigation Buttons  
 Navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
 Long-press on the left-pointing arrow to undo; long-press on the other to redo.  
-In the [Settings](#3-1-1-settings), you can activate all **Performance Features**; with that feature you will need to use the [Tracks Bar](3-2-1-tracks-bar) for navigation by tapping on the active Track to switch the view. Long-press is still redo and undo, but you can use these buttons in Device View to move up and down through the octaves/drums pages and going forward and backwards through the [Step Sequencer](#3-3-5-step-sequencer) pages. To change the mode, you simply swipe left or right over the navigation buttons. In the rest of the views, the buttons will remain undo and redo.
+In the [Settings](#3-1-1-settings), you can activate all **Performance Features**; with that feature you will need to use the [Tracks Bar](#3-2-1-tracks-bar) for navigation by tapping on the active Track to switch the view. Long-press is still redo and undo, but you can use these buttons in Device View to move up and down through the octaves/drums pages and going forward and backwards through the [Step Sequencer](#3-3-5-step-sequencer) pages. To change the mode, you simply swipe left or right over the navigation buttons. In the rest of the views, the buttons will remain undo and redo.
 
 3. Duplicate/Stop
 In Device View: Duplicates the selected clip. Long-press will duplicate the selected scene.  
@@ -152,6 +152,12 @@ Activates or deactivates the session record button.
 In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to clips + tempo.  
 In the step sequencer with **Performance Features**: Single Tap opens that menu. Long-press opens the Tempo Overlay (see below).  
 In all other layouts and views: Starts or stops the playback. Long-press opens the tempo overlay.  
+
+Extra buttons in the horizontal Footer Bar of the Device View:  
+
+8. Switch from Pads to Sequencer and vice versa.
+
+9. Go to start of loop (only in Sequencer), stop all clips (in Pads)
   
 Tempo Overlay
 {{ image_sets(path="content/tap/manual/Tempo_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-twothird") }}
@@ -199,8 +205,8 @@ The MIDI grid is for playing notes (huge surprise!).
 Step sequence away!
 - Add notes by tapping, and move them by dragging. Dragging slowly enables non-quantized fine movement.  
 - Drag up or down in the little rectangle at the end of a note to change the velocity of that note.  
-- Drag left or right in the little rectange at the end of a note to change the length of that note.  
-- Each note you add will have the velocity set in the Side Panel (see button 1 in the [Footer Bar](#3-2-2-footer-bar))
+- Drag left or right in the little rectangle at the end of a note to change the length of that note.  
+- Each note you add will have the velocity set in the Side Panel (see button 1 in the [Footer Bar](#3-2-2-footer-bar)).
 - Drag horizontally on the background to navigate through the pages of the Step Sequencer. With **Performance Features** enabled you only change pages with the Footer Bar arrows.
 - Drag vertically first on the background to activate [Selection Mode](#3-3-5-1-selection-mode). With **Performance Features** enabled you can simply drag on the background to activate Selection Mode.
 - Long press on a note to also enter Selection Mode (or if already in Selection Mode, this will add/remove the note from the selection).
@@ -234,7 +240,7 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 
 ##### 3.3.5.1 Selection Mode
 Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
-Selections work the same way as in Ableton Live. You can add or substract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and substract from the range of the selection, without selecting additional notes. This is important for duplication and copy pasting.  
+Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy pasting.  
 You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an edit overlay for easy and quick editing (see below).
 Info: You can't undo and redo selections.
 
@@ -287,7 +293,7 @@ You can:
 
 Shows the clips. 
 - Use the [Tracks Bar](#3-2-1-tracks-bar) to navigate horizontally; drag in the Clips View for navigating vertically.  
-- Start and stop clips by tapping on a clip. If you tap on an empty clip slot in a MIDI Track, Tap will take you to the [Device View](#3-3-device-view). If you tap an emptry clip in an armed audio track (arm by long-press in the Tracks Bar, then tap "Toggle Arm"), the recording will start. Tap it again to stop the recording.
+- Start and stop clips by tapping on a clip. If you tap on an empty clip slot in a MIDI Track, Tap will take you to the [Device View](#3-3-device-view). If you tap an empty clip in an armed audio track (arm by long-press in the Tracks Bar, then tap "Toggle Arm"), the recording will start. Tap it again to stop the recording.
 - Long-press on any clip slot to bring up a context menu (see below).  
 - Pressing the Side Panel button in the [Footer Bar](#3-2-2-footer-bar) activates the Scene Launch buttons to launch scenes.  
 - The selected device's Banks Bar and Encoders Section are displayed above the clip view, exactly like in the Device View.
@@ -335,8 +341,8 @@ Once you are comfortable with Tap, you might want to enable settings that will h
 
 This will activate all the performance features:
 1. **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
-2. **Undo & Redo instead of Navigation** and **Octave Up & Down in Device View** → With these enabled, you’ll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
-If you’re on iPad in landscape mode, you’ll always see the octave buttons in the Device View, regardless of these settings, as there’s more space available for buttons.
+2. **Undo & Redo instead of Navigation** and **Octave Up & Down in Device View** → With these enabled, you'll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
+If you're on iPad in landscape mode, you'll always see the octave buttons in the Device View, regardless of these settings, as there's more space available for buttons.
 3. **Sequencer Page Changing in Footer Bar Only** -> This makes it so you can page through the Sequencer pages with arrow buttons, you can swipe over the Octave buttons to get to the page buttons in vertical mode. In horizontal mode you will always see the page move buttons. This makes it faster to select MIDI notes (and turn pages) as there is no more swipe action for page changing in the grid.
 4. **Play Button Menu** -> Turns the play button into a menu in the Sequencer (instead of a context menu).
 
