@@ -171,7 +171,7 @@ The devices are shown here.
 - You can navigate by swiping left or right. 
 - Select a device by tapping on it. The selected device has a bold font. 
 - Tap the ⊕ symbol to add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.
-- < (open) and > (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets.
+- < (open) and > (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets. The chain number is indicated with cirlces below the first member of the chain (for more than one chain per rack mother).
 
 {{ image_sets(path="content/tap/manual/Devices Bar.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Devices Bar", caption='The Devices Bar.') }}
 
