@@ -92,7 +92,7 @@ This is where every adventure starts.
 
 ### 3.1.1 Settings
 In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).
-- You will also find a button to enable/disable all **Performance Features**.
+- You will also find a button to enable/disable all [Performance Features](#4-1-performance-features).
 
 ### 3.2 Main Views
 The main Ableton Live controller views share some common elements, described below.
@@ -131,7 +131,7 @@ Long-press opens the [Encoders View](#3-6-encoders-view).
 In Device view you can use these buttons to move up and down through the octaves/drums pages and going forward and backwards through the [Step Sequencer](#3-3-5-step-sequencer) pages. To change the mode, you simply swipe left or right over the navigation buttons. 
 Long-press on the left-pointing arrow to undo; long-press on the other to redo. 
 In the rest of the views, the buttons will simply be undo and redo (arrows in circle means undo redo).  
-If you deactivate the **Performance Features** in [Settings](#3-1-1-settings) you can navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
+If you deactivate the [Performance Features](#4-1-performance-features) in Settings you can navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
  
 
 3. Duplicate/Stop
@@ -151,7 +151,7 @@ In all other views, this will get you back to the [Home View](#3-1-home-view).
 Activates or deactivates the session record button.
 
 7. Play/Stop/Play Menu/Tempo
-In the step sequencer with **Performance Features**: Single Tap opens that menu. Long-press opens the Tempo Overlay (see below).  
+In the step sequencer with [Performance Features](#4-1-performance-features): Single Tap opens that menu. Long-press opens the Tempo Overlay (see below).  
 In all other layouts and views: Starts or stops the playback. Long-press opens the tempo overlay.  
 In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to clips + tempo.  
 
@@ -209,7 +209,7 @@ Step sequence away!
 - Drag up or down in the little rectangle at the end of a note to change the velocity of that note.  
 - Drag left or right in the little rectangle at the end of a note to change the length of that note.  
 - Each note you add will have the velocity set in the Side Panel (see button 1 in the [Footer Bar](#3-2-2-footer-bar)).
-- Without **Performance Features**: Drag horizontally on the background to navigate through the pages of the Step Sequencer. With **Performance Features** you only change pages with the Footer Bar arrows.
+- Without [Performance Features](#4-1-performance-features): Drag horizontally on the background to navigate through the pages of the Step Sequencer. With **Performance Features** you only change pages with the Footer Bar arrows.
 - Without **Performance Features**: Drag vertically first on the background to activate [Selection Mode](#3-3-5-1-selection-mode). With **Performance Features** enabled you can simply drag on the background to activate Selection Mode.
 - Long press on a note to also enter Selection Mode (or if already in Selection Mode, this will add/remove the note from the selection).
 - Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when **Performance Features** are enabled (see [Footer Bar](#3-2-2-footer-bar) button 2).
