@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-06-28
+updated = 2025-11-20
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
@@ -92,7 +92,7 @@ This is where every adventure starts.
 
 ### 3.1.1 Settings
 In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).
-- You will also find a button to enable/disable all **Performance Features**. This is highly recommended to turn Tap into the powerhouse instrument to play Ableton Live.
+- You will also find a button to enable/disable all **Performance Features**.
 
 ### 3.2 Main Views
 The main Ableton Live controller views share some common elements, described below.
@@ -128,9 +128,11 @@ In the Clips and Mixer Views, this button activates the Scene Launch buttons.
 Long-press opens the [Encoders View](#3-6-encoders-view). 
 
 2. Navigation Buttons  
-Navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
-Long-press on the left-pointing arrow to undo; long-press on the other to redo.  
-In the [Settings](#3-1-1-settings), you can activate all **Performance Features**; with that feature you will need to use the [Tracks Bar](#3-2-1-tracks-bar) for navigation by tapping on the active Track to switch the view. Long-press is still redo and undo, but you can use these buttons in Device View to move up and down through the octaves/drums pages and going forward and backwards through the [Step Sequencer](#3-3-5-step-sequencer) pages. To change the mode, you simply swipe left or right over the navigation buttons. In the rest of the views, the buttons will remain undo and redo.
+In Device view you can use these buttons to move up and down through the octaves/drums pages and going forward and backwards through the [Step Sequencer](#3-3-5-step-sequencer) pages. To change the mode, you simply swipe left or right over the navigation buttons. 
+Long-press on the left-pointing arrow to undo; long-press on the other to redo. 
+In the rest of the views, the buttons will simply be undo and redo (arrows in circle means undo redo).  
+If you deactivate the **Performance Features** in [Settings](#3-1-1-settings) you can navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
+ 
 
 3. Duplicate/Stop
 In Device View: Duplicates the selected clip. Long-press will duplicate the selected scene.  
@@ -149,9 +151,9 @@ In all other views, this will get you back to the [Home View](#3-1-home-view).
 Activates or deactivates the session record button.
 
 7. Play/Stop/Play Menu/Tempo
-In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to clips + tempo.  
 In the step sequencer with **Performance Features**: Single Tap opens that menu. Long-press opens the Tempo Overlay (see below).  
 In all other layouts and views: Starts or stops the playback. Long-press opens the tempo overlay.  
+In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to clips + tempo.  
 
 Extra buttons in the horizontal Footer Bar of the Device View:  
 
@@ -207,8 +209,8 @@ Step sequence away!
 - Drag up or down in the little rectangle at the end of a note to change the velocity of that note.  
 - Drag left or right in the little rectangle at the end of a note to change the length of that note.  
 - Each note you add will have the velocity set in the Side Panel (see button 1 in the [Footer Bar](#3-2-2-footer-bar)).
-- Drag horizontally on the background to navigate through the pages of the Step Sequencer. With **Performance Features** enabled you only change pages with the Footer Bar arrows.
-- Drag vertically first on the background to activate [Selection Mode](#3-3-5-1-selection-mode). With **Performance Features** enabled you can simply drag on the background to activate Selection Mode.
+- Without **Performance Features**: Drag horizontally on the background to navigate through the pages of the Step Sequencer. With **Performance Features** you only change pages with the Footer Bar arrows.
+- Without **Performance Features**: Drag vertically first on the background to activate [Selection Mode](#3-3-5-1-selection-mode). With **Performance Features** enabled you can simply drag on the background to activate Selection Mode.
 - Long press on a note to also enter Selection Mode (or if already in Selection Mode, this will add/remove the note from the selection).
 - Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when **Performance Features** are enabled (see [Footer Bar](#3-2-2-footer-bar) button 2).
 - To select a drum pad, long press on an empty step in the Step Sequencer.
@@ -335,11 +337,11 @@ Shows custom encoder layouts.
 ## 4. Tips and Tricks
 
 ### 4.1 Performance Features
-Once you are comfortable with Tap, you might want to enable settings that will help you get the most out of it. To do this:
+These settings turn Tap into a powerhose, but this might be overwhelming. To change this, practise or disable them:
 1. Go to **Settings**.
-2. Scroll down to **Performance Features**, then tap on the button "Activate all".
+2. Scroll down to **Performance Features**, then tap on the button "Deactivate all".
 
-This will activate all the performance features:
+This will deactivate all the performance features:
 1. **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
 2. **Undo & Redo instead of Navigation** and **Octave Up & Down in Device View** → With these enabled, you'll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
 If you're on iPad in landscape mode, you'll always see the octave buttons in the Device View, regardless of these settings, as there's more space available for buttons.
