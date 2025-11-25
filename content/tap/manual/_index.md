@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-11-20
+updated = 2025-11-21
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
@@ -17,7 +17,7 @@ featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
 <!-- toc -->
 
 ## 1. Quick Start
-Below is a video to help you get started. It follows the Mac version of this manual, but most steps are similar for other systems. You can start by following along with the [Set Up](#2-set-up) section.
+Below is a video to help you get started. It follows the Mac version of this manual, but most steps are similar on other systems. You can begin by following along with the [Set Up](#2-set-up) section. After the **Set Up** steps the video shows an older version of Tap without the new **Performance Features**. For the current navigation, refer to the [Performance Features](#4-1-performance-features) section, which includes a short updated video. 
 
 {{ youtube(id="CBXZ1DxyzfE", start="0") }}
 
@@ -117,7 +117,7 @@ The top bar showing the tracks of your Live project.
 #### 3.2.2 Footer Bar
 Here's a detailed look at the buttons in the Footer Bar in vertical mode:
 
-{{ image_sets(path="content/tap/manual/Footer_Bar.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar", caption='The Footer Bar buttons in the step sequencers.' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/Footer_Bar.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar", caption='The Footer Bar buttons in the step sequencers.') }}
 
 Here is the Footer Bar in horizontal mode in the [Device View](#3-3-device-view), in all other views it looks like the one above, simply turned 90 degrees:
 {{ image_sets(path="content/tap/manual/Footer_Bar_Horizontal.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in horizontal mode", caption='The horizontal Footer Bar in the step sequencers.' imgset_class="imgset-twothird") }}
@@ -151,9 +151,9 @@ In all other views, this will get you back to the [Home View](#3-1-home-view).
 Activates or deactivates the session record button.
 
 7. Play/Stop/Play Menu/Tempo
-In the step sequencer with [Performance Features](#4-1-performance-features): Single Tap opens that menu. Long-press opens the Tempo Overlay (see below).  
+In the step sequencer with [Performance Features](#4-1-performance-features): Single Tap opens that menu. Long-press opens the [Tempo Overlay](#tempo-overlay).  
 In all other layouts and views: Starts or stops the playback. Long-press opens the tempo overlay.  
-In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to clips + tempo.  
+In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to different clips, and the **Tempo Overlay**.  
 
 Extra buttons in the horizontal Footer Bar of the Device View:  
 
@@ -161,8 +161,9 @@ Extra buttons in the horizontal Footer Bar of the Device View:
 
 9. Go to start of loop (only in Sequencer), stop all clips (in Pads)
   
-Tempo Overlay
-{{ image_sets(path="content/tap/manual/Tempo_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-twothird") }}
+##### Tempo Overlay
+{{ image_sets(path="content/tap/manual/Tempo_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-half") }}
+
 Tapping the plus and minus buttons will adjust the tempo by the amount indicated in the center.  
 Tapping on the BPM digits lets you type in the exact tempo you want.
 
@@ -191,7 +192,7 @@ The 8 encoders of the current bank.
 - Double-tap an encoder to reset to 0 (or center for Panning); triple-tap to reset to center (63).
 - Encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
 
-{{ image_sets(path="content/tap/manual/encoder.jpg", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/encoder.jpg", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-quarter") }}
 
 #### 3.3.4 MIDI Grid
 The MIDI grid is for playing notes (huge surprise!).  
@@ -216,13 +217,15 @@ Step sequence away!
 - To select a drum pad, long press on an empty step in the Step Sequencer.
 
 Let's dive into the Tap Step Sequencer in detail:
-{{ image_sets(path="content/tap/manual/Step_Sequencer.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer", caption='The Step Sequencer.' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/Step_Sequencer.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer", caption='The Step Sequencer.') }}
 
 1. The Start and Stop are marked with dark triangles.
 2. The looped section is indicated by the band on top of the step sequencer and two lines at the start and end of the loop all in the color of the track.
 3. Octave starts are marked with a horizontal line in the background. For drums, it is the selected drum pad that is marked.
-4. Notes are indicated as rectangles in the track color.
-5. Each note has an end rectangle. Drag the small rectangle at the end of a note to adjust its length. On iPhone, this might be a bit tricky to do; that is why we have added a context menu to the [Tracks Bar](#3-2-1-tracks-bar), where you can adjust the standard length.
+4. Notes are shown as rectangles in the track’s colour. Each note also has a slightly darker background rectangle behind it for visual contrast.  
+Velocity is represented by how much of the note is filled from the bottom up: a fully filled bar corresponds to velocity 127, while a barely filled bar represents velocity 1.  
+Probability is represented by colour saturation: the more saturated the note’s colour, the higher the chance it will be played. Fully saturated means 100% probability.
+5. Each note has an end rectangle. Drag the small rectangle at the end of a note horizontally to adjust its length, or vertically to adjust its velocity. This gesture can be a bit tricky, which is why we added an [Edit Overlay](#edit-overlay). When you [select](#3-3-5-1-selection-mode) one or more notes, the Edit Overlay becomes available. There, you can edit length, velocity, probability, and more.
 6. The third track-colored line indicates the playing position.
 7. These numbers show current page followed by total number of pages for this clip.
 8. Shows clip playback status: solid play symbol (▶) means this clip is playing. An outline (▷) means a different clip on the same track is playing. A play symbol with a dash means no clip on this track is playing.
@@ -246,15 +249,18 @@ Selections work the same way as in Ableton Live. You can add or subtract from a 
 You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an edit overlay for easy and quick editing (see below).
 Info: You can't undo and redo selections.
 
-{{ image_sets(path="content/tap/manual/Footer_Bar_Selection_mode.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in Selection Mode", caption='The Footer Bar buttons in Selection Mode.' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/Footer_Bar_Selection_mode.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in Selection Mode", caption='The Footer Bar buttons in Selection Mode.') }}
 
 Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) buttons available, here are the new ones:
-1. Trash: Deletes the selected notes.
-4. Edit Overlay: Opens and closes the edit overlay.
-6. Modulation Menu: Opens and closes the modulation menu.
-7. Selection Menu: Opens and closes the selection menu.
+<ol>
+  <li value="1">Trash: Deletes the selected notes.</li>
+  <li value="4"><a href="#edit-overlay">Edit Overlay</a>: Opens and closes the edit overlay.</li>
+  <li value="6"><a href="#modulation-menu">Modulation Menu</a>: Opens and closes the modulation menu.</li>
+  <li value="7"><a href="#selection-menu">Selection Menu</a>: Opens and closes the selection menu.</li>
+</ol>
+  
 
-**Edit Overlay**  
+###### Edit Overlay 
 {{ image_sets(path="content/tap/manual/Edit_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap MIDI Notes Edit Overlay", caption='The notes Edit Overlay.' imgset_class="imgset-twothird") }}
 1. Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
 2. Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
@@ -264,9 +270,11 @@ Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) bu
 6. Duplicate button. Duplicates the selected range and notes to the end of the selected range.
 7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to x2 and /2 buttons.
 8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selected range and notes by one beat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
+  
 
-**Modulation Menu**  
+###### Modulation Menu
 {{ image_sets(path="content/tap/manual/Modulation_Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap MIDI notes modulation menu", caption='The Modulation Menu.' imgset_class="imgset-twothird") }}
+
 There are four modulation categories:  
 - Timing
   - Random will get you random timings inside the selected range.
@@ -283,8 +291,9 @@ There are four modulation categories:
 - Probability
   - Random will randomize the probabilities of the selected notes.
   - Vary will vary the probabilities of the selected notes by up to 30% or so.
-
-**Selection Menu**  
+  
+###### Selection Menu
+The notes Selection Menu is simple but powerful in combination with the Modulation Menu.  
 You can: 
 - select all notes
 - invert the selection
@@ -300,8 +309,8 @@ Shows the clips.
 - Pressing the Side Panel button in the [Footer Bar](#3-2-2-footer-bar) activates the Scene Launch buttons to launch scenes.  
 - The selected device's Banks Bar and Encoders Section are displayed above the clip view, exactly like in the Device View.
 
-**Clip Slot Context Menu**
-{{ image_sets(path="content/tap/manual/Clip_Slot_Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Clip Slot menu", caption='The Clip Slot Menu.' imgset_class="imgset-twothird") }}
+#### 3.4.1 Clip Slot Context Menu
+{{ image_sets(path="content/tap/manual/Clip_Slot_Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Clip Slot menu", caption='The Clip Slot Menu.' imgset_class="imgset-half") }}
 
 Inside the context menu, you can:
 - Select the clip/clip slot
@@ -337,9 +346,8 @@ Shows custom encoder layouts.
 ## 4. Tips and Tricks
 
 ### 4.1 Performance Features
-These settings turn Tap into a powerhose, but this might be overwhelming. To change this, practise or disable them:
-1. Go to **Settings**.
-2. Scroll down to **Performance Features**, then tap on the button "Deactivate all".
+These settings turn Tap into a powerhouse. If this feels overwhelming, you can practise more… or just turn them off:  
+Go to **Settings** → **Performance Features** → **Deactivate all**.
 
 This will deactivate all the performance features:
 1. **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
@@ -348,6 +356,8 @@ If you're on iPad in landscape mode, you'll always see the octave buttons in the
 3. **Sequencer Page Changing in Footer Bar Only** -> This makes it so you can page through the Sequencer pages with arrow buttons, you can swipe over the Octave buttons to get to the page buttons in vertical mode. In horizontal mode you will always see the page move buttons. This makes it faster to select MIDI notes (and turn pages) as there is no more swipe action for page changing in the grid.
 4. **Play Button Menu** -> Turns the play button into a menu in the Sequencer (instead of a context menu).
 
+Here's a basic instruction video to get you started with the **Performance Features** in Tap:
+{{ youtube(id="Yfxzsf9OlC4", start="0") }}
 
 ### 4.2 Velocity
 When using the MIDI pads or the step sequencer, you can tap the **Side Panel** button in the [Footer Bar](#3-2-2-footer-bar) and navigate to the **Velocity** section. From there, you can directly adjust the velocity of notes you play on the pads or add in the step sequencer.

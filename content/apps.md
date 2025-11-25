@@ -1,11 +1,11 @@
 +++
 title = "apps"
 description = "Apps by project7III"
-date = 2024-03-19
+date = 2025-11-25
 +++
 You get an app! And you get an app! Everybody gets an app!!
 
-- [Tap](/tap), a MIDI controller for iPhone & iPad
+- [Tap](/tap), a MIDI & Ableton Live controller for iPhone & iPad.
 - [Water](/water), a GPS tracker for downwind foiling & all water sports.
 - [QR](/qr), a QR Code generator app for iPhone, iPad, Mac and Apple Watch.
 - [Life](/life), a collection of tools for iPhone, iPad & Mac.

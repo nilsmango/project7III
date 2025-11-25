@@ -2,13 +2,28 @@
 title = "Tap Version History"
 description = "The version history of 7III Tap"
 date = 2025-06-27
-updated = 2025-07-02
+updated = 2025-11-25
 +++
 
 <a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a>
 
+## Version 1.4:
+*November 2025*  
+It's all about performance:
+- Performance Features now activated by default
+- New performance feature: dragging now creates selections in Step Sequencer
+- Select a drum pad in the Step Sequencer by long-pressing on the row
+- Added edit and mutation menus to the Step Sequencer
+- Added recording for audio clips, toggle arm for audio tracks
+- Tap now remembers selected clip page, octave, layout per clip
+- Added tempo edit
+- You can now combine MIDI clips in the Clips View
+- Added automation status to device dials
+- You can now open and close racks
+- Many minor improvements and bug fixes
+
 ## Version 1.3.1 + 1.3.2
-*July 2025*
+*July 2025*  
 Added some stuff:
 - Added a Tips & Tricks section
 - Version history updated for version 1.3

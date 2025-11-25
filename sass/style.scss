@@ -175,9 +175,14 @@ h4 {
 h5 {
   margin-bottom: 0px;
   margin-bottom: -15px;
-
+  font-size: 1.2rem;
 }
 
+h6 {
+  margin-bottom: 0px;
+  margin-bottom: -15px;
+  font-size: 1.2rem;
+}
 
 .logo {
   margin-bottom: 2em;
@@ -496,6 +501,13 @@ figure {
     max-width: 100%;
   }
 
+  .imgset-quarter {
+      width: $page-width / 5;
+      max-width: 100%;
+      display: block;
+      margin: 0;
+  }
+  
   .imgset-half {
     width: $page-width / 3;
     max-width: 100%;
@@ -805,6 +817,9 @@ ol p {
     padding-left: 3px;
   }
   figure {
+    .imgset-quarter {
+          width: $page-width / 4;
+      }
     .imgset-half {
         width: $page-width / 2.3;
     }
