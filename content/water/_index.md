@@ -3,7 +3,7 @@ title = "Water"
 description = "Water sports tracking for iPhone, Apple Watch & Garmin"
 [extra]
 date = 2024-04-11
-updated = 2025-06-28
+updated = 2025-11-28
 share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
 featured_image_alt = "The iPhone App 7III Water showing a map with the route of downwind foiling run"
@@ -18,22 +18,23 @@ Simply the best downwind foiling and water sport tracking app for iPhone, Apple 
 **Features**
 - GPS tracking for all water sports
 - iPhone and Apple Watch support
-- GPX import for Garmin and other smartwatches (**NEW!**)
-- GPX export for easy sharing (for example, with [race.downwind.app](https://race.downwind.app/)) (**NEW!**)
-- Optimized for Apple Watch: Start and stop sessions without touching the screen—just turn the Digital Crown (**NEW!**)
-- Yearly and monthly stats like number of sessions, days on water, and distances covered at a glance (**NEW!**)
-- Track average speeds, time on foil, max distance, turns completed and more (**NEW!**)
-- Filter statistics by discipline, location and tags (**NEW!**)
+- GPX import for Garmin and other smartwatches
+- GPX export for easy sharing (for example, with [race.downwind.app](https://race.downwind.app/))
+- Wind dashboards: Add your favorite wind stations and see them all in one place (**NEW!**)
+- Optimized for Apple Watch: Start and stop sessions without touching the screen—just turn the Digital Crown
+- Yearly and monthly stats like number of sessions, days on water, and distances covered at a glance
+- Track average speeds, time on foil, max distance, turns completed and more
+- Filter statistics by discipline, location, upwind angles, and tags (**NEW!**)
 - Editing of routes*
-- Export your stats as a map, image, video or sticker overlay (**NEW!**)
-- No subscription traps: Unlock premium features with a one-time payment
+- Export your stats as a map, image, video or sticker overlay
+- **No subscription traps: Unlock premium features with a one-time payment**
 - Simple and beautiful design
 - Cool water sport sticker pack
 - Your workout data stays on your device. You’re the customer, not the product
+- Supported activites: Foil Surf, SUP Foil, DW SUP Foil, DW SUP, DW Prone Foil, Wing Foil, Parawing, DW Parawing, Wind Foil, Kite Foil, Kite, Windsurf, Pump Foil, Wake Thief, Wake Foil, Wake Surf, SUP Surf, Surf, E-Foil, E-Assist
 
 **Roadmap** (help us shape the perfect app by [requesting features](/water/support#feature-requests))
-- Improved maps
-- More speed stats
+- Add tags to export map
 
 <div class="footnote-definition">
 <p>* Premium features. <a href="/water/support#what-premium-upgrades-are-available">Paid upgrade required</a> to unlock these features fully.</p>

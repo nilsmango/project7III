@@ -2,10 +2,24 @@
 title = "Water Version History"
 description = "The version history of 7III Water"
 date = 2025-06-27
-updated = 2025-06-27
+updated = 2025-11-28
 +++
 
 <a href="/water" class="btn" id="yellowButton">← 7III Water</a> <a href="/water/support" class="btn" id="yellowButton">Support</a>
+
+## Version 1.3
+*November 2025*  
+New things:
+
+- Added Dashboards where you can pull wind data from multiple sources and display them in one spot.
+- Dashboards can get pinned to the Main View.
+- A cleaner Main View with more control over what you see.
+- Better GPS smoothing for non-downwind Maps.
+- Added Error Logging for GPS Tracker.
+- Angle tool to save and compare upwind angles.
+- Speed Chart in Statistics.
+- Updated design for iOS 26.
+- Bug fixes.
 
 ## Version 1.2  
 *July 2025*  
