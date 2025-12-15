@@ -41,6 +41,7 @@ $page-width: 850px;
   --clr-bgreen: #01ff80;
   --clr-green: #01ff80;
   --clr-darkgreen: #01ff80;
+  --clr-blue: #3B66FF;
   --clr-mred: #E94345;
   --clr-insta: #F95CB4;
   --fw-normal: 400;
@@ -386,7 +387,58 @@ a:hover, a:focus {
   }
 }
 
+/* Tables */
+th:first-child,
+td:first-child {
+  position: sticky;
+  left: 0;
+  background: var(--color-background);
+}
 
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-wrap table {
+  width: 100%;
+  min-width: 900px; /* prevents squishing */
+  border-collapse: collapse;
+}
+
+.table-wrap {
+  white-space: nowrap;
+}
+
+th, td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--table-border, #ddd);
+  vertical-align: middle;
+}
+
+th {
+  background: var(--table-header-bg, #f5f5f5);
+  font-weight: 600;
+  text-align: center;
+}
+
+td:first-child {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Zebra stripes */
+tbody tr:nth-child(even) {
+  background: var(--color-gray);
+}
+
+/* Yes / No visual clarity (optional) */
+td:contains("Yes") {
+  color: #2e7d32;
+}
+td:contains("No") {
+  color: #c62828;
+}
 
 /* Buttons */
 .button {
@@ -416,12 +468,17 @@ a:hover, a:focus {
   color: white;
 }
 
-#greenButton {
+#blueButton {
+  background-color: var(--clr-blue);
+  color: white;
+}
+
+#greenButton2 {
   background-color: var(--clr-bgreen);
   color: white;
 }
 
-#yellowButton {
+#greenButton {
   background-color: var(--clr-yellow);
   color: var(--clr-blackWhite);
 }
@@ -599,6 +656,59 @@ details {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* Reviews */
+
+.reviews {
+  max-width: 850px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+
+
+.reviews-meta {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+.reviews-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.review-card {
+  background: var(--color-gray);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.review-header {
+  margin-bottom: 0.5rem;
+}
+
+.review-stars {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.review-title {
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.review-meta {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.review-text {
+  margin-top: 0.75rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
 }
 
 /* SEARCH */
@@ -827,6 +937,10 @@ ol p {
         width: $page-width / 1.8;
     }
   }
+  
+  .reviews-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -841,8 +955,9 @@ ol p {
     --color-hover: #f0f0f0;
     --color-mark: #27a451;
     --clr-yellow: #27a451;
-    --clr-mred: #27a451;
+    --clr-mred: #B01600;
     --clr-bgreen: #27a451;
+    --clr-blue: #002EDB;
     --clr-blackWhite: #ffffff;
   }
 

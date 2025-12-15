@@ -4,7 +4,7 @@ description = "The terms & conditions for 7III Tap"
 date = 2024-08-08
 updated = 2024-08-08
 +++
-<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a>
+<a href="/tap" class="btn" id="greenButton">← 7III Tap</a>
 
 Last updated: {{ date_updated() }}
 

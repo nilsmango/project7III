@@ -15,7 +15,7 @@ Two main concepts are guiding the project Molecule Store:
 2. Shop nerdy and do good. We donate 1 USD for each product ordered to science education. We have so far collected over 6.000 USD.
 
 <div class="button">
-<a href="https://moleculestore.com" target="_blank" class="btn" id="yellowButton">Visit Molecule Store</a>
+<a href="https://moleculestore.com" target="_blank" class="btn" id="greenButton">Visit Molecule Store</a>
 </div>
 
 

@@ -4,7 +4,7 @@ description = "The privacy policy for 7III Tap"
 date = 2024-04-12
 updated = 2024-04-12
 +++
-<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a>
+<a href="/tap" class="btn" id="greenButton">← 7III Tap</a>
 
 Last updated: {{ date_updated() }}
 

@@ -1,18 +1,21 @@
 +++
 title = "Tap User Manual"
-description = "The user manual for 7III Tap, a MIDI controller for iPhone & iPad"
+description = "The user manual for 7III Tap, an Ableto Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
 updated = 2025-11-21
 share = true
 featured_image = "mixer.jpg"
-featured_image_alt = "7III Tap, a MIDI controller for Ableton Live"
+featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
 +++
 
-<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="/tap/history" class="btn" id="yellowButton">Version History</a>
+<a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
+
+This is the user manual for 7III Tap, an [Ableton Live controller for iPad & iPhone](/tap), with customizable MIDI CC encoders.  
 
 >Last Update: **{{ date_updated() }}**  
->If you find any mistakes or notice anything missing in this User Manual, please reach out and let us know!
+>If you find any mistakes or notice anything missing in this user manual, please reach out and let us know!
+
 
 <!-- toc -->
 

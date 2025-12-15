@@ -5,7 +5,7 @@ date = 2025-06-27
 updated = 2025-11-25
 +++
 
-<a href="/tap" class="btn" id="yellowButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="yellowButton">User Manual</a> <a href="/tap/support" class="btn" id="yellowButton">Support</a> <a href="/tap/videos" class="btn" id="yellowButton">Videos</a>
+<a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
 
 ## Version 1.4:
 *November 2025*  

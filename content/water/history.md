@@ -5,7 +5,7 @@ date = 2025-06-27
 updated = 2025-11-28
 +++
 
-<a href="/water" class="btn" id="yellowButton">← 7III Water</a> <a href="/water/support" class="btn" id="yellowButton">Support</a>
+<a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/best-water-sports-tracker" class="btn" id="redButton">Take the Water Sports Tracker Quiz!</a>
 
 ## Version 1.3
 *November 2025*  

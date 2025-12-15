@@ -14,7 +14,7 @@ Founded 2018 and sold in 2022.
 
 
 <div class="button">
-<a href="https://birs73.ch/wasser/" target="_blank" class="btn" id="yellowButton">Visit Birs73</a>
+<a href="https://birs73.ch/wasser/" target="_blank" class="btn" id="greenButton">Visit Birs73</a>
 </div>
 
 
