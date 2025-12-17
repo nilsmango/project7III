@@ -2,10 +2,10 @@
 title = "Water Version History"
 description = "The version history of 7III Water"
 date = 2025-06-27
-updated = 2025-11-28
+updated = 2025-12-17
 +++
 
-<a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/best-water-sports-tracker" class="btn" id="redButton">Take the Water Sports Tracker Quiz!</a>
+<a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
 
 ## Version 1.3
 *November 2025*  

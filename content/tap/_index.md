@@ -8,7 +8,7 @@ share = true
 featured_image = "7III Tap Ableton Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap Ableton Live Controller on an iPad"
 +++
-<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="blueButton">↓ MIDI Remote Script 1.4</a> 
+<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 1.4</a> 
 
 >Last Update: **{{ date_updated() }}**  
 >Welcome to Tap 1.4: touch your sound!  
@@ -174,7 +174,7 @@ Unfortunately not. But you will be able to make more crappy music in less time, 
 Thank you for asking, we made a comparison just for you: [Compare Ableton Live Controllers](/tap/best-ableton-live-controller)
 
 ### Seven wtf... Tap?
-**7III Tap** /sĕv′ən thrē tăp/
+**7III Tap** <span class="opacity-60">/sĕv′ən thrē tăp/</span>
 
 **noun**  
 The freshest Ableton Live controller on planet earth, made by project7III (project seven three).

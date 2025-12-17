@@ -14,13 +14,13 @@ Founded 2018 and sold in 2022.
 
 
 <div class="button">
-<a href="https://birs73.ch/wasser/" target="_blank" class="btn" id="greenButton">Visit Birs73</a>
+<a href="https://birs73.ch" target="_blank" class="btn" id="greenButton">Visit Birs73</a>
 </div>
 
 
-{{ image_sets(path="content/birs73/birs73bx3.png", format="auto", op="fit_width", quality=75, alt="The starting page of Birs73 SUP Center in Basel") }}
+{{ image_sets(path="content/birs73/birs73bx3.png", format="auto", op="fit_width", quality=75, alt="The starting page of Birs73 SUP Center in Basel, before the sale", caption="The starting page of Birs73 SUP Center in Basel, before the sale") }}
 
-{{ image_sets(path="content/birs73/birs73cx3.png", format="auto", op="fit_width", quality=75, alt="SUP classes") }}
+{{ image_sets(path="content/birs73/birs73cx3.png", format="auto", op="fit_width", quality=75, alt="SUP classes and tours offered (before the sale)", caption="SUP classes (before the sale)") }}
 
-{{ image_sets(path="content/birs73/birs73dx3.png", format="auto", op="fit_width", quality=75, alt="Birs73 Stand Up Paddle Center Reviews") }}
+{{ image_sets(path="content/birs73/birs73dx3.png", format="auto", op="fit_width", quality=75, alt="Birs73 Stand Up Paddle Center Reviews (before the sale)", caption="Birs73 Stand Up Paddle Center reviews (before the sale)") }}
 

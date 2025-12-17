@@ -3,13 +3,13 @@ title = "Water - Water Sports Tracker"
 description = "Water sports tracker for iPhone, Apple Watch & Garmin. Track downwind foiling, pump foiling, wake thief and more. No subscriptions."
 [extra]
 date = 2024-04-11
-updated = 2025-12-14
+updated = 2025-12-17
 share = true
 featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
 featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foiling GPS route"
 +++
 
-<a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/history" class="btn" id="greenButton">Version History</a> <a href="/water/best-water-sports-tracker" class="btn" id="redButton">Take the Water Sports Tracker Quiz!</a>
+<a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/history" class="btn" id="greenButton">Version History</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
 
 **7III Water** is a water sports tracker built for riders who actually spend time on the water.  
 Track **downwind foiling**, **pump foiling**, **wake thief**, wing, kite, SUP and more on **iPhone, Apple Watch, Garmin and other smartwatches**.
@@ -72,7 +72,7 @@ No. Your session and workout data stay on your device (stored in Apple Health, s
 No. While it's built with downwind foiling and wake thieving in mind, it's a full-featured water sports tracker for many disciplines.
 
 ### How do you pronounce 7III Water?
-**7III Water** /sĕv′ən thrē wô′tər, wŏt′ər/
+**7III Water** <span class="opacity-60">/sĕv′ən thrē wô′tər, wŏt′ər/</span>
 
 **noun**  
 The 7III comes from **project7III**, which is *project*, *seven* followed by *three i's*. Spoken out loud, that becomes *project seven three*.  

@@ -41,8 +41,9 @@ $page-width: 850px;
   --clr-bgreen: #01ff80;
   --clr-green: #01ff80;
   --clr-darkgreen: #01ff80;
-  --clr-blue: #3B66FF;
+  --clr-blue: #99DBFF;
   --clr-mred: #E94345;
+  --clr-purple: #FF7DFF;
   --clr-insta: #F95CB4;
   --fw-normal: 400;
   --fw-bold: 800;
@@ -344,6 +345,10 @@ a:hover, a:focus {
   }
 }
 
+.opacity-60 {
+    opacity: 0.6;
+}
+
 .footernav {
   font-size: $font-size-normal;
   margin-top: 70px;
@@ -468,9 +473,14 @@ td:contains("No") {
   color: white;
 }
 
+#purpleButton {
+  background-color: var(--clr-purple);
+  color: var(--clr-blackWhite);
+}
+
 #blueButton {
   background-color: var(--clr-blue);
-  color: white;
+  color: var(--clr-blackWhite);
 }
 
 #greenButton2 {
@@ -876,6 +886,77 @@ ol p {
     margin-bottom: 0.25em;
 }
 
+
+/* QUIZ Stuff */
+html.js .quiz-question {
+  display: none;
+}
+
+html.js .quiz-question.active {
+  display: block;
+  animation: fadeIn 0.35s ease;
+}
+
+/* Quiz container feel */
+.quiz-question {
+  max-width: 42rem;
+  margin: 3rem auto;
+  padding: 0.5rem 2rem;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Question heading */
+.quiz-question h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Answer buttons (links stay links!) */
+/* .quiz-question a[href^="#"],
+.quiz-question a[href^="/"],
+.quiz-question a[href^="http"] {
+  display: block;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  background: linear-gradient(135deg, #0aa, #0c6);
+  color: white;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+} */
+
+/* .quiz-question a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+} */
+
+/* External links / results feel different */
+/* .quiz-question a[href^="/water"],
+.quiz-question a[href^="http"] {
+  background: linear-gradient(135deg, #ff5a5f, #ff8c42);
+} */
+
+/* Fun fade */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* No-JS fallback */
+html:not(.js) .quiz-question {
+  display: block;
+}
+
+
 /* big size */
 @media (min-width: 363px) {
   .container {
@@ -956,8 +1037,9 @@ ol p {
     --color-mark: #27a451;
     --clr-yellow: #27a451;
     --clr-mred: #B01600;
+    --clr-purple: #A831B5;
     --clr-bgreen: #27a451;
-    --clr-blue: #002EDB;
+    --clr-blue: #0088D1;
     --clr-blackWhite: #ffffff;
   }
 
