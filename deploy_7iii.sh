@@ -3,5 +3,9 @@
 source deploy_config.sh
 
 # FTP Deployment using lftp
-lftp -c "open -u $USER,$PASSWORD $HOST; mirror -R --delete --verbose --exclude 'foildata' $LOCAL_PATH $REMOTE_PATH"
+lftp -c "
+set ssl:verify-certificate no
+open -u $USER,$PASSWORD $HOST
+mirror -R --delete --verbose --exclude 'foildata' $LOCAL_PATH $REMOTE_PATH
+"
 
