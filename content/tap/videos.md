@@ -15,7 +15,7 @@ Explore tutorials, feature overviews and performance demos for **7III Tap**, the
 
 You can find the complete Tap Playlist here: [7III Tap Playlist](https://youtube.com/playlist?list=PLcN8qnz0I9JhlHCpBz7QITk3D2pSIf0Qo&si=44xqGsoMvxHOu0Pp)
 
->Got a video featuring Tap? Send it in — we’re happy to share it.
+>Got a video featuring Tap? <a href="mailto:hi@project7III.com">Send it in</a> — we’re happy to share it.
 
 ## Everything New in Tap 1.4
 A complete walkthrough of everything introduced in Tap 1.4, including updated MIDI sequencer for smooth performance, including MIDI mutation and editing tools for blazing fast sequencing, better device view and many more performance features.
