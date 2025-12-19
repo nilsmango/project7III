@@ -1,4 +1,6 @@
 User-agent: *
 Disallow:
 Allow: /
+
 Sitemap: https://project7iii.com/sitemap.xml
+Sitemap: https://project7iii.com/foildata/sitemap.xml
