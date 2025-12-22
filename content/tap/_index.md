@@ -1,5 +1,5 @@
 +++
-title = "Tap — Ableton Live Controller for iPhone & iPad"
+title = "Tap - Ableton Live Controller for iPhone & iPad"
 description = "Tap is an advanced Ableton Live controller for iPhone and iPad with step sequencing, clip launching, device control, mixing and universal MIDI encoders."
 [extra]
 date = 2024-03-15

@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, an Ableto Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2025-11-21
+updated = 2025-12-22
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
@@ -39,6 +39,8 @@ Note: If you are only going to use the [Encoders](#3-6-encoders-view), then you 
  </li>
 <li>Place the unzipped remote script folder called <strong>Tap</strong> into the <strong>Remote Scripts</strong> folder you just created.</li>
 </ol>
+
+>**Important:** Make sure the User Library is stored locally on your computer and matches the exact path described above. If it is cloud-based or even slightly misnamed, Ableton Live may fail to recognize the script.
 
 ### 2.2 Connect your iPhone or iPad
 Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or iPad to Live. If you are never using MIDI over WiFi, you can disable **MIDI over WiFi enabled** in Settings.
