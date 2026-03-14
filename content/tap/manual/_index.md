@@ -1,6 +1,6 @@
 +++
 title = "Tap User Manual"
-description = "The user manual for 7III Tap, an Ableto Live controller for iPhone & iPad"
+description = "The user manual for 7III Tap, an Ableton Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
 updated = 2025-12-22
@@ -56,7 +56,7 @@ Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or
 
 #### 2.2.2 Over WiFi
 <ol>
-<li>Connect your device to the same WiFi as your computer (best would be an ad hoc WiFi network).</li>
+<li>Connect your device to the same WiFi as your computer (preferably on an ad hoc WiFi network).</li>
 <li>Configure RTP-MIDI:</li>
 <blockquote class="list_block">
 <strong>Windows</strong>
@@ -137,7 +137,6 @@ In Device view you can use these buttons to move up and down through the octaves
 Long-press on the left-pointing arrow to undo; long-press on the other to redo. 
 In the rest of the views, the buttons will simply be undo and redo (arrows in circle means undo redo).  
 If you deactivate the [Performance Features](#4-1-performance-features) in Settings you can navigate the three main views via the arrow buttons. In the [Encoders View](#3-6-encoders-view), this will move forward and backward through the encoder pages if you have more than one page.  
- 
 
 3. Duplicate/Stop
 In Device View: Duplicates the selected clip. Long-press will duplicate the selected scene.  
@@ -178,10 +177,19 @@ Tapping on the BPM digits lets you type in the exact tempo you want.
 The devices are shown here.
 - You can navigate by swiping left or right. 
 - Select a device by tapping on it. The selected device has a bold font. 
-- Tap the ⊕ symbol to add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.
-- < (open) and > (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets. The chain number is indicated with cirlces below the first member of the chain (for more than one chain per rack mother).
+- Tap the `⊕` symbol to open the [Browser](#browser) or add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.
+- `<` (open) and `>` (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets. The chain number is indicated with circles below the first member of the chain (for more than one chain per rack mother).
 
 {{ image_sets(path="content/tap/manual/Devices Bar.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Devices Bar", caption='The Devices Bar.') }}
+
+##### Browser
+Browse away!
+- Select a category by tapping on it. 
+- Some instruments, drums, effects have children, indicated by a `>` symbol, to show the children tap the `>`. 
+- To load a device or effect simply tap on it. 
+- You can navigate through the browser levels by tapping on the level in the path display on top. 
+- To go back and forth through the browser pages, tap the left or right arrow or swipe left or right. 
+- Tap the `x` symbol to close the browser. 
 
 #### 3.3.2 Banks Bar
 Navigate and select banks of the chosen device here.
@@ -191,11 +199,25 @@ Navigate and select banks of the chosen device here.
 #### 3.3.3 Encoders Section
 The 8 encoders of the current bank.  
 - You can swipe from in between the encoders to directly get to adjacent banks.
-- Activate an encoder by touching it, then:
+- There are three types: dials, selectors (current selection with a slider underneath), on/off buttons
+- All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)
+- All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
+
+Dials:
+- Activate a dial by touching it, then:
   - Adjust the encoder value by moving your finger up or down.
   - Fine-tune the value by moving your finger left or right.
-- Double-tap an encoder to reset to 0 (or center for Panning); triple-tap to reset to center (63).
-- Encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
+- Double-tap a dial to reset to the default value; triple-tap to reset to center (63).
+
+Selectors:
+- Activate a selector by touching it, then:
+- Adjust the value of a selector by:
+  - moving your finger horizontal or vertical. The first direction will let you move from value to value
+  - tapping it once, this will go through the values one by one
+  - Double-tap a selector to reset it to the default value. No triple-tap.
+
+On/Off Buttons:
+- Simply tap a button to switch the value.
 
 {{ image_sets(path="content/tap/manual/encoder.jpg", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-quarter") }}
 
@@ -233,14 +255,14 @@ Probability is represented by colour saturation: the more saturated the note’s
 5. Each note has an end rectangle. Drag the small rectangle at the end of a note horizontally to adjust its length, or vertically to adjust its velocity. This gesture can be a bit tricky, which is why we added an [Edit Overlay](#edit-overlay). When you [select](#3-3-5-1-selection-mode) one or more notes, the Edit Overlay becomes available. There, you can edit length, velocity, probability, and more.
 6. The third track-colored line indicates the playing position.
 7. These numbers show current page followed by total number of pages for this clip.
-8. Shows clip playback status: solid play symbol (▶) means this clip is playing. An outline (▷) means a different clip on the same track is playing. A play symbol with a dash means no clip on this track is playing.
+8. Shows clip playback status: solid play symbol `▶` means this clip is playing. An outline `▷` means a different clip on the same track is playing. A play symbol with a dash means no clip on this track is playing.
 9. The Lil Green Helper rectangle. You can move the green rectangle by dragging it. Tap on it to open the menu. In the menu, you can move the loop and perform other useful actions like changing the drums page or octave. You can also change octaves/pages by using the side panel.  
 
 When you tap the Lil Green Helper rectangle, you will see the following menu:
 
 {{ image_sets(path="content/tap/manual/Step Seq Context Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Lil Green Helper menu", caption='The Lil Green Helper menu.', imgset_class="imgset-half") }}
 
-1. Move helper to End/Start: Use these if you don't want to drag the Lil Green Helper by hand. Moves the green rectangle to the start or end of the sequencer window.
+1. Move helper to End/Start: Use these if you don't want to drag the Lil Green Helper manually. Moves the green rectangle to the start or end of the sequencer window.
 2. Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.
 3. Page to Loop Start/End: Moves the sequencer page to the start/end of the loop.
 4. Crop Clip: Crops the clip to the loop length.
@@ -250,7 +272,7 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 
 ##### 3.3.5.1 Selection Mode
 Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
-Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy pasting.  
+Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy-pasting.  
 You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an edit overlay for easy and quick editing (see below).
 Info: You can't undo and redo selections.
 
@@ -270,11 +292,11 @@ Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) bu
 1. Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
 2. Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
 3. Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc.
-4. Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to x2 and /2 buttons. These multiply or divide the duration of the selected notes by 2.
+4. Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to `x2` and `/2` buttons. These multiply or divide the duration of the selected notes by 2.
 5. Cut button. Cuts the selected range and notes into the copy buffer. To paste, see "3. Copy button".
 6. Duplicate button. Duplicates the selected range and notes to the end of the selected range.
-7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to x2 and /2 buttons.
-8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selected range and notes by one beat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
+7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to `x2` and `/2` buttons.
+8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selected range and notes by a quarter of the grid. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
   
 
 ###### Modulation Menu
@@ -334,7 +356,9 @@ Inside the context menu, you can:
 ### 3.5 Mixer View
 Shows the mixer section. 
 - Use the [Tracks Bar](#3-2-1-tracks-bar) to navigate. 
-- Double-tap the volume fader to set the volume to zero. Use sends, panning, mute, and solo at your discretion.  
+- Double-tap the volume fader to set the volume to -inf dB. Use sends, panning, mute, and solo at your discretion.  
+- 0 dB is indicated by the horizontal line, any volume that crosses 0 dB will turn the volume meter red.
+  - Peak values (2-second hold) are indicated by little horizontal lines in the meter.
 - Below the mixer section, there is a compact Clips View that allows you to interact with clips.  
 - Pressing the Side Panel button in the [Footer Bar](#3-2-2-footer-bar) activates the Scene Launch buttons to launch scenes.
 
@@ -358,7 +382,7 @@ This will deactivate all the performance features:
 1. **Header View Switching** → while playing Tap, you can now switch views by tapping the already active channel. This frees the navigation buttons for other uses.
 2. **Undo & Redo instead of Navigation** and **Octave Up & Down in Device View** → With these enabled, you'll have octave up/down buttons in the Device View, while long-pressing still triggers undo/redo. In other views, the buttons continue to perform undo/redo as usual.  
 If you're on iPad in landscape mode, you'll always see the octave buttons in the Device View, regardless of these settings, as there's more space available for buttons.
-3. **Sequencer Page Changing in Footer Bar Only** -> This makes it so you can page through the Sequencer pages with arrow buttons, you can swipe over the Octave buttons to get to the page buttons in vertical mode. In horizontal mode you will always see the page move buttons. This makes it faster to select MIDI notes (and turn pages) as there is no more swipe action for page changing in the grid.
+3. **Sequencer Page Changing in Footer Bar Only** -> This allows you to page through the Sequencer pages with arrow buttons. You can swipe over the Octave buttons to access the page buttons in vertical mode. In horizontal mode you will always see the page move buttons. This makes it faster to select MIDI notes (and turn pages) as there is no more swipe action for page changing in the grid.
 4. **Play Button Menu** -> Turns the play button into a menu in the Sequencer (instead of a context menu).
 
 Here's a basic instruction video to get you started with the **Performance Features** in Tap:
