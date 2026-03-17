@@ -296,7 +296,7 @@ Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) bu
 5. Cut button. Cuts the selected range and notes into the copy buffer. To paste, see "3. Copy button".
 6. Duplicate button. Duplicates the selected range and notes to the end of the selected range.
 7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to `x2` and `/2` buttons.
-8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selected range and notes by a quarter of the grid. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
+8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selection by one eighth of the grid. Keep pressing to repeat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
   
 
 ###### Modulation Menu
