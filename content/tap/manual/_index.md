@@ -198,7 +198,6 @@ Navigate and select banks of the chosen device here.
 
 #### 3.3.3 Encoders Section
 The 8 encoders of the current bank.  
-- You can swipe from in between the encoders to directly get to adjacent banks.
 - There are three types: dials, selectors (current selection with a slider underneath), on/off buttons
 - All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)
 - All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
