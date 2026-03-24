@@ -9,7 +9,7 @@ updated = 2025-05-13
 Need help? We're here for you. (We can't help you with your music, though)
 
 ## Contact Us
-[hi@project7III.com](mailto:hi@project7III.com)
+[7+1@project7III.com](mailto:7+1@project7III.com)
 
 ## FAQ
 
@@ -29,7 +29,7 @@ There is a one-time purchase for lifetime access to unlimited Tap use.
 Long-press on the arrows in the footer bar for undo and redo!
 
 ## Feature Requests
-We love hearing your ideas (you can also send us your music made with 7III Tap)! Send your feature requests to [hi@project7III.com](mailto:hi@project7III.com).
+We love hearing your ideas (you can also send us your music made with 7III Tap)! Send your feature requests to [7+1@project7III.com](mailto:7+1@project7III.com).
 
 
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.

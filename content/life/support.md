@@ -9,7 +9,7 @@ updated = 2025-08-13
 Need help? We're here for you.
 
 ## Contact Us
-[hi@project7III.com](mailto:hi@project7III.com)
+[7+1@project7III.com](mailto:7+1@project7III.com)
 
 ## FAQ
 
@@ -17,4 +17,4 @@ Need help? We're here for you.
 We offer an upgrade which removes the ads in the meditation timer and unlocks unlimited blocked apps and websites.
 
 ## Feature Requests and Bugs
-We love hearing your ideas and finding bugs! Send your feature requests or bugs to [hi@project7III.com](mailto:hi@project7III.com).
+We love hearing your ideas and finding bugs! Send your feature requests or bugs to [7+1@project7III.com](mailto:7+1@project7III.com).

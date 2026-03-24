@@ -272,7 +272,7 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 ##### 3.3.5.1 Selection Mode
 Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
 Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy-pasting.  
-You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an edit overlay for easy and quick editing (see below).
+You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an **Edit Overlay** for easy and quick editing (see below).
 Info: You can't undo and redo selections.
 
 {{ image_sets(path="content/tap/manual/Footer_Bar_Selection_mode.jpg", format="auto", op="fit_width", quality=75, alt="Tap Footer Bar in Selection Mode", caption='The Footer Bar buttons in Selection Mode.') }}
@@ -290,9 +290,9 @@ Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) bu
 {{ image_sets(path="content/tap/manual/Edit_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap MIDI Notes Edit Overlay", caption='The notes Edit Overlay.' imgset_class="imgset-twothird") }}
 1. Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
 2. Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
-3. Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc.
+3. Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc. Once copy is active button 5 turns into a deactive **Selection Mode** button. When you press it, you will be able to use the **Play Menu** in the [Footer Bar](#3-2-2-footer-bar) to move to other clips in the track and paste the notes there!
 4. Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to `x2` and `/2` buttons. These multiply or divide the duration of the selected notes by 2.
-5. Cut button. Cuts the selected range and notes into the copy buffer. To paste, see "3. Copy button".
+5. Cut button. Cuts the selected range and notes into the copy buffer and deactivates **Selection Mode**. To paste, see "3. Copy button".
 6. Duplicate button. Duplicates the selected range and notes to the end of the selected range.
 7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to `x2` and `/2` buttons.
 8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selection by one eighth of the grid. Keep pressing to repeat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.

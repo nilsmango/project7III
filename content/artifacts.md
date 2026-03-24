@@ -9,4 +9,4 @@ updated = 2025-12-17
 
 7III Artifacts is coming soon! 
 
-Send us an [email](mailto:hi@project7iii.com) if you want to get informed when the shop launches!
+Send us an [email](mailto:7+1@project7iii.com) if you want to get informed when the shop launches!

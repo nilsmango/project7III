@@ -22,7 +22,7 @@ A simple plate calculator for iPhone, iPad and your Mac.
 {{ appstore_button(tagline="More gains, less brains", url="https://apps.apple.com/app/7iii-plates-calc/id6742782121") }}
 
 ### Support  
-Send us an [email](mailto:hi@project7III.com) if you need help or have suggestions.  
+Send us an [email](mailto:7+1@project7III.com) if you need help or have suggestions.  
 You can find the Privacy Policy [here](/plates-calc/privacy-policy).
 
 <div class="footnote-definition"><p>iPhone, iPad & Mac are trademarks of Apple Inc., registered in the United States and other countries.</p></div>

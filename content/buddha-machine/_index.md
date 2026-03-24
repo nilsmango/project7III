@@ -16,7 +16,7 @@ A neat little sound toy with beautiful loops, a dedicated noise section, resampl
 Now available to test on [TestFlight](https://testflight.apple.com/join/QdeTYAxe). Link might not yet work as we are waiting for approval.
 
 ### Support  
-Send us an [email](mailto:hi@project7III.com) if you need help or have suggestions.  
+Send us an [email](mailto:7+1@project7III.com) if you need help or have suggestions.  
 You can find the Privacy Policy [here](/buddha-machine/privacy-policy).
 
 <div class="footnote-definition"><p>iPhone, iPad & Mac are trademarks of Apple Inc., registered in the United States and other countries.</p></div>

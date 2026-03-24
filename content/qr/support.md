@@ -9,7 +9,7 @@ updated = 2024-09-04
 Need help? We're here for you.
 
 ## Contact Us
-[hi@project7III.com](mailto:hi@project7III.com)
+[7+1@project7III.com](mailto:7+1@project7III.com)
 
 ## FAQ
 
@@ -17,4 +17,4 @@ Need help? We're here for you.
 We offer a very cheap upgrade which unlocks unlimited QR code creation for 7III QR.
 
 ## Feature Requests and Bugs
-We love hearing your ideas and finding bugs! Send your feature requests or bugs to [hi@project7III.com](mailto:hi@project7III.com).
+We love hearing your ideas and finding bugs! Send your feature requests or bugs to [7+1@project7III.com](mailto:7+1@project7III.com).

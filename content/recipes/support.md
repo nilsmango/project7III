@@ -10,7 +10,7 @@ draft = true
 Need help? We're here for you.
 
 ## Contact Us
-[hi@project7III.com](mailto:hi@project7III.com)
+[7+1@project7III.com](mailto:7+1@project7III.com)
 
 ## FAQ
 
@@ -28,4 +28,4 @@ In iMessage: Tap the "+", navigate to the 7III Water stickers
 In WhatsApp: Tap the emoji icon, swipe right to the frequently used emojis, and look for the sticker icon. Find the 7III Water sticker set, then import the sticker you want. The imported sticker will now appear in your usual sticker location.
 
 ## Feature Requests
-We love hearing your ideas! Send your feature requests to [hi@project7III.com](mailto:hi@project7III.com).
+We love hearing your ideas! Send your feature requests to [7+1@project7III.com](mailto:7+1@project7III.com).

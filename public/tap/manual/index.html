@@ -699,7 +699,6 @@ Tapping on the BPM digits lets you type in the exact tempo you want.</p>
 <h4 id="3-3-3-encoders-section">3.3.3 Encoders Section</h4>
 <p>The 8 encoders of the current bank.</p>
 <ul>
-<li>You can swipe from in between the encoders to directly get to adjacent banks.</li>
 <li>There are three types: dials, selectors (current selection with a slider underneath), on/off buttons</li>
 <li>All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)</li>
 <li>All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.</li>
@@ -896,7 +895,7 @@ Probability is represented by colour saturation: the more saturated the note’s
 <h5 id="3-3-5-1-selection-mode">3.3.5.1 Selection Mode</h5>
 <p>Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
 Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy-pasting.<br />
-You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an edit overlay for easy and quick editing (see below).
+You can move around selected notes by dragging one of them. You can also adjust the velocity and the length of all the selected notes by simply editing one of them. As this can be finicky, especially when playing live, we have added an <strong>Edit Overlay</strong> for easy and quick editing (see below).
 Info: You can't undo and redo selections.</p>
 
     
@@ -965,12 +964,12 @@ Info: You can't undo and redo selections.</p>
 <ol>
 <li>Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.</li>
 <li>Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.</li>
-<li>Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc.</li>
+<li>Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc. Once copy is active button 5 turns into a deactive <strong>Selection Mode</strong> button. When you press it, you will be able to use the <strong>Play Menu</strong> in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> to move to other clips in the track and paste the notes there!</li>
 <li>Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to <code>x2</code> and <code>/2</code> buttons. These multiply or divide the duration of the selected notes by 2.</li>
-<li>Cut button. Cuts the selected range and notes into the copy buffer. To paste, see "3. Copy button".</li>
+<li>Cut button. Cuts the selected range and notes into the copy buffer and deactivates <strong>Selection Mode</strong>. To paste, see "3. Copy button".</li>
 <li>Duplicate button. Duplicates the selected range and notes to the end of the selected range.</li>
 <li>Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to <code>x2</code> and <code>/2</code> buttons.</li>
-<li>Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selected range and notes by a quarter of the grid. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.</li>
+<li>Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selection by one eighth of the grid. Keep pressing to repeat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.</li>
 </ol>
 <h6 id="modulation-menu">Modulation Menu</h6>
 

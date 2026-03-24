@@ -10,7 +10,7 @@ featured_image_alt = "Client Work by project7III"
 Here are some some of the things we’ve made for others over the years.
 
 <div class="button">
-<a href="mailto:hi@project7iii.com" target="_blank" class="btn" id="greenButton">Ask if we are available</a>
+<a href="mailto:7+1@project7iii.com" target="_blank" class="btn" id="greenButton">Ask if we are available</a>
 </div>
 
 
