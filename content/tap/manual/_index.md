@@ -38,12 +38,23 @@ Note: If you are only going to use the [Encoders](#3-6-encoders-view), then you 
  </blockquote>
  </li>
 <li>Place the unzipped remote script folder called <strong>Tap</strong> into the <strong>Remote Scripts</strong> folder you just created.</li>
+<li>Your directory should now look like this:</li>
 </ol>
+
+```
+Ableton/
+└── User Library/
+    └── Remote Scripts/
+        └── Tap/
+            ├── __init__.py
+            ├── Tap.py
+            └── README.md (optional, can be removed)
+```
 
 >**Important:** Make sure the User Library is stored locally on your computer and matches the exact path described above. If it is cloud-based or even slightly misnamed, Ableton Live may fail to recognize the script.
 
 ### 2.2 Connect your iPhone or iPad
-Note: If you have a Mac, MIDI over USB is the best way to connect your iPhone or iPad to Live. If you are never using MIDI over WiFi, you can disable **MIDI over WiFi enabled** in Settings.
+Note: If you have a Mac, **MIDI over USB is the best way to connect your iPhone or iPad to Live**. If you are never using MIDI over WiFi, you can disable `MIDI over WiFi enabled in Settings.
 
 #### 2.2.1 Over USB (Mac Only)
 <ol>
