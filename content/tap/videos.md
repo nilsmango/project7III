@@ -17,6 +17,16 @@ You can find the complete Tap Playlist here: [7III Tap Playlist](https://youtube
 
 >Got a video featuring Tap? <a href="mailto:7+1@project7III.com">Send it in</a> — we’re happy to share it.
 
+## Everything New in Tap 1.5
+A quick overview of the latest updates in Tap 1.5, the powerful Ableton Live controller for iPhone and iPad.
+
+New in 1.5:
+1. Deep encoder integration. See real parameter values directly: Hz for filters, percentages, pitches, waveform and filter names, on/off states, and more.
+2. Built-in [browser](/tap/manual#browser). Quickly add devices and effects without breaking your flow.
+3. Massive performance gains. All views are now significantly more CPU efficient for smoother sessions.
+
+{{ youtube(id="UY2SsD2iyTA", start="0") }}
+
 ## Everything New in Tap 1.4
 A complete walkthrough of everything introduced in Tap 1.4, including updated MIDI sequencer for smooth performance, including MIDI mutation and editing tools for blazing fast sequencing, better device view and many more performance features.
 

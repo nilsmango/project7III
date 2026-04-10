@@ -38,7 +38,7 @@ This guide compares the most popular controllers so you can choose the one that 
 
 | Controller            | Push 3           | Move              | TouchAble                 | 7III Tap                         | Knobber                     | LK              |
 |:----------------------|:-----------------:|:-----------------:|:-------------------------:|:--------------------------------:|:---------------------------:|:---------------:|
-| Price (USD)           | 999               | 499               | 30                        | 20                               | 40                          | 25              |
+| Price (USD)           | 999               | 499               | 30                        | 25                               | 40                          | 25              |
 | Active Support        | ✅                | ✅                | ❌                        | ✅                               | ✅                          | ✅              |
 | Plug in and play      | ✅                | ✅                | ❌ | ✅  | ❌ | ❌   |
 | Connection            | USB               | USB               | WiFi                      | USB and WiFi                     | WiFi                        | WiFi            |
@@ -47,14 +47,14 @@ This guide compares the most popular controllers so you can choose the one that 
 | Different pad layouts | ❌                | ❌                | ✅                        | ✅                               | ❌                          | ✅              |
 | Sequencing            | ⭐⭐               | ⭐⭐⭐              | ⭐⭐                       | ⭐⭐⭐⭐                            | ❌                          | ⭐⭐⭐             |
 | Automation Lock       | ✅                | ✅                | ❌                        | Not yet                          | ❌                          | ❌              |
-| Integrated Devices    | ✅                | ✅                | ✅                        | ⭐⭐                              | ✅                          | ⭐⭐             |
+| Integrated Devices    | ✅                | ✅                | ✅                        | ✅                              | ✅                          | ⭐⭐             |
 | Clips Launch          | ✅                | ✅                | ✅                        | ✅                               | ❌                          | ✅              |
 | Combine clips         | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ❌              |
 | Mixing                | No faders | No faders | ✅                        | ✅                               | ✅                          | ✅              |
 | Like a Push or better | ✅                | ⭐⭐⭐               | ⭐⭐                        | ⭐⭐⭐⭐                             | ❌                          | ❌              |
 | Seq modulation        | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ✅              |
 | Extra encoders        | ❌                | ❌                | ❌                        | ✅                               | ✅                          | ✅              |
-| Devices Browser       | ✅                | ✅                | ✅                        | Coming soon                      | ❌                          | ❌              |
+| Devices Browser       | ✅                | ✅                | ✅                        | ✅                     | ❌                          | ❌              |
 | Random Device         | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ❌              |
 | Orientations          | 1                 | 1                 | 1                         | 2                                | 2                           | 1               |
 | Android?              | -                 | -                 | ❌                        | ❌                               | ✅                          | ✅              |
@@ -126,7 +126,7 @@ Website: [zerodebug.com](https://zerodebug.com)
 - extra customizable universal MIDI encoders pages.
 
 Cons: 
-- No custom pages for devices yet
+- No custom pages for devices yet, but already deep encoders integration with waveforms, filter types, musical divisions, on/off buttons and more!
 - No Android app
  
 Tap is the best choice for:

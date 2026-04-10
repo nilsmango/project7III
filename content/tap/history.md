@@ -2,10 +2,35 @@
 title = "Tap Version History"
 description = "The version history of 7III Tap"
 date = 2025-06-27
-updated = 2025-11-25
+updated = 2026-04-10
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
+
+## Version 1.5:
+*April 2026*  
+This is our biggest improvement to Tap yet. It really feels like a fully fledged [Ableton Push alternative](/tap/best-ableton-live-controller#comparison-table-2026) now, and we hope you love playing Ableton Live with it as much as we do.  
+  
+Browser and big encoders update:
+- Added Browser for devices and effects  
+- Deep encoder improvements: value display (Hz, %, names, musical divisions, etc.) and on/off buttons  
+- Added localizations for German, Spanish, French, Italian, Portuguese, Japanese, Korean  
+- Added a new performance feature (find it in Settings)
+- Improved duplication of clips  
+- Added an end to the Clips view so you can scroll back if you overshoot  
+- Added a play menu to all device views (except return tracks)  
+- Added "Select Main Track" button to Clips view footer and play menu in Device view  
+- Added custom menus  
+- Added loop length to sequencers  
+- Mixer meters now show peak indicators and turn red above 0 dB  
+- Fixed grouped tracks breaking Clips view ("apocalypse now" bug, found and named by Steo Le Panda, thank you)  
+- Made key and pad names stay visible while playing pads  
+- Fixed Drum Synth mappings  
+- Merging clips now works  
+- Added MIDI Remote Script version check  
+- Made most views significantly more efficient  
+- Many improvements  
+- Many bug fixes 
 
 ## Version 1.4:
 *November 2025*  
