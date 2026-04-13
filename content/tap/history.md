@@ -7,7 +7,13 @@ updated = 2026-04-10
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
 
-## Version 1.5:
+## Version 1.5.1
+*April 2026*  
+Bug fixes and cosmetic changes:
+- Moved Lil Helper Menu a bit more down
+- Fixed two bugs where notes playing would not update after recording and capturing MIDI
+
+## Version 1.5
 *April 2026*  
 This is our biggest improvement to Tap yet. It really feels like a fully fledged [Ableton Push alternative](/tap/best-ableton-live-controller#comparison-table-2026) now, and we hope you love playing Ableton Live with it as much as we do.  
   
@@ -32,7 +38,7 @@ Browser and big encoders update:
 - Many improvements  
 - Many bug fixes 
 
-## Version 1.4:
+## Version 1.4
 *November 2025*  
 It's all about performance:
 - Performance Features now activated by default
