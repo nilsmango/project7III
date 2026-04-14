@@ -3,15 +3,15 @@ title = "Tap - Ableton Live Controller for iPhone & iPad"
 description = "Tap is an advanced Ableton Live controller for iPhone and iPad with step sequencing, clip launching, device control, mixing and universal MIDI encoders."
 [extra]
 date = 2024-03-15
-updated = 2026-04-10
+updated = 2026-04-14
 share = true
 featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap Ableton Live Controller on an iPad"
 +++
-<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 1.5</a> 
+<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 1.5.1</a> 
 
 >Last Update: **{{ date_updated() }}**  
->Welcome to Tap 1.5: now with deeply integrated touching!  
+>Welcome to Tap 1.5.1: now with deeply integrated touching!  
 >Try Tap for free on the App Store:  
 >👉 [Download 7III Tap](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273)
 

@@ -2,7 +2,7 @@
 title = "Tap Version History"
 description = "The version history of 7III Tap"
 date = 2025-06-27
-updated = 2026-04-10
+updated = 2026-04-14
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
