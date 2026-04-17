@@ -5,7 +5,7 @@ description = "Water sports tracker for iPhone, Apple Watch & Garmin. Track down
 date = 2025-12-14
 updated = 2025-12-17
 share = true
-featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
+featured_image = "7III Water Sports Tracker Statistics.jpg"
 featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foiling GPS route"
 +++
 

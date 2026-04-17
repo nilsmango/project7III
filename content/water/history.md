@@ -2,10 +2,31 @@
 title = "Water Version History"
 description = "The version history of 7III Water"
 date = 2025-06-27
-updated = 2025-12-17
+updated = 2026-04-17
 +++
 
 <a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
+
+## Version 1.4
+*April 2026*  
+Getting more awesome:
+
+- Improved angle tool
+- New gradient line maps
+- New combined speed and heart rate chart
+- Added fastest overall kilometer
+- Expanded speed statistics
+- Added speed distribution
+- Added “Days with Sessions” to statistics
+- New workout type: UDW Parawing (Up/Downwind Parawing)
+- Maps update: add spots, view spots, and see all sessions on one map
+- Improved map export (better image output)
+- Shared maps and stickers now support tags
+- iPhone now records height data
+- Added jump count and maximum jump height
+- Automatic removal of obvious GPS spikes
+- Improved handling of GPS issues
+
 
 ## Version 1.3
 *November 2025*  

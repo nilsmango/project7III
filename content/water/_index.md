@@ -3,9 +3,9 @@ title = "Water - Water Sports Tracker"
 description = "Water sports tracker for iPhone, Apple Watch & Garmin. Track downwind foiling, pump foiling, wake thief and more. No subscriptions."
 [extra]
 date = 2024-04-11
-updated = 2025-12-17
+updated = 2026-04-17
 share = true
-featured_image = "7III Tracker Downwind Foiling Tracker.jpg"
+featured_image = "7III Water Foiling Statistics.jpg"
 featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foiling GPS route"
 +++
 
@@ -17,7 +17,7 @@ Track **downwind foiling**, **pump foiling**, **wake thief**, wing, kite, SUP an
 No subscriptions. No accounts. Your data stays on your device.  
 Try it for free: [Download Water](https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780)
 
-{{ image_sets(path="content/water/7III Water Downwind Foiling Statistics.jpg", format="auto", op="fit_width", quality=100, alt="7III Water water sports tracker showing downwind foiling statistics like sessions, days on water and total distance", caption='So many great stats.') }}
+{{ image_sets(path="content/water/7III Water Foiling Statistics.jpg", format="auto", op="fit_width", quality=100, alt="7III Water water sports tracker showing downwind foiling statistics like sessions, days on water and total distance", caption='So many great stats.') }}
 
 ## Features of 7III Water
 
@@ -25,13 +25,15 @@ Try it for free: [Download Water](https://apps.apple.com/app/7iii-water-downwind
 - iPhone and Apple Watch support
 - GPX import for Garmin and other smartwatches
 - GPX export for easy sharing (for example, with [race.downwind.app](https://race.downwind.app/))
-- Wind dashboards: Add your favorite wind stations and see them all in one place (**NEW!**)
+- Wind dashboards: Add your favorite wind stations and see them all in one place 
 - Optimized for Apple Watch: Start and stop sessions without touching the screen—just turn the Digital Crown
 - Yearly and monthly stats like number of sessions, days on water, and distances covered at a glance
-- Track average speeds, time on foil, max distance, turns completed and more
-- Filter statistics by discipline, location, upwind angles, and tags (**NEW!**)
+- Track average speeds, speed distribution, time on foil, max distance, turns completed, jumps (**NEW!**) and more
+- Filter statistics by discipline, location, upwind angles, and tags
 - Editing of routes*
 - Export your stats as a map, image, video or sticker overlay
+- [Foiling map of the world](/foildata/map): discover and add foil spots and downwind runs (**NEW!**)
+- View all your past sessions on one map, sorted by year (**NEW!**)
 - **No subscription traps: Unlock premium features with a one-time payment**
 - Simple and beautiful design
 - Cool water sport sticker pack
@@ -42,17 +44,16 @@ Try it for free: [Download Water](https://apps.apple.com/app/7iii-water-downwind
 </div>
 
 ### Supported Water Sports & Foiling Disciplines
-Foil Surf, SUP Foil, **Downwind Foiling (DW SUP Foil, DW Prone Foil)**, Wing Foil, Parawing, DW Parawing, Wind Foil, Kite Foil, Kite, Windsurf, **Pump Foil**, **Wake Thief**, Wake Foil, Wake Surf, SUP Surf, Surf, Sailing, E-Foil, E-Assist
+Foil Surf, SUP Foil, **Downwind Foiling (DW SUP Foil, DW Prone Foil)**, Wing Foil, Parawing, DW Parawing, Up-Downwind Parawing, Wind Foil, Kite Foil, Kite, Windsurf, **Pump Foil**, **Wake Thief**, Wake Foil, Wake Surf, SUP Surf, Surf, Sailing, E-Foil, E-Assist
 
 ## Roadmap
 Help shape the perfect water sports tracking app by [requesting features](/water/support#feature-requests).
 
-- Add tags to export maps
 
 {{ appstore_button(tagline="The Water's nice — come try it out!", url="https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780") }}
 
 
-{{ image_sets(path="content/water/7III Tracker Downwind Foiling Tracker.jpg", format="auto", op="fit_width", quality=100, alt="7III Water water sports tracker displaying a downwind foiling route on a map", caption='A downwind run a day keeps the doctor away.') }}
+{{ image_sets(path="content/water/7III Water Sports Tracker Statistics.jpg", format="auto", op="fit_width", quality=100, alt="7III Water water sports tracker displaying a downwind foiling route and other statistics", caption='A downwind run a day keeps the doctor away.') }}
 
 ## FAQ
 
