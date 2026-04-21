@@ -34,6 +34,7 @@ Here are some of the reasons why you should consider Tap:
 - **NEW:** **Browser** for quickly adding devices and effects
 - **Universal MIDI CC mode** for controlling any instrument or app
 - **Adaptive layouts** for portrait and landscape on iPad
+- **Test Tap for free** before you buy it. No subscription. One-time unlock
 
 ### Device View
 - Different MIDI keyboards & pads  
@@ -69,7 +70,7 @@ Designed for quick sound design, live modulation, and awesome sequencing.
 - No server or Max for Live device required. Simply download the MIDI remote script and put it in the correct folder. More information [here](/tap/manual/#2-1-add-the-tap-midi-remote-script).
 
 ## App Store
-Download Tap in the App Store and test it for free for 15 minutes per day!
+Download Tap on the App Store and test it for free for 15 minutes per day!
 {{ appstore_button(tagline="Let's jam!", url="https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273") }}
 
 ### Reviews
