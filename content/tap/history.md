@@ -7,6 +7,18 @@ updated = 2026-04-14
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
 
+## Version 1.5.2
+*April 2026*  
+Scaling the business, one bug fix at a time:
+- Added Harmonic Minor scale
+- Added a new scale mode: Chromatic
+- Scale mode now supports both In Key and Chromatic
+- Fixed multiple scale-related bugs
+- Fixed a broken email address
+- Fixed SysEx encoding issues
+- Added Strategy Cards
+- Added an always-on dark mode option
+
 ## Version 1.5.1
 *April 2026*  
 Bug fixes and cosmetic changes:
