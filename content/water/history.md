@@ -2,10 +2,19 @@
 title = "Water Version History"
 description = "The version history of 7III Water"
 date = 2025-06-27
-updated = 2026-04-17
+updated = 2026-05-03
 +++
 
 <a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
+
+## Version 1.4.1
+*May 2026*  
+Bug fixes and refinements:
+
+- Fixed dashboard bug
+- Fixed broken email addresses
+- Fixed 50 m and 100 m fastest segments
+- Changed rounds to flights for pump foiling, wake thieving, and wave sports
 
 ## Version 1.4
 *April 2026*  
