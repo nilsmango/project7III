@@ -2,10 +2,46 @@
 title = "Tap Version History"
 description = "The version history of 7III Tap"
 date = 2025-06-27
-updated = 2026-04-14
+updated = 2026-06-07
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
+
+## Version 2.0
+*June 2026*
+The release notes now have release notes:
+- Added Automation, including automation independent of loop playback
+- Added Follow Actions
+- Added Companions and Rhythm Generator
+- Added a new Controls bank with Volume, Pan, Sends, Pressure, Mod Wheel, and other track controls
+- Added Macro Variations and randomizations
+- Added grid size adjustment by pinching
+- Added Metronome and Tap Tempo
+- Added automation indicators to the Mixer View
+- Added automation re-enable/remove actions to the Track context menu
+- Added grouped track folding and unfolding
+- Added Grid Snap for notes to the Track context menu
+- Added a default MIDI layout setting
+- Added a 5-pad fourths layout for iPhone
+- Added a custom algorithm control for Operator
+- Improved effect moving and insertion, especially with racks
+- Improved fine movement by locking horizontal and vertical gestures
+- Parameter changes now work correctly with Max for Live devices
+- Added parameter name change listeners
+- Browser state now resets correctly
+- Sequencers can now step beyond clip length
+- Improved set change synchronization
+- Tempo synchronization is now more reliable
+- Fixed crashes caused by Shaper, LFO, and related devices in Live 12.4
+- Fixed Select All in the sequencer not selecting the full range
+- Fixed a Play button issue
+- Various bug fixes and stability improvements
+
+## Version 1.5.3
+*May 2026*
+Small polish update:
+- Fixed track and device header taps not always selecting or switching views
+- Improved Strategy Card flinging
 
 ## Version 1.5.2
 *April 2026*  

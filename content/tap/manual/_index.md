@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, an Ableton Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2026-03-14
+updated = 2026-05-30
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
@@ -109,6 +109,7 @@ This is where every adventure starts.
 ### 3.1.1 Settings
 In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).
 - You will also find a button to enable/disable all [Performance Features](#4-1-performance-features).
+- **Default MIDI Layout** sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.
 
 ### 3.2 Main Views
 The main Ableton Live controller views share some common elements, described below.
@@ -122,11 +123,16 @@ The top bar showing the tracks of your Live project.
 - A long-press opens the track's context menu where you can:
   - add track
   - delete track
+  - fold or unfold a Group Track, if the track is a group or belongs to one
   - toggle arm of the track (if audio track)
+  - re-enable automation, either for the whole Live Set or for the next touched parameter
+  - remove automation from the next touched parameter
   - activate "select a drum pad without playing it" (only with active drum pad layout)
   - configure the standard note length (only with active step sequencer)
   - go [Home](#3-1-home-view)
   - go to [Encoders](#3-6-encoders-view)
+
+Group tracks show a group indicator in the Tracks Bar. When a group is folded in Live, Tap hides the tracks inside that group as well, so the Tracks Bar behaves like Live's Session View: fold the group to make room, unfold it when you want access to the child tracks again.
 
 {{ image_sets(path="content/tap/manual/Tap_tracks_context_menu.jpg", format="auto", op="fit_width", quality=75, alt="Tracks Bar Context Menu", caption='The Tracks Bar context menu.' imgset_class="imgset-twothird") }}
 
@@ -181,6 +187,7 @@ Extra buttons in the horizontal Footer Bar of the Device View:
 
 Tapping the plus and minus buttons will adjust the tempo by the amount indicated in the center.  
 Tapping on the BPM digits lets you type in the exact tempo you want.
+The Tempo Overlay also has a **Tap Tempo** pad and a **Metronome** button. Tap Tempo sends Live's tap-tempo command, so several taps set the song tempo from your rhythm. The Metronome button mirrors Live's metronome state and toggles it on or off.
 
 
 ### 3.3 Device View
@@ -215,8 +222,9 @@ The 8 encoders of the current bank.
 
 Dials:
 - Activate a dial by touching it, then:
-  - Adjust the encoder value by moving your finger up or down.
-  - Fine-tune the value by moving your finger left or right.
+  - Move up or down for normal, broad value changes.
+  - Move left or right for fine value changes.
+  - Tap watches the beginning of your gesture and locks to the first clear direction it understands. After the dial has locked to vertical or horizontal movement, diagonal wobble is ignored, which makes live parameter moves much less jumpy.
 - Double-tap a dial to reset to the default value; triple-tap to reset to center (63).
 
 Selectors:
@@ -230,6 +238,16 @@ On/Off Buttons:
 - Simply tap a button to switch the value.
 
 {{ image_sets(path="content/tap/manual/encoder.jpg", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-quarter") }}
+
+##### Parameter Automation from the Encoders
+The small automation dot on an encoder tells you what Live reports for that parameter:
+- A track-coloured dot means the parameter has active automation.
+- A grey dot means automation exists, but it is currently overridden because the parameter was moved away from the automated value.
+
+Automation actions appear in the Banks Bar menu and in the track context menu when they are useful:
+- **Global Automation** re-enables automation for the whole Live Set. This is the same kind of action as pressing Live's "Re-enable Automation" button.
+- **Local Automation** arms Tap for one touch. After choosing it, touch the encoder whose automation you want to re-enable. This is useful when one grey-dot parameter should return to automation without restoring the whole song.
+- **Remove Automation** also arms Tap for one touch. After choosing it, touch the encoder whose automation should be removed. Tap clears that parameter's automation envelope from the playing clip on the selected track and leaves the parameter at its current value.
 
 #### 3.3.4 MIDI Grid
 The MIDI grid is for playing notes (huge surprise!).  
@@ -252,6 +270,8 @@ Step sequence away!
 - Long press on a note to also enter Selection Mode (or if already in Selection Mode, this will add/remove the note from the selection).
 - Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when **Performance Features** are enabled (see [Footer Bar](#3-2-2-footer-bar) button 2).
 - To select a drum pad, long press on an empty step in the Step Sequencer.
+- Pinch in the sequencer to change the grid size. Pinch open for a finer grid, down to 1/32. Pinch closed for a wider overview, up to whole-note pages. The same gesture works while editing automation.
+- You can page further than the current clip length. This lets you move into empty space beyond the clip end, add notes or edit longer automation, and then extend the musical idea instead of being trapped at the old end marker.
 
 Let's dive into the Tap Step Sequencer in detail:
 {{ image_sets(path="content/tap/manual/Step_Sequencer.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer", caption='The Step Sequencer.') }}
@@ -279,6 +299,8 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 5. Move Loop Start/End & Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits.
 6. Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.
 7. Start/End Marker: Moves the start/end marker to the Lil Green Helper rectangle.
+
+The Lil Green Helper menu also gives access to [Automation Editing](#3-3-5-2-automation-editing), the [Companion](#3-3-5-3-companion), and the [Rhythm Generator](#3-3-5-4-rhythm-generator), depending on the selected clip and track.
 
 ##### 3.3.5.1 Selection Mode
 Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
@@ -335,6 +357,123 @@ You can:
 - select all notes
 - invert the selection
 - randomize the selection
+
+##### 3.3.5.2 Automation Editing
+Tap can edit the selected device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose **Show Automation**. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press **Choose Parameter** in the Footer Bar, then touch the encoder you want to edit.
+
+The automation line is drawn over the sequencer:
+- A solid line with dots means the clip has automation for the selected parameter.
+- A dashed horizontal line means there is no envelope yet; the line shows the current parameter value.
+- The selected parameter is marked with corner brackets around its encoder.
+
+Editing works directly on the line:
+- Tap the dashed line, a line segment, or the visible automation curve to add a point.
+- Drag a point to move it in time and value. Time snaps to the current sequencer grid.
+- Drag a line segment to bend the curve between two points.
+- Tap a point when no automation points are selected to remove it.
+- Drag on the background to select automation points. Selected points get a light-blue ring.
+- Drag one selected point to move all selected automation points together.
+- Tap the background to clear the selection.
+- Turn on the pencil in the Footer Bar to draw automation continuously.
+
+When automation points are selected, the Footer Bar changes:
+- **Trash** deletes the selected automation points.
+- **Duplicate** copies the selected automation span to the end of that span. The destination range is overwritten, and the first copied point lands exactly where the original selection ended, so repeating ramps and shapes continue cleanly.
+
+The helper menu has a few important automation commands:
+- **Automation End** sets a separate end point for the selected parameter's automation. This creates decoupled automation: the notes can loop at one length while the automation runs at another length.
+- **Clear Automation** removes the selected parameter's automation envelope from the clip.
+- **Clear All Automation** removes automation for the parameters in the current device bank.
+- **Unfold Clip** commits a decoupled automation clip into a normal longer clip. The hidden repeated note copies become real clip content, and Tap removes the special folding metadata.
+
+Decoupled automation is useful for slow filter movements, long macro sweeps, and polymetric automation. For example, you can keep a 1-bar drum loop while a filter automation takes 8 bars to return home. Tap shows the note loop and the automation loop separately; an `A` in the loop length indicator means you are looking at an automation length.
+
+##### 3.3.5.3 Companion
+The **Companion** turns the visible source loop into a longer musical structure. Tap calls this "mutator" in some older code, but in the app and the manual it is the Companion.
+
+Open the Lil Green Helper menu and choose **Companion**. Tap uses the current loop as the source section, called `A`, then writes generated sections after it. The source loop stays the musical identity. Other sections are variations, bridges, hooks, fills, breaks, or returns based on the selected pattern and algorithm.
+
+Companion clips are still editable. While a clip is in Companion mode, the generated structure is stored with the clip. You can:
+- **Start** to create the Companion structure.
+- **Apply** after changing settings that are waiting to be written.
+- **Regenerate** to make a fresh version with the same settings.
+- **Commit** to turn the generated structure into a normal MIDI clip.
+- **Exit** to remove the generated sections and return to the original source loop.
+
+The main controls are:
+- **Melody / Rhythm** switches whether the Companion mutates melodic material or drum/rhythm material. In Rhythm mode, choose the target drum lanes or note rows first.
+- **Pattern** chooses the song shape, such as `AABA`, `AABB`, `ABCD`, or longer forms.
+- **Depth / Variation** sets how far Tap is allowed to move away from the source.
+- **Regeneration** controls whether the Companion stays static or evolves while the clip plays: Static, every pass, every 2nd pass, every 4th pass, or probability-based 10%, 25%, 50%, or 75% evolution.
+- The toggles decide which musical operations are allowed: fills, simplification, rhythmic shifts, additions, removals, velocity, gate, octave shifts, and pitch shifts.
+
+Pattern roles:
+- `A` is the original source loop. It is either unchanged or only very lightly touched.
+- `A'` and `A''` are close variations. They keep the identity but add small note, timing, velocity, or repetition changes.
+- `A'''` is a stronger variation with bigger rhythm and register movement.
+- `AB` is a transition section, often end-weighted with pickups, fills, or a short break.
+- `B` is contrast. It may be sparser, denser, inverted, displaced, or register-shifted.
+- `B'` is a variation of `B`.
+- `C` is the hook or refrain. It tries to feel more stable and memorable.
+- `D`, `E`, and `F` are chained mutations, each generated from the previous letter rather than always from `A`.
+- `C2` is a special second mutation of `C`.
+- `Fill` leads clearly into the next section.
+- `Break` reduces density and energy.
+- `Drop` brings the energy back with stronger timing and velocity.
+
+Pattern presets:
+- `AB` gives one original pass and one contrast pass.
+- `AABA` makes a compact question-and-return phrase.
+- `AABB` repeats both the original and the contrast.
+- `AAAA BBBB` creates a clear block of source material followed by a clear block of contrast.
+- `AAAA AB AB BB` is the default. It develops the idea without an abrupt jump.
+- `ABCD`, `AABCDE`, `AAAABCDE`, and `AABBCCDD` are chained mutations.
+- `A B A B C B` alternates source and contrast before a hook-like section.
+- `A A' A'' B C A` develops the source, visits a bridge and hook, then returns home.
+- `A B C D C C2 B A` travels away from the source and then walks back.
+- `A A A' A' B Fill A' A` builds tension and snaps back.
+- `A A A' A' B Fill C C A' A` gives a verse, bridge, refrain, and return shape.
+- `A A' A'' Fill B B' Break C Drop A` is a longer tension and release form.
+- `A A A A' A' B Fill C C B Fill C C A' A` is built for longer live-performance phrases.
+
+Melody algorithms:
+- **Companion** is the general-purpose mutator. It starts from the source notes and applies the enabled operations according to the pattern role.
+- **Verse Weaver** expands a motif gently, repeating nearby scale movements so the result feels like a verse variation rather than a new part.
+- **Motif Ladder** moves the motif up and down the scale in a ladder shape. It is good for arpeggios, hooks, and patterns that should climb without losing their original rhythm.
+- **Sparse Echo** keeps more space, removes some density, and adds short echo-like replies. It is useful when the source is too busy or when you want a delayed answer to the phrase.
+- **Chorus Lift** raises the energy with upward scale movement, velocity lift, and occasional octave reinforcement. It aims for the "same idea, bigger" feeling.
+- **Middle Eight** creates contrast with more timing displacement and longer note lengths. It is useful for a section that should feel like it left the main loop for a moment.
+- **Tension Break** pushes notes upward, shortens or tightens timing, and adds energy before a return.
+- **Skylight Hook** creates a bright, stepwise melodic hook with a slight upward bias.
+- **Glass Steps** is crisp and sequenced, with more repeated upward step movement and a little extra velocity.
+- **Nocturne Line** keeps the line lower and more restrained, with smaller downward movements.
+- **Modal Drift** turns source notes into scale-aware chord movement. A single-note source can become triads that drift through the selected scale.
+- **Circle Resolve** is another chord generator, but with a stronger feeling of movement and return. It may add an extra chord tone for more colour in stronger sections.
+
+Rhythm algorithms:
+- **Backbeat Engine** builds a solid kick/snare/hat pattern from the selected target lanes.
+- **Broken Garage** makes a syncopated, off-grid-feeling drum pattern with garage-style kick placement.
+- **Four Floor Bloom** makes a four-on-the-floor base with backbeat snare and offbeat hats; if you select an open-hat lane, it can use that for the offbeats.
+
+##### 3.3.5.4 Rhythm Generator
+The **Rhythm Generator** writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row; while the overlay is open, tap a row in the sequencer to choose a different target.
+
+Open it from the Lil Green Helper menu. The overlay shows the target lane at the top. With **Auto** off, adjust the controls and press **Generate**. With **Auto** on, Tap updates the lane automatically as you change settings.
+
+The controls:
+- **Step Size** chooses whether the pattern is built from 1/4, 1/8, 1/16, or 1/32 steps.
+- **Steps** chooses the number of slots in the pattern, up to 16.
+- **Density** chooses how many of those slots contain notes.
+- **Pattern** chooses one exact rhythm from all possible rhythms for the current Steps and Density. You can use the plus/minus buttons, long-press to move faster, or tap the number field and type the pattern number directly.
+- **Shift** rotates the rhythm forward or backward.
+- **Velocity** sets the base velocity.
+- **Accent** sets how much louder accented notes are.
+- **Accent Count** chooses how many hits are accented.
+- **Accent Pattern** chooses which of the hits receive the accent.
+
+Tap calculates the full set of possible hit patterns for the current Steps and Density. For example, 16 steps with 4 hits produces many possible placements. Tap sorts them musically by favouring even spacing, avoiding long runs of consecutive hits, and preferring patterns that begin on the downbeat. Accent patterns are calculated separately from the hit pattern, so you can keep the same rhythm and move only the accents.
+
+Generating replaces the notes on the target lane inside the current loop. Other note lanes are left alone.
 
 ### 3.4 Clips View
 {{ image_sets(path="content/tap/manual/clips.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Clips View", caption='The Clips View.') }}

@@ -99,7 +99,7 @@
 <p>Last Update: <strong>
     
 
-<time datetime="2026-03-14T00:00:00+00:00">March 14, 2026</time>
+<time datetime="2026-05-30T00:00:00+00:00">May 30, 2026</time>
 </strong><br />
 If you find any mistakes or notice anything missing in this user manual, please reach out and let us know!</p>
 </blockquote>
@@ -224,6 +224,14 @@ If you find any mistakes or notice anything missing in this user manual, please 
                         <li>
                             <a href="https://project7iii.com/tap/manual/#3-3-3-encoders-section">3.3.3 Encoders Section</a>
                             
+                            <ul>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#parameter-automation-from-the-encoders">Parameter Automation from the Encoders</a>
+                                </li>
+                                
+                            </ul>
+                            
                         </li>
                         
                         <li>
@@ -238,6 +246,18 @@ If you find any mistakes or notice anything missing in this user manual, please 
                                 
                                 <li>
                                     <a href="https://project7iii.com/tap/manual/#3-3-5-1-selection-mode">3.3.5.1 Selection Mode</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">3.3.5.2 Automation Editing</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#3-3-5-3-companion">3.3.5.3 Companion</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#3-3-5-4-rhythm-generator">3.3.5.4 Rhythm Generator</a>
                                 </li>
                                 
                             </ul>
@@ -409,6 +429,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <p>In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).</p>
 <ul>
 <li>You will also find a button to enable/disable all <a href="https://project7iii.com/tap/manual/#4-1-performance-features">Performance Features</a>.</li>
+<li><strong>Default MIDI Layout</strong> sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.</li>
 </ul>
 <h3 id="3-2-main-views">3.2 Main Views</h3>
 <p>The main Ableton Live controller views share some common elements, described below.</p>
@@ -451,7 +472,10 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <ul>
 <li>add track</li>
 <li>delete track</li>
+<li>fold or unfold a Group Track, if the track is a group or belongs to one</li>
 <li>toggle arm of the track (if audio track)</li>
+<li>re-enable automation, either for the whole Live Set or for the next touched parameter</li>
+<li>remove automation from the next touched parameter</li>
 <li>activate "select a drum pad without playing it" (only with active drum pad layout)</li>
 <li>configure the standard note length (only with active step sequencer)</li>
 <li>go <a href="https://project7iii.com/tap/manual/#3-1-home-view">Home</a></li>
@@ -459,6 +483,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 </ul>
 </li>
 </ul>
+<p>Group tracks show a group indicator in the Tracks Bar. When a group is folded in Live, Tap hides the tracks inside that group as well, so the Tracks Bar behaves like Live's Session View: fold the group to make room, unfold it when you want access to the child tracks again.</p>
 
     
 
@@ -627,7 +652,8 @@ In the <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step S
 
 
 <p>Tapping the plus and minus buttons will adjust the tempo by the amount indicated in the center.<br />
-Tapping on the BPM digits lets you type in the exact tempo you want.</p>
+Tapping on the BPM digits lets you type in the exact tempo you want.
+The Tempo Overlay also has a <strong>Tap Tempo</strong> pad and a <strong>Metronome</strong> button. Tap Tempo sends Live's tap-tempo command, so several taps set the song tempo from your rhythm. The Metronome button mirrors Live's metronome state and toggles it on or off.</p>
 <h3 id="3-3-device-view">3.3 Device View</h3>
 <h4 id="3-3-1-devices-bar">3.3.1 Devices Bar</h4>
 <p>The devices are shown here.</p>
@@ -716,8 +742,9 @@ Tapping on the BPM digits lets you type in the exact tempo you want.</p>
 <ul>
 <li>Activate a dial by touching it, then:
 <ul>
-<li>Adjust the encoder value by moving your finger up or down.</li>
-<li>Fine-tune the value by moving your finger left or right.</li>
+<li>Move up or down for normal, broad value changes.</li>
+<li>Move left or right for fine value changes.</li>
+<li>Tap watches the beginning of your gesture and locks to the first clear direction it understands. After the dial has locked to vertical or horizontal movement, diagonal wobble is ignored, which makes live parameter moves much less jumpy.</li>
 </ul>
 </li>
 <li>Double-tap a dial to reset to the default value; triple-tap to reset to center (63).</li>
@@ -765,6 +792,18 @@ Tapping on the BPM digits lets you type in the exact tempo you want.</p>
 </figure>
 
 
+<h5 id="parameter-automation-from-the-encoders">Parameter Automation from the Encoders</h5>
+<p>The small automation dot on an encoder tells you what Live reports for that parameter:</p>
+<ul>
+<li>A track-coloured dot means the parameter has active automation.</li>
+<li>A grey dot means automation exists, but it is currently overridden because the parameter was moved away from the automated value.</li>
+</ul>
+<p>Automation actions appear in the Banks Bar menu and in the track context menu when they are useful:</p>
+<ul>
+<li><strong>Global Automation</strong> re-enables automation for the whole Live Set. This is the same kind of action as pressing Live's "Re-enable Automation" button.</li>
+<li><strong>Local Automation</strong> arms Tap for one touch. After choosing it, touch the encoder whose automation you want to re-enable. This is useful when one grey-dot parameter should return to automation without restoring the whole song.</li>
+<li><strong>Remove Automation</strong> also arms Tap for one touch. After choosing it, touch the encoder whose automation should be removed. Tap clears that parameter's automation envelope from the playing clip on the selected track and leaves the parameter at its current value.</li>
+</ul>
 <h4 id="3-3-4-midi-grid">3.3.4 MIDI Grid</h4>
 <p>The MIDI grid is for playing notes (huge surprise!).</p>
 <ul>
@@ -819,6 +858,8 @@ Tapping on the BPM digits lets you type in the exact tempo you want.</p>
 <li>Long press on a note to also enter Selection Mode (or if already in Selection Mode, this will add/remove the note from the selection).</li>
 <li>Change the drums page or octave using the Side Panel, or the up/down buttons in the Footer Bar - available in landscape mode or when <strong>Performance Features</strong> are enabled (see <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> button 2).</li>
 <li>To select a drum pad, long press on an empty step in the Step Sequencer.</li>
+<li>Pinch in the sequencer to change the grid size. Pinch open for a finer grid, down to 1/32. Pinch closed for a wider overview, up to whole-note pages. The same gesture works while editing automation.</li>
+<li>You can page further than the current clip length. This lets you move into empty space beyond the clip end, add notes or edit longer automation, and then extend the musical idea instead of being trapped at the old end marker.</li>
 </ul>
 <p>Let's dive into the Tap Step Sequencer in detail:
 
@@ -901,6 +942,7 @@ Probability is represented by colour saturation: the more saturated the note’s
 <li>Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.</li>
 <li>Start/End Marker: Moves the start/end marker to the Lil Green Helper rectangle.</li>
 </ol>
+<p>The Lil Green Helper menu also gives access to <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a>, the <a href="https://project7iii.com/tap/manual/#3-3-5-3-companion">Companion</a>, and the <a href="https://project7iii.com/tap/manual/#3-3-5-4-rhythm-generator">Rhythm Generator</a>, depending on the selected clip and track.</p>
 <h5 id="3-3-5-1-selection-mode">3.3.5.1 Selection Mode</h5>
 <p>Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
 Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy-pasting.<br />
@@ -1047,6 +1089,126 @@ You can:</p>
 <li>invert the selection</li>
 <li>randomize the selection</li>
 </ul>
+<h5 id="3-3-5-2-automation-editing">3.3.5.2 Automation Editing</h5>
+<p>Tap can edit the selected device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose <strong>Show Automation</strong>. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press <strong>Choose Parameter</strong> in the Footer Bar, then touch the encoder you want to edit.</p>
+<p>The automation line is drawn over the sequencer:</p>
+<ul>
+<li>A solid line with dots means the clip has automation for the selected parameter.</li>
+<li>A dashed horizontal line means there is no envelope yet; the line shows the current parameter value.</li>
+<li>The selected parameter is marked with corner brackets around its encoder.</li>
+</ul>
+<p>Editing works directly on the line:</p>
+<ul>
+<li>Tap the dashed line, a line segment, or the visible automation curve to add a point.</li>
+<li>Drag a point to move it in time and value. Time snaps to the current sequencer grid.</li>
+<li>Drag a line segment to bend the curve between two points.</li>
+<li>Tap a point when no automation points are selected to remove it.</li>
+<li>Drag on the background to select automation points. Selected points get a light-blue ring.</li>
+<li>Drag one selected point to move all selected automation points together.</li>
+<li>Tap the background to clear the selection.</li>
+<li>Turn on the pencil in the Footer Bar to draw automation continuously.</li>
+</ul>
+<p>When automation points are selected, the Footer Bar changes:</p>
+<ul>
+<li><strong>Trash</strong> deletes the selected automation points.</li>
+<li><strong>Duplicate</strong> copies the selected automation span to the end of that span. The destination range is overwritten, and the first copied point lands exactly where the original selection ended, so repeating ramps and shapes continue cleanly.</li>
+</ul>
+<p>The helper menu has a few important automation commands:</p>
+<ul>
+<li><strong>Automation End</strong> sets a separate end point for the selected parameter's automation. This creates decoupled automation: the notes can loop at one length while the automation runs at another length.</li>
+<li><strong>Clear Automation</strong> removes the selected parameter's automation envelope from the clip.</li>
+<li><strong>Clear All Automation</strong> removes automation for the parameters in the current device bank.</li>
+<li><strong>Unfold Clip</strong> commits a decoupled automation clip into a normal longer clip. The hidden repeated note copies become real clip content, and Tap removes the special folding metadata.</li>
+</ul>
+<p>Decoupled automation is useful for slow filter movements, long macro sweeps, and polymetric automation. For example, you can keep a 1-bar drum loop while a filter automation takes 8 bars to return home. Tap shows the note loop and the automation loop separately; an <code>A</code> in the loop length indicator means you are looking at an automation length.</p>
+<h5 id="3-3-5-3-companion">3.3.5.3 Companion</h5>
+<p>The <strong>Companion</strong> turns the visible source loop into a longer musical structure. Tap calls this "mutator" in some older code, but in the app and the manual it is the Companion.</p>
+<p>Open the Lil Green Helper menu and choose <strong>Companion</strong>. Tap uses the current loop as the source section, called <code>A</code>, then writes generated sections after it. The source loop stays the musical identity. Other sections are variations, bridges, hooks, fills, breaks, or returns based on the selected pattern and algorithm.</p>
+<p>Companion clips are still editable. While a clip is in Companion mode, the generated structure is stored with the clip. You can:</p>
+<ul>
+<li><strong>Start</strong> to create the Companion structure.</li>
+<li><strong>Apply</strong> after changing settings that are waiting to be written.</li>
+<li><strong>Regenerate</strong> to make a fresh version with the same settings.</li>
+<li><strong>Commit</strong> to turn the generated structure into a normal MIDI clip.</li>
+<li><strong>Exit</strong> to remove the generated sections and return to the original source loop.</li>
+</ul>
+<p>The main controls are:</p>
+<ul>
+<li><strong>Melody / Rhythm</strong> switches whether the Companion mutates melodic material or drum/rhythm material. In Rhythm mode, choose the target drum lanes or note rows first.</li>
+<li><strong>Pattern</strong> chooses the song shape, such as <code>AABA</code>, <code>AABB</code>, <code>ABCD</code>, or longer forms.</li>
+<li><strong>Depth / Variation</strong> sets how far Tap is allowed to move away from the source.</li>
+<li><strong>Regeneration</strong> controls whether the Companion stays static or evolves while the clip plays: Static, every pass, every 2nd pass, every 4th pass, or probability-based 10%, 25%, 50%, or 75% evolution.</li>
+<li>The toggles decide which musical operations are allowed: fills, simplification, rhythmic shifts, additions, removals, velocity, gate, octave shifts, and pitch shifts.</li>
+</ul>
+<p>Pattern roles:</p>
+<ul>
+<li><code>A</code> is the original source loop. It is either unchanged or only very lightly touched.</li>
+<li><code>A'</code> and <code>A''</code> are close variations. They keep the identity but add small note, timing, velocity, or repetition changes.</li>
+<li><code>A'''</code> is a stronger variation with bigger rhythm and register movement.</li>
+<li><code>AB</code> is a transition section, often end-weighted with pickups, fills, or a short break.</li>
+<li><code>B</code> is contrast. It may be sparser, denser, inverted, displaced, or register-shifted.</li>
+<li><code>B'</code> is a variation of <code>B</code>.</li>
+<li><code>C</code> is the hook or refrain. It tries to feel more stable and memorable.</li>
+<li><code>D</code>, <code>E</code>, and <code>F</code> are chained mutations, each generated from the previous letter rather than always from <code>A</code>.</li>
+<li><code>C2</code> is a special second mutation of <code>C</code>.</li>
+<li><code>Fill</code> leads clearly into the next section.</li>
+<li><code>Break</code> reduces density and energy.</li>
+<li><code>Drop</code> brings the energy back with stronger timing and velocity.</li>
+</ul>
+<p>Pattern presets:</p>
+<ul>
+<li><code>AB</code> gives one original pass and one contrast pass.</li>
+<li><code>AABA</code> makes a compact question-and-return phrase.</li>
+<li><code>AABB</code> repeats both the original and the contrast.</li>
+<li><code>AAAA BBBB</code> creates a clear block of source material followed by a clear block of contrast.</li>
+<li><code>AAAA AB AB BB</code> is the default. It develops the idea without an abrupt jump.</li>
+<li><code>ABCD</code>, <code>AABCDE</code>, <code>AAAABCDE</code>, and <code>AABBCCDD</code> are chained mutations.</li>
+<li><code>A B A B C B</code> alternates source and contrast before a hook-like section.</li>
+<li><code>A A' A'' B C A</code> develops the source, visits a bridge and hook, then returns home.</li>
+<li><code>A B C D C C2 B A</code> travels away from the source and then walks back.</li>
+<li><code>A A A' A' B Fill A' A</code> builds tension and snaps back.</li>
+<li><code>A A A' A' B Fill C C A' A</code> gives a verse, bridge, refrain, and return shape.</li>
+<li><code>A A' A'' Fill B B' Break C Drop A</code> is a longer tension and release form.</li>
+<li><code>A A A A' A' B Fill C C B Fill C C A' A</code> is built for longer live-performance phrases.</li>
+</ul>
+<p>Melody algorithms:</p>
+<ul>
+<li><strong>Companion</strong> is the general-purpose mutator. It starts from the source notes and applies the enabled operations according to the pattern role.</li>
+<li><strong>Verse Weaver</strong> expands a motif gently, repeating nearby scale movements so the result feels like a verse variation rather than a new part.</li>
+<li><strong>Motif Ladder</strong> moves the motif up and down the scale in a ladder shape. It is good for arpeggios, hooks, and patterns that should climb without losing their original rhythm.</li>
+<li><strong>Sparse Echo</strong> keeps more space, removes some density, and adds short echo-like replies. It is useful when the source is too busy or when you want a delayed answer to the phrase.</li>
+<li><strong>Chorus Lift</strong> raises the energy with upward scale movement, velocity lift, and occasional octave reinforcement. It aims for the "same idea, bigger" feeling.</li>
+<li><strong>Middle Eight</strong> creates contrast with more timing displacement and longer note lengths. It is useful for a section that should feel like it left the main loop for a moment.</li>
+<li><strong>Tension Break</strong> pushes notes upward, shortens or tightens timing, and adds energy before a return.</li>
+<li><strong>Skylight Hook</strong> creates a bright, stepwise melodic hook with a slight upward bias.</li>
+<li><strong>Glass Steps</strong> is crisp and sequenced, with more repeated upward step movement and a little extra velocity.</li>
+<li><strong>Nocturne Line</strong> keeps the line lower and more restrained, with smaller downward movements.</li>
+<li><strong>Modal Drift</strong> turns source notes into scale-aware chord movement. A single-note source can become triads that drift through the selected scale.</li>
+<li><strong>Circle Resolve</strong> is another chord generator, but with a stronger feeling of movement and return. It may add an extra chord tone for more colour in stronger sections.</li>
+</ul>
+<p>Rhythm algorithms:</p>
+<ul>
+<li><strong>Backbeat Engine</strong> builds a solid kick/snare/hat pattern from the selected target lanes.</li>
+<li><strong>Broken Garage</strong> makes a syncopated, off-grid-feeling drum pattern with garage-style kick placement.</li>
+<li><strong>Four Floor Bloom</strong> makes a four-on-the-floor base with backbeat snare and offbeat hats; if you select an open-hat lane, it can use that for the offbeats.</li>
+</ul>
+<h5 id="3-3-5-4-rhythm-generator">3.3.5.4 Rhythm Generator</h5>
+<p>The <strong>Rhythm Generator</strong> writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row; while the overlay is open, tap a row in the sequencer to choose a different target.</p>
+<p>Open it from the Lil Green Helper menu. The overlay shows the target lane at the top. With <strong>Auto</strong> off, adjust the controls and press <strong>Generate</strong>. With <strong>Auto</strong> on, Tap updates the lane automatically as you change settings.</p>
+<p>The controls:</p>
+<ul>
+<li><strong>Step Size</strong> chooses whether the pattern is built from 1/4, 1/8, 1/16, or 1/32 steps.</li>
+<li><strong>Steps</strong> chooses the number of slots in the pattern, up to 16.</li>
+<li><strong>Density</strong> chooses how many of those slots contain notes.</li>
+<li><strong>Pattern</strong> chooses one exact rhythm from all possible rhythms for the current Steps and Density. You can use the plus/minus buttons, long-press to move faster, or tap the number field and type the pattern number directly.</li>
+<li><strong>Shift</strong> rotates the rhythm forward or backward.</li>
+<li><strong>Velocity</strong> sets the base velocity.</li>
+<li><strong>Accent</strong> sets how much louder accented notes are.</li>
+<li><strong>Accent Count</strong> chooses how many hits are accented.</li>
+<li><strong>Accent Pattern</strong> chooses which of the hits receive the accent.</li>
+</ul>
+<p>Tap calculates the full set of possible hit patterns for the current Steps and Density. For example, 16 steps with 4 hits produces many possible placements. Tap sorts them musically by favouring even spacing, avoiding long runs of consecutive hits, and preferring patterns that begin on the downbeat. Accent patterns are calculated separately from the hit pattern, so you can keep the same rhythm and move only the accents.</p>
+<p>Generating replaces the notes on the target lane inside the current loop. Other note lanes are left alone.</p>
 <h3 id="3-4-clips-view">3.4 Clips View</h3>
 
     
@@ -1218,6 +1380,7 @@ If you're on iPad in landscape mode, you'll always see the octave buttons in the
 <p>When using the MIDI pads or the step sequencer, you can tap the <strong>Side Panel</strong> button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> and navigate to the <strong>Velocity</strong> section. From there, you can directly adjust the velocity of notes you play on the pads or add in the step sequencer.</p>
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
 <br>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
+
 </div>
 
 
