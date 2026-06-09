@@ -1,37 +1,41 @@
 +++
 title = "Tap - Ableton Live Controller for iPhone & iPad"
-description = "Tap is an advanced Ableton Live controller for iPhone and iPad with step sequencing, clip launching, device control, mixing and universal MIDI encoders."
+description = "7III Tap is one of the best Ableton Live controller apps for iPhone and iPad, with automation editing, follow actions, generative MIDI tools, sequencing, clip launching, device control and mixing."
 [extra]
 date = 2024-03-15
-updated = 2026-04-21
+updated = 2026-06-08
 share = true
 featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap Ableton Live Controller on an iPad"
 +++
-<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 1.5.2</a> 
+<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 2.0</a> 
 
 >Last Update: **{{ date_updated() }}**  
->Welcome to Tap 1.5.2: scaling everything! 
+>Welcome to Tap 2.0: the best Ableton Live controller app for iPhone and iPad yet! 
 >Try Tap for free on the App Store:  
 >👉 [Download 7III Tap](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273)
 
 
 {{ image_sets(path="content/tap/7III Tap Ableton MIDI Controller Step Sequencer.jpg", format="auto", op="fit_width", quality=100, alt="7III Tap controller running on an iPad, showing the melodic step sequencer", caption='7III Tap melodic step sequencer with device parameters') }}
 
-Tap is a modern Ableton Live controller designed for both **iPhone and iPad**.  
-Whether you're launching clips, shaping sounds, sequencing drums or tweaking devices, Tap gives you a fast, clean and beautifully responsive interface in a small form factor.
+Tap is the Ableton Live controller app for **iPhone and iPad** we've always wanted to use ourselves.  
+Whether you're launching clips, shaping sounds, sequencing drums, recording automation, or tweaking devices, Tap gives you a fast, clean, and beautifully responsive interface for live performance, production, and sound design.
 
 ## Why an Ableton Live Controller App?
-Why turn two knobs when you have ten fingers and could tweak up to 8 macros at a time and still have two fingers left for mixing? Hardware controllers have their charm, but at project7III we focus on the future. A touchscreen is simply the most flexible and precise tool for adjusting parameters, launching clips, sequencing, and mixing.  
-That's why we created Tap: the most performance-dense Ableton Live controller in the world. If you have a few bucks to spare and an iOS device, you're ready to upgrade your workflow.  
+Why turn two knobs when you have ten fingers and could tweak up to 8 macros at a time and still have two fingers left for mixing? Hardware controllers have their charm, but at project7III we focus on the future. A touchscreen is simply the most flexible and precise tool for adjusting parameters, launching clips, sequencing, editing automation, and mixing.  
+That's why we created Tap: a pocket-sized Ableton Live controller built for real performance, deep control, and fast creative work. If you have a few bucks to spare and an iOS device, you're ready to upgrade your workflow.  
   
 Here are some of the reasons why you should consider Tap:
 - **Works on both iPhone and iPad**  
-- **Plug-and-play** with Ableton Live via USB (Mac) or Wi-Fi (Mac & Windows)
-- **Beautiful, clean interface** designed for performance
+- **Plug-and-play** via USB (macOS only) or Wi-Fi with the included custom Ableton Live Remote Script, just like Push without extra software
+- **Designed for live performance**, production, sound design, and spontaneous jams
 - **Three powerful views**: Device, Clips, Mixer
-- **Awesome MIDI sequencers, keyboards and pads**
-- **NEW:** **Browser** for quickly adding devices and effects
+- **Powerful Automation Editing** with drawing, recording, editing, and automation independent of loop playback
+- **Follow Actions** for evolving clips and performances
+- **Companion** with generative MIDI mutations, creative pattern transformations, and intelligent musical variations
+- **Rhythm Generator** for quickly creating new grooves and ideas
+- **Macro Variations and Randomization** for instant sound exploration
+- **Browser** for quickly adding devices and effects
 - **Universal MIDI CC mode** for controlling any instrument or app
 - **Adaptive layouts** for portrait and landscape on iPad
 - **Test Tap for free** before you buy it. No subscription. One-time unlock
@@ -41,19 +45,22 @@ Here are some of the reasons why you should consider Tap:
 - Drum and melodic step sequencer  
 - Devices & banks  
 - 8 encoders per bank
-  - **NEW:** Deep encoder integration showing real Ableton Live values (Hz, %, waveforms, filter types, etc.) and on/off buttons
+  - Deep encoder integration with real Ableton Live values (Hz, %, waveforms, filter types, etc.) and on/off buttons
 - MIDI modulation tools and powerful note editing  
+- Powerful Automation Editing, Macro Variations, and generative MIDI tools  
 
-Designed for quick sound design, live modulation, and awesome sequencing.
+Designed for quick sound design, live modulation, performance, and awesome sequencing.
 
 ### Clips View
 - Launch, record, append (!), copy & duplicate clips  
 - Trigger and duplicate scenes  
+- Use Follow Actions for evolving clips and performances  
 - Access devices and encoders without switching to another screen  
-- Designed for fast performance workflows 
+- Designed for live performance and spontaneous jams 
 
 ### Mixer View
 - Volume, sends, pan, solo, and mute layout  
+- Automation indicators and track control actions  
 - 10 Finger mixing!
 - Integrated clips panel for mixing and launching clips at the same time
 
@@ -67,7 +74,8 @@ Designed for quick sound design, live modulation, and awesome sequencing.
 ### Connectivity
 - **USB** (macOS)
 - **WiFi** (macOS & Windows)
-- No server or Max for Live device required. Simply download the MIDI remote script and put it in the correct folder. More information [here](/tap/manual/#2-1-add-the-tap-midi-remote-script).
+- Includes a custom Ableton Live Remote Script for deep integration
+- No server or Max for Live device required. Simply download the MIDI Remote Script and put it in the correct folder. More information [here](/tap/manual/#2-1-add-the-tap-midi-remote-script).
 
 ## App Store
 Download Tap on the App Store and test it for free for 15 minutes per day!
@@ -161,7 +169,8 @@ Download Tap on the App Store and test it for free for 15 minutes per day!
 
 ## Roadmap  
 Things we have planned for Tap:
-- Automation editing
+- More special dials, even deeper Ableton Live instruments and effect integration (already started with algoritms for Operator)
+- More creative sequencers
 
 {{ image_sets(path="content/tap/playing tap.jpg", format="auto", op="fit_width", quality=100, alt="Playing Ableton Live with 7III Tap on an iPad", caption='Playing MIDI notes in Ableton Live with Tap') }}
 

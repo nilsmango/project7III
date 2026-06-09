@@ -281,10 +281,13 @@ pre {
       padding: 15px;
       max-width: 100%;
       overflow:auto;
-
+      
       code {
+        display: block;
+        padding: 0;
         color: var(--color-text);
         background-color: transparent !important;
+        overflow: visible;
       }
 }
 

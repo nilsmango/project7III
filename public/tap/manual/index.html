@@ -42,7 +42,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
   <!-- My CSS -->
-  <link rel="stylesheet" href="https://project7iii.com/style.css?h=bd5ade887242003b1f99">
+  <link rel="stylesheet" href="https://project7iii.com/style.css?h=75aa8ada0de9dda81907">
 </head>
 
 <body>
@@ -99,7 +99,7 @@
 <p>Last Update: <strong>
     
 
-<time datetime="2026-05-30T00:00:00+00:00">May 30, 2026</time>
+<time datetime="2026-06-07T00:00:00+00:00">June 07, 2026</time>
 </strong><br />
 If you find any mistakes or notice anything missing in this user manual, please reach out and let us know!</p>
 </blockquote>
@@ -134,12 +134,27 @@ If you find any mistakes or notice anything missing in this user manual, please 
                     <ul>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-2-1-over-usb-mac-only">2.2.1 Over USB (Mac Only)</a>
+                            <a href="https://project7iii.com/tap/manual/#2-2-1-macos-over-usb-c">2.2.1 macOS: Over USB-C</a>
                             
                         </li>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-2-2-over-wifi">2.2.2 Over WiFi</a>
+                            <a href="https://project7iii.com/tap/manual/#2-2-2-windows-wired-midi-interface-setup">2.2.2 Windows: Wired MIDI interface setup</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-2-3-windows-experimental-direct-usb-midi-host-bridge">2.2.3 Windows: Experimental direct USB MIDI host bridge</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-2-4-windows-rtpmidi-over-ad-hoc-wifi">2.2.4 Windows: rtpMIDI over ad hoc WiFi</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-2-5-macos-over-wifi">2.2.5 macOS: Over WiFi</a>
                             
                         </li>
                         
@@ -149,6 +164,35 @@ If you find any mistakes or notice anything missing in this user manual, please 
                 
                 <li>
                     <a href="https://project7iii.com/tap/manual/#2-3-set-up-live">2.3 Set Up Live</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://project7iii.com/tap/manual/#2-4-troubleshooting">2.4 Troubleshooting</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-4-1-windows-rtpmidi-troubleshooting">2.4.1 Windows: rtpMIDI troubleshooting</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-4-2-windows-wired-midi-troubleshooting">2.4.2 Windows: wired MIDI troubleshooting</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-4-3-mac-usb-troubleshooting">2.4.3 Mac: USB troubleshooting</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-4-4-live-still-does-not-react">2.4.4 Live still does not react</a>
+                            
+                        </li>
+                        
+                    </ul>
                     
                 </li>
                 
@@ -278,6 +322,11 @@ If you find any mistakes or notice anything missing in this user manual, please 
                             
                         </li>
                         
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#3-4-2-follow-actions">3.4.2 Follow Actions</a>
+                            
+                        </li>
+                        
                     </ul>
                     
                 </li>
@@ -351,31 +400,89 @@ If you find any mistakes or notice anything missing in this user manual, please 
 <p><strong>Important:</strong> Make sure the User Library is stored locally on your computer and matches the exact path described above. If it is cloud-based or even slightly misnamed, Ableton Live may fail to recognize the script.</p>
 </blockquote>
 <h3 id="2-2-connect-your-iphone-or-ipad">2.2 Connect your iPhone or iPad</h3>
-<p>Note: If you have a Mac, <strong>MIDI over USB is the best way to connect your iPhone or iPad to Live</strong>. If you are never using MIDI over WiFi, you can disable `MIDI over WiFi enabled in Settings.</p>
-<h4 id="2-2-1-over-usb-mac-only">2.2.1 Over USB (Mac Only)</h4>
+<p>For the most reliable connection, use a wired setup whenever possible.<br />
+If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</code> in Tap's settings.</p>
+<h4 id="2-2-1-macos-over-usb-c">2.2.1 macOS: Over USB-C</h4>
 <ol>
-<li>Connect your device to your Mac using a USB cable.</li>
+<li>Connect your iPhone or iPad to your Mac using a USB-C cable.</li>
 <li>Open the app <strong>Audio MIDI Setup</strong>.</li>
 <li>Open the <strong>Audio Devices</strong> window.<br>
 → If it is not already visible, select the <strong>Window</strong> → <strong>Audio Devices</strong> menu to display it.</li>
 <li>Find your iOS device in the sidebar and click the <strong>Enable</strong> button.</li>
 </ol>
-<h4 id="2-2-2-over-wifi">2.2.2 Over WiFi</h4>
+<h4 id="2-2-2-windows-wired-midi-interface-setup">2.2.2 Windows: Wired MIDI interface setup</h4>
+<p>This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi.</p>
+<p>The connection is:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>iPhone/iPad
+</span><span>◉
+</span><span>│ USB cable
+</span><span>◉
+</span><span>Simple USB-C MIDI interface with two MIDI cables
+</span><span>◉          ◉
+</span><span>│ MIDI IN  │ MIDI OUT
+</span><span>◉          ◉
+</span><span>CME H2MIDI Pro or another MIDI interface
+</span><span>◉
+</span><span>│ USB cable
+</span><span>◉
+</span><span>Windows PC with Ableton Live
+</span></code></pre>
 <ol>
-<li>Connect your device to the same WiFi as your computer (preferably on an ad hoc WiFi network).</li>
-<li>Configure RTP-MIDI:</li>
-<blockquote class="list_block">
-<strong>Windows</strong>
+<li>Connect a USB-C MIDI interface to your iPhone or iPad.</li>
+<li>Connect the CME H2MIDI Pro or CME H4MIDI WC (or your existing Audio Interface with MIDI) to your Windows computer via USB.</li>
+<li>Connect <strong>MIDI OUT</strong> from the iPhone/iPad interface to <strong>MIDI IN</strong> on the CME interface.</li>
+<li>Connect <strong>MIDI OUT</strong> from the CME interface to <strong>MIDI IN</strong> on the iPhone/iPad interface.</li>
+<li>Open Tap and select the connected MIDI interface as MIDI input/output if needed.</li>
+<li>In Ableton Live on Windows, select the CME interface as the MIDI input and output for Tap.</li>
+</ol>
+<p>This keeps the iPhone or iPad in its usual supported role: it is the USB host for a class-compliant USB MIDI interface. The CME interface handles the Windows side.</p>
+<p>MIDI interface for iPhone/iPad:<br />
+🇺🇸 <a href="https://amzn.to/3RXv3jN" target="_blank" rel="nofollow sponsored">USB-C MIDI Interface on Amazon.com</a><br />
+🇪🇺 <a href="https://amzn.to/4ak5orI" target="_blank" rel="nofollow sponsored">USB-C MIDI Interface on Amazon.de</a></p>
+<p>Windows-side USB MIDI host/interface options:<br />
+🇺🇸 <a href="https://amzn.to/4ekFN3k" target="_blank" rel="nofollow sponsored">CME H2MIDI Pro on Amazon.com</a><br />
+🇪🇺 <a href="https://amzn.to/4uUoIUF" target="_blank" rel="nofollow sponsored">CME H2MIDI Pro on Amazon.de</a></p>
+<p>🇺🇸 <a href="https://amzn.to/4fArM3A" target="_blank" rel="nofollow sponsored">CME H4MIDI WC on Amazon.com</a><br />
+🇪🇺 <a href="https://amzn.to/4ogzJxh" target="_blank" rel="nofollow sponsored">CME H4MIDI WC on Amazon.de</a></p>
+<p><small>Note: As an Amazon Associate we earn from qualifying purchases.</small></p>
+<h4 id="2-2-3-windows-experimental-direct-usb-midi-host-bridge">2.2.3 Windows: Experimental direct USB MIDI host bridge</h4>
+<p>This setup may work, but it is not tested by us yet.</p>
+<p>The connection would be:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>iPhone/iPad
+</span><span>◉
+</span><span>│ USB cable
+</span><span>◉
+</span><span>USB-A host port on CME H2MIDI Pro or CME H4MIDI WC
+</span><span>USB-C computer port on CME H2MIDI Pro or CME H4MIDI WC
+</span><span>◉
+</span><span>│ USB cable
+</span><span>◉
+</span><span>Windows PC with Ableton Live
+</span></code></pre>
 <ol>
+<li>Connect your iPhone or iPad to the <strong>USB-A host port</strong> of the CME H2MIDI Pro or CME H4MIDI WC.</li>
+<li>Connect the <strong>USB-C computer port</strong> of the CME H2MIDI Pro or CME H4MIDI WC to your Windows computer.</li>
+<li>Open Tap and select the connected USB MIDI interface as MIDI input/output if needed.</li>
+<li>In Ableton Live on Windows, select the CME interface as the MIDI input and output for Tap.</li>
+</ol>
+<p>This should allow communication through USB MIDI virtual ports if the iPhone or iPad is recognised correctly by the CME USB host port. We have not tested this yet. <strong>Please let us know if it works for you in practice.</strong></p>
+<p>If it does not work, use the wired MIDI interface setup above.</p>
+<h4 id="2-2-4-windows-rtpmidi-over-ad-hoc-wifi">2.2.4 Windows: rtpMIDI over ad hoc WiFi</h4>
+<p>If a wired MIDI setup is not available, use a dedicated ad hoc WiFi network instead of a busy normal WiFi network.</p>
+<ol>
+<li>Create an ad hoc WiFi network on your Windows computer.</li>
+<li>Connect your iPhone or iPad to that WiFi network.</li>
 <li>Download <a href="https://www.tobias-erichsen.de/wp-content/uploads/2020/01/rtpMIDISetup_1_1_14_247.zip">rtpMIDI</a>.</li>
-<li>Follow this <a href="https://www.tobias-erichsen.de/software/rtpmidi/rtpmidi-tutorial.html" target="_blank">guide</a> to install rtpMIDI and connect your device (no <strong>Advanced Configuration</strong> necessary).</li>
+<li>Open rtpMIDI on Windows and create a new session.</li>
+<li>Open Tap on your iPhone or iPad.</li>
+<li>Connect your iPhone or iPad in the rtpMIDI session.</li>
+<li>In Ableton Live, select the rtpMIDI session as the MIDI input and output for Tap.</li>
 </ol>
-<br>
-<strong>Mac</strong>
+<h4 id="2-2-5-macos-over-wifi">2.2.5 macOS: Over WiFi</h4>
+<p>If USB-C is not available, you can also use MIDI over WiFi on macOS. Use a clean, stable WiFi network and avoid busy public or shared networks.</p>
 <ol>
-<li>Simply follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">guide</a> (no need to do <strong>Step 9</strong>).</li>
-</ol>
-</blockquote>
+<li>Connect your iPhone or iPad to the same WiFi as your Mac.</li>
+<li>Follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">Apple guide</a>. You do not need to do <strong>Step 9</strong>.</li>
 </ol>
 <h3 id="2-3-set-up-live">2.3 Set Up Live</h3>
 <ol>
@@ -413,6 +520,57 @@ If you find any mistakes or notice anything missing in this user manual, please 
 </figure>
 
 
+<h3 id="2-4-troubleshooting">2.4 Troubleshooting</h3>
+<p>If Tap does not connect correctly, first check the basics:</p>
+<ol>
+<li>Make sure the Tap MIDI Remote Script is selected in Live's <strong>Control Surface</strong> column.</li>
+<li>Make sure the same active device, MIDI interface, or Network Session is selected as both <strong>Input</strong> and <strong>Output</strong>.</li>
+<li>Make sure <strong>Track</strong> and <strong>Remote</strong> are enabled for your active MIDI input and output ports.</li>
+<li>Restart Tap and Ableton Live after changing MIDI ports or connection methods.</li>
+</ol>
+<h4 id="2-4-1-windows-rtpmidi-troubleshooting">2.4.1 Windows: rtpMIDI troubleshooting</h4>
+<p>If you are using rtpMIDI on Windows and the connection does not appear, or if Tap behaves strangely, reset the rtpMIDI setup.</p>
+<ol>
+<li>Open rtpMIDI.</li>
+<li>Delete all existing sessions.</li>
+<li>Remove all participants and directory entries.</li>
+<li>Remove duplicate, old, or inactive device entries.</li>
+<li>Create a brand new session with a new name.</li>
+<li>Restart your iPhone or iPad.</li>
+<li>Restart your Windows computer.</li>
+<li>Open rtpMIDI again and connect the device before launching Ableton Live.</li>
+</ol>
+<p>If possible, use a dedicated ad hoc WiFi network instead of a busy home, studio, or public WiFi network.</p>
+<h4 id="2-4-2-windows-wired-midi-troubleshooting">2.4.2 Windows: wired MIDI troubleshooting</h4>
+<p>If you are using a wired MIDI interface setup, check the MIDI cable direction carefully.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>iPhone/iPad interface MIDI OUT → Windows/CME interface MIDI IN
+</span><span>Windows/CME interface MIDI OUT → iPhone/iPad interface MIDI IN
+</span></code></pre>
+<ol>
+<li>Make sure both MIDI cables are connected. Tap needs MIDI in and out.</li>
+<li>Make sure the iPhone/iPad-side MIDI interface is visible in Tap.</li>
+<li>Make sure the Windows-side MIDI interface is visible in Ableton Live.</li>
+<li>In Live, select the Windows-side MIDI interface as both input and output for Tap.</li>
+<li>If nothing reacts, swap the MIDI cables once to rule out reversed IN/OUT labeling.</li>
+</ol>
+<h4 id="2-4-3-mac-usb-troubleshooting">2.4.3 Mac: USB troubleshooting</h4>
+<p>On macOS, connection problems are usually caused by the USB cable.</p>
+<ol>
+<li>Use the USB-C cable that came with your iPhone or iPad if possible.</li>
+<li>If you do not have the original cable, test another high-quality USB-C cable.</li>
+<li>Avoid charge-only cables. They may charge the device but not transmit MIDI data.</li>
+<li>Connect the iPhone or iPad directly to the Mac instead of through a hub.</li>
+<li>Open <strong>Audio MIDI Setup</strong> and make sure the iPhone or iPad is enabled in the <strong>Audio Devices</strong> window.</li>
+<li>Restart the iPhone or iPad and the Mac if the device does not appear.</li>
+</ol>
+<h4 id="2-4-4-live-still-does-not-react">2.4.4 Live still does not react</h4>
+<p>If the connection appears to work but Live does not react:</p>
+<ol>
+<li>Check that <strong>Takeover Mode</strong> is set to <strong>None</strong>.</li>
+<li>Check that the selected MIDI ports are not already used by another controller script.</li>
+<li>Try disabling and re-enabling the Tap Control Surface in Live's MIDI preferences.</li>
+<li>Restart Live after changing the MIDI Remote Script folder or MIDI port setup.</li>
+</ol>
 <h2 id="3-user-interface">3. User Interface</h2>
 <p>There are 5 views in Tap.<br />
 The main Tap interfaces are the familiar views of Ableton Live: <a href="https://project7iii.com/tap/manual/#3-3-device-view">Device View</a>, <a href="https://project7iii.com/tap/manual/#3-4-clips-view">Clips View</a>, and <a href="https://project7iii.com/tap/manual/#3-5-mixer-view">Mixer View</a>.<br />
@@ -430,6 +588,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <ul>
 <li>You will also find a button to enable/disable all <a href="https://project7iii.com/tap/manual/#4-1-performance-features">Performance Features</a>.</li>
 <li><strong>Default MIDI Layout</strong> sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.</li>
+<li><strong>Companion Presets</strong> lets you import and export Companion presets, create folders, move presets between folders, reorder presets, and remove presets or folders.</li>
 </ul>
 <h3 id="3-2-main-views">3.2 Main Views</h3>
 <p>The main Ableton Live controller views share some common elements, described below.</p>
@@ -473,11 +632,13 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <li>add track</li>
 <li>delete track</li>
 <li>fold or unfold a Group Track, if the track is a group or belongs to one</li>
+<li>set or edit Follow Actions for all clips on that track</li>
 <li>toggle arm of the track (if audio track)</li>
 <li>re-enable automation, either for the whole Live Set or for the next touched parameter</li>
 <li>remove automation from the next touched parameter</li>
 <li>activate "select a drum pad without playing it" (only with active drum pad layout)</li>
 <li>configure the standard note length (only with active step sequencer)</li>
+<li>turn sequencer note <strong>Grid Snap</strong> on or off (only with active step sequencer)</li>
 <li>go <a href="https://project7iii.com/tap/manual/#3-1-home-view">Home</a></li>
 <li>go to <a href="https://project7iii.com/tap/manual/#3-6-encoders-view">Encoders</a></li>
 </ul>
@@ -660,6 +821,11 @@ The Tempo Overlay also has a <strong>Tap Tempo</strong> pad and a <strong>Metron
 <ul>
 <li>You can navigate by swiping left or right.</li>
 <li>Select a device by tapping on it. The selected device has a bold font.</li>
+<li><strong>Track Controls</strong> are accessed through the <code>☰</code> item at the beginning of the Devices Bar. Selecting it opens controls for the currently selected track. On MIDI tracks, this includes <strong>Mod Wheel</strong>, <strong>Pressure</strong>, <strong>Pitch Bend</strong>, and <strong>Velocity</strong>, followed by mixer controls such as <strong>Volume</strong>, <strong>Pan</strong>, and <strong>Sends</strong>.
+<ul>
+<li>Mixer controls are standard Live parameters and can be automated. <strong>Mod Wheel</strong>, <strong>Pressure</strong>, and <strong>Pitch Bend</strong> can be recorded into clips, but their automation is not shown through moving indicators and cannot be edited in <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a>. <strong>Velocity</strong> sets the fixed velocity used by pads that do not have height-based velocity enabled, and can also be used to adjust the velocity of selected notes in <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step Sequencer</a>.</li>
+</ul>
+</li>
 <li>Tap the <code>⊕</code> symbol to open the <a href="https://project7iii.com/tap/manual/#browser">Browser</a> or add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.</li>
 <li><code>&lt;</code> (open) and <code>&gt;</code> (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets. The chain number is indicated with circles below the first member of the chain (for more than one chain per rack mother).</li>
 </ul>
@@ -702,7 +868,8 @@ The Tempo Overlay also has a <strong>Tap Tempo</strong> pad and a <strong>Metron
 <li>Tap the <code>x</code> symbol to close the browser.</li>
 </ul>
 <h4 id="3-3-2-banks-bar">3.3.2 Banks Bar</h4>
-<p>Navigate and select banks of the chosen device here.</p>
+<p>Navigate and select banks of the chosen device here.<br />
+If the selected device is a rack device a stacked sqares symbol is available before the first bank, pressing it opens a menu with variations and randomize options (and automation options if <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a> is active). Any macro with the name "Volume" will get ignored by randomization. Almost like <a rel="noopener" target="_blank" href="https://www.ableton.com/en/live-manual/12/instrument-drum-and-effect-racks/#randomizing-macro-controls">Ableton Live promisses</a>, but does actually not adhere to (as of June 2026).</p>
 
     
 
@@ -737,6 +904,7 @@ The Tempo Overlay also has a <strong>Tap Tempo</strong> pad and a <strong>Metron
 <li>There are three types: dials, selectors (current selection with a slider underneath), on/off buttons</li>
 <li>All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)</li>
 <li>All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.</li>
+<li>Long-press any encoder (that is automatable) to jump directly to that parameter's automation in the Step Sequencer.</li>
 </ul>
 <p>Dials:</p>
 <ul>
@@ -1090,7 +1258,7 @@ You can:</p>
 <li>randomize the selection</li>
 </ul>
 <h5 id="3-3-5-2-automation-editing">3.3.5.2 Automation Editing</h5>
-<p>Tap can edit the selected device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose <strong>Show Automation</strong>. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press <strong>Choose Parameter</strong> in the Footer Bar, then touch the encoder you want to edit.</p>
+<p>You can edit a device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose <strong>Show Automation</strong>. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press <strong>Select Parameter</strong> (dial symbol) in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a>, then touch the encoder you want to edit. You can also go into Automation Editing directly by long-pressing any automatable encoder in the <a href="https://project7iii.com/tap/manual/#3-3-3-encoders-section">Encoders Section</a>.</p>
 <p>The automation line is drawn over the sequencer:</p>
 <ul>
 <li>A solid line with dots means the clip has automation for the selected parameter.</li>
@@ -1108,6 +1276,12 @@ You can:</p>
 <li>Tap the background to clear the selection.</li>
 <li>Turn on the pencil in the Footer Bar to draw automation continuously.</li>
 </ul>
+<p>While Automation Editing is visible, the Footer Bar has a few automation buttons:</p>
+<ul>
+<li><strong>Select Parameter</strong>: arms Tap for one touch. Touch the dial you want to edit.</li>
+<li><strong>Pencil</strong>: turns continuous automation drawing on or off.</li>
+<li><strong>Exit Automation</strong>: the door button leaves Automation Editing and returns to the normal sequencer controls.</li>
+</ul>
 <p>When automation points are selected, the Footer Bar changes:</p>
 <ul>
 <li><strong>Trash</strong> deletes the selected automation points.</li>
@@ -1115,12 +1289,12 @@ You can:</p>
 </ul>
 <p>The helper menu has a few important automation commands:</p>
 <ul>
-<li><strong>Automation End</strong> sets a separate end point for the selected parameter's automation. This creates decoupled automation: the notes can loop at one length while the automation runs at another length.</li>
+<li><strong>Automation Loop End</strong> sets a separate end point for the selected parameter's automation. This creates decoupled automation: the notes can loop at one length while the automation runs at another length.</li>
 <li><strong>Clear Automation</strong> removes the selected parameter's automation envelope from the clip.</li>
 <li><strong>Clear All Automation</strong> removes automation for the parameters in the current device bank.</li>
 <li><strong>Unfold Clip</strong> commits a decoupled automation clip into a normal longer clip. The hidden repeated note copies become real clip content, and Tap removes the special folding metadata.</li>
 </ul>
-<p>Decoupled automation is useful for slow filter movements, long macro sweeps, and polymetric automation. For example, you can keep a 1-bar drum loop while a filter automation takes 8 bars to return home. Tap shows the note loop and the automation loop separately; an <code>A</code> in the loop length indicator means you are looking at an automation length.</p>
+<p>Decoupled automation is useful for slow filter movements, long macro sweeps, and polymetric automation. For example, you can keep a 1-bar drum loop while a filter automation takes 8 bars to return home. Tap shows the note loop and the automation loop separately; an <code>A</code> before loop length in the loop lenght indicator on the bottom right of the sequencer means you are looking at an automation length.</p>
 <h5 id="3-3-5-3-companion">3.3.5.3 Companion</h5>
 <p>The <strong>Companion</strong> turns the visible source loop into a longer musical structure. Tap calls this "mutator" in some older code, but in the app and the manual it is the Companion.</p>
 <p>Open the Lil Green Helper menu and choose <strong>Companion</strong>. Tap uses the current loop as the source section, called <code>A</code>, then writes generated sections after it. The source loop stays the musical identity. Other sections are variations, bridges, hooks, fills, breaks, or returns based on the selected pattern and algorithm.</p>
@@ -1132,13 +1306,43 @@ You can:</p>
 <li><strong>Commit</strong> to turn the generated structure into a normal MIDI clip.</li>
 <li><strong>Exit</strong> to remove the generated sections and return to the original source loop.</li>
 </ul>
+<p>After the Companion has been started, the Footer Bar shows a Companion symbol. Tap it to hide the Companion overlay. Tap it again to show the overlay again.</p>
 <p>The main controls are:</p>
 <ul>
 <li><strong>Melody / Rhythm</strong> switches whether the Companion mutates melodic material or drum/rhythm material. In Rhythm mode, choose the target drum lanes or note rows first.</li>
-<li><strong>Pattern</strong> chooses the song shape, such as <code>AABA</code>, <code>AABB</code>, <code>ABCD</code>, or longer forms.</li>
+<li><strong>Pattern</strong> chooses the song shape, such as <code>AABA</code>, <code>AABB</code>, <code>ABCD</code>, or longer forms and special algorithms.</li>
 <li><strong>Depth / Variation</strong> sets how far Tap is allowed to move away from the source.</li>
 <li><strong>Regeneration</strong> controls whether the Companion stays static or evolves while the clip plays: Static, every pass, every 2nd pass, every 4th pass, or probability-based 10%, 25%, 50%, or 75% evolution.</li>
-<li>The toggles decide which musical operations are allowed: fills, simplification, rhythmic shifts, additions, removals, velocity, gate, octave shifts, and pitch shifts.</li>
+<li>The operation rows decide what the Companion is allowed to do and in which order. Tap applies the rows from top to bottom after the selected pattern role has shaped the section.</li>
+</ul>
+<p>Each operation row has:</p>
+<ul>
+<li>an operation name. Tap it to open the operation picker.</li>
+<li>a dice value. This is the chance that the whole row is active for a generated section.</li>
+<li>a note/probability value. For most operations this chooses how many notes are affected.</li>
+<li>a range value, where the selected operation needs one. This controls how far timing, pitch, velocity, or gate changes can move.</li>
+</ul>
+<p>You can add rows, and you can long-press an operation row to move it up, move it down, or duplicate it. The overlay also has <strong>Presets</strong> for loading and saving Companion settings. Presets can be imported, exported, reordered, and organized into folders in <strong>Settings</strong> -&gt; <strong>Companion Presets</strong>.</p>
+<p>Operation details:</p>
+<ul>
+<li><strong>Fills</strong>: probability controls fill amount and intensity.</li>
+<li><strong>Simplify</strong>: probability controls the amount of notes considered for simplification and removal, with weaker or shorter notes usually removed first.</li>
+<li><strong>Rhythm</strong>: note % selects notes; range % controls timing shift distance.</li>
+<li><strong>Notes Shift</strong>: note % selects pitches or pitch groups; range % controls how far the selected pitch groups can shift within the loop.</li>
+<li><strong>Add</strong>: probability % controls how many additions are attempted from the existing motif or pitch groups. Velocities, durations, mute state, and probabilities are sampled from existing notes.</li>
+<li><strong>Remove</strong>: probability % controls the amount of notes selected for removal.</li>
+<li><strong>Velocity</strong>: note % selects notes; range % is plus/minus up to that percent of 127, capped to 1...127.</li>
+<li><strong>Gate</strong>: note % selects notes; range % controls random gate scaling. Low range is subtle, around 50% can roughly halve or double durations, and 100% can reach very short or much longer gates. Gate is clamped before the next same-pitch note.</li>
+<li><strong>Pitch Shift</strong>: note % selects notes; range % expands from nearby scale moves to wider octave-scale movement. In Rhythm mode, range expands the nearby drum target pool.</li>
+<li><strong>Octave</strong>: note % selects melody notes and shifts selected notes up or down one octave. It is not available in Rhythm mode.</li>
+<li><strong>Add+Pitch</strong>: combines pitched movement with additions, using the row amount for both parts.</li>
+<li><strong>Loop Shift</strong>: rotates the whole loop timing.</li>
+<li><strong>Reverse</strong>: reverses selected note timing inside the selected span.</li>
+<li><strong>Invert</strong>: mirrors selected pitches. In Rhythm mode, it mirrors within the selected target lanes.</li>
+<li><strong>Pitched Add</strong>: adds new notes on nearby scale notes, or nearby selected target lanes in Rhythm mode.</li>
+<li><strong>Duplicate</strong>: copies selected notes or phrases to another position in the loop.</li>
+<li><strong>Phrase Shift</strong>: shifts a selected phrase together in pitch, or through selected target lanes in Rhythm mode.</li>
+<li><strong>Preserve</strong>: brings some original source notes back into the generated section.</li>
 </ul>
 <p>Pattern roles:</p>
 <ul>
@@ -1148,6 +1352,7 @@ You can:</p>
 <li><code>AB</code> is a transition section, often end-weighted with pickups, fills, or a short break.</li>
 <li><code>B</code> is contrast. It may be sparser, denser, inverted, displaced, or register-shifted.</li>
 <li><code>B'</code> is a variation of <code>B</code>.</li>
+<li><code>B2</code> is an alternate <code>B</code>, generated from the same source <code>A</code> with the same mutator settings as <code>B</code>, not from the already-generated <code>B</code>.</li>
 <li><code>C</code> is the hook or refrain. It tries to feel more stable and memorable.</li>
 <li><code>D</code>, <code>E</code>, and <code>F</code> are chained mutations, each generated from the previous letter rather than always from <code>A</code>.</li>
 <li><code>C2</code> is a special second mutation of <code>C</code>.</li>
@@ -1160,6 +1365,9 @@ You can:</p>
 <li><code>AB</code> gives one original pass and one contrast pass.</li>
 <li><code>AABA</code> makes a compact question-and-return phrase.</li>
 <li><code>AABB</code> repeats both the original and the contrast.</li>
+<li><code>A A B B B2 B2</code> repeats the source and contrast, then adds an alternate contrast.</li>
+<li><code>A A B B2</code> makes a short form with two different contrast passes.</li>
+<li><code>A A B B A A B2 B2</code> returns to the source before introducing the alternate contrast.</li>
 <li><code>AAAA BBBB</code> creates a clear block of source material followed by a clear block of contrast.</li>
 <li><code>AAAA AB AB BB</code> is the default. It develops the idea without an abrupt jump.</li>
 <li><code>ABCD</code>, <code>AABCDE</code>, <code>AAAABCDE</code>, and <code>AABBCCDD</code> are chained mutations.</li>
@@ -1171,9 +1379,8 @@ You can:</p>
 <li><code>A A' A'' Fill B B' Break C Drop A</code> is a longer tension and release form.</li>
 <li><code>A A A A' A' B Fill C C B Fill C C A' A</code> is built for longer live-performance phrases.</li>
 </ul>
-<p>Melody algorithms:</p>
+<p>Special algorithms:</p>
 <ul>
-<li><strong>Companion</strong> is the general-purpose mutator. It starts from the source notes and applies the enabled operations according to the pattern role.</li>
 <li><strong>Verse Weaver</strong> expands a motif gently, repeating nearby scale movements so the result feels like a verse variation rather than a new part.</li>
 <li><strong>Motif Ladder</strong> moves the motif up and down the scale in a ladder shape. It is good for arpeggios, hooks, and patterns that should climb without losing their original rhythm.</li>
 <li><strong>Sparse Echo</strong> keeps more space, removes some density, and adds short echo-like replies. It is useful when the source is too busy or when you want a delayed answer to the phrase.</li>
@@ -1186,15 +1393,9 @@ You can:</p>
 <li><strong>Modal Drift</strong> turns source notes into scale-aware chord movement. A single-note source can become triads that drift through the selected scale.</li>
 <li><strong>Circle Resolve</strong> is another chord generator, but with a stronger feeling of movement and return. It may add an extra chord tone for more colour in stronger sections.</li>
 </ul>
-<p>Rhythm algorithms:</p>
-<ul>
-<li><strong>Backbeat Engine</strong> builds a solid kick/snare/hat pattern from the selected target lanes.</li>
-<li><strong>Broken Garage</strong> makes a syncopated, off-grid-feeling drum pattern with garage-style kick placement.</li>
-<li><strong>Four Floor Bloom</strong> makes a four-on-the-floor base with backbeat snare and offbeat hats; if you select an open-hat lane, it can use that for the offbeats.</li>
-</ul>
 <h5 id="3-3-5-4-rhythm-generator">3.3.5.4 Rhythm Generator</h5>
 <p>The <strong>Rhythm Generator</strong> writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row; while the overlay is open, tap a row in the sequencer to choose a different target.</p>
-<p>Open it from the Lil Green Helper menu. The overlay shows the target lane at the top. With <strong>Auto</strong> off, adjust the controls and press <strong>Generate</strong>. With <strong>Auto</strong> on, Tap updates the lane automatically as you change settings.</p>
+<p>Open Rhythm Generator from the Lil Green Helper menu. The overlay shows the target lane at the top. With <strong>Auto</strong> off, adjust the controls and press <strong>Generate</strong>. With <strong>Auto</strong> on, Tap updates the lane automatically as you change settings.</p>
 <p>The controls:</p>
 <ul>
 <li><strong>Step Size</strong> chooses whether the pattern is built from 1/4, 1/8, 1/16, or 1/32 steps.</li>
@@ -1283,6 +1484,8 @@ You can:</p>
 <p>Inside the context menu, you can:</p>
 <ul>
 <li>Select the clip/clip slot</li>
+<li>Set or edit a Follow Action</li>
+<li>Remove the Follow Action, if the clip has one</li>
 <li>Duplicate the scene</li>
 <li>if a clip is on the slot:
 <ul>
@@ -1303,6 +1506,16 @@ You can:</p>
 </ul>
 </li>
 </ul>
+<h4 id="3-4-2-follow-actions">3.4.2 Follow Actions</h4>
+<p>Tap Follow Actions launch another clip or scene after the current clip or scene has played a chosen number of times. They are useful for automatic variations, fills, scene chains, and hands-free clip changes.</p>
+<p>Follow Actions can be set in three places:</p>
+<ul>
+<li>Long-press a clip in Clips View and choose <strong>Follow Action</strong>.</li>
+<li>Long-press a scene launch button and choose <strong>Follow Action</strong>.</li>
+<li>Long-press a track in the Tracks Bar and choose <strong>Track Follow Actions</strong> to apply the same rule to all clips on that track.</li>
+</ul>
+<p>Each Follow Action has a play count, two action choices, and a probability split between Action A and Action B. The available actions are <strong>Stop</strong>, <strong>Play Again</strong>, <strong>Previous</strong>, <strong>Next</strong>, <strong>First</strong>, <strong>Last</strong>, <strong>Any</strong>, <strong>Other</strong>, <strong>Jump</strong>, and <strong>None</strong>.</p>
+<p>Tap stores Follow Actions in clip and scene names. This means you do not lose them when you close Tap. They continue to work as long as Live keeps the Tap MIDI Remote Script selected in Live's MIDI settings.</p>
 <h3 id="3-5-mixer-view">3.5 Mixer View</h3>
 <p>Shows the mixer section.</p>
 <ul>
@@ -1377,7 +1590,7 @@ If you're on iPad in landscape mode, you'll always see the octave buttons in the
 </div>
 </p>
 <h3 id="4-2-velocity">4.2 Velocity</h3>
-<p>When using the MIDI pads or the step sequencer, you can tap the <strong>Side Panel</strong> button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> and navigate to the <strong>Velocity</strong> section. From there, you can directly adjust the velocity of notes you play on the pads or add in the step sequencer.</p>
+<p>When using the MIDI pads or the step sequencer, you can tap the <strong>Side Panel</strong> button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> and navigate to the <strong>Velocity</strong> section. From there, you can directly adjust the velocity of notes you play on the pads or add in the step sequencer. Velocity is also available for the <strong>Track Controls</strong> in <a href="https://project7iii.com/tap/manual/#3-3-1-devices-bar">Devices Bar</a></p>
 <div class="footnote-definition"><p>Ableton Live is a trademark of Ableton AG, registered in the United States and other countries.
 <br>iPhone and iPad are trademarks of Apple Inc., registered in the United States and other countries.</p></div>
 
