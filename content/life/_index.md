@@ -3,22 +3,20 @@ title = "Life - App Blocker & Mindful Screen Time "
 description = "Block distracting apps and websites, unlock only 10 minutes at a time, track lost time, meditate, use focus sounds and build more intentional screen time habits."
 [extra]
 date = 2024-11-18
-updated = 2026-06-09
+updated = 2026-06-10
 share = true
-featured_image = "7iii meditation timer app.jpg"
-featured_image_alt = "7III Life/Meditation, a simple meditation timer app running on an iPhone."
+featured_image = "Life App Blocker iPhone.jpg"
+featured_image_alt = "7III Life, the best App Blocker on iPhone."
 +++
 7III Life is a mindful screen time app built to help you use your devices with more intention.  
 Block distracting apps and websites, unlock them only 10 minutes at a time, and see how much time you lose to distractions.
 
 Instead of only blocking, 7III Life creates a pause: reflect, choose an alternative activity, answer a few questions, meditate, or reset with calming sounds.  
-In development. [Join the TestFlight](https://testflight.apple.com/join/psRb8p48)
+>In development: [Join the TestFlight](https://testflight.apple.com/join/psRb8p48)
+><!-- {{ appstore_button(tagline="Pause, breathe, and try it for free!", url="https://apps.apple.com/app/id6738342562") }} -->
+>If you want to get informed once it launches, send us an [email](mailto:7+1@project7iii.com)!
 
-<!-- {{ appstore_button(tagline="Pause, breathe, and try it for free!", url="https://apps.apple.com/app/id6738342562") }} -->
-
-If you want to get informed once it launches, send us an [email](mailto:7+1@project7iii.com)!
-
-{{ image_sets(path="content/life/7iii meditation timer app.jpg", format="auto", op="fit_width", quality=100, alt="7III Life/Meditation, a simple meditation timer app running on an iPhone.", caption='The meditation part: Let go or get dragged.') }}
+{{ image_sets(path="content/life/Life App Blocker iPhone.jpg", format="auto", op="fit_width", quality=100, alt="7III Life App running App Blocker with Lost Time statistics", caption='A very good App & Websites Blocker for iPhone and Mac.') }}
 
 
 ## Features of 7III Life
@@ -63,13 +61,15 @@ Blocking alone is rarely enough. 7III Life also gives you tools for the moments 
 - Choose one of your alternative activities
 - Answer a few questions and learn something before unlocking more time
 
+{{ image_sets(path="content/life/Life App Blocker Meditation Memento Mori Start.jpg", format="auto", op="fit_width", quality=100, alt="7III Life App start screen with App Blocker, Meditation, Memento Mori and Buddha Machine", caption='The start screen of Life, with App Blocker, Meditation, Death and Buddha Machine') }}
+
 ## Buddha Machine
 
 Create evolving soundscapes by mixing atmospheric loops, live recorded loops, feedback textures, and white, brown or pink noise.
 
 Use it for meditation, focus, relaxation, background sound, or masking your environment.
 
-## Memento Mori
+## Death
 
 7III Life includes a memento mori tool for stoic reflection and perspective.
 

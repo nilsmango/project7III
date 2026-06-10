@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, an Ableton Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2026-06-07
+updated = 2026-06-10
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
@@ -67,7 +67,7 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 </ol>
 
 #### 2.2.2 Windows: Wired MIDI interface setup
-This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi.
+This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi. Feeling brave? Try the even more direct setup [below](#2-2-3-windows-experimental-direct-usb-midi-host-bridge) and let us know if it works for you!
 
 The connection is:
 
