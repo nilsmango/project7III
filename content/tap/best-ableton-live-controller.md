@@ -2,7 +2,7 @@
 title = "Best Ableton Live Controllers in 2026"
 description = "A full comparison of the best Ableton Live controllers in 2026, including Push 3, Move, TouchAble, 7III Tap, Knobber and LK. Find the right controller for your workflow."
 date = 2025-12-13
-updated = 2025-12-14
+updated = 2026-06-10
 [extra]
 share = true
 featured_image = "Ableto Move vs Push vs Tap vs Knobber vs Touchable.jpg"
@@ -46,7 +46,7 @@ This guide compares the most popular controllers so you can choose the one that 
 | MPE                   | ✅                | ❌                | ❌                        | ❌                               | ❌                          | ❌              |
 | Different pad layouts | ❌                | ❌                | ✅                        | ✅                               | ❌                          | ✅              |
 | Sequencing            | ⭐⭐               | ⭐⭐⭐              | ⭐⭐                       | ⭐⭐⭐⭐                            | ❌                          | ⭐⭐⭐             |
-| Automation Lock       | ✅                | ✅                | ❌                        | Not yet                          | ❌                          | ❌              |
+| Automation Editing       | ❌                |   ❌              | ✅                        | ✅                          | ❌                          | ❌              |
 | Integrated Devices    | ✅                | ✅                | ✅                        | ✅                              | ✅                          | ⭐⭐             |
 | Clips Launch          | ✅                | ✅                | ✅                        | ✅                               | ❌                          | ✅              |
 | Combine clips         | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ❌              |
@@ -120,8 +120,9 @@ Website: [zerodebug.com](https://zerodebug.com)
 
 #### Tap — Max Performance App
 - Best in class step sequencer, no matter if you make a crazy beat or add beautiful harmonies, with amazing tools and creative MIDI modulations.
+- Automation Editing, even unlinked
 - 8 finger parameter encoder editing and the before mentioned step sequencer or MIDI pads or keyboards in the device view.
-- Everything is made for (live) performance: Quick channel and view switching. Great mixer with clip launcher, amazing clip launcher with device control and encoders.
+- Everything is made for (live) performance: Quick channel and view switching. Great mixer with clip launcher, amazing clip launcher with device control and encoders, mixing from inside the sequencer/encoders even.
 - Plug in and play (needs a remote script)
 - extra customizable universal MIDI encoders pages.
 
@@ -133,7 +134,7 @@ Tap is the best choice for:
 - **mobile producers**  
 - **live performers on iPad**  
 - **iPhone users**  
-- anyone who wants Push-like workflows without hardware  
+- anyone who wants Push-like workflows and **much more** without hardware  
 
 Website: [project7iii.com/tap](/tap)
 
