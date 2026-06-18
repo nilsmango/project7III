@@ -2,10 +2,23 @@
 title = "Tap Version History"
 description = "The version history of 7III Tap"
 date = 2025-06-27
-updated = 2026-06-08
+updated = 2026-06-17
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
+
+## Version 2.0.1
+*June 2026*  
+You can't get everything right every time:
+- Fixed undo/redo history getting spammed when moving Encoders
+- Fixed playing position jumping with zoomed out Automation
+- Fixed Automation envelopes getting oversimplified
+- Made Automation editing with long Automation more stable
+- Made Grid zooming in and out better in Sequencer
+- You can now zoom out up to Grid 8
+- Record + Encoder now changes dial Automation selection instead of long press on an Encoder (Device View)
+- Fixed Duplicate Loop with decoupled Automation active
+- Made note length and velocity overlays a bit wider, with a wider hit target
 
 ## Version 2.0
 *June 2026*  

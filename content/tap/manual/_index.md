@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, an Ableton Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2026-06-10
+updated = 2026-06-17
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
@@ -99,15 +99,15 @@ Windows PC with Ableton Live
 This keeps the iPhone or iPad in its usual supported role: it is the USB host for a class-compliant USB MIDI interface. The CME interface handles the Windows side.
 
 MIDI interface for iPhone/iPad:  
-🇺🇸 <a href="https://amzn.to/3RXv3jN" target="_blank" rel="nofollow sponsored">USB-C MIDI Interface on Amazon.com</a>  
-🇪🇺 <a href="https://amzn.to/4ak5orI" target="_blank" rel="nofollow sponsored">USB-C MIDI Interface on Amazon.de</a>
+🇺🇸 <a href="https://amzn.to/3RXv3jN" target="_blank" rel="nofollow sponsored">USB-C MIDI Interface on Amazon</a>  
+🇪🇺 <a href="https://amzn.to/4ak5orI" target="_blank" rel="nofollow sponsored">USB-C MIDI Interface on Amazon</a>
 
 Windows-side USB MIDI host/interface options:  
-🇺🇸 <a href="https://amzn.to/4ekFN3k" target="_blank" rel="nofollow sponsored">CME H2MIDI Pro on Amazon.com</a>  
-🇪🇺 <a href="https://amzn.to/4uUoIUF" target="_blank" rel="nofollow sponsored">CME H2MIDI Pro on Amazon.de</a>  
+🇺🇸 <a href="https://amzn.to/4ekFN3k" target="_blank" rel="nofollow sponsored">CME H2MIDI Pro on Amazon</a>  
+🇪🇺 <a href="https://amzn.to/4uUoIUF" target="_blank" rel="nofollow sponsored">CME H2MIDI Pro on Amazon</a>  
   
-🇺🇸 <a href="https://amzn.to/4fArM3A" target="_blank" rel="nofollow sponsored">CME H4MIDI WC on Amazon.com</a>  
-🇪🇺 <a href="https://amzn.to/4ogzJxh" target="_blank" rel="nofollow sponsored">CME H4MIDI WC on Amazon.de</a>
+🇺🇸 <a href="https://amzn.to/4fArM3A" target="_blank" rel="nofollow sponsored">CME H4MIDI WC on Amazon</a>  
+🇪🇺 <a href="https://amzn.to/4ogzJxh" target="_blank" rel="nofollow sponsored">CME H4MIDI WC on Amazon</a>
 
 
 
@@ -512,7 +512,7 @@ You can:
 - randomize the selection
 
 ##### 3.3.5.2 Automation Editing
-You can edit a device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose **Show Automation**. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press **Select Parameter** (dial symbol) in the [Footer Bar](#3-2-2-footer-bar), then touch the encoder you want to edit. You can also go into Automation Editing directly by long-pressing any automatable encoder in the [Encoders Section](#3-3-3-encoders-section).
+You can edit a device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose **Show Automation**. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press **Select Parameter** (dial symbol) in the [Footer Bar](#3-2-2-footer-bar), then touch the encoder you want to edit. You can also go into Automation Editing directly by holding Record `◯` in the Footer Bar and tapping on any automatable encoder in the [Encoders Section](#3-3-3-encoders-section).
 
 The automation line is drawn over the sequencer:
 - A solid line with dots means the clip has automation for the selected parameter.
