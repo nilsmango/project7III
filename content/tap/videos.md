@@ -17,6 +17,36 @@ You can find the complete Tap Playlist here: [7III Tap Playlist](https://youtube
 
 >Got a video featuring Tap? <a href="mailto:7+1@project7III.com">Send it in</a> — we’re happy to share it.
 
+## Our Best Ableton Live Controller yet (Tap 2.0)
+Our biggest update yet, making Tap the best Ableton Live Controller yet.
+
+The biggest changes (see all changes for 2.0 in the [Tap Version History](/tap/history/#version-2-0)):
+- 5-Pad Fourths Layout for iPhone
+- Controls Bank for Tracks 
+	- Volume, Pan, Sends, Pressure, Mod Wheel, and other track controls
+	- Can also be used to:
+		- play Velocity of Pads
+		- change Velocity in Sequencer
+- Custom Algorithm Dial for Operator
+- Even better and more precise Macro Encoders 
+	- Left right for fine, up down normal
+- Macro Variations and Randomizations
+- Grid Size Adjustment by pinching
+- Automation Editing
+- Automation Independent of Loop Length
+- Automation re-enable & remove actions 
+	- Track context menu and lil Loop Helper
+- Grid Snap for Notes 
+	- Track context menu
+- Improved Effects moving and insertion, especially with racks
+- Metronome and Tap Tempo
+- Follow Actions
+-  Companions & Rhythm Generator
+- Mixer View Automation Indicators
+
+{{ youtube(id="1HkaLCXOR6w", start="0") }}
+
+
 ## Everything New in Tap 1.5
 A quick overview of the latest updates in Tap 1.5, the powerful Ableton Live controller for iPhone and iPad.
 
