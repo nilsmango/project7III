@@ -382,7 +382,7 @@ The 8 encoders of the current bank.
 - There are three types: dials, selectors (current selection with a slider underneath), on/off buttons
 - All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)
 - All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
-- Long-press any encoder (that is automatable) to jump directly to that parameter's automation in the Step Sequencer.
+- Hold the record button in the [Footer Bar](#3-2-2-footer-bar), then tap any automatable encoder to jump directly to that parameter's automation in the Step Sequencer.
 
 Dials:
 - Activate a dial by touching it, then:
