@@ -41,7 +41,7 @@ The biggest changes (see all changes for 2.0 in the [Tap Version History](/tap/h
 - Improved Effects moving and insertion, especially with racks
 - Metronome and Tap Tempo
 - Follow Actions
--  Companions & Rhythm Generator
+- Companions & Rhythm Generator
 - Mixer View Automation Indicators
 
 {{ youtube(id="1HkaLCXOR6w", start="0") }}

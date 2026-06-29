@@ -3,7 +3,7 @@ title = "Tap User Manual"
 description = "The user manual for 7III Tap, an Ableton Live controller for iPhone & iPad"
 [extra]
 date = 2024-03-15
-updated = 2026-06-17
+updated = 2026-06-29
 share = true
 featured_image = "mixer.jpg"
 featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
@@ -282,7 +282,7 @@ The top bar showing the tracks of your Live project.
 
 Group tracks show a group indicator in the Tracks Bar. When a group is folded in Live, Tap hides the tracks inside that group as well, so the Tracks Bar behaves like Live's Session View: fold the group to make room, unfold it when you want access to the child tracks again.
 
-{{ image_sets(path="content/tap/manual/Tap_tracks_context_menu.jpg", format="auto", op="fit_width", quality=75, alt="Tracks Bar Context Menu", caption='The Tracks Bar context menu.' imgset_class="imgset-twothird") }}
+{{ image_sets(path="content/tap/manual/track_menu.png", format="auto", op="fit_width", quality=75, alt="Tracks Bar Context Menu", caption='The Tracks Bar context menu.' imgset_class="imgset-twothird") }}
 
 #### 3.2.2 Footer Bar
 Here's a detailed look at the buttons in the Footer Bar in vertical mode:
@@ -319,19 +319,31 @@ In all other views, this will get you back to the [Home View](#3-1-home-view).
 6. Record  
 Activates or deactivates the session record button.
 
-7. Play/Stop/Play Menu/Tempo
-In the step sequencer with [Performance Features](#4-1-performance-features): Single Tap opens that menu. Long-press opens the [Tempo Overlay](#tempo-overlay).  
-In all other layouts and views: Starts or stops the playback. Long-press opens the tempo overlay.  
-In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to different clips, and the **Tempo Overlay**.  
+7. Play/Stop/Play Menu/Tempo  
+In the step sequencer with [Performance Features](#4-1-performance-features): Single Tap opens the [Play Menu](#play-menu). Long-press opens the [Tempo Overlay](#tempo-overlay).  
+In all other layouts and views: Starts or stops the playback. Long-press opens the Tempo Overlay.  
+In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to different clips, and the Tempo Overlay.  
 
 Extra buttons in the horizontal Footer Bar of the Device View:  
 
 8. Switch from Pads to Sequencer and vice versa.
 
 9. Go to start of loop (only in Sequencer), stop all clips (in Pads)
-  
+
+##### Play Menu
+{{ image_sets(path="content/tap/manual/playmenu.png", format="auto", op="fit_width", quality=75, alt="The Tap Play Menu showing a couple of actions", caption='The Play Menu' imgset_class="imgset-half") }}
+
+A menu showing different actions, depending on status:
+- Global Play/Stop
+- Start/Stop selected Clip
+- Select previous Clip
+- Select next Clip
+- New empty Clip
+- Tempo
+- Select Main Track
+
 ##### Tempo Overlay
-{{ image_sets(path="content/tap/manual/Tempo_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-half") }}
+{{ image_sets(path="content/tap/manual/tempo_overlay.png", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-half") }}
 
 Tapping the plus and minus buttons will adjust the tempo by the amount indicated in the center.  
 Tapping on the BPM digits lets you type in the exact tempo you want.
@@ -348,7 +360,7 @@ The devices are shown here.
 - Tap the `⊕` symbol to open the [Browser](#browser) or add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.
 - `<` (open) and `>` (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets. The chain number is indicated with circles below the first member of the chain (for more than one chain per rack mother).
 
-{{ image_sets(path="content/tap/manual/Devices Bar.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Devices Bar", caption='The Devices Bar.') }}
+{{ image_sets(path="content/tap/manual/devices_bar.png", format="auto", op="fit_width", quality=75, alt="7III Tap Devices Bar", caption='The Devices Bar.') }}
 
 ##### Browser
 Browse away!
@@ -363,7 +375,7 @@ Browse away!
 Navigate and select banks of the chosen device here.  
 If the selected device is a rack device a stacked sqares symbol is available before the first bank, pressing it opens a menu with variations and randomize options (and automation options if [Automation Editing](#3-3-5-2-automation-editing) is active). Any macro with the name "Volume" will get ignored by randomization. Almost like [Ableton Live promisses](https://www.ableton.com/en/live-manual/12/instrument-drum-and-effect-racks/#randomizing-macro-controls), but does actually not adhere to (as of June 2026).
 
-{{ image_sets(path="content/tap/manual/Encoders Section.jpeg", format="auto", op="fit_width", quality=75, alt="7III Tap Encoders Section", caption='The Banks Bar with the Encoders Section below.') }}
+{{ image_sets(path="content/tap/manual/encoders.png", format="auto", op="fit_width", quality=75, alt="7III Tap Encoders Section", caption='The Banks Bar with the Encoders Section below.') }}
 
 #### 3.3.3 Encoders Section
 The 8 encoders of the current bank.  
@@ -389,7 +401,7 @@ Selectors:
 On/Off Buttons:
 - Simply tap a button to switch the value.
 
-{{ image_sets(path="content/tap/manual/encoder.jpg", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-quarter") }}
+{{ image_sets(path="content/tap/manual/encoder.png", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-quarter") }}
 
 ##### Parameter Automation from the Encoders
 The small automation dot on an encoder tells you what Live reports for that parameter:
@@ -443,7 +455,7 @@ Probability is represented by colour saturation: the more saturated the note’s
 
 When you tap the Lil Green Helper rectangle, you will see the following menu:
 
-{{ image_sets(path="content/tap/manual/Step Seq Context Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Lil Green Helper menu", caption='The Lil Green Helper menu.', imgset_class="imgset-half") }}
+{{ image_sets(path="content/tap/manual/lil_helper.png", format="auto", op="fit_width", quality=75, alt="Tap Lil Green Helper menu", caption='The Lil Green Helper menu.', imgset_class="imgset-half") }}
 
 1. Move helper to End/Start: Use these if you don't want to drag the Lil Green Helper manually. Moves the green rectangle to the start or end of the sequencer window.
 2. Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.
@@ -672,7 +684,7 @@ Shows the clips.
 - The selected device's Banks Bar and Encoders Section are displayed above the clip view, exactly like in the Device View.
 
 #### 3.4.1 Clip Slot Context Menu
-{{ image_sets(path="content/tap/manual/Clip_Slot_Menu.jpg", format="auto", op="fit_width", quality=75, alt="Tap Clip Slot menu", caption='The Clip Slot Menu.' imgset_class="imgset-half") }}
+{{ image_sets(path="content/tap/manual/clip_menu.png", format="auto", op="fit_width", quality=75, alt="Tap Clip Slot menu", caption='The Clip Slot Menu.' imgset_class="imgset-half") }}
 
 Inside the context menu, you can:
 - Select the clip/clip slot
