@@ -27,7 +27,7 @@ featured_image_alt = "7III Tap Ableton Live Controller on an iPad"
   <tbody>
     <tr><th scope="row">Mobile devices</th><td>iPhone and iPad</td></tr>
     <tr><th scope="row">Computer support</th><td>macOS and Windows</td></tr>
-    <tr><th scope="row">Connections</th><td>USB on macOS; Wi-Fi on macOS and Windows</td></tr>
+    <tr><th scope="row">Connections</th><td>Direct USB on macOS; wired USB MIDI interface setup on Windows; Wi-Fi on macOS; rtpMIDI over Wi-Fi on Windows</td></tr>
     <tr><th scope="row">Main controls</th><td>Devices, clips, mixer, step sequencers, automation and MIDI CC</td></tr>
     <tr><th scope="row">Setup</th><td>Included Ableton Live MIDI Remote Script; no server or Max for Live device</td></tr>
     <tr><th scope="row">Price</th><td>Free 15-minute daily trial; one-time Premium unlock; no subscription</td></tr>
@@ -40,7 +40,7 @@ That's why we created Tap: a pocket-sized Ableton Live controller built for real
   
 Here are some of the reasons why you should consider Tap:
 - **Works on both iPhone and iPad**  
-- **Plug-and-play** via USB (macOS only) or Wi-Fi with the included custom Ableton Live Remote Script, just like Push without extra software
+- **Flexible connections** via direct USB on macOS, a wired USB MIDI interface setup on Windows, or Wi-Fi on either platform (using rtpMIDI on Windows)
 - **Designed for live performance**, production, sound design, and spontaneous jams
 - **Three powerful views**: Device, Clips, Mixer
 - **Powerful Automation Editing** with drawing, recording, editing, and automation independent of loop playback
@@ -85,8 +85,10 @@ Designed for quick sound design, live modulation, performance, and awesome seque
 - Perfect for synths, drum machines, external apps, and master effects parameters.
 
 ### Connectivity
-- **USB** (macOS)
-- **WiFi** (macOS & Windows)
+- **Direct USB** (macOS)
+- **Wired USB MIDI interface setup** (Windows)
+- **Wi-Fi** (macOS)
+- **rtpMIDI over Wi-Fi** (Windows)
 - Includes a custom Ableton Live Remote Script for deep integration
 - No server or Max for Live device required. Simply download the MIDI Remote Script and put it in the correct folder. More information [here](/tap/manual/#2-1-add-the-tap-midi-remote-script).
 
@@ -194,7 +196,7 @@ Things we have planned for Tap:
 ## FAQ
 
 ### Does Tap work with Ableton Live on Mac and Windows?
-Yes. Connecting via USB works on macOS. Connecting via Wi-Fi works on both macOS and Windows.
+Yes. macOS supports direct USB and Wi-Fi. Windows supports a wired USB MIDI interface setup, an experimental direct USB MIDI host bridge, and Wi-Fi through rtpMIDI. See the [connection guide in the manual](/tap/manual/#2-2-connect-your-iphone-or-ipad).
 
 ### Can Tap replace a hardware controller like Push?
 For many workflows and most musicians, yes.  
