@@ -1,6 +1,6 @@
 +++
 title = "Water Terms & Conditions"
-description = "The terms & conditions for 7III Water"
+description = "Read the terms and conditions for using 7III Water, including subscriptions, in-app purchases, privacy, safety, refunds and Apple licensing information."
 date = 2024-07-08
 updated = 2024-07-10
 +++

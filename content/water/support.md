@@ -1,6 +1,6 @@
 +++
-title = "Water Support"
-description = "Support Page for Water Sports Tracker 7III Water"
+title = "7III Water Support"
+description = "Get help with 7III Water, including Premium upgrades, subscriptions, Garmin GPX import, Apple Watch tracking, stickers and feature requests."
 date = 2024-07-18
 updated = 2025-12-17
 +++

@@ -1,10 +1,11 @@
 +++
-title = "Tap User Manual"
-description = "The user manual for 7III Tap, an Ableton Live controller for iPhone & iPad"
+title = "7III Tap User Manual"
+description = "Install the 7III Tap MIDI Remote Script, connect iPhone or iPad to Ableton Live on Mac or Windows, and learn every controller view and performance feature."
 [extra]
 date = 2024-03-15
 updated = 2026-06-29
 share = true
+seo_title = "7III Tap User Manual & Ableton Live Setup Guide"
 featured_image = "mixer.jpg"
 featured_image_alt = "Mixing an Ableton Live set with 7III Tap on iPad"
 +++

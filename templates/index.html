@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% block title %}{{ config.extra.home_title }}{% endblock title %}
 
 {% block content %}
 <h1>
@@ -42,3 +43,42 @@
 <p><b>2022-02-21</b> project7III is now live! 🎉</p>
 
 {% endblock content %}
+
+{% block comments %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://project7iii.com/#organization",
+      "name": "project7III",
+      "url": "https://project7iii.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://project7iii.com/project7iii_svg.svg"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Simon Lang"
+      },
+      "sameAs": [
+        "https://twitter.com/project7iii",
+        "https://www.instagram.com/project7iii"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://project7iii.com/#website",
+      "url": "https://project7iii.com/",
+      "name": "project7III",
+      "alternateName": "project seven three",
+      "description": "Independent apps and tools for music makers, foilers, mindful tech users and curious people.",
+      "publisher": {
+        "@id": "https://project7iii.com/#organization"
+      }
+    }
+  ]
+}
+</script>
+{% endblock comments %}

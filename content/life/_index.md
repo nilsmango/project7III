@@ -1,10 +1,11 @@
 +++
-title = "Life - App Blocker & Mindful Screen Time "
+title = "7III Life: App Blocker & Mindful Screen Time"
 description = "Block distracting apps and websites, unlock only 10 minutes at a time, track lost time, meditate, use focus sounds and build more intentional screen time habits."
 [extra]
 date = 2024-11-18
 updated = 2026-06-10
 share = true
+seo_title = "App Blocker & Mindful Screen Time | 7III Life"
 featured_image = "Life App Blocker iPhone.jpg"
 featured_image_alt = "7III Life, the best App Blocker on iPhone."
 +++
@@ -16,7 +17,7 @@ Instead of only blocking, 7III Life creates a pause: reflect, choose an alternat
 ><!-- {{ appstore_button(tagline="Pause, breathe, and try it for free!", url="https://apps.apple.com/app/id6738342562") }} -->
 >If you want to get informed once it launches, send us an [email](mailto:7+1@project7iii.com)!
 
-{{ image_sets(path="content/life/Life App Blocker iPhone.jpg", format="auto", op="fit_width", quality=100, alt="7III Life App running App Blocker with Lost Time statistics", caption='A very good App & Websites Blocker for iPhone and Mac.') }}
+{{ image_sets(path="content/life/Life App Blocker iPhone.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="7III Life App running App Blocker with Lost Time statistics", caption='A very good App & Websites Blocker for iPhone and Mac.') }}
 
 
 ## Features of 7III Life

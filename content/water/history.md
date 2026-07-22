@@ -1,6 +1,6 @@
 +++
-title = "Water Version History"
-description = "The version history of 7III Water"
+title = "7III Water Version History"
+description = "See every 7III Water update, including Apple Watch tracking, Garmin GPX import, foil statistics, flight analysis, wind dashboards and map improvements."
 date = 2025-06-27
 updated = 2026-06-11
 +++
@@ -101,4 +101,4 @@ Introducing 7III Water:
 - Apple Watch and iPhone support.  
 - Capture and analyze your water sport performance.  
 - Health app integration.  
-- Privacy first.  
+- Privacy first.

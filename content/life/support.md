@@ -1,6 +1,6 @@
 +++
-title = "Life Support"
-description = "Support Page for the app 7III Life"
+title = "7III Life Support"
+description = "Get help with the 7III Life app blocker and mindful screen-time tools, including upgrades, feature requests, bug reports and direct support."
 date = 2024-10-18
 updated = 2025-08-13
 +++

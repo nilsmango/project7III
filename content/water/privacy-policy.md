@@ -1,6 +1,6 @@
 +++
 title = "Water Privacy Policy"
-description = "The privacy policy for 7III Water"
+description = "Read the 7III Water privacy policy, including how location, workout and Apple Health data is stored and handled by the water sports tracker."
 date = 2024-04-12
 updated = 2024-07-10
 +++

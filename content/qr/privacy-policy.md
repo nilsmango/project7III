@@ -1,6 +1,6 @@
 +++
 title = "QR Privacy Policy"
-description = "The privacy policy for 7III QR"
+description = "Read the 7III QR privacy policy, including what QR code data is collected, shared or sold and how to contact project7III with privacy questions."
 date = 2024-09-04
 updated = 2024-09-04
 +++

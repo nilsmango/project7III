@@ -1,6 +1,6 @@
 +++
-title = "Client Work"
-description = "A selection of work we have done for others"
+title = "Client Work by project7III"
+description = "Selected project7III client work across branding, logo design, websites, product graphics and apparel for small businesses and independent projects."
 date = 2023-10-09
 [extra]
 share = true
@@ -14,7 +14,7 @@ Here are some some of the things we’ve made for others over the years.
 </div>
 
 
-{{ image_sets(path="content/client-work/Labeldesign_beer.jpg", format="auto", op="fit_width", quality=75, alt="A beer bottle with a label by project7III", caption="A label for a beer.") }}
+{{ image_sets(path="content/client-work/Labeldesign_beer.jpg", format="auto", op="fit_width", quality=75, loading="eager", fetchpriority="high", alt="A beer bottle with a label by project7III", caption="A label for a beer.") }}
 
 {{ image_sets(path="content/client-work/Epic_wake_Logo.jpg", format="auto", op="fit_width", quality=75, alt="Surf action with the logo", caption="A logo.") }}
 

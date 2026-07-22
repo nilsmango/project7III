@@ -1,8 +1,8 @@
 +++
-title = "projects"
-description = "Projects by project7III"
+title = "Projects by project7III"
+description = "Explore project7III apps, foiling tools, independent shops and selected design work spanning music, water sports, science and practical utilities."
 date = 2023-10-08
-updated = 2025-12-17
+updated = 2026-07-22
 +++
 We make shit happen!
 - [Apps](/apps) - a collection of mobile applications.

@@ -11,6 +11,9 @@
 
 
   <title>{% block title %}{{ config.title }} - {{ config.description }}{% endblock title %}</title>
+  {% block description %}<meta name="description" content="{{ config.description }}">{% endblock description %}
+  {% block canonical %}<link rel="canonical" href="{{ current_url | default(value=config.base_url) | safe }}">{% endblock canonical %}
+  {% block robots %}<meta name="robots" content="index, follow, max-image-preview:large">{% endblock robots %}
   <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
@@ -24,15 +27,26 @@
 {% endif %}
 <!-- Share things -->
 {% block ogp_head %}
-<meta property="og:title" content="{{ config.title }} - {{ config.description }}">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:title" content="{{ config.extra.home_title }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ config.base_url }}">
-  <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
+  <meta property="og:description" content="{{ config.description }}">
+  <meta property="og:image" content="{{ config.base_url }}/ogpic-wide.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1733">
+  <meta property="og:image:height" content="907">
+  <meta property="og:image:alt" content="project7III — Apps for music, water and life">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ config.extra.home_title }}">
+  <meta name="twitter:description" content="{{ config.description }}">
+  <meta name="twitter:image" content="{{ config.base_url }}/ogpic-wide.png">
+  <meta name="twitter:image:alt" content="project7III — Apps for music, water and life">
 {% endblock ogp_head %}
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
   <!-- My CSS -->
   <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}">
 </head>
@@ -45,11 +59,11 @@
     <header>
       <div class="logo">
         <a href="{{ config.base_url }}">
-            <img src="/project7iii_svg.svg" alt="project7III Logo">
+            <img src="/project7iii_svg.svg" alt="project7III Logo" width="173" height="168">
       </a>
       </div>
       
-        <div class="nav">
+        <nav class="nav" aria-label="Primary navigation">
             <ul class="nav-list">
             {% block nav_bar %}
             {% for subsec in config.extra.menu_items %}
@@ -59,27 +73,29 @@
 
             {% endblock nav_bar %}
             </ul>
-          </div>
+          </nav>
     </header>
     <div class="search-container">
-      <input id="search" type="search" placeholder="Search project7III">
+      <input id="search" type="search" placeholder="Search project7III" aria-label="Search project7III">
       <div class="search-results">
           <div class="search-results__items"></div>
           <hr>
       </div>
     </div>
     {% endblock header %}
+      <main id="main-content">
       {% block content %}
       {% endblock content %}
+      </main>
       {%- block comments %}
       {%- endblock comments %}
       {%- block pagination %}
       {%- endblock pagination %}
-
+    </div>
     </section>
   {%- block footer %}
     <footer>
-        <nav class="footernav">
+        <nav class="footernav" aria-label="Footer navigation">
           <ul class="footernav-list">
           {% for subsec in config.extra.footer_nav %}
           {% set link_url = subsec.url %}
@@ -92,8 +108,6 @@
     <br>Copyright © <script>document.write(new Date().getFullYear())</script> project7III - Simon Lang. All rights reserved.</p>
     </footer>
   {%- endblock footer %}
-</div>
-
 <script type="text/javascript" src="/elasticlunr.min.js"></script>
 <script type="text/javascript" src="/search.js"></script>
 </body>

@@ -1,6 +1,6 @@
 +++
-title = "Tap Support"
-description = "Support Page for Ableton Live MIDI Controller 7III Tap"
+title = "7III Tap Support"
+description = "Get help with 7III Tap, including Ableton Live connection setup, the MIDI Remote Script, Premium access, feature requests and controller troubleshooting."
 date = 2024-07-20
 updated = 2025-05-13
 +++

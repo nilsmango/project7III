@@ -1,5 +1,5 @@
 +++
-title = "about project7III"
+title = "About project7III"
 description = "project7III creates tools for foilers, water sport enthusiasts, music makers, and chemistry-inspired goods."
 date = 2025-12-16
 updated = 2025-12-17

@@ -1,6 +1,6 @@
 +++
 title = "Artifacts"
-description = "7III Artifacts is exclusive merchandise with otherworldly powers."
+description = "7III Artifacts is an upcoming project7III merchandise collection. Contact us to hear when the independent shop launches."
 date = 2023-10-09
 updated = 2025-12-17
 +++

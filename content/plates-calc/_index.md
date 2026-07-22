@@ -1,16 +1,17 @@
 +++
-title = "Plates Calc"
-description = "A simple plate calculator for iPhone, iPad, Mac"
+title = "Plates Calc: Barbell Plate Calculator"
+description = "Calculate barbell, dumbbell and kettlebell plate loading in pounds or kilograms with Plates Calc for iPhone, iPad and Mac. Simple, fast and free."
 [extra]
 date = 2025-07-04
-updated = 2025-07-08
+updated = 2026-07-22
 share = true
+seo_title = "Barbell Plate Calculator for iPhone & Mac | Plates Calc"
 featured_image = "Plates Calc.jpg"
 featured_image_alt = "Plates Calc, a simple free weights calculator"
 +++
 
 
-{{ image_sets(path="content/plates-calc/Plates Calc.jpg", format="auto", op="fit_width", quality=100, alt="Plates Calc App showing a bar and some plates", caption='Your new gym buddy: Plates Calc') }}
+{{ image_sets(path="content/plates-calc/Plates Calc.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="Plates Calc App showing a bar and some plates", caption='Your new gym buddy: Plates Calc') }}
 
 A simple plate calculator for iPhone, iPad and your Mac.
 - Add dumbbell, barbell bars or kettlebells

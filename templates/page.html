@@ -1,13 +1,14 @@
 {% import "macros/toc_macros.html" as toc %}
 {% extends "base.html" %}
-{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
-{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+{% block title %}{% if page.extra.seo_title %}{{ page.extra.seo_title }}{% else %}{{ page.title }} - {{ config.title }}{% endif %}{% endblock title %}
+{% block description %}<meta name="description" content="{{ page.description | default(value=config.description) }}">{% endblock description %}
+{% block canonical %}<link rel="canonical" href="{{ page.permalink | safe }}">{% endblock canonical %}
 
 {% block ogp_head %}
     {% if config.extra.ogp.locale %}
     <meta property="og:locale" content="{{ config.extra.ogp.locale }}">
     {% endif %}
-    <meta name="project7III" content="project7III">
+    <meta property="og:site_name" content="{{ config.title }}">
     <meta property="og:title" content="{{ page.title }}">
     {% if page.taxonomies.categories %}
     <meta property="og:type" content="article">
@@ -26,19 +27,32 @@
     <meta property="og:url" content="{{ page.permalink | safe }}">
     {% if page.extra.featured_image %}
     {% set page_permalink = page.permalink | safe %}
-    <meta property="og:image" content="{{ page_permalink ~ page.extra.featured_image }}">
+    <meta property="og:image" content="{{ page_permalink }}{{ page.extra.featured_image | replace(from=" ", to="%20") }}">
     {% if page.extra.featured_image_alt %}
     <meta property="og:image:alt" content="{{ page.extra.featured_image_alt }}">
     {% endif %}
     {% else %}
-    <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
+    <meta property="og:image" content="{{ config.base_url }}/ogpic-wide.png">
+    <meta property="og:image:alt" content="project7III — Apps for music, water and life">
     {% endif %}
     {% if page.summary %}
-    <meta property="og:description" content="{{ page.summary | striptags }} ...">
+    <meta property="og:description" content="{{ page.summary | striptags }}">
     {%- elif page.description %}
-    <meta property="og:description" content="{{ page.description | safe }}  ...">
+    <meta property="og:description" content="{{ page.description }}">
     {%- elif page.content %}
-    <meta property="og:description" content="{{ page.content | striptags | truncate(length=54) | safe }}">
+    <meta property="og:description" content="{{ page.content | striptags | truncate(length=160) }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description | default(value=config.description) }}">
+    {% if page.extra.featured_image %}
+    <meta name="twitter:image" content="{{ page.permalink | safe }}{{ page.extra.featured_image | replace(from=" ", to="%20") }}">
+    {% if page.extra.featured_image_alt %}
+    <meta name="twitter:image:alt" content="{{ page.extra.featured_image_alt }}">
+    {% endif %}
+    {% else %}
+    <meta name="twitter:image" content="{{ config.base_url }}/ogpic-wide.png">
+    <meta name="twitter:image:alt" content="project7III — Apps for music, water and life">
     {% endif %}
 {% endblock %}
 

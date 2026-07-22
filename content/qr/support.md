@@ -1,6 +1,6 @@
 +++
-title = "QR Support"
-description = "Support Page for the QR code creator app 7III QR"
+title = "7III QR Support"
+description = "Get help with the 7III QR code generator, including upgrades, feature requests, bug reports and direct support from project7III."
 date = 2024-09-04
 updated = 2024-09-04
 +++

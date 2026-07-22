@@ -1,6 +1,6 @@
 +++
 title = "Best Ableton Live Controllers in 2026"
-description = "A full comparison of the best Ableton Live controllers in 2026, including Push 3, Move, TouchAble, 7III Tap, Knobber and LK. Find the right controller for your workflow."
+description = "Compare Ableton Live controllers including Push 3, Move, TouchAble, 7III Tap, Knobber and LK by price, workflow, sequencing, mixing and device control."
 date = 2025-12-13
 updated = 2026-06-10
 [extra]
@@ -29,7 +29,7 @@ This guide compares the most popular controllers so you can choose the one that 
 - **Knobber** — As many ~knobs~ faders as you could ever ask for  
 - **LK** — Mobile controller that can control about anything MIDI
 
-{{ image_sets(path="content/tap/Ableto Move vs Push vs Tap vs Knobber vs Touchable.jpg", format="auto", op="fit_width", quality=100, alt="Ableton Push, Move, TouchAble Pro, Tap and Knobber in an Ableton Live controller comparison", caption='Ableton Live controllers compared: Tap vs Push vs TouchAble Pro vs Knobber vs Move') }}
+{{ image_sets(path="content/tap/Ableto Move vs Push vs Tap vs Knobber vs Touchable.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="Ableton Push, Move, TouchAble Pro, Tap and Knobber in an Ableton Live controller comparison", caption='Ableton Live controllers compared: Tap vs Push vs TouchAble Pro vs Knobber vs Move') }}
 
 
 ## Comparison Table (2026)

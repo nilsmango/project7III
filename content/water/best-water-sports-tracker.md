@@ -1,10 +1,11 @@
 +++
-title = "What is the best Water Sports Tracker?"
-description = "Water sports tracker for iPhone, Apple Watch & Garmin. Track downwind foiling, pump foiling, wake thief and more. No subscriptions."
+title = "Best Water Sports Tracker: Compatibility Quiz"
+description = "Take a quick compatibility quiz to find a water sports tracker for foiling, winging, surfing, SUP and more based on your devices, privacy and pricing preferences."
 [extra]
 date = 2025-12-14
-updated = 2025-12-17
+updated = 2026-07-22
 share = true
+seo_title = "Best Water Sports Tracker: Quick Compatibility Quiz"
 featured_image = "7III Water Sports Tracker Statistics.jpg"
 featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foiling GPS route"
 +++
@@ -13,7 +14,9 @@ featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foi
 <a href="/water/support" class="btn" id="greenButton">Support</a>
 <a href="/water/history" class="btn" id="greenButton">Version History</a> 
 
-A (not so) serious test to find the best water sports tracker app for you. As foiling helps water sport enthusiasts worldwide to have even more ways to spend their money, the amount of tracking apps is also on the rise. We have searched the debts of the tracker jungle, so you can drop in and drop out, because no matter if you wing, parawing, downwind foil, kite, windsurf or stand up paddle, our compatibility quiz will help you find the best water sport tracker for you. 
+A (not so) serious test to find the best water sports tracker app for you. As foiling gives water sports enthusiasts even more ways to spend their money, the number of tracking apps is also rising. We searched the depths of the tracker jungle, so whether you wing foil, parawing, downwind foil, kite, windsurf or stand-up paddle, this compatibility quiz can help you find the right tracker.
+
+The useful criteria are simple: device compatibility, supported sports, GPX import and export, privacy, relevant statistics, and whether you prefer a lifetime purchase or recurring plan.
 
 ## Water Sports Tracker Compatibility Quiz
 
@@ -159,7 +162,7 @@ If you want to surf the internet instead of waves, then [Waterspeed](https://www
 If you only want to go even more extreme, and only want another social media platform for your water sports, then [LinkedWind](https://linkedwind.com) is your dream partner. 💙
 
 **No**  
-So how about you use an app that has simply the tools to help you get on to the water better and is dedicated to your progress only? She might not be the fancies app out there, but [7III Water](/water) is the only water sport tracker app still available. Take one for the team buddy! 🦆
+So how about an app with tools that help you get on the water and focus on your own progress? She might not be the fanciest app out there, but [7III Water](/water) is still a strong water sports tracker option. Take one for the team buddy! 🦆
 
 </section>
 
@@ -178,14 +181,16 @@ So how about you use an app that has simply the tools to help you get on to the 
 [Download 7III Water](https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780)
   
 7III Water is for those that just want to foil, track and own it.  
-✅ No subscriptions  
-💵 One-time $20  
+✅ Subscription not required
+
+💵 One-time lifetime option
+
 🚀 Simple & fast tracking  
 📈 See fastest km, top speeds, distance, stall speed, heart rate, waves, angles, turns
 
 ## Conclusion
 
-The water sports tracker app 7III Water is not for everybody. But if you like to own an app that will continue to simply try to make the best tools for you and your foiling or windsurfing journey, while staying simple and streamline and very beautiful, then we are here for you. For only about USD 20 we will be forever here for you. And if we just about lied there: don't worry, we save your sessions in Health, where you will find them forever. Free to try!
+The water sports tracker app 7III Water is not for everybody. But if you want a simple tracker focused on useful tools for foiling, windsurfing and other water sports, it may be a great fit. The free version lets you try it first, and a one-time GOAT upgrade is available if you prefer lifetime access instead of a recurring subscription. Sessions are stored in Apple Health and remain accessible independently of the app.
 
 
 <script>

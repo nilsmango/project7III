@@ -1,6 +1,6 @@
 +++
 title = "QR Terms & Conditions"
-description = "The terms & conditions for 7III QR"
+description = "Read the terms and conditions for using 7III QR, including app usage, in-app purchases, privacy, refunds and Apple licensing information."
 date = 2024-09-04
 updated = 2024-09-04
 +++

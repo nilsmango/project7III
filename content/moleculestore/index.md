@@ -1,6 +1,6 @@
 +++
 title = "Molecule Store"
-description = "A science and chemistry inspired shop"
+description = "Molecule Store creates science and chemistry-inspired jewelry, apparel and accessories on demand, with one dollar donated to education per order."
 date = 2023-10-09
 [extra]
 share = true
@@ -19,6 +19,6 @@ Two main concepts are guiding the project Molecule Store:
 </div>
 
 
-{{ image_sets(path="content/moleculestore/moleculestore_1.png", format="auto", op="fit_width", quality=75, alt="The starting page of Molecule Store with a chemistry necklace", caption="This is how the Molecule Store looks like.") }}
+{{ image_sets(path="content/moleculestore/moleculestore_1.png", format="auto", op="fit_width", quality=75, loading="eager", fetchpriority="high", alt="The starting page of Molecule Store with a chemistry necklace", caption="This is how the Molecule Store looks like.") }}
 
 {{ image_sets(path="content/moleculestore/moleculestore_2.png", format="auto", op="fit_width", quality=75, alt="Some nerdy science and chemistry apparel and jewelry by the Molecule Store", caption="Nerdy science and chemistry products to be found there.") }}

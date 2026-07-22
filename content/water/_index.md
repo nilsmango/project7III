@@ -1,10 +1,11 @@
 +++
-title = "Water - Water Sports Tracker"
-description = "Water sports tracker for iPhone, Apple Watch & Garmin. Track downwind foiling, pump foiling, wake thief and more. No subscriptions."
+title = "7III Water: Foiling & Water Sports Tracker"
+description = "Track downwind, wing, pump and other water sports with 7III Water for iPhone and Apple Watch. Foil statistics, Garmin GPX import and no required subscription."
 [extra]
 date = 2024-04-11
-updated = 2026-06-11
+updated = 2026-07-22
 share = true
+seo_title = "Foiling & Water Sports Tracker | 7III Water"
 featured_image = "7III Water Foiling Statistics.jpg"
 featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foiling GPS route"
 +++
@@ -16,19 +17,33 @@ Track **downwind foiling**, **pump foiling**, **parawing**, **wake thief**, **wi
 
 Analyze every session with detailed GPS tracks, foil-specific statistics, flight analysis, wind data, route maps and long-term performance trends.
 
-Unlike many water sports tracking apps that charge expensive yearly subscriptions, **7III Water is free to get started and offers a lifetime upgrade for less than the price of a coffee**.
+Unlike many water sports tracking apps that require recurring payments, **7III Water is free to get started and offers a one-time lifetime upgrade**.
 
-No subscriptions. No accounts. No cloud lock-in. Your data stays on your device.  
+No subscription required. No accounts. No cloud lock-in. Your data stays on your device.
+
 🤙 Try it for free: [Download Water](https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780)
 
-{{ image_sets(path="content/water/7III Water Foiling Statistics.jpg", format="auto", op="fit_width", quality=100, alt="7III Water water sports tracker showing downwind foiling statistics like sessions, days on water and total distance", caption='So many great stats.') }}
+{{ image_sets(path="content/water/7III Water Foiling Statistics.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="7III Water water sports tracker showing downwind foiling statistics like sessions, days on water and total distance", caption='So many great stats.') }}
+
+## 7III Water at a Glance
+
+<table class="facts-table">
+  <tbody>
+    <tr><th scope="row">Track with</th><td>iPhone and Apple Watch</td></tr>
+    <tr><th scope="row">Import from</th><td>Garmin and other smartwatches using GPX</td></tr>
+    <tr><th scope="row">Best for</th><td>Downwind, wing, pump, parawing, wake, surf, SUP, kite and other water sports</td></tr>
+    <tr><th scope="row">Analysis</th><td>GPS routes, foil-specific statistics, flights, wind, speed, heart rate and trends</td></tr>
+    <tr><th scope="row">Privacy</th><td>No account; workout data stays on your device and in Apple Health</td></tr>
+    <tr><th scope="row">Price</th><td>Free for your 30 most recent sessions; one-time lifetime unlock available; subscription not required</td></tr>
+  </tbody>
+</table>
 
 ## Why 7III Water?
-Many foiling and water sports tracking apps charge about 20 USD every year. 7III Water takes a different approach:
+Many foiling and water sports tracking apps depend on recurring payments. 7III Water takes a different approach:
 
-Tracking your sessions should not require an expensive subscription. The free version already includes your 30 most recent sessions, and premium is a small one-time purchase that unlocks the full app forever.
+Tracking your sessions should not require a subscription. The free version includes your 30 most recent sessions, and the GOAT upgrade is a one-time purchase that unlocks the full app forever. Optional monthly and annual plans are also available for riders who prefer them.
 
-No recurring fees.
+Choose the lifetime unlock and avoid recurring fees.
 
 No subscription traps.
 
@@ -52,7 +67,7 @@ Just a fast, beautiful foil tracker that helps you spend more time on the water.
 - Export your stats as a map, image, video or sticker overlay
 - [Foiling map of the world](/foildata/map): discover and add foil spots and downwind runs
 - View all your past sessions on one map, sorted by year
-- No subscription traps: Unlock premium features with a one-time payment
+- No subscription required: Unlock premium features with a one-time lifetime payment
 - Simple and beautiful design
 - Cool water sport sticker pack
 - Your workout data stays on your device. You're the customer, not the product
@@ -97,7 +112,7 @@ Help shape the perfect water sports tracking app by [requesting features](/water
 ## FAQ
 
 ### Is 7III Water a subscription-based app?
-No. 7III Water uses a one-time payment to unlock premium features. No subscriptions, no recurring fees.
+No subscription is required. 7III Water offers a one-time lifetime purchase for all premium features, plus optional monthly and annual plans.
 
 ### Which water sports can I track with 7III Water?
 You can track downwind foiling, pump foiling, wake thief, wing foil, kite foil, SUP, surfing and many more water sports.
@@ -125,7 +140,7 @@ The 7III comes from **project7III**, which is *project*, *seven* followed by *th
 We turned 73 into a modern text logo, very 21st century, and admittedly to confuse people along the way.
 
 
-## Reviews for Water
+## Water Sports Tracker Reviews
 🏆 4.9/5 on the App Store (Dec 2025)
 
 <div class="reviews-container">
@@ -169,3 +184,49 @@ We turned 73 into a modern text logo, very 21st century, and admittedly to confu
 <div class="footnote-definition"><p>Check the <a href="/water/terms-and-conditions">terms & conditions</a> and <a href="/water/privacy-policy">privacy policy</a> for 7III Water.
 <br>iPhone and Apple Watch are trademarks of Apple Inc., registered in the United States and other countries. Garmin is a trademark of Garmin Ltd., registered in the United States and other countries.</p>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "7III Water: Foiling & Water Sports Tracker",
+  "url": "https://project7iii.com/water/",
+  "description": "Track downwind, wing, pump and other water sports with 7III Water for iPhone and Apple Watch, with foil statistics and Garmin GPX import.",
+  "image": "https://project7iii.com/water/7III%20Water%20Foiling%20Statistics.jpg",
+  "downloadUrl": "https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780",
+  "applicationCategory": "SportsApplication",
+  "applicationSubCategory": "Foiling and water sports tracker",
+  "operatingSystem": "iOS 17.2 or later, watchOS 10.4 or later",
+  "softwareVersion": "1.4.1",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "description": "Free download with optional premium in-app purchases, including a one-time lifetime unlock"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Simon Lang"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "project7III",
+    "url": "https://project7iii.com/"
+  },
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Shhjsvvh"
+    },
+    "datePublished": "2025-04-10",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5,
+      "bestRating": 5
+    },
+    "reviewBody": "Perfect App to track DW and Foiling 🤙 I use it for all kinds of disciplines, works great! Thanks for the amazing app"
+  }
+}
+</script>

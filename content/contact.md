@@ -1,6 +1,6 @@
 +++
-title = "contact"
-description = "Contact project7III"
+title = "Contact project7III"
+description = "Contact project7III and independent app developer Simon Lang in Biel/Bienne, Switzerland, for support, collaborations or project enquiries."
 date = 2023-10-08
 updated = 2023-10-08
 +++

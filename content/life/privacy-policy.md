@@ -1,6 +1,6 @@
 +++
 title = "Life Privacy Policy"
-description = "The privacy policy for 7III Life"
+description = "Read the 7III Life privacy policy, including how app blocker, mindful screen-time and iCloud-synced data is handled by the app."
 date = 2024-11-18
 updated = 2025-08-13
 +++

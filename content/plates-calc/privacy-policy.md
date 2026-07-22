@@ -1,6 +1,6 @@
 +++
 title = "Plates Calc Privacy Policy"
-description = "The privacy policy for Plates Calc"
+description = "Read the Plates Calc privacy policy, including what app data is collected, shared or sold and how to contact project7III with privacy questions."
 date = 2025-07-04
 updated = 2025-07-04
 +++

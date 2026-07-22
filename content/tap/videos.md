@@ -1,10 +1,11 @@
 +++
-title = "Tap Videos"
+title = "7III Tap Videos & Tutorials"
 description = "Watch tutorials, updates and performance videos showcasing Tap, the iPhone and iPad Ableton Live MIDI controller."
 [extra]
 date = 2025-05-13
 updated = 2025-12-11
 share = true
+seo_title = "7III Tap Ableton Live Controller Videos & Tutorials"
 featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap, a controller for Ableton Live"
 +++

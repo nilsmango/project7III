@@ -23,7 +23,7 @@
 
 <figure>
 <!-- <a href="{{ image4.url }}" target="_blank"> -->
-<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, {{ image4.url }} {{ image4.width }}w" src="{{ image3.url }}" alt="{{ alt }}" class="imgset {{ extra_class }}">
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w, {{ image4.url }} {{ image4.width }}w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="{{ image3.url }}" alt="{{ alt }}" class="imgset {{ extra_class }}" width="{{ image3.width }}" height="{{ image3.height }}" decoding="async" loading="{{ loading | default(value='lazy') }}"{% if fetchpriority is defined %} fetchpriority="{{ fetchpriority }}"{% endif %}>
 <!-- </a> -->
 {% if caption %}
 <figcaption>{{ caption | safe }}</figcaption>
@@ -45,7 +45,7 @@
 {% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
 <figure>
 <!-- <a href="{{ image3.url }}" target="_blank"> -->
-<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image3.url }}" alt="{{ alt }}" class="imgset {{ extra_class }}">
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="{{ image3.url }}" alt="{{ alt }}" class="imgset {{ extra_class }}" width="{{ image3.width }}" height="{{ image3.height }}" decoding="async" loading="{{ loading | default(value='lazy') }}"{% if fetchpriority is defined %} fetchpriority="{{ fetchpriority }}"{% endif %}>
 <!-- </a> -->
 {% if caption %}
 <figcaption>{{ caption | safe }}</figcaption>
@@ -65,7 +65,7 @@
 {% set image3 = resize_image(path=path, width=width3, height=height3, op=op, format=format, quality=quality) %}
 <figure>
 <!-- <a href="{{ image3.url }}" target="_blank"> -->
-<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" src="{{ image3.url }}" alt="{{ alt }}" class="imgset {{ extra_class }}">
+<img srcset="{{ image1.url }} {{ image1.width }}w, {{ image2.url }} {{ image2.width }}w, {{ image3.url }} {{ image3.width }}w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="{{ image3.url }}" alt="{{ alt }}" class="imgset {{ extra_class }}" width="{{ image3.width }}" height="{{ image3.height }}" decoding="async" loading="{{ loading | default(value='lazy') }}"{% if fetchpriority is defined %} fetchpriority="{{ fetchpriority }}"{% endif %}>
 <!-- </a> -->
 {% if caption %}
 <figcaption>{{ caption | safe }}</figcaption>

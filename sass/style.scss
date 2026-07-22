@@ -450,6 +450,40 @@ td:contains("No") {
   color: #c62828;
 }
 
+/* Compact two-column product facts */
+.facts-table {
+  width: 100%;
+  margin: 1.25rem 0 2rem;
+  border-collapse: collapse;
+  background: transparent;
+  border-top: 1px solid var(--table-border, #ddd);
+}
+
+.facts-table th,
+.facts-table td {
+  position: static;
+  padding: 0.65rem 0.75rem;
+  border: 0;
+  border-bottom: 1px solid var(--table-border, #ddd);
+  background: transparent;
+  text-align: left;
+  vertical-align: top;
+}
+
+.facts-table th {
+  width: 30%;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.facts-table td {
+  font-weight: 400;
+}
+
+.facts-table tbody tr:nth-child(even) {
+  background: transparent;
+}
+
 /* Buttons */
 .button {
   text-align: center;

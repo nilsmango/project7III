@@ -1,6 +1,6 @@
 +++
 title = "privacy policy"
-description = "Privacy policy of project7III"
+description = "Read the project7III website privacy policy, including server logs, embedded YouTube videos, external links and how visitor information is handled."
 date = 2023-10-08
 updated = 2023-10-23
 +++

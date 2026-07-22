@@ -1,6 +1,6 @@
 +++
 title = "Life Terms & Conditions"
-description = "The terms & conditions for 7III Life"
+description = "Read the terms and conditions for using 7III Life, including app usage, in-app purchases, privacy, refunds and Apple licensing information."
 date = 2025-08-13
 updated = 2025-08-13
 +++

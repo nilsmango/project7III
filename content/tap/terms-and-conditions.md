@@ -1,6 +1,6 @@
 +++
 title = "Tap Terms & Conditions"
-description = "The terms & conditions for 7III Tap"
+description = "Read the terms and conditions for using 7III Tap, including controller usage, in-app purchases, privacy, refunds and Apple licensing information."
 date = 2024-08-08
 updated = 2024-08-08
 +++

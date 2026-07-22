@@ -1,6 +1,6 @@
 +++
-title = "Tap Version History"
-description = "The version history of 7III Tap"
+title = "7III Tap Version History"
+description = "See every 7III Tap update, from the original iPhone Ableton Live controller through iPad support, step sequencers, automation tools and version 2.0."
 date = 2025-06-27
 updated = 2026-06-17
 +++

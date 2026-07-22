@@ -1,6 +1,6 @@
 +++
 title = "Buddha Machine Privacy Policy"
-description = "The privacy policy for Buddha Machine"
+description = "Read the Buddha Machine privacy policy, including what app data is collected, shared or sold and how to contact project7III with privacy questions."
 date = 2025-07-09
 updated = 2025-07-09
 +++

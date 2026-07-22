@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://project7iii.com"
 title = "project7III"
-description = "making things"
+description = "Independent apps and tools for music makers, foilers, mindful tech users and curious people."
 
 # The default language; used in feeds.
 default_language = "en"
@@ -37,6 +37,7 @@ external_links_target_blank = true
 
 
 [extra]
+home_title = "project7III | Independent Apps for Music, Foiling & Life"
 # List of navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
     { name = "contact", url = "/contact" },
@@ -52,4 +53,3 @@ footer_nav = [
     { name = "X", url = "https://twitter.com/project7iii", newtab = true },
     { name = "Instagram", url = "https://www.instagram.com/project7iii", newtab = true },
 ]
-

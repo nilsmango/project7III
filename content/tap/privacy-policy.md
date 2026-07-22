@@ -1,6 +1,6 @@
 +++
 title = "Tap Privacy Policy"
-description = "The privacy policy for 7III Tap"
+description = "Read the 7III Tap privacy policy, including what MIDI controller and app data is collected, shared or sold and how to contact project7III."
 date = 2024-04-12
 updated = 2024-04-12
 +++
