@@ -3,7 +3,7 @@ title = "7III Tap User Manual"
 description = "Install the 7III Tap MIDI Remote Script, connect iPhone or iPad to Ableton Live on Mac or Windows, and learn every controller view and performance feature."
 [extra]
 date = 2024-03-15
-updated = 2026-06-29
+updated = 2026-09-09
 share = true
 seo_title = "7III Tap User Manual & Ableton Live Setup Guide"
 featured_image = "mixer.jpg"
@@ -58,6 +58,8 @@ Ableton/
 For the most reliable connection, use a wired setup whenever possible.  
 If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</code> in Tap's settings.
 
+For a one-to-one wireless connection, try Bluetooth MIDI before Network MIDI. Bluetooth connects directly without a WiFi router or Network MIDI session, and it can be more consistent than a busy WiFi network. The <a href="https://midi.org/about-midi-part-2midi-cables-connectors" target="_blank">MIDI Association notes</a> that Bluetooth MIDI is often less likely than WiFi to encounter interference from other devices. Wireless performance still depends on the computer, distance, and interference; use a cable for the most reliable connection, especially with dense MIDI feedback in complex Live Sets.
+
 #### 2.2.1 macOS: Over USB-C
 <ol>
 <li>Connect your iPhone or iPad to your Mac using a USB-C cable.</li>
@@ -66,6 +68,8 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 → If it is not already visible, select the <strong>Window</strong> → <strong>Audio Devices</strong> menu to display it.</li>
 <li>Find your iOS device in the sidebar and click the <strong>Enable</strong> button.</li>
 </ol>
+
+You do not need a Thunderbolt or USB 3 cable. A data-capable USB 2.0 cable is already fast enough for Tap. The important bit is the word <strong>data</strong>: a charge-only cable may charge your device, but it cannot create the MIDI connection. The USB-C cable supplied with your iPhone or iPad is suitable.
 
 #### 2.2.2 Windows: Wired MIDI interface setup
 This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi. Feeling brave? Try the even more direct setup [below](#2-2-3-windows-experimental-direct-usb-midi-host-bridge) and let us know if it works for you!
@@ -143,8 +147,52 @@ This should allow communication through USB MIDI virtual ports if the iPhone or 
 
 If it does not work, use the wired MIDI interface setup above.
 
-#### 2.2.4 Windows: rtpMIDI over ad hoc WiFi
-If a wired MIDI setup is not available, use a dedicated ad hoc WiFi network instead of a busy normal WiFi network.
+#### 2.2.4 macOS: Bluetooth MIDI
+Bluetooth MIDI gives you a direct, bidirectional wireless connection without joining a WiFi network. See <a href="https://support.apple.com/en-euro/guide/audio-midi-setup/ams33f013765/mac" target="_blank">Apple's Bluetooth MIDI instructions</a>.
+
+<ol>
+<li>In Tap, open <strong>Settings</strong> → <strong>Bluetooth MIDI</strong>. Keep this panel open while making the first connection.</li>
+<li>On your Mac, open <strong>Audio MIDI Setup</strong> → <strong>MIDI Studio</strong> → <strong>Configure Bluetooth</strong>.</li>
+<li>Select your iPhone or iPad and click <strong>Connect</strong>.</li>
+<li>If it is not listed, return to Tap's Bluetooth MIDI panel and turn on <strong>Advertise MIDI Service</strong>, then look again on the Mac. Advertising is only needed to make Tap discoverable while starting the connection.</li>
+<li>In Ableton Live, select the Bluetooth MIDI device as both Tap input and output.</li>
+</ol>
+
+#### 2.2.5 Windows: Bluetooth MIDI
+Bluetooth MIDI connects directly and avoids WiFi congestion, router setup, and Network MIDI sessions. There are two practical routes:
+
+##### Windows MIDI Bluetooth Setup
+Microsoft's <a href="https://microsoft.github.io/MIDI/tools/midibluetoothsetup/" target="_blank">Windows MIDI Bluetooth Setup</a> supports standard Bluetooth LE MIDI devices such as Tap. The software is currently a separate preview and is not part of the normal Windows consumer release yet. Bluetooth MIDI is tested with Tap on macOS; this Windows combination has not yet been tested by us.
+
+<ol>
+<li>In Tap, open <strong>Settings</strong> → <strong>Bluetooth MIDI</strong>. If Tap does not appear on Windows, turn on <strong>Advertise MIDI Service</strong>.</li>
+<li>Open <strong>Windows MIDI Bluetooth Setup</strong> and connect to the iPhone or iPad.</li>
+<li>Allow the connection if Windows asks.</li>
+<li>In Ableton Live, select the new Bluetooth MIDI endpoint as both Tap input and output.</li>
+</ol>
+
+##### USB Bluetooth MIDI adapter
+A USB Bluetooth MIDI adapter that can act as a Bluetooth <strong>central</strong> can handle the wireless connection and appear in Windows as an ordinary USB MIDI interface. One good fit is the <a href="https://www.cme-pro.com/product/widi-bud-pro/" target="_blank">CME WIDI Bud Pro</a>, which supports bidirectional MIDI with standard Bluetooth MIDI devices, including iPhone and iPad. This Tap setup has not yet been tested by us. If you already use it with Tap, please let us know how it works.
+
+<ol>
+<li>Connect the USB Bluetooth MIDI adapter to the Windows computer.</li>
+<li>In Tap, open <strong>Settings</strong> → <strong>Bluetooth MIDI</strong> and make Tap discoverable if needed.</li>
+<li>Pair the adapter with the iPhone or iPad according to its instructions.</li>
+<li>In Ableton Live, select the adapter as both Tap input and output.</li>
+</ol>
+
+The adapter must support central mode. Two Bluetooth peripherals cannot initiate a connection to each other.
+
+#### 2.2.6 macOS: Over WiFi
+If USB-C or Bluetooth MIDI is not available, you can also use MIDI over WiFi on macOS. Use a clean, stable WiFi network and avoid busy public or shared networks.
+
+<ol>
+<li>Connect your iPhone or iPad to the same WiFi as your Mac.</li>
+<li>Follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">Apple guide</a>. You do not need to do <strong>Step 9</strong>.</li>
+</ol>
+
+#### 2.2.7 Windows: rtpMIDI over ad hoc WiFi
+If a wired or Bluetooth MIDI setup is not available, use a dedicated ad hoc WiFi network instead of a busy normal WiFi network.
 
 <ol>
 <li>Create an ad hoc WiFi network on your Windows computer.</li>
@@ -156,23 +204,26 @@ If a wired MIDI setup is not available, use a dedicated ad hoc WiFi network inst
 <li>In Ableton Live, select the rtpMIDI session as the MIDI input and output for Tap.</li>
 </ol>
 
-#### 2.2.5 macOS: Over WiFi
-If USB-C is not available, you can also use MIDI over WiFi on macOS. Use a clean, stable WiFi network and avoid busy public or shared networks.
-
-<ol>
-<li>Connect your iPhone or iPad to the same WiFi as your Mac.</li>
-<li>Follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">Apple guide</a>. You do not need to do <strong>Step 9</strong>.</li>
-</ol>
-
 
 ### 2.3 Set Up Live
 <ol>
 <li>Launch Live.</li>
 <li>Open Live&#39;s Preferences and navigate to the <strong>MIDI</strong> tab.</li>
 <li>Select the script <strong>Tap</strong> using the dropdown menu in the Control Surface column.</li>
-<li>Assign your device or Network Session as input and output ports.</li>
+<li>Assign your USB device, Bluetooth MIDI endpoint, or Network Session as input and output ports.</li>
 <li>Activate <strong>Track</strong> and <strong>Remote</strong> for your active MIDI ports.</li>
+<li>If you want to use <strong>MPE Pads</strong>, also activate <strong>MPE</strong> for Tap's input port.</li>
 </ol>
+
+Tap's <strong>Test connection to Ableton Live</strong> button tells you where the connection stops:
+
+- <strong>No MIDI ports found:</strong> check the data cable, MIDI interface, Bluetooth connection, or Network MIDI session.
+- <strong>One-way MIDI:</strong> Tap can see only an input or output. It needs both.
+- <strong>Remote Script did not answer:</strong> check the Tap Control Surface and its selected input and output in Live.
+- <strong>Wrong Remote Script version:</strong> install the current Tap Remote Script.
+- <strong>Connection lost:</strong> reconnect the cable or wireless MIDI route and test again.
+
+The connection test still works after the free playing time has ended. It checks the setup without unlocking control of Live.
 
 {{ image_sets(path="content/tap/manual/midi-settings-7iii-tap.png", format="auto", op="fit_width", quality=75, alt="7III Tap MIDI setting in Ableton Live", caption='The correct settings for Tap. Set Takeover Mode to "None" for the best experience.' imgset_class="imgset-twothird") }}
 
@@ -223,14 +274,18 @@ On macOS, connection problems are usually caused by the USB cable.
 
 <ol>
 <li>Use the USB-C cable that came with your iPhone or iPad if possible.</li>
-<li>If you do not have the original cable, test another high-quality USB-C cable.</li>
-<li>Avoid charge-only cables. They may charge the device but not transmit MIDI data.</li>
+<li>If you do not have the original cable, use a standards-compliant cable that explicitly supports data. USB 2.0 or better is enough.</li>
+<li>Avoid charge-only cables. They may charge the device but cannot create the IDAM MIDI ports.</li>
 <li>Connect the iPhone or iPad directly to the Mac instead of through a hub.</li>
+<li>Unlock the iPhone or iPad before reconnecting it. If necessary, check <strong>Settings</strong> → <strong>Privacy &amp; Security</strong> → <strong>Wired Accessories</strong>.</li>
 <li>Open <strong>Audio MIDI Setup</strong> and make sure the iPhone or iPad is enabled in the <strong>Audio Devices</strong> window.</li>
 <li>Restart the iPhone or iPad and the Mac if the device does not appear.</li>
 </ol>
 
-#### 2.4.4 Live still does not react
+#### 2.4.4 Bluetooth MIDI troubleshooting
+If the Bluetooth MIDI device disappears, open Tap's Bluetooth MIDI panel. If it does not reconnect, turn on <strong>Advertise MIDI Service</strong> and connect again from the computer or Bluetooth MIDI adapter. A Bluetooth MIDI peripheral can normally connect to only one host at a time, so disconnect it from other computers, phones, or tablets first. If control or feedback feels slow in a complex Live Set, use USB or wired MIDI instead.
+
+#### 2.4.5 Live still does not react
 If the connection appears to work but Live does not react:
 
 <ol>
@@ -247,15 +302,19 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 
 ### 3.1 Home View
 This is where every adventure starts.
-- Select **Try to connect to Ableton Live** and then **Play Tap** to play Tap.  
+- Select **Test connection to Ableton Live** and then **Play Tap** to play Tap. The connection test remains available when the free playing time is over.
 - Tap **Test Tap without Connection** to explore Tap without connection.  
 - Tap **Start Encoders** to go straight to the standalone [Encoders View](#3-6-encoders-view).  
 - Also available in the Home View: **Help** and [Settings](#3-1-1-settings).
 
 ### 3.1.1 Settings
 In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).
+- **MIDI over WiFi** enables or disables Tap's Network MIDI session. USB, MIDI interfaces, and connected Bluetooth MIDI devices remain available.
+- **Bluetooth MIDI** opens Apple's connection panel. If the computer cannot find Tap, use **Advertise MIDI Service** there to make the iPhone or iPad discoverable while connecting.
 - You will also find a button to enable/disable all [Performance Features](#4-1-performance-features).
 - **Default MIDI Layout** sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.
+- **Track Controls Expression** chooses whether the expression encoder in Track Controls sends **Slide (CC74)** or **Pressure**. Slide is the default.
+- **MPE Pads** adds polyphonic per-note pitch bend and configurable vertical Pressure or Slide to all playable MIDI pad layouts, including Drum Racks. Its Push-style expression options appear after you switch it on.
 - **Companion Presets** lets you import and export Companion presets, create folders, move presets between folders, reorder presets, and remove presets or folders.
 
 ### 3.2 Main Views
