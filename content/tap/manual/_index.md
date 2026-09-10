@@ -212,7 +212,7 @@ If a wired or Bluetooth MIDI setup is not available, use a dedicated ad hoc WiFi
 <li>Select the script <strong>Tap</strong> using the dropdown menu in the Control Surface column.</li>
 <li>Assign your USB device, Bluetooth MIDI endpoint, or Network Session as input and output ports.</li>
 <li>Activate <strong>Track</strong> and <strong>Remote</strong> for your active MIDI ports.</li>
-<li>If you want to use <strong>MPE Pads</strong>, also activate <strong>MPE</strong> for Tap's input port.</li>
+<li>If you want to use <a href="#mpe-pads">MPE Pads</a>, also activate <strong>MPE</strong> for Tap's input port.</li>
 </ol>
 
 Tap's <strong>Test connection to Ableton Live</strong> button tells you where the connection stops:
@@ -314,7 +314,7 @@ In Settings you can configure very useful things, like the connection or touch i
 - You will also find a button to enable/disable all [Performance Features](#4-1-performance-features).
 - **Default MIDI Layout** sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.
 - **Track Controls Expression** chooses whether the expression encoder in Track Controls sends **Slide (CC74)** or **Pressure**. Slide is the default.
-- **MPE Pads** adds polyphonic per-note pitch bend and configurable vertical Pressure or Slide to all playable MIDI pad layouts, including Drum Racks. Its Push-style expression options appear after you switch it on.
+- **MPE Pads** makes all playable pad layouts expressive, including Drum Racks: touch height can set velocity, horizontal movement bends each note separately, and vertical movement sends Pressure or Slide. See [MPE Pads](#mpe-pads) for setup and playing details.
 - **Companion Presets** lets you import and export Companion presets, create folders, move presets between folders, reorder presets, and remove presets or folders.
 
 ### 3.2 Main Views
@@ -327,7 +327,10 @@ The top bar showing the tracks of your Live project.
 - Navigate between tracks by swiping left or right. To select a track, tap on it. The currently selected track is displayed in bold font.   
 - When you tap on a track that is already selected, you switch the main view!
 - A long-press opens the track's context menu where you can:
-  - add track
+  - add a MIDI track
+  - add an audio track
+  - add a return track/send
+  - duplicate the selected track
   - delete track
   - fold or unfold a Group Track, if the track is a group or belongs to one
   - set or edit Follow Actions for all clips on that track
@@ -335,6 +338,7 @@ The top bar showing the tracks of your Live project.
   - re-enable automation, either for the whole Live Set or for the next touched parameter
   - remove automation from the next touched parameter
   - activate "select a drum pad without playing it" (only with active drum pad layout)
+  - swap a specific Drum Rack pad (only with an active drum track)
   - configure the standard note length (only with active step sequencer)
   - turn sequencer note **Grid Snap** on or off (only with active step sequencer)
   - go [Home](#3-1-home-view)
@@ -355,6 +359,7 @@ Here is the Footer Bar in horizontal mode in the [Device View](#3-3-device-view)
 1. Side Panel/Encoders Button  
 The side panel opens the options side panel in the [Device View](#3-3-device-view), where you will find layout, velocity, pitch-bend/modwheel, scale, root, and octave/drums page.  
 In the Clips and Mixer Views, this button activates the Scene Launch buttons.
+In Automation Editing, it becomes **Add Curves** (`⊕`); tap it to open the [Curve Generator](#curve-generator).
 Long-press opens the [Encoders View](#3-6-encoders-view). 
 
 2. Navigation Buttons  
@@ -370,10 +375,11 @@ In the other views: Stops all the clips.
 4. Quantize  
 Quantizes the notes of the selected clip.  
 Long-press will show detailed quantize options.
+When [Note Repeat](#note-repeat) is active in a MIDI pads or keyboard layout, this becomes the Repeat Rate control instead: tap it to move to the next rate, or drag left and right to select a rate.
 
 5. Capture/Double Loop/Home  
 In [Device View](#3-3-device-view), with a keyboard or pads active, this captures the MIDI just played.  
-If you are in the [Step Sequencer](#3-3-5-step-sequencer) layout, this will double the selected loop.  
+If you are in the [Step Sequencer](#3-3-5-step-sequencer) layout, tap to duplicate the selected loop. Long-press to multiply its length by two instead: Tap uses Live's native note-modification path to stretch the notes and their lengths while preserving Live-owned MPE expression. If the clip has a separate decoupled automation loop, use **Unfold Clip** first.
 In all other views, this will get you back to the [Home View](#3-1-home-view).
 
 6. Record  
@@ -383,6 +389,8 @@ Activates or deactivates the session record button.
 In the step sequencer with [Performance Features](#4-1-performance-features): Single Tap opens the [Play Menu](#play-menu). Long-press opens the [Tempo Overlay](#tempo-overlay).  
 In all other layouts and views: Starts or stops the playback. Long-press opens the Tempo Overlay.  
 In the [Step Sequencer](#3-3-5-step-sequencer) without **Performance Features**: Long-press shows a context menu for stopping, starting, adding, going to different clips, and the Tempo Overlay.  
+
+In the Browser, holding the previous or next page button accelerates page changes. You can also tap the page indicator, type a page number, and press **Go**. This is useful for large Live libraries.
 
 Extra buttons in the horizontal Footer Bar of the Device View:  
 
@@ -400,7 +408,26 @@ A menu showing different actions, depending on status:
 - Select next Clip
 - New empty Clip
 - Tempo
+- Note Repeat On/Off (in MIDI pads and keyboard layouts, including Drum Racks)
+- Repeat Options
 - Select Main Track
+
+##### Note Repeat
+**Note Repeat** is available in the MIDI pads and keyboard layouts, including tracks containing Drum Racks. It is not shown in the Step Sequencer. Open the [Play Menu](#play-menu) and tap **Note Repeat** to switch it on or off. The menu symbol shows whether Repeat is active.
+
+Hold a pad while Note Repeat is active to play or record a tempo-synchronised stream of evenly spaced notes. Tap uses Live's native note-repeat engine, so the repeat follows Live's tempo. Repeat always controls the currently selected MIDI track. Each track remembers its own Repeat On/Off state and rate in the Live Set, and Tap restores them when you select that track again.
+
+While Repeat is active, the Quantize button in the [Footer Bar](#3-2-2-footer-bar) becomes a Repeat Rate control and displays the current rate. Tap it to cycle through the rates; after the last rate it returns to the first. You can also drag left and right over it to move through the rates. The available rates are **1/4**, **1/4T**, **1/8**, **1/8T**, **1/16**, **1/16T**, **1/32**, and **1/32T**.
+
+Choose **Repeat Options** in the Play Menu to open three track-coloured controls:
+
+- **Rate** selects the repeat rate.
+- **Swing** sets Live's global song swing from 0–100%. It is bidirectional: changes made in Live are reflected in Tap, and changes in Tap are sent to Live.
+- **Pad Pressure** enables or disables vertical pressure gestures on repeating pads. Tap remembers this preference. When enabled, drag up or down while holding a repeating pad to increase or decrease that pad's pressure/velocity. With MPE Pads enabled, horizontal dragging remains available for per-note pitch bend; with Note Pitch Bend set to Off, it moves between pads instead.
+
+Tap outside Repeat Options to close it.
+
+The **Velocity** slider in the Side Panel and the **Velocity** encoder in [Track Controls](#3-3-1-devices-bar) both control Tap's fixed pad velocity. If you change either control while pads are already repeating, all currently held repeating pads update to the new velocity without restarting the repeat timing. With **Pad Pressure** enabled, you can then adjust each held pad individually by dragging up or down on that pad.
 
 ##### Tempo Overlay
 {{ image_sets(path="content/tap/manual/tempo_overlay.png", format="auto", op="fit_width", quality=75, alt="Tap Tempo Overlay", caption='The Tempo Overlay' imgset_class="imgset-half") }}
@@ -415,8 +442,9 @@ The Tempo Overlay also has a **Tap Tempo** pad and a **Metronome** button. Tap T
 The devices are shown here.
 - You can navigate by swiping left or right. 
 - Select a device by tapping on it. The selected device has a bold font.
-- **Track Controls** are accessed through the `☰` item at the beginning of the Devices Bar. Selecting it opens controls for the currently selected track. On MIDI tracks, this includes **Mod Wheel**, **Pressure**, **Pitch Bend**, and **Velocity**, followed by mixer controls such as **Volume**, **Pan**, and **Sends**.
-  - Mixer controls are standard Live parameters and can be automated. **Mod Wheel**, **Pressure**, and **Pitch Bend** can be recorded into clips, but their automation is not shown through moving indicators and cannot be edited in [Automation Editing](#3-3-5-2-automation-editing). **Velocity** sets the fixed velocity used by pads that do not have height-based velocity enabled, and can also be used to adjust the velocity of selected notes in [Step Sequencer](#3-3-5-step-sequencer).
+- **Track Controls** are accessed through the `☰` item at the beginning of the Devices Bar. Selecting it opens controls for the currently selected track. On MIDI tracks, this includes **Mod Wheel**, the selected **Slide** or **Pressure** expression control, **Pitch Bend**, and **Velocity**, followed by mixer controls such as **Volume**, **Pan**, and **Sends**.
+  - Choose **Slide** or **Pressure** in **Settings → Track Controls Expression**. Slide is the default and sends MIDI CC74; Pressure sends channel pressure. The encoder sends live MIDI continuously, so either expression can change sustaining notes and notes sounding during playback, just as the previous Pressure control did. Each track remembers separate Slide and Pressure values.
+  - Mixer controls are standard Live parameters and can be automated. **Mod Wheel**, **Slide**, **Pressure**, and **Pitch Bend** can be recorded into clips, but their automation is not shown through moving indicators and cannot be edited in [Automation Editing](#3-3-5-2-automation-editing). **Velocity** sets the fixed velocity used by pads that do not have height-based velocity enabled, and can also be used to adjust the velocity of selected notes in [Step Sequencer](#3-3-5-step-sequencer).
 - Tap the `⊕` symbol to open the [Browser](#browser) or add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.
 - `<` (open) and `>` (closed) symbols indicate rack mothers. You can open and close racks by tapping on a selected rack mother. Chain start and ends are indicated by corner brackets. The chain number is indicated with circles below the first member of the chain (for more than one chain per rack mother).
 
@@ -424,25 +452,35 @@ The devices are shown here.
 
 ##### Browser
 Browse away!
-- Select a category by tapping on it. 
+{{ image_sets(path="content/tap/manual/Browser iPad.png", format="auto", op="fit_width", quality=75, alt="7III Tap Ableton Live Browser", caption='The Tap Browser with Live search, preview, and page navigation.') }}
+- Select a category by tapping on it. Categories are sorted alphabetically, so the list stays predictable even when Live reports additional folders.
 - Some instruments, drums, effects have children, indicated by a `>` symbol, to show the children tap the `>`. 
-- To load a device or effect simply tap on it. 
+- To load a device, effect, sample, or clip simply tap on it.
+- Items that can be auditioned show a speaker button. Tap it to preview the item in Live; tap it again to stop the preview.
+- Use **Search Live** to search across Live's Browser. Tap the tag button to limit the search to a category such as **Drums**, **Drum Hits**, **Samples**, **Instruments**, or **Clips**. Search results can be grouped by their Live folder, and Tap shows the search progress while Live is walking through the library.
 - You can navigate through the browser levels by tapping on the level in the path display on top. 
-- To go back and forth through the browser pages, tap the left or right arrow or swipe left or right. 
+- To go back and forth through the browser pages, tap the left or right arrow or swipe left or right. Hold an arrow to move through many pages quickly, or tap the page indicator to jump directly to a page.
 - Tap the `x` symbol to close the browser. 
+
+##### Simpler
+When a Simpler is selected, Tap shows its sample waveform behind the encoders in the **Main** bank. Sample Start, Sample End, Loop Start, Loop End, slice markers, fades, and the playhead are shown directly on the waveform.
+{{ image_sets(path="content/tap/manual/Simpler iPad.png", format="auto", op="fit_width", quality=75, alt="7III Tap Simpler banks and waveform controls", caption='Simpler banks and waveform-backed encoder controls.') }}
+
+- If the Simpler is empty, press **Browse Samples** to open Tap's Samples browser and load a sample into it.
+- The **Zoom** control works in two directions: drag up or down to zoom, then drag left or right to move through the sample.
+- Simpler's action controls change with Classic, One-Shot, and Slicing mode. Depending on the mode, they include **Loop**, **Trigger / Gate**, **Warp**, **÷2**, **×2**, **Warp Mode**, **Crop / Split**, **Reverse**, **Snap**, and the slice reset or clear action.
+- In Simpler's Warp controls, **Warp As** can set the sample to **1/2, 1, 2, 4, 8, 16, or 32 beats**.
 
 #### 3.3.2 Banks Bar
 Navigate and select banks of the chosen device here.  
-If the selected device is a rack device a stacked sqares symbol is available before the first bank, pressing it opens a menu with variations and randomize options (and automation options if [Automation Editing](#3-3-5-2-automation-editing) is active). Any macro with the name "Volume" will get ignored by randomization. Almost like [Ableton Live promisses](https://www.ableton.com/en/live-manual/12/instrument-drum-and-effect-racks/#randomizing-macro-controls), but does actually not adhere to (as of June 2026).
+If the selected device is a rack device, a stacked-squares symbol is available before the first bank. Pressing it opens a menu with variations and randomize options (and automation options if [Automation Editing](#3-3-5-2-automation-editing) is active). Any macro with the name "Volume" is ignored by randomization. Just like [Ableton Live promises](https://www.ableton.com/en/live-manual/12/instrument-drum-and-effect-racks/#randomizing-macro-controls)—except Tap actually adheres to it (as of June 2026).
 
 {{ image_sets(path="content/tap/manual/encoders.png", format="auto", op="fit_width", quality=75, alt="7III Tap Encoders Section", caption='The Banks Bar with the Encoders Section below.') }}
 
 #### 3.3.3 Encoders Section
 The 8 encoders of the current bank.  
-- There are three types: dials, selectors (current selection with a slider underneath), on/off buttons
-- All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)
-- All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.
-- Hold the record button in the [Footer Bar](#3-2-2-footer-bar), then tap any automatable encoder to jump directly to that parameter's automation in the Step Sequencer.
+- There are four types: dials, selectors (current selection with a slider underneath), on/off buttons, action buttons
+- All encoders show the display value from Ableton Live
 
 Dials:
 - Activate a dial by touching it, then:
@@ -463,7 +501,7 @@ On/Off Buttons:
 
 {{ image_sets(path="content/tap/manual/encoder.png", format="auto", op="fit_width", quality=75, alt="Tap Encoder", caption='An Encoder with active automation' imgset_class="imgset-quarter") }}
 
-##### Parameter Automation from the Encoders
+##### Automation
 The small automation dot on an encoder tells you what Live reports for that parameter:
 - A track-coloured dot means the parameter has active automation.
 - A grey dot means automation exists, but it is currently overridden because the parameter was moved away from the automated value.
@@ -473,16 +511,52 @@ Automation actions appear in the Banks Bar menu and in the track context menu wh
 - **Local Automation** arms Tap for one touch. After choosing it, touch the encoder whose automation you want to re-enable. This is useful when one grey-dot parameter should return to automation without restoring the whole song.
 - **Remove Automation** also arms Tap for one touch. After choosing it, touch the encoder whose automation should be removed. Tap clears that parameter's automation envelope from the playing clip on the selected track and leaves the parameter at its current value.
 
+Hold the record button in the [Footer Bar](#3-2-2-footer-bar), then tap any automatable encoder to jump directly to that parameter's [automation in the Step Sequencer](#3-3-5-2-automation-editing).
 
 #### 3.3.4 MIDI Grid
 The MIDI grid is for playing notes (huge surprise!).  
 - The pads show names if you are in a drum rack, the note names if in a MIDI track.  
+- On iPad, Drum Racks also offer a **64** layout: the same Drum Pads behaviour across an 8×8 surface. Page **0** starts at regular Drum Rack page 0; page **1** contains the next 64 pads. The Footer Bar arrows move a complete 64-pad page at a time. Switching between layouts keeps the corresponding page group. The active Side Panel button shows **64** so it stays distinct from the regular **Pads** layout.
 - Root notes are in a different color than the rest of the pads. If you are in a drum rack, the selected drum pad is in the channel color.  
+- To replace a specific Drum Rack pad, long-press the drum track in the Tracks Bar and choose **Swap Drum Pad**. Touch the pad you want to replace next, occupied or empty. Tap opens the Browser for that exact pad; selecting a compatible item loads it there.
 - You have the option of choosing different scales, velocity modes, mod wheel, pitch wheel, layouts, and more via the Side Panel button in the [Footer Bar](#3-2-2-footer-bar).  
-- Many keyboard and pad layouts are available. The layouts **Keys** and **7 Pads** are velocity-sensitive - the higher up you hit a pad, the greater the velocity. You can invert or fix the velocity in the Side Panel.
+- Many keyboard and pad layouts are available. You can choose separately whether initial touch height sets velocity for **5 Pads**, **4ths**, **8 Pads**, **7 Pads**, **Keys**, **Drum Pads**, and **Single Pad** in **Settings → Initial Height Velocity**. **7 Pads**, **Keys**, and **Single Pad** are on by default to preserve their previous behavior; the others are off by default. **Velocity Height** sets how much of each pad maps from velocity **1 at the bottom** to **127 at the top**. It is adjustable from 10% to 90%, defaults to 80%, and centers the active range so both extremes remain easy to hit. Fixed Velocity in the Side Panel overrides initial-height velocity.
 - Notes played by the playing clip are lit up.
 
-{{ image_sets(path="content/tap/manual/MIDI pads.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap MIDI grid", caption='One of the many MIDI grid pads layouts.') }}
+##### 16 Pitches
+
+On iPad, Drum Racks and Simpler in Slicing mode have a **16 Pitches** performance layout. In a Drum Rack, choose **Pitches** in the Side Panel. In Simpler's Slicing mode, tap the layout control to cycle between **64 Pads**, **16 Pitches**, and **Seq**.
+
+The lower-left 16 pads select and play sounds from the current Drum Rack or slice page. The lower-right 16 pads play the selected sound melodically, starting from C2 and moving from left to right, then bottom to top. **In-Key** follows the chosen root and scale; **Chromatic** moves in semitones and marks roots, scale notes, and notes outside the scale. Use the Side Panel for root, scale, and In-Key/Chromatic. The Footer Bar has two navigation pages: one for Drum Rack or slice pages, and one for the pitch octave.
+
+The upper-left field controls fixed **Velocity** vertically and **Slide** horizontally. The upper-right field controls the first two visible encoders: left/right changes the first encoder and up/down changes the second. The fields keep their position after you lift your finger.
+
+The pitched pads always use fixed velocity. Move up and down on a held pitch for per-note **Pressure**, or left and right to bend continuously toward the neighbouring pitch without retriggering it. This layout uses MPE automatically even if **MPE Pads** is off, but Live's **MPE** input option must still be active. Use Record or Capture MIDI to keep the performance; Live does not expose the captured per-note expression to Tap for later editing.
+
+##### MPE Pads
+
+Turn on **Settings → MIDI Pad Expression → MPE Pads** to make every playable pad layout expressive, including Drum Pads and Drum Racks. Each touch can then send its own expression:
+
+- **Touch height** sets the note's initial velocity when **Initial Height Velocity** is enabled for that layout. Otherwise Tap uses the fixed velocity.
+- Move **left or right** for per-note pitch bend. Crossing into another pad bends continuously instead of retriggering the note.
+- Move **up or down** to send the selected **Vertical Expression**: Pressure or Slide (CC74).
+
+Tap uses the standard MPE lower zone, giving you up to 14 independently expressive touches while keeping channel 16 free for the Remote Script.
+
+Before playing, activate **MPE** for Tap's input port in Live's MIDI Settings. Tap cannot detect Live's separate MPE input-port switch. Tap configures every MPE member channel with the standard **48-semitone per-note pitch-bend range**. External hardware must support that range for cross-pad bends to land on the correct pitches.
+
+The options below appear only while MPE Pads is enabled:
+
+- **Note Pitch Bend — Auto / On / Off:** **Auto** is the default and enables per-note bend when the current Tap Remote Script confirms MPE support. **On** always sends per-note pitch bend. **Off** changes horizontal movement back to pad-by-pad glissando while keeping the selected vertical expression.
+- **In-Tune Location — Finger / Pad:** **Finger** is the default and treats the place where the finger first touches as zero pitch bend. **Pad** always uses the center of the pad as zero, so touching away from the center can begin already bent.
+- **In-Tune Zone Width:** corresponds to Push's **In Tune Width** (internally called its flat zone). It controls how much space around each note's reference point remains exactly in tune. The default is **35% pad**. At **0%**, pitch changes continuously across the whole distance; larger values hold each exact note across more of the pad and leave a shorter transition between notes. Drum Rack **Pads**, **64**, and **Single** all use the 8-column **64** layout as their horizontal pitch ruler: moving by one guide cell bends by one drum-pad semitone. Other layouts reach the neighbouring pitch after one visible pad width.
+- **Vertical Expression — Pressure / Slide:** chooses which per-note MPE message vertical movement sends. Pressure is the default; Slide sends CC74.
+- **Vertical Start — Finger / Location:** **Finger** is the default. It sends zero when the note begins and measures subsequent vertical movement relative to that first touch. **Location** derives the initial expression value from the height at which the pad is touched.
+- **Vertical Height:** controls how far the finger moves vertically through the full expression range. Its **100% pad** default follows the current pad height.
+
+When **Note Repeat** is active, horizontal per-note pitch bend stays available. Vertical movement is deliberately routed only to Live's repeat pressure-to-velocity control instead of also sending the selected MPE vertical expression, so the behaviors cannot collide. If **Pad Pressure** is off in Repeat Options, vertical movement does nothing while Repeat is active. Switching Note Repeat off restores the selected MPE vertical expression automatically.
+
+{{ image_sets(path="content/tap/manual/MIDI Pads iPad.png", format="auto", op="fit_width", quality=75, alt="7III Tap MIDI grid playing a chord on the Crazy Horse Meld instrument", caption='One of the many MIDI grid pad layouts, with held notes lighting in the track colour.') }}
 
 #### 3.3.5 Step Sequencer
 Step sequence away!
@@ -502,7 +576,7 @@ Let's dive into the Tap Step Sequencer in detail:
 {{ image_sets(path="content/tap/manual/Step_Sequencer.jpg", format="auto", op="fit_width", quality=75, alt="Tap Step Sequencer", caption='The Step Sequencer.') }}
 
 1. The Start and Stop are marked with dark triangles.
-2. The looped section is indicated by the band on top of the step sequencer and two lines at the start and end of the loop all in the color of the track.
+2. The looped section is indicated by the band on top of the step sequencer and two lines at the start and end of the loop, all in the color of the track. When Loop is off, these markers remain visible in gray.
 3. Octave starts are marked with a horizontal line in the background. For drums, it is the selected drum pad that is marked.
 4. Notes are shown as rectangles in the track’s colour. Each note also has a slightly darker background rectangle behind it for visual contrast.  
 Velocity is represented by how much of the note is filled from the bottom up: a fully filled bar corresponds to velocity 127, while a barely filled bar represents velocity 1.  
@@ -521,11 +595,12 @@ When you tap the Lil Green Helper rectangle, you will see the following menu:
 2. Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.
 3. Page to Loop Start/End: Moves the sequencer page to the start/end of the loop.
 4. Crop Clip: Crops the clip to the loop length.
-5. Move Loop Start/End & Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits.
-6. Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.
-7. Start/End Marker: Moves the start/end marker to the Lil Green Helper rectangle.
+5. Move Loop Start/End & Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits. With Loop off, these become **Start/End Marker & Range** and move the complete playback range.
+6. Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop. With Loop off, these are called **Start/End Marker**; Tap moves the visible playback boundary together with Live's hidden loop boundary so it is not clamped.
+7. Start/End Marker: When Loop is on, moves the independent start/end marker to the Lil Green Helper rectangle. These separate commands are hidden when Loop is off.
+8. Loop On/Off: The final menu item switches looping for the selected MIDI clip on or off. The label and symbol show the current state.
 
-The Lil Green Helper menu also gives access to [Automation Editing](#3-3-5-2-automation-editing), the [Companion](#3-3-5-3-companion), and the [Rhythm Generator](#3-3-5-4-rhythm-generator), depending on the selected clip and track.
+The Lil Green Helper menu also gives access to [Automation Editing](#3-3-5-2-automation-editing), the [Companion](#3-3-5-3-companion), the [Rhythm Generator](#3-3-5-4-rhythm-generator), and [Flin](#3-3-5-5-flin), depending on the selected clip and track.
 
 ##### 3.3.5.1 Selection Mode
 Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
@@ -545,15 +620,14 @@ Once in Selection Mode, there are several new [Footer Bar](#3-2-2-footer-bar) bu
   
 
 ###### Edit Overlay 
-{{ image_sets(path="content/tap/manual/Edit_Overlay.jpg", format="auto", op="fit_width", quality=75, alt="Tap MIDI Notes Edit Overlay", caption='The notes Edit Overlay.' imgset_class="imgset-twothird") }}
-1. Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
-2. Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.
-3. Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc. Once copy is active button 5 turns into a deactive **Selection Mode** button. When you press it, you will be able to use the **Play Menu** in the [Footer Bar](#3-2-2-footer-bar) to move to other clips in the track and paste the notes there!
-4. Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to `x2` and `/2` buttons. These multiply or divide the duration of the selected notes by 2.
-5. Cut button. Cuts the selected range and notes into the copy buffer and deactivates **Selection Mode**. To paste, see "3. Copy button".
-6. Duplicate button. Duplicates the selected range and notes to the end of the selected range.
-7. Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to `x2` and `/2` buttons.
-8. Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selection by one eighth of the grid. Keep pressing to repeat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.
+{{ image_sets(path="content/tap/manual/Note Edit iPad.png", format="auto", op="fit_width", quality=75, alt="Tap note Edit Overlay over the iPad Step Sequencer", caption='The Edit Overlay in action.') }}
+
+- Drag **Vel** to change the selected notes' velocities, **Vel Rng** to set their velocity deviation, and **Prb** to change their probabilities. Tap sends each combined change to Live when you let go.
+- **Shorten** and **Lengthen** change every selected note by one grid cell. Long-press changes them by one beat. Tap or swipe the two-dot page indicator to reveal `/2` and `x2` instead; these divide or multiply the note lengths by two.
+- **Quantize** aligns the selected notes. Long-press it for the detailed grid, strength, and swing settings.
+- **Copy** keeps the notes and range in Tap's copy buffer. **Cut** does the same and removes the originals. Paste at the selected range with the Paste button, or tap any grid cell to choose a new start. You can move to another clip with the Play Menu before pasting.
+- **Duplicate** copies the selected notes to the end of the selected range.
+- The left and right arrows move the notes by one grid cell; long-press moves by one eighth of a grid cell and continues repeating. The up and down arrows move by one scale step, or by one octave when held.
   
 
 ###### Modulation Menu
@@ -584,44 +658,63 @@ You can:
 - randomize the selection
 
 ##### 3.3.5.2 Automation Editing
-You can edit a device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose **Show Automation**. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press **Select Parameter** (dial symbol) in the [Footer Bar](#3-2-2-footer-bar), then touch the encoder you want to edit. You can also go into Automation Editing directly by holding Record `◯` in the Footer Bar and tapping on any automatable encoder in the [Encoders Section](#3-3-3-encoders-section).
+Automation Editing places a Live clip envelope directly over the Step Sequencer, so the parameter movement stays aligned with the notes that drive it. Open the Lil Green Helper and choose **Show Automation**, or hold Record `◯` in the Footer Bar and tap an automatable encoder in the [Encoders Section](#3-3-3-encoders-section).
+
+Tap first selects a parameter that already has automation. If there is none, it uses the first automatable parameter in the current bank. To choose another one, press **Select Parameter** (dial symbol) in the [Footer Bar](#3-2-2-footer-bar), then touch its encoder.
 
 The automation line is drawn over the sequencer:
 - A solid line with dots means the clip has automation for the selected parameter.
 - A dashed horizontal line means there is no envelope yet; the line shows the current parameter value.
 - The selected parameter is marked with corner brackets around its encoder.
 
-Editing works directly on the line:
+Work directly on the envelope:
 - Tap the dashed line, a line segment, or the visible automation curve to add a point.
 - Drag a point to move it in time and value. Time snaps to the current sequencer grid.
-- Drag a line segment to bend the curve between two points.
+- Drag a line segment up or down to change its bend direction and amount. Drag left or right to move where the bend happens. Tap keeps the real Bézier curve instead of filling it with unnecessary points.
 - Tap a point when no automation points are selected to remove it.
 - Drag on the background to select automation points. Selected points get a light-blue ring.
 - Drag one selected point to move all selected automation points together.
 - Tap the background to clear the selection.
-- Turn on the pencil in the Footer Bar to draw automation continuously.
+- Turn on **Pencil** in the Footer Bar to draw continuously. One uninterrupted stroke becomes one Undo/Redo action in Live.
+
+Automation remains available across the clip's automation timeline, including available points before the Start Marker or after the End Marker. Start, End, and loop markers remain playback and editing references rather than destructive automation boundaries.
 
 While Automation Editing is visible, the Footer Bar has a few automation buttons:
+- **Add Curves** (`⊕`): opens the Curve Generator for the selected parameter. Long-press the same button to open the Encoders View.
 - **Select Parameter**: arms Tap for one touch. Touch the dial you want to edit.
 - **Pencil**: turns continuous automation drawing on or off.
 - **Exit Automation**: the door button leaves Automation Editing and returns to the normal sequencer controls.
 
-When automation points are selected, the Footer Bar changes:
+When automation points are selected, the Footer Bar changes again:
 - **Trash** deletes the selected automation points.
-- **Duplicate** copies the selected automation span to the end of that span. The destination range is overwritten, and the first copied point lands exactly where the original selection ended, so repeating ramps and shapes continue cleanly.
+- **Duplicate** copies the selected span to its end. Tap overwrites the destination range and places the first copied point exactly at the original selection's end, so repeating ramps and curves join cleanly.
 
-The helper menu has a few important automation commands:
-- **Automation Loop End** sets a separate end point for the selected parameter's automation. This creates decoupled automation: the notes can loop at one length while the automation runs at another length.
-- **Clear Automation** removes the selected parameter's automation envelope from the clip.
-- **Clear All Automation** removes automation for the parameters in the current device bank.
-- **Unfold Clip** commits a decoupled automation clip into a normal longer clip. The hidden repeated note copies become real clip content, and Tap removes the special folding metadata.
+The Lil Green Helper also contains the envelope-wide commands:
+- **Automation Loop End** gives the selected parameter its own loop length. Notes can keep looping at one length while the automation runs at another.
+- **Clear Automation** removes the selected parameter's envelope.
+- **Clear All Automation** removes the envelopes for the parameters in the current device bank.
+- **Unfold Clip** turns a clip with decoupled automation into one normal longer clip. The repeated notes become real clip content and Tap removes the folding metadata.
 
-Decoupled automation is useful for slow filter movements, long macro sweeps, and polymetric automation. For example, you can keep a 1-bar drum loop while a filter automation takes 8 bars to return home. Tap shows the note loop and the automation loop separately; an `A` before loop length in the loop lenght indicator on the bottom right of the sequencer means you are looking at an automation length.
+Decoupled automation is ideal for slow filter movements and polymetric modulation. A 1-bar drum loop can, for example, run under an 8-bar filter sweep. An `A` before the loop length at the bottom-right of the sequencer shows that you are looking at the automation length.
+
+###### Curve Generator
+
+The Curve Generator replaces the selected parameter's complete automation envelope with a repeating shape. Choose **Sine**, **Dropping Ball**, **Triangle**, **Square**, ascending or descending **Saw**, rising or falling **Envelope** and **S** ramps, **Wander**, or **S & H** (Sample & Hold).
+
+Its four controls normally set **Rate**, **Phase**, **Top Space**, and **Bottom Space**. The synced half of Rate runs from 1/32 through the musical divisions—including 1/3 and 2/3—to 4 bars. Continue past the centre for free time in seconds or milliseconds. Phase moves the shape through its cycle; 0% and 100% are the same position. Top and Bottom Space keep the result away from the parameter's limits. Tap an already selected Wander or S & H shape again to create a new variation.
+
+For **Dropping Ball**, those first two controls become **Drop Rate** and **Bounce**. Drop Rate is the duration of one complete fall and bounce sequence, so shorter musical rates can place several drops in one bar. Bounce controls how many rebounds survive, how high they rise, and how quickly their spacing contracts.
+
+{{ image_sets(path="content/tap/manual/Automation Curves iPad.png", format="auto", op="fit_width", quality=75, alt="Tap Curve Generator previewing a dropping-ball automation shape over the iPad Step Sequencer", caption='The Curve Generator drawing a Dropping Ball shape.') }}
+
+Changes appear immediately as a preview but are not sent to Live yet. Press **Add Shape** to replace the available clip-automation timeline in one Live Undo step, or **Cancel** to restore the untouched envelope.
 
 ##### 3.3.5.3 Companion
 The **Companion** turns the visible source loop into a longer musical structure. Tap calls this "mutator" in some older code, but in the app and the manual it is the Companion.
 
 Open the Lil Green Helper menu and choose **Companion**. Tap uses the current loop as the source section, called `A`, then writes generated sections after it. The source loop stays the musical identity. Other sections are variations, bridges, hooks, fills, breaks, or returns based on the selected pattern and algorithm.
+
+{{ image_sets(path="content/tap/manual/Companion iPad.png", format="auto", op="fit_width", quality=75, alt="Tap Companion controls over an iPad Step Sequencer", caption='The Companion in action. Grey notes are created by the companion.') }}
 
 Companion clips are still editable. While a clip is in Companion mode, the generated structure is stored with the clip. You can:
 - **Start** to create the Companion structure.
@@ -714,9 +807,11 @@ Special algorithms:
 - **Circle Resolve** is another chord generator, but with a stronger feeling of movement and return. It may add an extra chord tone for more colour in stronger sections.
 
 ##### 3.3.5.4 Rhythm Generator
-The **Rhythm Generator** writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row; while the overlay is open, tap a row in the sequencer to choose a different target.
+The **Rhythm Generator** writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row. Both are indicated by the little track color line at the start of the row. While the overlay is open, tap a row in the sequencer to choose a different target.
 
 Open Rhythm Generator from the Lil Green Helper menu. The overlay shows the target lane at the top. With **Auto** off, adjust the controls and press **Generate**. With **Auto** on, Tap updates the lane automatically as you change settings.
+
+{{ image_sets(path="content/tap/manual/Rhythm Generator iPad.png", format="auto", op="fit_width", quality=75, alt="Tap Rhythm Generator controls over an iPad Step Sequencer", caption='The Rhytm Generator generating seven-note rhythm in C3.') }}
 
 The controls:
 - **Step Size** chooses whether the pattern is built from 1/4, 1/8, 1/16, or 1/32 steps.
@@ -732,6 +827,110 @@ The controls:
 Tap calculates the full set of possible hit patterns for the current Steps and Density. For example, 16 steps with 4 hits produces many possible placements. Tap sorts them musically by favouring even spacing, avoiding long runs of consecutive hits, and preferring patterns that begin on the downbeat. Accent patterns are calculated separately from the hit pattern, so you can keep the same rhythm and move only the accents.
 
 Generating replaces the notes on the target lane inside the current loop. Other note lanes are left alone.
+
+##### 3.3.5.5 Flin
+**Flin** is Tap's clip-backed generative sequencer, inspired by the original monome Flin. Sixteen independent streams fall through the grid at different rates. Each stream has its own pitch or drum pad, length, velocity, and probability. The Tap MIDI Remote Script writes the result into a normal Live MIDI clip, so Live remains the authority for playback and note data.
+
+{{ image_sets(path="content/tap/manual/Flin iPad.png", format="auto", op="fit_width", quality=75, alt="7III Tap Flin generative sequencer on iPad", caption='The Flin sequencer running') }}
+
+To start Flin:
+
+1. Install the matching Tap MIDI Remote Script and connect Tap to Live.
+2. Select a MIDI clip on a melodic track or Drum Rack track.
+3. Open the Lil Green Helper and choose **Flin**.
+
+If the clip already contains notes, Tap asks before replacing them. Starting Flin deletes those existing notes. Flin cannot run in the same clip as Companion, but it can coexist with decoupled automation.
+
+Tap stores Flin's settings in a versioned `[TapFlin:v2|…]` marker in the clip name. When you return to that clip, Tap restores the streams, timing, mapping, quantization, velocity, and probability. Duplicating the clip also duplicates its Flin state.
+
+###### The Flin Grid
+
+- The 16 columns are independent note streams. On a melodic track, each column represents a pitch; on a Drum Rack track, each column represents a drum pad.
+- The rows choose the stream rate. The top row is fastest and every row below it is slower.
+- A stream falls from the top and triggers when it reaches the bottom. The selected rate stays visible as a stationary marker while the moving block shows the current phase.
+- Each fall has 32 visual phases. The first 16 happen above the grid; the stream then enters at the top, crosses the 16 visible rows, and triggers at the bottom.
+- The note names at the bottom show the pitch or drum pad assigned to each column.
+
+Tap's Flin deliberately triggers at the bottom of the column. This is slightly different from the original monome behaviour, but makes the falling motion read naturally on a touchscreen.
+
+###### Adding and Editing Streams
+
+- Tap an empty column on the desired rate row to add a stream. Flin commits the change when your final finger leaves the screen.
+- Drag across columns to add or remove several streams in one gesture.
+- Tap an occupied column to remove that stream.
+- Touch two rows in the same column to set the note length from the distance between your fingers.
+- Long-press an active column to open its **Velocity** and **Probability** sliders.
+
+When Live is already playing, a new stream's first onset follows the **Quantize** setting. With **None**, Flin preserves the natural phase. If the selected clip is stopped, the first stream is written at the clip start and launches the clip.
+
+###### Timing Menu
+
+The Lil Green Helper opens Flin's flat timing menu:
+
+- **Rate** chooses how the 16 distinct row periods are spread between the fastest and slowest rows:
+  - **OG** follows the original Flin idea: integer period multiples from 1 through 16, extending the original eight-row instrument while keeping the top row fastest.
+  - **Odd** uses the odd-numbered multiples 1, 3, 5, and so on for a different set of relationships.
+  - **Exponential** spreads the periods progressively, leaving more room between the slower rows.
+  - **Primes** uses prime-number relationships for patterns that take longer to line up.
+- **Quantize** can be **None**, 1/32, 1/16, 1/8, 1/4, or 1/2. It sets the grid for a stream's first onset without changing the row's natural period. **None** is the default.
+- **Quantize all** appears when a grid is selected. Leave it off to snap only the first onset and let the row continue naturally, including off-grid repeats. Turn it on to snap every repeated onset to the selected grid.
+- **Base** sets the main cycle length from 1/4 bar through 16 bars. The default is 4 bars.
+- **Row timings: Show/Hide** displays the exact musical period beside each row. These labels describe the row rhythm, not the optional note-on grid.
+- **Horizon** limits how far Tap writes ahead: 4, 8, 16, 32, 64, or 96 bars. The default is 64 bars. **Exact** writes the full common period when it fits; **Limited** respects the selected horizon.
+
+Shorter horizons are quicker to rewrite while experimenting. Longer horizons preserve more of the full polymetric pattern before it repeats.
+
+###### Pitches, Drum Pads, and Pages
+
+**Density** decides how many columns each pitch or drum pad receives: 1, 2, 3, or 4. More columns let the same note run at several independent rates.
+
+Use the left and right page buttons to move between lower and higher pitch or drum pages. The second Footer Bar page also gives you global octave transposition on melodic tracks, or movement in blocks of 16 drum notes. Streams outside the visible page keep running.
+
+The Side Panel **Velocity** control adjusts all streams authored by Flin. The timing menu also includes commands to reset every stream's velocity or probability.
+
+###### Remove All and Exit Flin
+
+These two commands are intentionally different:
+
+- **Remove All** clears all Flin streams and generated notes, but keeps the Flin marker and settings so you can start again quickly.
+- **Exit Flin** removes the Flin marker and leaves the generated notes behind as a normal editable MIDI clip.
+
+While Flin is active, Tap remaps a few familiar controls: the Side Panel **Layout** action becomes **Exit Flin**, the Footer Bar **Quantize** action becomes **Remove All**, and the Footer Bar `×2` action becomes **Exit Flin**. Record remains available, but the usual automation shortcut is disabled while Flin owns the sequencer surface.
+
+If Flin does not appear, first check that Tap and the MIDI Remote Script are the same version. If a stream does not sound, check that the selected clip belongs to the current MIDI track and that its pitch or drum pad can trigger the loaded instrument.
+
+#### 3.3.6 Audio Clips
+Select an audio clip and open the [Device View](#3-3-device-view) to edit the clip itself. If an unarmed audio track has an empty slot, the slot shows a plus symbol. Tap it to select that slot, move to Device View, and open Tap's Samples browser. The empty audio editor also has a centred **Load Sample** button. If the audio track is armed, tapping an empty recordable slot records into it instead.
+
+{{ image_sets(path="content/tap/manual/Audio Clips iPad.png", format="auto", op="fit_width", quality=75, alt="7III Tap audio clip editor", caption='Editing an audio clip with Warp markers, loop controls, and clip actions.') }}
+
+At the top of the audio editor:
+
+- The left and right chevrons select the previous or next clip slot on the track. A grey chevron means that the adjacent slot does not currently contain an audio clip; the slot can still be selected.
+- **Play / Stop** controls the selected audio clip. Three dots show that the start or stop request has been sent while Live is still changing state.
+- **Loop** switches the clip loop on or off.
+- **Warp** switches Warp on or off. When Warp is active, the Warp Mode selector appears beside it.
+
+The waveform is an editor, not another play button:
+
+- Pinch to zoom in or out, up to 16×. When zoomed in, drag left or right to move through the sample. Tap the zoom value to return to the complete waveform.
+- With Warp active, the waveform shows musical grid lines and positions such as `1.2` and `1.4`. The grid becomes finer as you zoom in.
+- Tap an empty place in the waveform to add a Warp Marker. Drag its square-and-triangle handle to move it; hold the handle to remove it.
+- Slow Warp Marker movement is continuous. A normal or fast movement locks to the currently visible grid. If the first or last marker reaches the edge, keep holding and moving towards the edge to continue beyond the visible waveform.
+- Tapping or dragging the waveform never starts, stops, scrubs, or retriggers the clip.
+
+The eight controls below the waveform are **Start**, **End**, **Loop Start**, **Loop End**, **Move Loop**, **Gain**, **Transpose**, and **Detune**.
+
+- Drag a marker or loop control up or down to move on the visible waveform grid. Drag left or right for continuous, off-grid movement.
+- **Loop Start** and **Loop End** move separately. **Move Loop** moves both together and preserves the loop length.
+- **Gain** is displayed in dB. **Transpose** moves in semitones. **Detune** moves in cents and carries across the ±50-cent boundary together with Transpose, just like Live.
+
+Below those controls are two circle buttons:
+
+- **Crop** removes the material outside the loop, or outside Start and End when Loop is off.
+- **Convert** opens Tap's context menu with **Simpler**, **Drum Pad**, **Harmony to MIDI**, **Melody to MIDI**, and **Drums to MIDI**. The available conversions depend on the selected clip and the installed Live version; Tap shows Live's error if a requested conversion is unavailable.
+
+You can also edit an automatable device parameter directly over the audio waveform. Hold Record `◯` in the Footer Bar and tap an automatable device encoder. Tap opens the same point, line, curve, selection, Pencil, and [Curve Generator](#curve-generator) tools described in **Automation Editing**. While Automation Editing is open, the clip controls and actions below the waveform are hidden and the waveform expands to the Footer Bar, giving automation the largest possible drawing area. Start, End, and loop markers remain playback and editing references, while Tap can show automation across the available clip and source timeline. Pinching changes the visible waveform and automation viewport without discarding off-screen automation. Clip Gain, Transpose, and Detune remain directly editable clip controls, but Live does not expose them as selectable automation parameters to Tap.
 
 ### 3.4 Clips View
 {{ image_sets(path="content/tap/manual/clips.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Clips View", caption='The Clips View.') }}

@@ -2,7 +2,7 @@
 title = "7III Tap Support"
 description = "Get help with 7III Tap, including Ableton Live connection setup, the MIDI Remote Script, Premium access, feature requests and controller troubleshooting."
 date = 2024-07-20
-updated = 2025-05-13
+updated = 2026-09-08
 +++
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
 
@@ -14,13 +14,13 @@ Need help? We're here for you. (We can't help you with your music, though)
 ## FAQ
 
 ### How do I connect to Ableton?
-Check the manual [here](/tap/manual)!
+Use USB, Wi-Fi, or Bluetooth MIDI on Mac. Windows supports wired MIDI, rtpMIDI, and experimental Bluetooth MIDI. Follow the short setup guide in the [manual](/tap/manual/#2-2-connect-your-iphone-or-ipad).
 
 ### Where do I download the MIDI remote script?
 Here you go: <a href="https://project7iii.com/tap/Tap.zip">MIDI Remote Script</a>
 
 ### Is 7III Tap a free Ableton Live Controller App for iPhone and iPad?
-Yes, 7III Tap is free to test. There is however a 15 minutes per day limit for sending and receiving MIDI.
+Yes, 7III Tap is free to test. Controlling Live is limited to 15 minutes every 24 hours, but the connection test remains available after the playing time is over.
 
 ### What Premium upgrades are available? 
 There is a one-time purchase for lifetime access to unlimited Tap use.

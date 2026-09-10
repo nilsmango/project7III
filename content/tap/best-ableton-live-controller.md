@@ -1,8 +1,8 @@
 +++
 title = "Best Ableton Live Controllers in 2026"
-description = "Compare Ableton Live controllers including Push 3, Move, TouchAble, 7III Tap, Knobber and LK by price, workflow, sequencing, mixing and device control."
+description = "Compare Ableton Live controllers including Push 3, Move, TouchAble, 7III Tap, Knobber and LK by price, workflow, sequencing, mixing, MPE and device control."
 date = 2025-12-13
-updated = 2026-06-10
+updated = 2026-09-08
 [extra]
 share = true
 featured_image = "Ableto Move vs Push vs Tap vs Knobber vs Touchable.jpg"
@@ -18,14 +18,16 @@ A complete guide to choosing the right controller for Ableton Live.
 
 If you're looking for the **best Ableton Live controller in 2026**, you've probably seen dozens of options: Ableton Push 3, Ableton Move, TouchAble, LK, Knobber and new iPad/iPhone apps like **7III Tap**.
 
-This guide compares the most popular controllers so you can choose the one that fits your workflow. Whether you're performing live, producing in the studio, or controlling Ableton on the road. We have only included devices that maximize Ableton Live integration, so this comparison omits devices like the Novation Launchpad, which is part of a family of more universal controllers that are missing important Ableton Live features.
+This guide compares the most popular controllers so you can choose the one that fits your workflow, whether you're performing live, producing in the studio, or controlling Ableton on the road. We have only included devices that maximize Ableton Live integration, so this comparison omits devices like the Novation Launchpad, which is part of a family of more universal controllers that are missing important Ableton Live features.
+
+One important update: **Tap is not simply a touchscreen version of Push.** In some Live workflows it is now more deeply integrated than Push, especially for step sequencing, automation editing, Browser and device workflows, audio clips, MPE pad expression, and quickly moving between tracks and views. Push still wins for hardware feel, expressive physical pads, and standalone operation.
 
 
 ## Quick Overview
 - **Push 3** — The ultimate hardware controller  
 - **Move** — A modern and compact controller that can also make music
 - **TouchAble** — Controller with deep integration and no active development  
-- **Tap** — The most advanced Ableton controller for live performance on iPhone & iPad  
+- **Tap** — A deeply integrated Ableton controller for live performance on iPhone & iPad
 - **Knobber** — As many ~knobs~ faders as you could ever ask for  
 - **LK** — Mobile controller that can control about anything MIDI
 
@@ -41,9 +43,8 @@ This guide compares the most popular controllers so you can choose the one that 
 | Price (USD)           | 999               | 499               | 30                        | 25                               | 40                          | 25              |
 | Active Support        | ✅                | ✅                | ❌                        | ✅                               | ✅                          | ✅              |
 | Plug in and play      | ✅                | ✅                | ❌ | ✅  | ❌ | ❌   |
-| Connection            | USB               | USB               | WiFi                      | USB and WiFi                     | WiFi                        | WiFi            |
-| Aftertouch            | ✅                | ✅                | ❌                        | ❌                               | ❌                          | ❌              |
-| MPE                   | ✅                | ❌                | ❌                        | ❌                               | ❌                          | ❌              |
+| Connection            | USB               | USB               | WiFi                      | USB, WiFi and Bluetooth MIDI     | WiFi                        | WiFi            |
+| MPE                   | ✅                | ❌                | ❌                        | ✅ (Pressure or Slide + Pitch Bend)                              | ❌                          | ❌              |
 | Different pad layouts | ❌                | ❌                | ✅                        | ✅                               | ❌                          | ✅              |
 | Sequencing            | ⭐⭐               | ⭐⭐⭐              | ⭐⭐                       | ⭐⭐⭐⭐                            | ❌                          | ⭐⭐⭐             |
 | Automation Editing       | ❌                |   ❌              | ✅                        | ✅                          | ❌                          | ❌              |
@@ -51,11 +52,13 @@ This guide compares the most popular controllers so you can choose the one that 
 | Clips Launch          | ✅                | ✅                | ✅                        | ✅                               | ❌                          | ✅              |
 | Combine clips         | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ❌              |
 | Mixing                | No faders | No faders | ✅                        | ✅                               | ✅                          | ✅              |
-| Like a Push or better | ✅                | ⭐⭐⭐               | ⭐⭐                        | ⭐⭐⭐⭐                             | ❌                          | ❌              |
+| Like a Push or better | ✅                | ⭐⭐⭐               | ⭐⭐                        | ⭐⭐⭐⭐⭐                           | ❌                          | ❌              |
 | Seq modulation        | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ✅              |
 | Extra encoders        | ❌                | ❌                | ❌                        | ✅                               | ✅                          | ✅              |
 | Devices Browser       | ✅                | ✅                | ✅                        | ✅                     | ❌                          | ❌              |
 | Random Device         | ❌                | ❌                | ❌                        | ✅                               | ❌                          | ❌              |
+| Audio clip editing    | ✅                | ❌                | ❌                        | ✅                               | ❌                          | ❌              |
+| 16 Pitches / 64 pads  | ✅                | ✅                | ❌                        | ✅                               | ❌                          | ❌              |
 | Orientations          | 1                 | 1                 | 1                         | 2                                | 2                           | 1               |
 | Android?              | -                 | -                 | ❌                        | ❌                               | ✅                          | ✅              |
 </div>
@@ -119,15 +122,24 @@ Cons:
 Website: [zerodebug.com](https://zerodebug.com)
 
 #### Tap — Max Performance App
+Tap is the controller in this comparison that most clearly goes beyond the usual Push-like workflow:
 - Best in class step sequencer, no matter if you make a crazy beat or add beautiful harmonies, with amazing tools and creative MIDI modulations.
-- Automation Editing, even unlinked
-- 8 finger parameter encoder editing and the before mentioned step sequencer or MIDI pads or keyboards in the device view.
-- Everything is made for (live) performance: Quick channel and view switching. Great mixer with clip launcher, amazing clip launcher with device control and encoders, mixing from inside the sequencer/encoders even.
-- Plug in and play (needs a remote script)
-- extra customizable universal MIDI encoders pages.
+- Flin, a clip-backed generative sequencer with 16 independent polymetric note streams, plus Companion and the Rhythm Generator.
+- Automation Editing, including decoupled automation that can run at a different length from the note loop.
+- Deep device integration with custom parameter banks, Simpler waveforms and actions, Browser search and preview, and direct sample loading.
+- Audio clip editing with waveform zoom, Warp markers, loop controls, gain, transpose, detune, crop, and conversion to Simpler, Drum Pad, or MIDI.
+- Native Simpler integration (hurray, sample-based artists).
+- MPE pad expression with per-note Pitch Bend and Pressure or Slide.
+- Drum Rack layouts with **16 Pitches**, 16 pads, or 64 pads.
+- Follow Actions for clips, scenes, and whole tracks.
+- Eight-finger parameter editing alongside the step sequencer, MIDI pads, or keyboards in Device View.
+- Everything is made for (live) performance: quick channel and view switching, a great mixer with clip launcher, and device control from the clip launcher, sequencer, or encoders.
+- Plug in and play once the Tap MIDI Remote Script is installed.
+- Connect over USB, Wi-Fi, or Bluetooth MIDI on Mac, with wired, rtpMIDI, and experimental Bluetooth options on Windows.
+- Extra customizable universal MIDI encoder pages.
 
 Cons: 
-- No custom pages for devices yet, but already deep encoders integration with waveforms, filter types, musical divisions, on/off buttons and more!
+- No user-created custom pages for Live devices yet, but already deep encoder integration with waveforms, filter types, musical divisions, on/off buttons and more!
 - No Android app
  
 Tap is the best choice for:

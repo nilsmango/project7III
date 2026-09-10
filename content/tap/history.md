@@ -1,11 +1,36 @@
 +++
 title = "7III Tap Version History"
-description = "See every 7III Tap update, from the original iPhone Ableton Live controller through iPad support, step sequencers, automation tools and version 2.0."
+description = "See every 7III Tap update, from the original iPhone Ableton Live controller through iPad support, step sequencers, automation tools, MPE, Simpler and version 2.1."
 date = 2025-06-27
-updated = 2026-06-17
+updated = 2026-09-08
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
+
+## Version 2.1
+*August 2026*
+
+Small but mighty changes:
+- Added better and custom parameter controls for Meld, Drift, Operator, Wavetable, Drum Sampler, Delay, Auto Filter, Beat Repeat, Hybrid Reverb, Grain Delay, and many other Audio and MIDI Effects
+- Simpler now supports sample loading, sample visualization, slicing, and more
+- Added Search to the Browser
+- Improved the Browser with various tweaks and fixes
+- Added playing position indicators for Clips
+- Added Note Repeat
+- Added MPE support for Pads and Keys
+- Added Bluetooth MIDI connections
+- Added a clearer connection test with useful error details
+- Connection testing still works when the free playing time is over
+- Improved reconnection reliability across USB, Wi-Fi, and Bluetooth MIDI
+- Added 16-pitch and 64-pad layouts for Sliced Simpler and Drum Pads
+- Improved Automation recording and editing
+- Automation edits now use Live 12's actual automation points
+- Automation slopes can now be fine-tuned in two directions
+- You can now add Automation Envelopes like Sine, Saw, etc.
+- Fixed Quantization settings
+- Fixed Note ID issues with larger Clips
+- Improved VoiceOver and accessibility in the Sequencer and Pads
+- Various small improvements, performance improvements, and bug fixes
 
 ## Version 2.0.1
 *June 2026*  

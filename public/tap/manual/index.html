@@ -112,7 +112,7 @@
 <p>Last Update: <strong>
     
 
-<time datetime="2026-06-29T00:00:00+00:00">June 29, 2026</time>
+<time datetime="2026-09-09T00:00:00+00:00">September 09, 2026</time>
 </strong><br />
 If you find any mistakes or notice anything missing in this user manual, please reach out and let us know!</p>
 </blockquote>
@@ -162,12 +162,34 @@ If you find any mistakes or notice anything missing in this user manual, please 
                         </li>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-2-4-windows-rtpmidi-over-ad-hoc-wifi">2.2.4 Windows: rtpMIDI over ad hoc WiFi</a>
+                            <a href="https://project7iii.com/tap/manual/#2-2-4-macos-bluetooth-midi">2.2.4 macOS: Bluetooth MIDI</a>
                             
                         </li>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-2-5-macos-over-wifi">2.2.5 macOS: Over WiFi</a>
+                            <a href="https://project7iii.com/tap/manual/#2-2-5-windows-bluetooth-midi">2.2.5 Windows: Bluetooth MIDI</a>
+                            
+                            <ul>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#windows-midi-bluetooth-setup">Windows MIDI Bluetooth Setup</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#usb-bluetooth-midi-adapter">USB Bluetooth MIDI adapter</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-2-6-macos-over-wifi">2.2.6 macOS: Over WiFi</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-2-7-windows-rtpmidi-over-ad-hoc-wifi">2.2.7 Windows: rtpMIDI over ad hoc WiFi</a>
                             
                         </li>
                         
@@ -201,7 +223,12 @@ If you find any mistakes or notice anything missing in this user manual, please 
                         </li>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-4-4-live-still-does-not-react">2.4.4 Live still does not react</a>
+                            <a href="https://project7iii.com/tap/manual/#2-4-4-bluetooth-midi-troubleshooting">2.4.4 Bluetooth MIDI troubleshooting</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-4-5-live-still-does-not-react">2.4.5 Live still does not react</a>
                             
                         </li>
                         
@@ -248,6 +275,10 @@ If you find any mistakes or notice anything missing in this user manual, please 
                                 </li>
                                 
                                 <li>
+                                    <a href="https://project7iii.com/tap/manual/#note-repeat">Note Repeat</a>
+                                </li>
+                                
+                                <li>
                                     <a href="https://project7iii.com/tap/manual/#tempo-overlay">Tempo Overlay</a>
                                 </li>
                                 
@@ -273,6 +304,10 @@ If you find any mistakes or notice anything missing in this user manual, please 
                                     <a href="https://project7iii.com/tap/manual/#browser">Browser</a>
                                 </li>
                                 
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#simpler">Simpler</a>
+                                </li>
+                                
                             </ul>
                             
                         </li>
@@ -288,7 +323,7 @@ If you find any mistakes or notice anything missing in this user manual, please 
                             <ul>
                                 
                                 <li>
-                                    <a href="https://project7iii.com/tap/manual/#parameter-automation-from-the-encoders">Parameter Automation from the Encoders</a>
+                                    <a href="https://project7iii.com/tap/manual/#automation">Automation</a>
                                 </li>
                                 
                             </ul>
@@ -297,6 +332,18 @@ If you find any mistakes or notice anything missing in this user manual, please 
                         
                         <li>
                             <a href="https://project7iii.com/tap/manual/#3-3-4-midi-grid">3.3.4 MIDI Grid</a>
+                            
+                            <ul>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#16-pitches">16 Pitches</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#mpe-pads">MPE Pads</a>
+                                </li>
+                                
+                            </ul>
                             
                         </li>
                         
@@ -321,7 +368,16 @@ If you find any mistakes or notice anything missing in this user manual, please 
                                     <a href="https://project7iii.com/tap/manual/#3-3-5-4-rhythm-generator">3.3.5.4 Rhythm Generator</a>
                                 </li>
                                 
+                                <li>
+                                    <a href="https://project7iii.com/tap/manual/#3-3-5-5-flin">3.3.5.5 Flin</a>
+                                </li>
+                                
                             </ul>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#3-3-6-audio-clips">3.3.6 Audio Clips</a>
                             
                         </li>
                         
@@ -419,6 +475,7 @@ If you find any mistakes or notice anything missing in this user manual, please 
 <h3 id="2-2-connect-your-iphone-or-ipad">2.2 Connect your iPhone or iPad</h3>
 <p>For the most reliable connection, use a wired setup whenever possible.<br />
 If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</code> in Tap's settings.</p>
+<p>For a one-to-one wireless connection, try Bluetooth MIDI before Network MIDI. Bluetooth connects directly without a WiFi router or Network MIDI session, and it can be more consistent than a busy WiFi network. The <a href="https://midi.org/about-midi-part-2midi-cables-connectors" target="_blank">MIDI Association notes</a> that Bluetooth MIDI is often less likely than WiFi to encounter interference from other devices. Wireless performance still depends on the computer, distance, and interference; use a cable for the most reliable connection, especially with dense MIDI feedback in complex Live Sets.</p>
 <h4 id="2-2-1-macos-over-usb-c">2.2.1 macOS: Over USB-C</h4>
 <ol>
 <li>Connect your iPhone or iPad to your Mac using a USB-C cable.</li>
@@ -427,6 +484,7 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 → If it is not already visible, select the <strong>Window</strong> → <strong>Audio Devices</strong> menu to display it.</li>
 <li>Find your iOS device in the sidebar and click the <strong>Enable</strong> button.</li>
 </ol>
+<p>You do not need a Thunderbolt or USB 3 cable. A data-capable USB 2.0 cable is already fast enough for Tap. The important bit is the word <strong>data</strong>: a charge-only cable may charge your device, but it cannot create the MIDI connection. The USB-C cable supplied with your iPhone or iPad is suitable.</p>
 <h4 id="2-2-2-windows-wired-midi-interface-setup">2.2.2 Windows: Wired MIDI interface setup</h4>
 <p>This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi. Feeling brave? Try the even more direct setup <a href="https://project7iii.com/tap/manual/#2-2-3-windows-experimental-direct-usb-midi-host-bridge">below</a> and let us know if it works for you!</p>
 <p>The connection is:</p>
@@ -484,8 +542,42 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 </ol>
 <p>This should allow communication through USB MIDI virtual ports if the iPhone or iPad is recognised correctly by the CME USB host port. We have not tested this yet. <strong>Please let us know if it works for you in practice.</strong></p>
 <p>If it does not work, use the wired MIDI interface setup above.</p>
-<h4 id="2-2-4-windows-rtpmidi-over-ad-hoc-wifi">2.2.4 Windows: rtpMIDI over ad hoc WiFi</h4>
-<p>If a wired MIDI setup is not available, use a dedicated ad hoc WiFi network instead of a busy normal WiFi network.</p>
+<h4 id="2-2-4-macos-bluetooth-midi">2.2.4 macOS: Bluetooth MIDI</h4>
+<p>Bluetooth MIDI gives you a direct, bidirectional wireless connection without joining a WiFi network. See <a href="https://support.apple.com/en-euro/guide/audio-midi-setup/ams33f013765/mac" target="_blank">Apple's Bluetooth MIDI instructions</a>.</p>
+<ol>
+<li>In Tap, open <strong>Settings</strong> → <strong>Bluetooth MIDI</strong>. Keep this panel open while making the first connection.</li>
+<li>On your Mac, open <strong>Audio MIDI Setup</strong> → <strong>MIDI Studio</strong> → <strong>Configure Bluetooth</strong>.</li>
+<li>Select your iPhone or iPad and click <strong>Connect</strong>.</li>
+<li>If it is not listed, return to Tap's Bluetooth MIDI panel and turn on <strong>Advertise MIDI Service</strong>, then look again on the Mac. Advertising is only needed to make Tap discoverable while starting the connection.</li>
+<li>In Ableton Live, select the Bluetooth MIDI device as both Tap input and output.</li>
+</ol>
+<h4 id="2-2-5-windows-bluetooth-midi">2.2.5 Windows: Bluetooth MIDI</h4>
+<p>Bluetooth MIDI connects directly and avoids WiFi congestion, router setup, and Network MIDI sessions. There are two practical routes:</p>
+<h5 id="windows-midi-bluetooth-setup">Windows MIDI Bluetooth Setup</h5>
+<p>Microsoft's <a href="https://microsoft.github.io/MIDI/tools/midibluetoothsetup/" target="_blank">Windows MIDI Bluetooth Setup</a> supports standard Bluetooth LE MIDI devices such as Tap. The software is currently a separate preview and is not part of the normal Windows consumer release yet. Bluetooth MIDI is tested with Tap on macOS; this Windows combination has not yet been tested by us.</p>
+<ol>
+<li>In Tap, open <strong>Settings</strong> → <strong>Bluetooth MIDI</strong>. If Tap does not appear on Windows, turn on <strong>Advertise MIDI Service</strong>.</li>
+<li>Open <strong>Windows MIDI Bluetooth Setup</strong> and connect to the iPhone or iPad.</li>
+<li>Allow the connection if Windows asks.</li>
+<li>In Ableton Live, select the new Bluetooth MIDI endpoint as both Tap input and output.</li>
+</ol>
+<h5 id="usb-bluetooth-midi-adapter">USB Bluetooth MIDI adapter</h5>
+<p>A USB Bluetooth MIDI adapter that can act as a Bluetooth <strong>central</strong> can handle the wireless connection and appear in Windows as an ordinary USB MIDI interface. One good fit is the <a href="https://www.cme-pro.com/product/widi-bud-pro/" target="_blank">CME WIDI Bud Pro</a>, which supports bidirectional MIDI with standard Bluetooth MIDI devices, including iPhone and iPad. This Tap setup has not yet been tested by us. If you already use it with Tap, please let us know how it works.</p>
+<ol>
+<li>Connect the USB Bluetooth MIDI adapter to the Windows computer.</li>
+<li>In Tap, open <strong>Settings</strong> → <strong>Bluetooth MIDI</strong> and make Tap discoverable if needed.</li>
+<li>Pair the adapter with the iPhone or iPad according to its instructions.</li>
+<li>In Ableton Live, select the adapter as both Tap input and output.</li>
+</ol>
+<p>The adapter must support central mode. Two Bluetooth peripherals cannot initiate a connection to each other.</p>
+<h4 id="2-2-6-macos-over-wifi">2.2.6 macOS: Over WiFi</h4>
+<p>If USB-C or Bluetooth MIDI is not available, you can also use MIDI over WiFi on macOS. Use a clean, stable WiFi network and avoid busy public or shared networks.</p>
+<ol>
+<li>Connect your iPhone or iPad to the same WiFi as your Mac.</li>
+<li>Follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">Apple guide</a>. You do not need to do <strong>Step 9</strong>.</li>
+</ol>
+<h4 id="2-2-7-windows-rtpmidi-over-ad-hoc-wifi">2.2.7 Windows: rtpMIDI over ad hoc WiFi</h4>
+<p>If a wired or Bluetooth MIDI setup is not available, use a dedicated ad hoc WiFi network instead of a busy normal WiFi network.</p>
 <ol>
 <li>Create an ad hoc WiFi network on your Windows computer.</li>
 <li>Connect your iPhone or iPad to that WiFi network.</li>
@@ -495,20 +587,24 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 <li>Connect your iPhone or iPad in the rtpMIDI session.</li>
 <li>In Ableton Live, select the rtpMIDI session as the MIDI input and output for Tap.</li>
 </ol>
-<h4 id="2-2-5-macos-over-wifi">2.2.5 macOS: Over WiFi</h4>
-<p>If USB-C is not available, you can also use MIDI over WiFi on macOS. Use a clean, stable WiFi network and avoid busy public or shared networks.</p>
-<ol>
-<li>Connect your iPhone or iPad to the same WiFi as your Mac.</li>
-<li>Follow this <a href="https://support.apple.com/en-ca/guide/audio-midi-setup/ams1012/mac" target="_blank">Apple guide</a>. You do not need to do <strong>Step 9</strong>.</li>
-</ol>
 <h3 id="2-3-set-up-live">2.3 Set Up Live</h3>
 <ol>
 <li>Launch Live.</li>
 <li>Open Live&#39;s Preferences and navigate to the <strong>MIDI</strong> tab.</li>
 <li>Select the script <strong>Tap</strong> using the dropdown menu in the Control Surface column.</li>
-<li>Assign your device or Network Session as input and output ports.</li>
+<li>Assign your USB device, Bluetooth MIDI endpoint, or Network Session as input and output ports.</li>
 <li>Activate <strong>Track</strong> and <strong>Remote</strong> for your active MIDI ports.</li>
+<li>If you want to use <a href="#mpe-pads">MPE Pads</a>, also activate <strong>MPE</strong> for Tap's input port.</li>
 </ol>
+<p>Tap's <strong>Test connection to Ableton Live</strong> button tells you where the connection stops:</p>
+<ul>
+<li><strong>No MIDI ports found:</strong> check the data cable, MIDI interface, Bluetooth connection, or Network MIDI session.</li>
+<li><strong>One-way MIDI:</strong> Tap can see only an input or output. It needs both.</li>
+<li><strong>Remote Script did not answer:</strong> check the Tap Control Surface and its selected input and output in Live.</li>
+<li><strong>Wrong Remote Script version:</strong> install the current Tap Remote Script.</li>
+<li><strong>Connection lost:</strong> reconnect the cable or wireless MIDI route and test again.</li>
+</ul>
+<p>The connection test still works after the free playing time has ended. It checks the setup without unlocking control of Live.</p>
 
     
 
@@ -528,8 +624,8 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 
 
 <figure>
-<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.5c97e955ea80847b.png" target="_blank"> -->
-<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.929947da8c50bb4c.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.5e4030683c183fa1.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.5c97e955ea80847b.png 778w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.5c97e955ea80847b.png" alt="7III Tap MIDI setting in Ableton Live" class="imgset imgset-twothird" width="778" height="570" decoding="async" loading="lazy">
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.f18175d035547e58.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.929947da8c50bb4c.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.5e4030683c183fa1.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.f18175d035547e58.png 826w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;midi-settings-7iii-tap.f18175d035547e58.png" alt="7III Tap MIDI setting in Ableton Live" class="imgset imgset-twothird" width="826" height="558" decoding="async" loading="lazy">
 <!-- </a> -->
 
 <figcaption>The correct settings for Tap. Set Takeover Mode to "None" for the best experience.</figcaption>
@@ -574,13 +670,16 @@ If you are never using MIDI over WiFi, you can disable <code>MIDI over WiFi</cod
 <p>On macOS, connection problems are usually caused by the USB cable.</p>
 <ol>
 <li>Use the USB-C cable that came with your iPhone or iPad if possible.</li>
-<li>If you do not have the original cable, test another high-quality USB-C cable.</li>
-<li>Avoid charge-only cables. They may charge the device but not transmit MIDI data.</li>
+<li>If you do not have the original cable, use a standards-compliant cable that explicitly supports data. USB 2.0 or better is enough.</li>
+<li>Avoid charge-only cables. They may charge the device but cannot create the IDAM MIDI ports.</li>
 <li>Connect the iPhone or iPad directly to the Mac instead of through a hub.</li>
+<li>Unlock the iPhone or iPad before reconnecting it. If necessary, check <strong>Settings</strong> → <strong>Privacy &amp; Security</strong> → <strong>Wired Accessories</strong>.</li>
 <li>Open <strong>Audio MIDI Setup</strong> and make sure the iPhone or iPad is enabled in the <strong>Audio Devices</strong> window.</li>
 <li>Restart the iPhone or iPad and the Mac if the device does not appear.</li>
 </ol>
-<h4 id="2-4-4-live-still-does-not-react">2.4.4 Live still does not react</h4>
+<h4 id="2-4-4-bluetooth-midi-troubleshooting">2.4.4 Bluetooth MIDI troubleshooting</h4>
+<p>If the Bluetooth MIDI device disappears, open Tap's Bluetooth MIDI panel. If it does not reconnect, turn on <strong>Advertise MIDI Service</strong> and connect again from the computer or Bluetooth MIDI adapter. A Bluetooth MIDI peripheral can normally connect to only one host at a time, so disconnect it from other computers, phones, or tablets first. If control or feedback feels slow in a complex Live Set, use USB or wired MIDI instead.</p>
+<h4 id="2-4-5-live-still-does-not-react">2.4.5 Live still does not react</h4>
 <p>If the connection appears to work but Live does not react:</p>
 <ol>
 <li>Check that <strong>Takeover Mode</strong> is set to <strong>None</strong>.</li>
@@ -595,7 +694,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <h3 id="3-1-home-view">3.1 Home View</h3>
 <p>This is where every adventure starts.</p>
 <ul>
-<li>Select <strong>Try to connect to Ableton Live</strong> and then <strong>Play Tap</strong> to play Tap.</li>
+<li>Select <strong>Test connection to Ableton Live</strong> and then <strong>Play Tap</strong> to play Tap. The connection test remains available when the free playing time is over.</li>
 <li>Tap <strong>Test Tap without Connection</strong> to explore Tap without connection.</li>
 <li>Tap <strong>Start Encoders</strong> to go straight to the standalone <a href="https://project7iii.com/tap/manual/#3-6-encoders-view">Encoders View</a>.</li>
 <li>Also available in the Home View: <strong>Help</strong> and <a href="https://project7iii.com/tap/manual/#3-1-1-settings">Settings</a>.</li>
@@ -603,8 +702,12 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <h3 id="3-1-1-settings">3.1.1 Settings</h3>
 <p>In Settings you can configure very useful things, like the connection or touch indicators (great for tutorials etc.).</p>
 <ul>
+<li><strong>MIDI over WiFi</strong> enables or disables Tap's Network MIDI session. USB, MIDI interfaces, and connected Bluetooth MIDI devices remain available.</li>
+<li><strong>Bluetooth MIDI</strong> opens Apple's connection panel. If the computer cannot find Tap, use <strong>Advertise MIDI Service</strong> there to make the iPhone or iPad discoverable while connecting.</li>
 <li>You will also find a button to enable/disable all <a href="https://project7iii.com/tap/manual/#4-1-performance-features">Performance Features</a>.</li>
 <li><strong>Default MIDI Layout</strong> sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.</li>
+<li><strong>Track Controls Expression</strong> chooses whether the expression encoder in Track Controls sends <strong>Slide (CC74)</strong> or <strong>Pressure</strong>. Slide is the default.</li>
+<li><strong>MPE Pads</strong> makes all playable pad layouts expressive, including Drum Racks: touch height can set velocity, horizontal movement bends each note separately, and vertical movement sends Pressure or Slide. See <a href="https://project7iii.com/tap/manual/#mpe-pads">MPE Pads</a> for setup and playing details.</li>
 <li><strong>Companion Presets</strong> lets you import and export Companion presets, create folders, move presets between folders, reorder presets, and remove presets or folders.</li>
 </ul>
 <h3 id="3-2-main-views">3.2 Main Views</h3>
@@ -646,7 +749,10 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <li>When you tap on a track that is already selected, you switch the main view!</li>
 <li>A long-press opens the track's context menu where you can:
 <ul>
-<li>add track</li>
+<li>add a MIDI track</li>
+<li>add an audio track</li>
+<li>add a return track/send</li>
+<li>duplicate the selected track</li>
 <li>delete track</li>
 <li>fold or unfold a Group Track, if the track is a group or belongs to one</li>
 <li>set or edit Follow Actions for all clips on that track</li>
@@ -654,6 +760,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <li>re-enable automation, either for the whole Live Set or for the next touched parameter</li>
 <li>remove automation from the next touched parameter</li>
 <li>activate "select a drum pad without playing it" (only with active drum pad layout)</li>
+<li>swap a specific Drum Rack pad (only with an active drum track)</li>
 <li>configure the standard note length (only with active step sequencer)</li>
 <li>turn sequencer note <strong>Grid Snap</strong> on or off (only with active step sequencer)</li>
 <li>go <a href="https://project7iii.com/tap/manual/#3-1-home-view">Home</a></li>
@@ -681,8 +788,8 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 
 
 <figure>
-<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.83e3151d502bea76.png" target="_blank"> -->
-<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.d26b5d492f0ae8d9.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.4351189246672eb1.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.83e3151d502bea76.png 529w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.83e3151d502bea76.png" alt="Tracks Bar Context Menu" class="imgset imgset-twothird" width="529" height="825" decoding="async" loading="lazy">
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.15856668902d35a1.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.d26b5d492f0ae8d9.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.4351189246672eb1.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.15856668902d35a1.png 760w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;track_menu.15856668902d35a1.png" alt="Tracks Bar Context Menu" class="imgset imgset-twothird" width="760" height="1100" decoding="async" loading="lazy">
 <!-- </a> -->
 
 <figcaption>The Tracks Bar context menu.</figcaption>
@@ -755,6 +862,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 <p>Side Panel/Encoders Button<br />
 The side panel opens the options side panel in the <a href="https://project7iii.com/tap/manual/#3-3-device-view">Device View</a>, where you will find layout, velocity, pitch-bend/modwheel, scale, root, and octave/drums page.<br />
 In the Clips and Mixer Views, this button activates the Scene Launch buttons.
+In Automation Editing, it becomes <strong>Add Curves</strong> (<code>⊕</code>); tap it to open the <a href="https://project7iii.com/tap/manual/#curve-generator">Curve Generator</a>.
 Long-press opens the <a href="https://project7iii.com/tap/manual/#3-6-encoders-view">Encoders View</a>.</p>
 </li>
 <li>
@@ -772,12 +880,13 @@ In the other views: Stops all the clips.</p>
 <li>
 <p>Quantize<br />
 Quantizes the notes of the selected clip.<br />
-Long-press will show detailed quantize options.</p>
+Long-press will show detailed quantize options.
+When <a href="https://project7iii.com/tap/manual/#note-repeat">Note Repeat</a> is active in a MIDI pads or keyboard layout, this becomes the Repeat Rate control instead: tap it to move to the next rate, or drag left and right to select a rate.</p>
 </li>
 <li>
 <p>Capture/Double Loop/Home<br />
 In <a href="https://project7iii.com/tap/manual/#3-3-device-view">Device View</a>, with a keyboard or pads active, this captures the MIDI just played.<br />
-If you are in the <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step Sequencer</a> layout, this will double the selected loop.<br />
+If you are in the <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step Sequencer</a> layout, tap to duplicate the selected loop. Long-press to multiply its length by two instead: Tap uses Live's native note-modification path to stretch the notes and their lengths while preserving Live-owned MPE expression. If the clip has a separate decoupled automation loop, use <strong>Unfold Clip</strong> first.
 In all other views, this will get you back to the <a href="https://project7iii.com/tap/manual/#3-1-home-view">Home View</a>.</p>
 </li>
 <li>
@@ -791,6 +900,7 @@ In all other layouts and views: Starts or stops the playback. Long-press opens t
 In the <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step Sequencer</a> without <strong>Performance Features</strong>: Long-press shows a context menu for stopping, starting, adding, going to different clips, and the Tempo Overlay.</p>
 </li>
 </ol>
+<p>In the Browser, holding the previous or next page button accelerates page changes. You can also tap the page indicator, type a page number, and press <strong>Go</strong>. This is useful for large Live libraries.</p>
 <p>Extra buttons in the horizontal Footer Bar of the Device View:</p>
 <ol start="8">
 <li>
@@ -820,8 +930,8 @@ In the <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step S
 
 
 <figure>
-<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.4d32f544b156391c.png" target="_blank"> -->
-<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.ace016f4ea891d10.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.bc23f74efea9d9fa.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.4d32f544b156391c.png 466w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.4d32f544b156391c.png" alt="The Tap Play Menu showing a couple of actions" class="imgset imgset-half" width="466" height="728" decoding="async" loading="lazy">
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.e8a65d6ccbd158cd.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.ace016f4ea891d10.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.bc23f74efea9d9fa.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.e8a65d6ccbd158cd.png 470w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;playmenu.e8a65d6ccbd158cd.png" alt="The Tap Play Menu showing a couple of actions" class="imgset imgset-half" width="470" height="750" decoding="async" loading="lazy">
 <!-- </a> -->
 
 <figcaption>The Play Menu</figcaption>
@@ -837,8 +947,22 @@ In the <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step S
 <li>Select next Clip</li>
 <li>New empty Clip</li>
 <li>Tempo</li>
+<li>Note Repeat On/Off (in MIDI pads and keyboard layouts, including Drum Racks)</li>
+<li>Repeat Options</li>
 <li>Select Main Track</li>
 </ul>
+<h5 id="note-repeat">Note Repeat</h5>
+<p><strong>Note Repeat</strong> is available in the MIDI pads and keyboard layouts, including tracks containing Drum Racks. It is not shown in the Step Sequencer. Open the <a href="https://project7iii.com/tap/manual/#play-menu">Play Menu</a> and tap <strong>Note Repeat</strong> to switch it on or off. The menu symbol shows whether Repeat is active.</p>
+<p>Hold a pad while Note Repeat is active to play or record a tempo-synchronised stream of evenly spaced notes. Tap uses Live's native note-repeat engine, so the repeat follows Live's tempo. Repeat always controls the currently selected MIDI track. Each track remembers its own Repeat On/Off state and rate in the Live Set, and Tap restores them when you select that track again.</p>
+<p>While Repeat is active, the Quantize button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> becomes a Repeat Rate control and displays the current rate. Tap it to cycle through the rates; after the last rate it returns to the first. You can also drag left and right over it to move through the rates. The available rates are <strong>1/4</strong>, <strong>1/4T</strong>, <strong>1/8</strong>, <strong>1/8T</strong>, <strong>1/16</strong>, <strong>1/16T</strong>, <strong>1/32</strong>, and <strong>1/32T</strong>.</p>
+<p>Choose <strong>Repeat Options</strong> in the Play Menu to open three track-coloured controls:</p>
+<ul>
+<li><strong>Rate</strong> selects the repeat rate.</li>
+<li><strong>Swing</strong> sets Live's global song swing from 0–100%. It is bidirectional: changes made in Live are reflected in Tap, and changes in Tap are sent to Live.</li>
+<li><strong>Pad Pressure</strong> enables or disables vertical pressure gestures on repeating pads. Tap remembers this preference. When enabled, drag up or down while holding a repeating pad to increase or decrease that pad's pressure/velocity. With MPE Pads enabled, horizontal dragging remains available for per-note pitch bend; with Note Pitch Bend set to Off, it moves between pads instead.</li>
+</ul>
+<p>Tap outside Repeat Options to close it.</p>
+<p>The <strong>Velocity</strong> slider in the Side Panel and the <strong>Velocity</strong> encoder in <a href="https://project7iii.com/tap/manual/#3-3-1-devices-bar">Track Controls</a> both control Tap's fixed pad velocity. If you change either control while pads are already repeating, all currently held repeating pads update to the new velocity without restarting the repeat timing. With <strong>Pad Pressure</strong> enabled, you can then adjust each held pad individually by dragging up or down on that pad.</p>
 <h5 id="tempo-overlay">Tempo Overlay</h5>
 
     
@@ -877,9 +1001,10 @@ The Tempo Overlay also has a <strong>Tap Tempo</strong> pad and a <strong>Metron
 <ul>
 <li>You can navigate by swiping left or right.</li>
 <li>Select a device by tapping on it. The selected device has a bold font.</li>
-<li><strong>Track Controls</strong> are accessed through the <code>☰</code> item at the beginning of the Devices Bar. Selecting it opens controls for the currently selected track. On MIDI tracks, this includes <strong>Mod Wheel</strong>, <strong>Pressure</strong>, <strong>Pitch Bend</strong>, and <strong>Velocity</strong>, followed by mixer controls such as <strong>Volume</strong>, <strong>Pan</strong>, and <strong>Sends</strong>.
+<li><strong>Track Controls</strong> are accessed through the <code>☰</code> item at the beginning of the Devices Bar. Selecting it opens controls for the currently selected track. On MIDI tracks, this includes <strong>Mod Wheel</strong>, the selected <strong>Slide</strong> or <strong>Pressure</strong> expression control, <strong>Pitch Bend</strong>, and <strong>Velocity</strong>, followed by mixer controls such as <strong>Volume</strong>, <strong>Pan</strong>, and <strong>Sends</strong>.
 <ul>
-<li>Mixer controls are standard Live parameters and can be automated. <strong>Mod Wheel</strong>, <strong>Pressure</strong>, and <strong>Pitch Bend</strong> can be recorded into clips, but their automation is not shown through moving indicators and cannot be edited in <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a>. <strong>Velocity</strong> sets the fixed velocity used by pads that do not have height-based velocity enabled, and can also be used to adjust the velocity of selected notes in <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step Sequencer</a>.</li>
+<li>Choose <strong>Slide</strong> or <strong>Pressure</strong> in <strong>Settings → Track Controls Expression</strong>. Slide is the default and sends MIDI CC74; Pressure sends channel pressure. The encoder sends live MIDI continuously, so either expression can change sustaining notes and notes sounding during playback, just as the previous Pressure control did. Each track remembers separate Slide and Pressure values.</li>
+<li>Mixer controls are standard Live parameters and can be automated. <strong>Mod Wheel</strong>, <strong>Slide</strong>, <strong>Pressure</strong>, and <strong>Pitch Bend</strong> can be recorded into clips, but their automation is not shown through moving indicators and cannot be edited in <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a>. <strong>Velocity</strong> sets the fixed velocity used by pads that do not have height-based velocity enabled, and can also be used to adjust the velocity of selected notes in <a href="https://project7iii.com/tap/manual/#3-3-5-step-sequencer">Step Sequencer</a>.</li>
 </ul>
 </li>
 <li>Tap the <code>⊕</code> symbol to open the <a href="https://project7iii.com/tap/manual/#browser">Browser</a> or add a new random device. You can choose between adding a random sound, synth, drums (if you are in a MIDI track), or effect.</li>
@@ -914,18 +1039,86 @@ The Tempo Overlay also has a <strong>Tap Tempo</strong> pad and a <strong>Metron
 
 
 <h5 id="browser">Browser</h5>
-<p>Browse away!</p>
+<p>Browse away!
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Browser iPad.24b191a9a5c39432.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Browser iPad.87a7045aa42f0473.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Browser iPad.87b9ec3835b14e7b.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Browser iPad.24b191a9a5c39432.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Browser iPad.24b191a9a5c39432.png" alt="7III Tap Ableton Live Browser" class="imgset " width="1200" height="1600" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>The Tap Browser with Live search, preview, and page navigation.</figcaption>
+
+</figure>
+
+
+</p>
 <ul>
-<li>Select a category by tapping on it.</li>
+<li>Select a category by tapping on it. Categories are sorted alphabetically, so the list stays predictable even when Live reports additional folders.</li>
 <li>Some instruments, drums, effects have children, indicated by a <code>&gt;</code> symbol, to show the children tap the <code>&gt;</code>.</li>
-<li>To load a device or effect simply tap on it.</li>
+<li>To load a device, effect, sample, or clip simply tap on it.</li>
+<li>Items that can be auditioned show a speaker button. Tap it to preview the item in Live; tap it again to stop the preview.</li>
+<li>Use <strong>Search Live</strong> to search across Live's Browser. Tap the tag button to limit the search to a category such as <strong>Drums</strong>, <strong>Drum Hits</strong>, <strong>Samples</strong>, <strong>Instruments</strong>, or <strong>Clips</strong>. Search results can be grouped by their Live folder, and Tap shows the search progress while Live is walking through the library.</li>
 <li>You can navigate through the browser levels by tapping on the level in the path display on top.</li>
-<li>To go back and forth through the browser pages, tap the left or right arrow or swipe left or right.</li>
+<li>To go back and forth through the browser pages, tap the left or right arrow or swipe left or right. Hold an arrow to move through many pages quickly, or tap the page indicator to jump directly to a page.</li>
 <li>Tap the <code>x</code> symbol to close the browser.</li>
+</ul>
+<h5 id="simpler">Simpler</h5>
+<p>When a Simpler is selected, Tap shows its sample waveform behind the encoders in the <strong>Main</strong> bank. Sample Start, Sample End, Loop Start, Loop End, slice markers, fades, and the playhead are shown directly on the waveform.
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Simpler iPad.5d893ad92a6ef24f.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Simpler iPad.a27813ed5b743b9e.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Simpler iPad.1c11a55e853ef802.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Simpler iPad.5d893ad92a6ef24f.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Simpler iPad.5d893ad92a6ef24f.png" alt="7III Tap Simpler banks and waveform controls" class="imgset " width="1200" height="190" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>Simpler banks and waveform-backed encoder controls.</figcaption>
+
+</figure>
+
+
+</p>
+<ul>
+<li>If the Simpler is empty, press <strong>Browse Samples</strong> to open Tap's Samples browser and load a sample into it.</li>
+<li>The <strong>Zoom</strong> control works in two directions: drag up or down to zoom, then drag left or right to move through the sample.</li>
+<li>Simpler's action controls change with Classic, One-Shot, and Slicing mode. Depending on the mode, they include <strong>Loop</strong>, <strong>Trigger / Gate</strong>, <strong>Warp</strong>, <strong>÷2</strong>, <strong>×2</strong>, <strong>Warp Mode</strong>, <strong>Crop / Split</strong>, <strong>Reverse</strong>, <strong>Snap</strong>, and the slice reset or clear action.</li>
+<li>In Simpler's Warp controls, <strong>Warp As</strong> can set the sample to <strong>1/2, 1, 2, 4, 8, 16, or 32 beats</strong>.</li>
 </ul>
 <h4 id="3-3-2-banks-bar">3.3.2 Banks Bar</h4>
 <p>Navigate and select banks of the chosen device here.<br />
-If the selected device is a rack device a stacked sqares symbol is available before the first bank, pressing it opens a menu with variations and randomize options (and automation options if <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a> is active). Any macro with the name "Volume" will get ignored by randomization. Almost like <a rel="noopener" target="_blank" href="https://www.ableton.com/en/live-manual/12/instrument-drum-and-effect-racks/#randomizing-macro-controls">Ableton Live promisses</a>, but does actually not adhere to (as of June 2026).</p>
+If the selected device is a rack device, a stacked-squares symbol is available before the first bank. Pressing it opens a menu with variations and randomize options (and automation options if <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a> is active). Any macro with the name "Volume" is ignored by randomization. Just like <a rel="noopener" target="_blank" href="https://www.ableton.com/en/live-manual/12/instrument-drum-and-effect-racks/#randomizing-macro-controls">Ableton Live promises</a>—except Tap actually adheres to it (as of June 2026).</p>
 
     
 
@@ -957,10 +1150,8 @@ If the selected device is a rack device a stacked sqares symbol is available bef
 <h4 id="3-3-3-encoders-section">3.3.3 Encoders Section</h4>
 <p>The 8 encoders of the current bank.</p>
 <ul>
-<li>There are three types: dials, selectors (current selection with a slider underneath), on/off buttons</li>
-<li>All encoders show their approximate display value from Ableton Live (still work-in-progress, let us know if you find a big gap between what you see and what Ableton Live shows)</li>
-<li>All encoders with active automation have a small circle in the top left corner, in the color of the track. If the circle is gray, it means the automation is not active.</li>
-<li>Hold the record button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a>, then tap any automatable encoder to jump directly to that parameter's automation in the Step Sequencer.</li>
+<li>There are four types: dials, selectors (current selection with a slider underneath), on/off buttons, action buttons</li>
+<li>All encoders show the display value from Ableton Live</li>
 </ul>
 <p>Dials:</p>
 <ul>
@@ -1016,7 +1207,7 @@ If the selected device is a rack device a stacked sqares symbol is available bef
 </figure>
 
 
-<h5 id="parameter-automation-from-the-encoders">Parameter Automation from the Encoders</h5>
+<h5 id="automation">Automation</h5>
 <p>The small automation dot on an encoder tells you what Live reports for that parameter:</p>
 <ul>
 <li>A track-coloured dot means the parameter has active automation.</li>
@@ -1028,15 +1219,42 @@ If the selected device is a rack device a stacked sqares symbol is available bef
 <li><strong>Local Automation</strong> arms Tap for one touch. After choosing it, touch the encoder whose automation you want to re-enable. This is useful when one grey-dot parameter should return to automation without restoring the whole song.</li>
 <li><strong>Remove Automation</strong> also arms Tap for one touch. After choosing it, touch the encoder whose automation should be removed. Tap clears that parameter's automation envelope from the playing clip on the selected track and leaves the parameter at its current value.</li>
 </ul>
+<p>Hold the record button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a>, then tap any automatable encoder to jump directly to that parameter's <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">automation in the Step Sequencer</a>.</p>
 <h4 id="3-3-4-midi-grid">3.3.4 MIDI Grid</h4>
 <p>The MIDI grid is for playing notes (huge surprise!).</p>
 <ul>
 <li>The pads show names if you are in a drum rack, the note names if in a MIDI track.</li>
+<li>On iPad, Drum Racks also offer a <strong>64</strong> layout: the same Drum Pads behaviour across an 8×8 surface. Page <strong>0</strong> starts at regular Drum Rack page 0; page <strong>1</strong> contains the next 64 pads. The Footer Bar arrows move a complete 64-pad page at a time. Switching between layouts keeps the corresponding page group. The active Side Panel button shows <strong>64</strong> so it stays distinct from the regular <strong>Pads</strong> layout.</li>
 <li>Root notes are in a different color than the rest of the pads. If you are in a drum rack, the selected drum pad is in the channel color.</li>
+<li>To replace a specific Drum Rack pad, long-press the drum track in the Tracks Bar and choose <strong>Swap Drum Pad</strong>. Touch the pad you want to replace next, occupied or empty. Tap opens the Browser for that exact pad; selecting a compatible item loads it there.</li>
 <li>You have the option of choosing different scales, velocity modes, mod wheel, pitch wheel, layouts, and more via the Side Panel button in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a>.</li>
-<li>Many keyboard and pad layouts are available. The layouts <strong>Keys</strong> and <strong>7 Pads</strong> are velocity-sensitive - the higher up you hit a pad, the greater the velocity. You can invert or fix the velocity in the Side Panel.</li>
+<li>Many keyboard and pad layouts are available. You can choose separately whether initial touch height sets velocity for <strong>5 Pads</strong>, <strong>4ths</strong>, <strong>8 Pads</strong>, <strong>7 Pads</strong>, <strong>Keys</strong>, <strong>Drum Pads</strong>, and <strong>Single Pad</strong> in <strong>Settings → Initial Height Velocity</strong>. <strong>7 Pads</strong>, <strong>Keys</strong>, and <strong>Single Pad</strong> are on by default to preserve their previous behavior; the others are off by default. <strong>Velocity Height</strong> sets how much of each pad maps from velocity <strong>1 at the bottom</strong> to <strong>127 at the top</strong>. It is adjustable from 10% to 90%, defaults to 80%, and centers the active range so both extremes remain easy to hit. Fixed Velocity in the Side Panel overrides initial-height velocity.</li>
 <li>Notes played by the playing clip are lit up.</li>
 </ul>
+<h5 id="16-pitches">16 Pitches</h5>
+<p>On iPad, Drum Racks and Simpler in Slicing mode have a <strong>16 Pitches</strong> performance layout. In a Drum Rack, choose <strong>Pitches</strong> in the Side Panel. In Simpler's Slicing mode, tap the layout control to cycle between <strong>64 Pads</strong>, <strong>16 Pitches</strong>, and <strong>Seq</strong>.</p>
+<p>The lower-left 16 pads select and play sounds from the current Drum Rack or slice page. The lower-right 16 pads play the selected sound melodically, starting from C2 and moving from left to right, then bottom to top. <strong>In-Key</strong> follows the chosen root and scale; <strong>Chromatic</strong> moves in semitones and marks roots, scale notes, and notes outside the scale. Use the Side Panel for root, scale, and In-Key/Chromatic. The Footer Bar has two navigation pages: one for Drum Rack or slice pages, and one for the pitch octave.</p>
+<p>The upper-left field controls fixed <strong>Velocity</strong> vertically and <strong>Slide</strong> horizontally. The upper-right field controls the first two visible encoders: left/right changes the first encoder and up/down changes the second. The fields keep their position after you lift your finger.</p>
+<p>The pitched pads always use fixed velocity. Move up and down on a held pitch for per-note <strong>Pressure</strong>, or left and right to bend continuously toward the neighbouring pitch without retriggering it. This layout uses MPE automatically even if <strong>MPE Pads</strong> is off, but Live's <strong>MPE</strong> input option must still be active. Use Record or Capture MIDI to keep the performance; Live does not expose the captured per-note expression to Tap for later editing.</p>
+<h5 id="mpe-pads">MPE Pads</h5>
+<p>Turn on <strong>Settings → MIDI Pad Expression → MPE Pads</strong> to make every playable pad layout expressive, including Drum Pads and Drum Racks. Each touch can then send its own expression:</p>
+<ul>
+<li><strong>Touch height</strong> sets the note's initial velocity when <strong>Initial Height Velocity</strong> is enabled for that layout. Otherwise Tap uses the fixed velocity.</li>
+<li>Move <strong>left or right</strong> for per-note pitch bend. Crossing into another pad bends continuously instead of retriggering the note.</li>
+<li>Move <strong>up or down</strong> to send the selected <strong>Vertical Expression</strong>: Pressure or Slide (CC74).</li>
+</ul>
+<p>Tap uses the standard MPE lower zone, giving you up to 14 independently expressive touches while keeping channel 16 free for the Remote Script.</p>
+<p>Before playing, activate <strong>MPE</strong> for Tap's input port in Live's MIDI Settings. Tap cannot detect Live's separate MPE input-port switch. Tap configures every MPE member channel with the standard <strong>48-semitone per-note pitch-bend range</strong>. External hardware must support that range for cross-pad bends to land on the correct pitches.</p>
+<p>The options below appear only while MPE Pads is enabled:</p>
+<ul>
+<li><strong>Note Pitch Bend — Auto / On / Off:</strong> <strong>Auto</strong> is the default and enables per-note bend when the current Tap Remote Script confirms MPE support. <strong>On</strong> always sends per-note pitch bend. <strong>Off</strong> changes horizontal movement back to pad-by-pad glissando while keeping the selected vertical expression.</li>
+<li><strong>In-Tune Location — Finger / Pad:</strong> <strong>Finger</strong> is the default and treats the place where the finger first touches as zero pitch bend. <strong>Pad</strong> always uses the center of the pad as zero, so touching away from the center can begin already bent.</li>
+<li><strong>In-Tune Zone Width:</strong> corresponds to Push's <strong>In Tune Width</strong> (internally called its flat zone). It controls how much space around each note's reference point remains exactly in tune. The default is <strong>35% pad</strong>. At <strong>0%</strong>, pitch changes continuously across the whole distance; larger values hold each exact note across more of the pad and leave a shorter transition between notes. Drum Rack <strong>Pads</strong>, <strong>64</strong>, and <strong>Single</strong> all use the 8-column <strong>64</strong> layout as their horizontal pitch ruler: moving by one guide cell bends by one drum-pad semitone. Other layouts reach the neighbouring pitch after one visible pad width.</li>
+<li><strong>Vertical Expression — Pressure / Slide:</strong> chooses which per-note MPE message vertical movement sends. Pressure is the default; Slide sends CC74.</li>
+<li><strong>Vertical Start — Finger / Location:</strong> <strong>Finger</strong> is the default. It sends zero when the note begins and measures subsequent vertical movement relative to that first touch. <strong>Location</strong> derives the initial expression value from the height at which the pad is touched.</li>
+<li><strong>Vertical Height:</strong> controls how far the finger moves vertically through the full expression range. Its <strong>100% pad</strong> default follows the current pad height.</li>
+</ul>
+<p>When <strong>Note Repeat</strong> is active, horizontal per-note pitch bend stays available. Vertical movement is deliberately routed only to Live's repeat pressure-to-velocity control instead of also sending the selected MPE vertical expression, so the behaviors cannot collide. If <strong>Pad Pressure</strong> is off in Repeat Options, vertical movement does nothing while Repeat is active. Switching Note Repeat off restores the selected MPE vertical expression automatically.</p>
 
     
 
@@ -1055,19 +1273,14 @@ If the selected device is a rack device a stacked sqares symbol is available bef
 
 
 
-
-
-
 <figure>
-<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI pads.dc004be3361f5e75.jpg" target="_blank"> -->
-<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI pads.cb47dcb5df16b433.jpg 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI pads.2393c99f888e0760.jpg 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI pads.bf0f414557c45128.jpg 1200w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI pads.dc004be3361f5e75.jpg 2400w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI pads.bf0f414557c45128.jpg" alt="7III Tap MIDI grid" class="imgset " width="1200" height="675" decoding="async" loading="lazy">
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI Pads iPad.cff6b58f8b68867a.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI Pads iPad.40f4703fe0fe0395.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI Pads iPad.7cc730efd45a21aa.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI Pads iPad.cff6b58f8b68867a.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;MIDI Pads iPad.cff6b58f8b68867a.png" alt="7III Tap MIDI grid playing a chord on the Crazy Horse Meld instrument" class="imgset " width="1200" height="1600" decoding="async" loading="lazy">
 <!-- </a> -->
 
-<figcaption>One of the many MIDI grid pads layouts.</figcaption>
+<figcaption>One of the many MIDI grid pad layouts, with held notes lighting in the track colour.</figcaption>
 
-    </figure>
-
-
+</figure>
 
 
 <h4 id="3-3-5-step-sequencer">3.3.5 Step Sequencer</h4>
@@ -1117,7 +1330,7 @@ If the selected device is a rack device a stacked sqares symbol is available bef
 </p>
 <ol>
 <li>The Start and Stop are marked with dark triangles.</li>
-<li>The looped section is indicated by the band on top of the step sequencer and two lines at the start and end of the loop all in the color of the track.</li>
+<li>The looped section is indicated by the band on top of the step sequencer and two lines at the start and end of the loop, all in the color of the track. When Loop is off, these markers remain visible in gray.</li>
 <li>Octave starts are marked with a horizontal line in the background. For drums, it is the selected drum pad that is marked.</li>
 <li>Notes are shown as rectangles in the track’s colour. Each note also has a slightly darker background rectangle behind it for visual contrast.<br />
 Velocity is represented by how much of the note is filled from the bottom up: a fully filled bar corresponds to velocity 127, while a barely filled bar represents velocity 1.<br />
@@ -1162,11 +1375,12 @@ Probability is represented by colour saturation: the more saturated the note’s
 <li>Page to Clip Start/End: Moves the sequencer page to the start/end of the clip.</li>
 <li>Page to Loop Start/End: Moves the sequencer page to the start/end of the loop.</li>
 <li>Crop Clip: Crops the clip to the loop length.</li>
-<li>Move Loop Start/End &amp; Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits.</li>
-<li>Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop.</li>
-<li>Start/End Marker: Moves the start/end marker to the Lil Green Helper rectangle.</li>
+<li>Move Loop Start/End &amp; Loop: Moves the start/end of the loop and the whole loop (this means no change in loop length) to where the Lil Green Helper rectangle sits. With Loop off, these become <strong>Start/End Marker &amp; Range</strong> and move the complete playback range.</li>
+<li>Move Loop Start/End: Only moves the start/end of the loop to where the Lil Green Helper rectangle sits. This will change the length of the loop. With Loop off, these are called <strong>Start/End Marker</strong>; Tap moves the visible playback boundary together with Live's hidden loop boundary so it is not clamped.</li>
+<li>Start/End Marker: When Loop is on, moves the independent start/end marker to the Lil Green Helper rectangle. These separate commands are hidden when Loop is off.</li>
+<li>Loop On/Off: The final menu item switches looping for the selected MIDI clip on or off. The label and symbol show the current state.</li>
 </ol>
-<p>The Lil Green Helper menu also gives access to <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a>, the <a href="https://project7iii.com/tap/manual/#3-3-5-3-companion">Companion</a>, and the <a href="https://project7iii.com/tap/manual/#3-3-5-4-rhythm-generator">Rhythm Generator</a>, depending on the selected clip and track.</p>
+<p>The Lil Green Helper menu also gives access to <a href="https://project7iii.com/tap/manual/#3-3-5-2-automation-editing">Automation Editing</a>, the <a href="https://project7iii.com/tap/manual/#3-3-5-3-companion">Companion</a>, the <a href="https://project7iii.com/tap/manual/#3-3-5-4-rhythm-generator">Rhythm Generator</a>, and <a href="https://project7iii.com/tap/manual/#3-3-5-5-flin">Flin</a>, depending on the selected clip and track.</p>
 <h5 id="3-3-5-1-selection-mode">3.3.5.1 Selection Mode</h5>
 <p>Enter Selection Mode by either selecting notes or long-pressing on a note. Selected notes and range are highlighted in light-blue.
 Selections work the same way as in Ableton Live. You can add or subtract from a selection by dragging the selection square accordingly. You can also long-press on a selected note to deselect it. You can also add and subtract from the range of the selection, without selecting additional notes. This is important for duplication and copy-pasting.<br />
@@ -1227,25 +1441,23 @@ Info: You can't undo and redo selections.</p>
 
 
 <figure>
-<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Edit_Overlay.c3f620c495105a14.jpg" target="_blank"> -->
-<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Edit_Overlay.254ffceab732b111.jpg 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Edit_Overlay.e74be5be00ecdbfd.jpg 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Edit_Overlay.c3f620c495105a14.jpg 822w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Edit_Overlay.c3f620c495105a14.jpg" alt="Tap MIDI Notes Edit Overlay" class="imgset imgset-twothird" width="822" height="380" decoding="async" loading="lazy">
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Note Edit iPad.40b1ce4ffe47e895.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Note Edit iPad.5e8c6ae07afaec5d.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Note Edit iPad.db944c67313b7cba.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Note Edit iPad.40b1ce4ffe47e895.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Note Edit iPad.40b1ce4ffe47e895.png" alt="Tap note Edit Overlay over the iPad Step Sequencer" class="imgset " width="1200" height="1200" decoding="async" loading="lazy">
 <!-- </a> -->
 
-<figcaption>The notes Edit Overlay.</figcaption>
+<figcaption>The Edit Overlay in action.</figcaption>
 
 </figure>
 
 
-<ol>
-<li>Velocities of the selected notes. Drag to increase and decrease. Takes effect on letting go.</li>
-<li>Probabilities of the selected notes. Drag to increase and decrease. Takes effect on letting go.</li>
-<li>Copy button. Copies the selected range and notes into the copy buffer. To paste either press the Paste button (pastes buffer at start of selected range) or tap any grid cell. You can also paste in other clips etc. Once copy is active button 5 turns into a deactive <strong>Selection Mode</strong> button. When you press it, you will be able to use the <strong>Play Menu</strong> in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a> to move to other clips in the track and paste the notes there!</li>
-<li>Lengthen/shorten button. Lengthens or shortens the selected notes by one grid cell. On long-press, prolongs or shortens by one beat. On swipe you can change to <code>x2</code> and <code>/2</code> buttons. These multiply or divide the duration of the selected notes by 2.</li>
-<li>Cut button. Cuts the selected range and notes into the copy buffer and deactivates <strong>Selection Mode</strong>. To paste, see "3. Copy button".</li>
-<li>Duplicate button. Duplicates the selected range and notes to the end of the selected range.</li>
-<li>Page indicator. Tap it or swipe on it to change the elongate/shorten buttons to <code>x2</code> and <code>/2</code> buttons.</li>
-<li>Move buttons. Left and right moves the selected range and notes by one grid. Long-press moves the selection by one eighth of the grid. Keep pressing to repeat. Up and down moves the selected range and notes by one scale step. Long-press moves the selected notes by one octave.</li>
-</ol>
+<ul>
+<li>Drag <strong>Vel</strong> to change the selected notes' velocities, <strong>Vel Rng</strong> to set their velocity deviation, and <strong>Prb</strong> to change their probabilities. Tap sends each combined change to Live when you let go.</li>
+<li><strong>Shorten</strong> and <strong>Lengthen</strong> change every selected note by one grid cell. Long-press changes them by one beat. Tap or swipe the two-dot page indicator to reveal <code>/2</code> and <code>x2</code> instead; these divide or multiply the note lengths by two.</li>
+<li><strong>Quantize</strong> aligns the selected notes. Long-press it for the detailed grid, strength, and swing settings.</li>
+<li><strong>Copy</strong> keeps the notes and range in Tap's copy buffer. <strong>Cut</strong> does the same and removes the originals. Paste at the selected range with the Paste button, or tap any grid cell to choose a new start. You can move to another clip with the Play Menu before pasting.</li>
+<li><strong>Duplicate</strong> copies the selected notes to the end of the selected range.</li>
+<li>The left and right arrows move the notes by one grid cell; long-press moves by one eighth of a grid cell and continues repeating. The up and down arrows move by one scale step, or by one octave when held.</li>
+</ul>
 <h6 id="modulation-menu">Modulation Menu</h6>
 
     
@@ -1314,46 +1526,110 @@ You can:</p>
 <li>randomize the selection</li>
 </ul>
 <h5 id="3-3-5-2-automation-editing">3.3.5.2 Automation Editing</h5>
-<p>You can edit a device parameter's clip automation directly in the Step Sequencer. Tap the Lil Green Helper and choose <strong>Show Automation</strong>. Tap will pick an automated parameter if it can find one; otherwise it uses the first available parameter in the current bank. To edit a different parameter, press <strong>Select Parameter</strong> (dial symbol) in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a>, then touch the encoder you want to edit. You can also go into Automation Editing directly by holding Record <code>◯</code> in the Footer Bar and tapping on any automatable encoder in the <a href="https://project7iii.com/tap/manual/#3-3-3-encoders-section">Encoders Section</a>.</p>
+<p>Automation Editing places a Live clip envelope directly over the Step Sequencer, so the parameter movement stays aligned with the notes that drive it. Open the Lil Green Helper and choose <strong>Show Automation</strong>, or hold Record <code>◯</code> in the Footer Bar and tap an automatable encoder in the <a href="https://project7iii.com/tap/manual/#3-3-3-encoders-section">Encoders Section</a>.</p>
+<p>Tap first selects a parameter that already has automation. If there is none, it uses the first automatable parameter in the current bank. To choose another one, press <strong>Select Parameter</strong> (dial symbol) in the <a href="https://project7iii.com/tap/manual/#3-2-2-footer-bar">Footer Bar</a>, then touch its encoder.</p>
 <p>The automation line is drawn over the sequencer:</p>
 <ul>
 <li>A solid line with dots means the clip has automation for the selected parameter.</li>
 <li>A dashed horizontal line means there is no envelope yet; the line shows the current parameter value.</li>
 <li>The selected parameter is marked with corner brackets around its encoder.</li>
 </ul>
-<p>Editing works directly on the line:</p>
+<p>Work directly on the envelope:</p>
 <ul>
 <li>Tap the dashed line, a line segment, or the visible automation curve to add a point.</li>
 <li>Drag a point to move it in time and value. Time snaps to the current sequencer grid.</li>
-<li>Drag a line segment to bend the curve between two points.</li>
+<li>Drag a line segment up or down to change its bend direction and amount. Drag left or right to move where the bend happens. Tap keeps the real Bézier curve instead of filling it with unnecessary points.</li>
 <li>Tap a point when no automation points are selected to remove it.</li>
 <li>Drag on the background to select automation points. Selected points get a light-blue ring.</li>
 <li>Drag one selected point to move all selected automation points together.</li>
 <li>Tap the background to clear the selection.</li>
-<li>Turn on the pencil in the Footer Bar to draw automation continuously.</li>
+<li>Turn on <strong>Pencil</strong> in the Footer Bar to draw continuously. One uninterrupted stroke becomes one Undo/Redo action in Live.</li>
 </ul>
+<p>Automation remains available across the clip's automation timeline, including available points before the Start Marker or after the End Marker. Start, End, and loop markers remain playback and editing references rather than destructive automation boundaries.</p>
 <p>While Automation Editing is visible, the Footer Bar has a few automation buttons:</p>
 <ul>
+<li><strong>Add Curves</strong> (<code>⊕</code>): opens the Curve Generator for the selected parameter. Long-press the same button to open the Encoders View.</li>
 <li><strong>Select Parameter</strong>: arms Tap for one touch. Touch the dial you want to edit.</li>
 <li><strong>Pencil</strong>: turns continuous automation drawing on or off.</li>
 <li><strong>Exit Automation</strong>: the door button leaves Automation Editing and returns to the normal sequencer controls.</li>
 </ul>
-<p>When automation points are selected, the Footer Bar changes:</p>
+<p>When automation points are selected, the Footer Bar changes again:</p>
 <ul>
 <li><strong>Trash</strong> deletes the selected automation points.</li>
-<li><strong>Duplicate</strong> copies the selected automation span to the end of that span. The destination range is overwritten, and the first copied point lands exactly where the original selection ended, so repeating ramps and shapes continue cleanly.</li>
+<li><strong>Duplicate</strong> copies the selected span to its end. Tap overwrites the destination range and places the first copied point exactly at the original selection's end, so repeating ramps and curves join cleanly.</li>
 </ul>
-<p>The helper menu has a few important automation commands:</p>
+<p>The Lil Green Helper also contains the envelope-wide commands:</p>
 <ul>
-<li><strong>Automation Loop End</strong> sets a separate end point for the selected parameter's automation. This creates decoupled automation: the notes can loop at one length while the automation runs at another length.</li>
-<li><strong>Clear Automation</strong> removes the selected parameter's automation envelope from the clip.</li>
-<li><strong>Clear All Automation</strong> removes automation for the parameters in the current device bank.</li>
-<li><strong>Unfold Clip</strong> commits a decoupled automation clip into a normal longer clip. The hidden repeated note copies become real clip content, and Tap removes the special folding metadata.</li>
+<li><strong>Automation Loop End</strong> gives the selected parameter its own loop length. Notes can keep looping at one length while the automation runs at another.</li>
+<li><strong>Clear Automation</strong> removes the selected parameter's envelope.</li>
+<li><strong>Clear All Automation</strong> removes the envelopes for the parameters in the current device bank.</li>
+<li><strong>Unfold Clip</strong> turns a clip with decoupled automation into one normal longer clip. The repeated notes become real clip content and Tap removes the folding metadata.</li>
 </ul>
-<p>Decoupled automation is useful for slow filter movements, long macro sweeps, and polymetric automation. For example, you can keep a 1-bar drum loop while a filter automation takes 8 bars to return home. Tap shows the note loop and the automation loop separately; an <code>A</code> before loop length in the loop lenght indicator on the bottom right of the sequencer means you are looking at an automation length.</p>
+<p>Decoupled automation is ideal for slow filter movements and polymetric modulation. A 1-bar drum loop can, for example, run under an 8-bar filter sweep. An <code>A</code> before the loop length at the bottom-right of the sequencer shows that you are looking at the automation length.</p>
+<h6 id="curve-generator">Curve Generator</h6>
+<p>The Curve Generator replaces the selected parameter's complete automation envelope with a repeating shape. Choose <strong>Sine</strong>, <strong>Dropping Ball</strong>, <strong>Triangle</strong>, <strong>Square</strong>, ascending or descending <strong>Saw</strong>, rising or falling <strong>Envelope</strong> and <strong>S</strong> ramps, <strong>Wander</strong>, or <strong>S &amp; H</strong> (Sample &amp; Hold).</p>
+<p>Its four controls normally set <strong>Rate</strong>, <strong>Phase</strong>, <strong>Top Space</strong>, and <strong>Bottom Space</strong>. The synced half of Rate runs from 1/32 through the musical divisions—including 1/3 and 2/3—to 4 bars. Continue past the centre for free time in seconds or milliseconds. Phase moves the shape through its cycle; 0% and 100% are the same position. Top and Bottom Space keep the result away from the parameter's limits. Tap an already selected Wander or S &amp; H shape again to create a new variation.</p>
+<p>For <strong>Dropping Ball</strong>, those first two controls become <strong>Drop Rate</strong> and <strong>Bounce</strong>. Drop Rate is the duration of one complete fall and bounce sequence, so shorter musical rates can place several drops in one bar. Bounce controls how many rebounds survive, how high they rise, and how quickly their spacing contracts.</p>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Automation Curves iPad.cea3f299d7b012d4.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Automation Curves iPad.bb824ec3044690ce.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Automation Curves iPad.62721a3f5a38b22e.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Automation Curves iPad.cea3f299d7b012d4.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Automation Curves iPad.cea3f299d7b012d4.png" alt="Tap Curve Generator previewing a dropping-ball automation shape over the iPad Step Sequencer" class="imgset " width="1200" height="1258" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>The Curve Generator drawing a Dropping Ball shape.</figcaption>
+
+</figure>
+
+
+<p>Changes appear immediately as a preview but are not sent to Live yet. Press <strong>Add Shape</strong> to replace the available clip-automation timeline in one Live Undo step, or <strong>Cancel</strong> to restore the untouched envelope.</p>
 <h5 id="3-3-5-3-companion">3.3.5.3 Companion</h5>
 <p>The <strong>Companion</strong> turns the visible source loop into a longer musical structure. Tap calls this "mutator" in some older code, but in the app and the manual it is the Companion.</p>
 <p>Open the Lil Green Helper menu and choose <strong>Companion</strong>. Tap uses the current loop as the source section, called <code>A</code>, then writes generated sections after it. The source loop stays the musical identity. Other sections are variations, bridges, hooks, fills, breaks, or returns based on the selected pattern and algorithm.</p>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Companion iPad.e28d423f79d56900.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Companion iPad.7c08b6e18f510150.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Companion iPad.5c17f27e10f03233.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Companion iPad.e28d423f79d56900.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Companion iPad.e28d423f79d56900.png" alt="Tap Companion controls over an iPad Step Sequencer" class="imgset " width="1200" height="1200" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>The Companion in action. Grey notes are created by the companion.</figcaption>
+
+</figure>
+
+
 <p>Companion clips are still editable. While a clip is in Companion mode, the generated structure is stored with the clip. You can:</p>
 <ul>
 <li><strong>Start</strong> to create the Companion structure.</li>
@@ -1450,8 +1726,36 @@ You can:</p>
 <li><strong>Circle Resolve</strong> is another chord generator, but with a stronger feeling of movement and return. It may add an extra chord tone for more colour in stronger sections.</li>
 </ul>
 <h5 id="3-3-5-4-rhythm-generator">3.3.5.4 Rhythm Generator</h5>
-<p>The <strong>Rhythm Generator</strong> writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row; while the overlay is open, tap a row in the sequencer to choose a different target.</p>
+<p>The <strong>Rhythm Generator</strong> writes a rhythm into one note lane. In a drum track, it targets the selected drum pad. In a melodic MIDI track, it targets the selected note row. Both are indicated by the little track color line at the start of the row. While the overlay is open, tap a row in the sequencer to choose a different target.</p>
 <p>Open Rhythm Generator from the Lil Green Helper menu. The overlay shows the target lane at the top. With <strong>Auto</strong> off, adjust the controls and press <strong>Generate</strong>. With <strong>Auto</strong> on, Tap updates the lane automatically as you change settings.</p>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Rhythm Generator iPad.57a15288c869784c.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Rhythm Generator iPad.3b52596065375356.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Rhythm Generator iPad.64136b3b5bbe87f3.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Rhythm Generator iPad.57a15288c869784c.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Rhythm Generator iPad.57a15288c869784c.png" alt="Tap Rhythm Generator controls over an iPad Step Sequencer" class="imgset " width="1200" height="1200" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>The Rhytm Generator generating seven-note rhythm in C3.</figcaption>
+
+</figure>
+
+
 <p>The controls:</p>
 <ul>
 <li><strong>Step Size</strong> chooses whether the pattern is built from 1/4, 1/8, 1/16, or 1/32 steps.</li>
@@ -1466,6 +1770,149 @@ You can:</p>
 </ul>
 <p>Tap calculates the full set of possible hit patterns for the current Steps and Density. For example, 16 steps with 4 hits produces many possible placements. Tap sorts them musically by favouring even spacing, avoiding long runs of consecutive hits, and preferring patterns that begin on the downbeat. Accent patterns are calculated separately from the hit pattern, so you can keep the same rhythm and move only the accents.</p>
 <p>Generating replaces the notes on the target lane inside the current loop. Other note lanes are left alone.</p>
+<h5 id="3-3-5-5-flin">3.3.5.5 Flin</h5>
+<p><strong>Flin</strong> is Tap's clip-backed generative sequencer, inspired by the original monome Flin. Sixteen independent streams fall through the grid at different rates. Each stream has its own pitch or drum pad, length, velocity, and probability. The Tap MIDI Remote Script writes the result into a normal Live MIDI clip, so Live remains the authority for playback and note data.</p>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Flin iPad.fd4dcce93c7c4d41.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Flin iPad.e9d6a953be30680d.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Flin iPad.c2fd10064aa35571.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Flin iPad.fd4dcce93c7c4d41.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Flin iPad.fd4dcce93c7c4d41.png" alt="7III Tap Flin generative sequencer on iPad" class="imgset " width="1200" height="1093" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>The Flin sequencer running</figcaption>
+
+</figure>
+
+
+<p>To start Flin:</p>
+<ol>
+<li>Install the matching Tap MIDI Remote Script and connect Tap to Live.</li>
+<li>Select a MIDI clip on a melodic track or Drum Rack track.</li>
+<li>Open the Lil Green Helper and choose <strong>Flin</strong>.</li>
+</ol>
+<p>If the clip already contains notes, Tap asks before replacing them. Starting Flin deletes those existing notes. Flin cannot run in the same clip as Companion, but it can coexist with decoupled automation.</p>
+<p>Tap stores Flin's settings in a versioned <code>[TapFlin:v2|…]</code> marker in the clip name. When you return to that clip, Tap restores the streams, timing, mapping, quantization, velocity, and probability. Duplicating the clip also duplicates its Flin state.</p>
+<h6 id="the-flin-grid">The Flin Grid</h6>
+<ul>
+<li>The 16 columns are independent note streams. On a melodic track, each column represents a pitch; on a Drum Rack track, each column represents a drum pad.</li>
+<li>The rows choose the stream rate. The top row is fastest and every row below it is slower.</li>
+<li>A stream falls from the top and triggers when it reaches the bottom. The selected rate stays visible as a stationary marker while the moving block shows the current phase.</li>
+<li>Each fall has 32 visual phases. The first 16 happen above the grid; the stream then enters at the top, crosses the 16 visible rows, and triggers at the bottom.</li>
+<li>The note names at the bottom show the pitch or drum pad assigned to each column.</li>
+</ul>
+<p>Tap's Flin deliberately triggers at the bottom of the column. This is slightly different from the original monome behaviour, but makes the falling motion read naturally on a touchscreen.</p>
+<h6 id="adding-and-editing-streams">Adding and Editing Streams</h6>
+<ul>
+<li>Tap an empty column on the desired rate row to add a stream. Flin commits the change when your final finger leaves the screen.</li>
+<li>Drag across columns to add or remove several streams in one gesture.</li>
+<li>Tap an occupied column to remove that stream.</li>
+<li>Touch two rows in the same column to set the note length from the distance between your fingers.</li>
+<li>Long-press an active column to open its <strong>Velocity</strong> and <strong>Probability</strong> sliders.</li>
+</ul>
+<p>When Live is already playing, a new stream's first onset follows the <strong>Quantize</strong> setting. With <strong>None</strong>, Flin preserves the natural phase. If the selected clip is stopped, the first stream is written at the clip start and launches the clip.</p>
+<h6 id="timing-menu">Timing Menu</h6>
+<p>The Lil Green Helper opens Flin's flat timing menu:</p>
+<ul>
+<li><strong>Rate</strong> chooses how the 16 distinct row periods are spread between the fastest and slowest rows:
+<ul>
+<li><strong>OG</strong> follows the original Flin idea: integer period multiples from 1 through 16, extending the original eight-row instrument while keeping the top row fastest.</li>
+<li><strong>Odd</strong> uses the odd-numbered multiples 1, 3, 5, and so on for a different set of relationships.</li>
+<li><strong>Exponential</strong> spreads the periods progressively, leaving more room between the slower rows.</li>
+<li><strong>Primes</strong> uses prime-number relationships for patterns that take longer to line up.</li>
+</ul>
+</li>
+<li><strong>Quantize</strong> can be <strong>None</strong>, 1/32, 1/16, 1/8, 1/4, or 1/2. It sets the grid for a stream's first onset without changing the row's natural period. <strong>None</strong> is the default.</li>
+<li><strong>Quantize all</strong> appears when a grid is selected. Leave it off to snap only the first onset and let the row continue naturally, including off-grid repeats. Turn it on to snap every repeated onset to the selected grid.</li>
+<li><strong>Base</strong> sets the main cycle length from 1/4 bar through 16 bars. The default is 4 bars.</li>
+<li><strong>Row timings: Show/Hide</strong> displays the exact musical period beside each row. These labels describe the row rhythm, not the optional note-on grid.</li>
+<li><strong>Horizon</strong> limits how far Tap writes ahead: 4, 8, 16, 32, 64, or 96 bars. The default is 64 bars. <strong>Exact</strong> writes the full common period when it fits; <strong>Limited</strong> respects the selected horizon.</li>
+</ul>
+<p>Shorter horizons are quicker to rewrite while experimenting. Longer horizons preserve more of the full polymetric pattern before it repeats.</p>
+<h6 id="pitches-drum-pads-and-pages">Pitches, Drum Pads, and Pages</h6>
+<p><strong>Density</strong> decides how many columns each pitch or drum pad receives: 1, 2, 3, or 4. More columns let the same note run at several independent rates.</p>
+<p>Use the left and right page buttons to move between lower and higher pitch or drum pages. The second Footer Bar page also gives you global octave transposition on melodic tracks, or movement in blocks of 16 drum notes. Streams outside the visible page keep running.</p>
+<p>The Side Panel <strong>Velocity</strong> control adjusts all streams authored by Flin. The timing menu also includes commands to reset every stream's velocity or probability.</p>
+<h6 id="remove-all-and-exit-flin">Remove All and Exit Flin</h6>
+<p>These two commands are intentionally different:</p>
+<ul>
+<li><strong>Remove All</strong> clears all Flin streams and generated notes, but keeps the Flin marker and settings so you can start again quickly.</li>
+<li><strong>Exit Flin</strong> removes the Flin marker and leaves the generated notes behind as a normal editable MIDI clip.</li>
+</ul>
+<p>While Flin is active, Tap remaps a few familiar controls: the Side Panel <strong>Layout</strong> action becomes <strong>Exit Flin</strong>, the Footer Bar <strong>Quantize</strong> action becomes <strong>Remove All</strong>, and the Footer Bar <code>×2</code> action becomes <strong>Exit Flin</strong>. Record remains available, but the usual automation shortcut is disabled while Flin owns the sequencer surface.</p>
+<p>If Flin does not appear, first check that Tap and the MIDI Remote Script are the same version. If a stream does not sound, check that the selected clip belongs to the current MIDI track and that its pitch or drum pad can trigger the loaded instrument.</p>
+<h4 id="3-3-6-audio-clips">3.3.6 Audio Clips</h4>
+<p>Select an audio clip and open the <a href="https://project7iii.com/tap/manual/#3-3-device-view">Device View</a> to edit the clip itself. If an unarmed audio track has an empty slot, the slot shows a plus symbol. Tap it to select that slot, move to Device View, and open Tap's Samples browser. The empty audio editor also has a centred <strong>Load Sample</strong> button. If the audio track is armed, tapping an empty recordable slot records into it instead.</p>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<!-- <a href="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Audio Clips iPad.3e558023d05655b3.png" target="_blank"> -->
+<img srcset="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Audio Clips iPad.1c83b849e0fe8666.png 300w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Audio Clips iPad.26a0941c79b4dd04.png 600w, https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Audio Clips iPad.3e558023d05655b3.png 1200w" sizes="(max-width: 900px) calc(100vw - 3rem), 850px" src="https:&#x2F;&#x2F;project7iii.com&#x2F;processed_images&#x2F;Audio Clips iPad.3e558023d05655b3.png" alt="7III Tap audio clip editor" class="imgset " width="1200" height="656" decoding="async" loading="lazy">
+<!-- </a> -->
+
+<figcaption>Editing an audio clip with Warp markers, loop controls, and clip actions.</figcaption>
+
+</figure>
+
+
+<p>At the top of the audio editor:</p>
+<ul>
+<li>The left and right chevrons select the previous or next clip slot on the track. A grey chevron means that the adjacent slot does not currently contain an audio clip; the slot can still be selected.</li>
+<li><strong>Play / Stop</strong> controls the selected audio clip. Three dots show that the start or stop request has been sent while Live is still changing state.</li>
+<li><strong>Loop</strong> switches the clip loop on or off.</li>
+<li><strong>Warp</strong> switches Warp on or off. When Warp is active, the Warp Mode selector appears beside it.</li>
+</ul>
+<p>The waveform is an editor, not another play button:</p>
+<ul>
+<li>Pinch to zoom in or out, up to 16×. When zoomed in, drag left or right to move through the sample. Tap the zoom value to return to the complete waveform.</li>
+<li>With Warp active, the waveform shows musical grid lines and positions such as <code>1.2</code> and <code>1.4</code>. The grid becomes finer as you zoom in.</li>
+<li>Tap an empty place in the waveform to add a Warp Marker. Drag its square-and-triangle handle to move it; hold the handle to remove it.</li>
+<li>Slow Warp Marker movement is continuous. A normal or fast movement locks to the currently visible grid. If the first or last marker reaches the edge, keep holding and moving towards the edge to continue beyond the visible waveform.</li>
+<li>Tapping or dragging the waveform never starts, stops, scrubs, or retriggers the clip.</li>
+</ul>
+<p>The eight controls below the waveform are <strong>Start</strong>, <strong>End</strong>, <strong>Loop Start</strong>, <strong>Loop End</strong>, <strong>Move Loop</strong>, <strong>Gain</strong>, <strong>Transpose</strong>, and <strong>Detune</strong>.</p>
+<ul>
+<li>Drag a marker or loop control up or down to move on the visible waveform grid. Drag left or right for continuous, off-grid movement.</li>
+<li><strong>Loop Start</strong> and <strong>Loop End</strong> move separately. <strong>Move Loop</strong> moves both together and preserves the loop length.</li>
+<li><strong>Gain</strong> is displayed in dB. <strong>Transpose</strong> moves in semitones. <strong>Detune</strong> moves in cents and carries across the ±50-cent boundary together with Transpose, just like Live.</li>
+</ul>
+<p>Below those controls are two circle buttons:</p>
+<ul>
+<li><strong>Crop</strong> removes the material outside the loop, or outside Start and End when Loop is off.</li>
+<li><strong>Convert</strong> opens Tap's context menu with <strong>Simpler</strong>, <strong>Drum Pad</strong>, <strong>Harmony to MIDI</strong>, <strong>Melody to MIDI</strong>, and <strong>Drums to MIDI</strong>. The available conversions depend on the selected clip and the installed Live version; Tap shows Live's error if a requested conversion is unavailable.</li>
+</ul>
+<p>You can also edit an automatable device parameter directly over the audio waveform. Hold Record <code>◯</code> in the Footer Bar and tap an automatable device encoder. Tap opens the same point, line, curve, selection, Pencil, and <a href="https://project7iii.com/tap/manual/#curve-generator">Curve Generator</a> tools described in <strong>Automation Editing</strong>. While Automation Editing is open, the clip controls and actions below the waveform are hidden and the waveform expands to the Footer Bar, giving automation the largest possible drawing area. Start, End, and loop markers remain playback and editing references, while Tap can show automation across the available clip and source timeline. Pinching changes the visible waveform and automation viewport without discarding off-screen automation. Clip Gain, Transpose, and Detune remain directly editable clip controls, but Live does not expose them as selectable automation parameters to Tap.</p>
 <h3 id="3-4-clips-view">3.4 Clips View</h3>
 
     
