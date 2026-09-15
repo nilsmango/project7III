@@ -2,7 +2,7 @@
 title = "7III Water Support"
 description = "Get help with 7III Water, including Premium upgrades, subscriptions, Garmin GPX import, Apple Watch tracking, stickers and feature requests."
 date = 2024-07-18
-updated = 2025-12-17
+updated = 2026-07-24
 +++
 
 <a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/history" class="btn" id="greenButton">Version History</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
@@ -48,4 +48,8 @@ In iMessage: Tap the "+", navigate to the 7III Water stickers
 In WhatsApp: Tap the emoji icon, swipe right to the frequently used emojis, and look for the sticker icon. Find the 7III Water sticker set, then import the sticker you want. The imported sticker will now appear in your usual sticker location.
 
 ## Feature Requests
-We love hearing your ideas! Send your feature requests to [7+1@project7III.com](mailto:7+1@project7III.com).
+We love hearing your ideas—and Water is now open source.
+
+[Open a feature request on GitHub](https://github.com/nilsmango/water/issues/new/choose) so other riders can join the discussion. You can also browse the source, point your AI coding assistant at an issue, and [open a pull request](https://github.com/nilsmango/water/pulls). Please review and test any AI-assisted contribution before submitting it.
+
+Not on GitHub? Send your idea to [7+1@project7III.com](mailto:7+1@project7III.com).

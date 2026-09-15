@@ -2,7 +2,7 @@
 title = "Water Terms & Conditions"
 description = "Read the terms and conditions for using 7III Water, including subscriptions, in-app purchases, privacy, safety, refunds and Apple licensing information."
 date = 2024-07-08
-updated = 2024-07-10
+updated = 2026-07-24
 +++
 Last updated: {{ date_updated() }}
 
@@ -37,6 +37,11 @@ Your privacy is important to us. Please read our [Privacy Policy](/water/privacy
 ## Apple's Standard End User License Agreement
 The App is licensed to you under the standard Apple End User License Agreement (EULA). You can review the EULA by visiting the following link:
 [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+
+## Open-Source Software
+The source code for 7III Water is available on [GitHub](https://github.com/nilsmango/7III_Location_App) under the [Mozilla Public License 2.0](https://github.com/nilsmango/7III_Location_App/blob/main/LICENSE). The MPL 2.0 governs the covered source code and your rights to use, study, modify and distribute it. The Apple Standard EULA governs the App Store executable except where the MPL 2.0 requires otherwise.
+
+The project7III and 7III Water names and logos are not licensed for reuse by the MPL 2.0.
 
 ## Changes to Terms and Conditions
 We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.

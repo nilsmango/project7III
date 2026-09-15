@@ -12,7 +12,8 @@ featured_image_alt = "7III Tap Ableton Live Controller on an iPad"
 <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 2.1</a>
 
 >Last Update: **{{ date_updated() }}**  
->Tap 2.1 has landed: browse samples, edit audio clips, play expressive MPE pads and Note Repeat, and explore deeper Simpler controls—with Bluetooth MIDI too! [See everything new in version 2.1](/tap/history/#version-2-1), then [try Tap for free on the App Store](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273).
+>Tap 2.1 has landed: browse samples, edit audio clips, play expressive MPE pads and Note Repeat, and explore deeper Simpler controls. Now with Bluetooth MIDI too!  
+👉 [See everything new in version 2.1](/tap/history/#version-2-1), then [try Tap for free on the App Store](https://apps.apple.com/app/7iii-tap-live-midi-controller/id6499097273).
 
 
 {{ image_sets(path="content/tap/7III Tap Ableton MIDI Controller Step Sequencer.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="7III Tap controller running on an iPad, showing the melodic step sequencer", caption='7III Tap melodic step sequencer with device parameters') }}

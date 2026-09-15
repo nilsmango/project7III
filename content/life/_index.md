@@ -1,49 +1,50 @@
 +++
 title = "7III Life: App Blocker & Mindful Screen Time"
-description = "Block distracting apps and websites, unlock only 10 minutes at a time, track lost time, meditate, use focus sounds and build more intentional screen time habits."
+description = "Block distracting apps and websites, make every top-up a conscious choice, track lost time, meditate and build more intentional screen time habits."
 [extra]
 date = 2024-11-18
-updated = 2026-06-10
+updated = 2026-08-27
 share = true
 seo_title = "App Blocker & Mindful Screen Time | 7III Life"
 featured_image = "Life App Blocker iPhone.jpg"
-featured_image_alt = "7III Life, the best App Blocker on iPhone."
+featured_image_alt = "7III Life app blocker on iPhone with mindful screen time statistics"
 +++
 7III Life is a mindful screen time app built to help you use your devices with more intention.  
-Block distracting apps and websites, unlock them only 10 minutes at a time, and see how much time you lose to distractions.
+Block distracting apps and websites, see how much time disappears after each unlock, and add one small pause before the next scroll.
 
-Instead of only blocking, 7III Life creates a pause: reflect, choose an alternative activity, answer a few questions, meditate, or reset with calming sounds.  
->In development: [Join the TestFlight](https://testflight.apple.com/join/psRb8p48)
-><!-- {{ appstore_button(tagline="Pause, breathe, and try it for free!", url="https://apps.apple.com/app/id6738342562") }} -->
->If you want to get informed once it launches, send us an [email](mailto:7+1@project7iii.com)!
+Now with **Grown Up Mode**: Before every top-up, 7III Life asks how much time you have already lost today. No guilt trip, just enough honesty to make the next choice conscious.
 
-{{ image_sets(path="content/life/Life App Blocker iPhone.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="7III Life App running App Blocker with Lost Time statistics", caption='A very good App & Websites Blocker for iPhone and Mac.') }}
+{{ appstore_button(tagline="Less autopilot. More life. Completely free!", url="https://apps.apple.com/app/7iii-life-app-blocker/id6738342562") }}
+
+{{ image_sets(path="content/life/Life App Blocker iPhone.jpg", format="auto", op="fit_width", quality=100, loading="eager", fetchpriority="high", alt="7III Life app blocker showing lost time statistics on iPhone", caption='A very good app and website blocker for iPhone and Mac.') }}
 
 
 ## Features of 7III Life
 
-- Block distracting apps and websites on iOS and MacOS
-- Unlock blocked apps only 10 minutes per session
-- Add a deliberate pause before returning to distractions
-- Review alternative activities before unlocking more time
-- Answer custom multiple-choice questions before continuing
+- Block distracting apps and websites on iPhone and iPad
+- Block distracting websites in Safari on Mac
+- Use Grown Up Mode to make top-ups conscious
+- See how much time you have already lost before choosing more
+- Choose the top-up time you genuinely need
+- Review alternative activities before returning to distractions
+- Answer optional custom multiple-choice questions before continuing
 - Add your own questions, or create them with your favourite AI
 - See your lost time in clear statistics
-- iCloud sync for lost time and settings
-- Meditation timer with Apple Watch support
-- Buddha Machine for meditation, focus, relaxation and background sound
-- Mix atmospheric loops, live recorded loops, feedback textures, and white, brown or pink noise
-- Memento mori reminders with stoic reflections
-- Randomly timed daily reminders to contemplate time and intentional living
-- Mac companion app for website blocking and synced lost-time statistics
-- Free to use
+- Sync lost time and settings with iCloud
+- Meditate with iPhone and Apple Watch
+- Mix atmospheric loops, live-recorded loops, feedback textures, and white, brown or pink noise
+- Receive memento mori reminders with stoic reflections
+- Use the Mac companion app for website blocking and synced statistics
+- Completly free (you can upgrade to make us happy)
 - Simple and beautiful design
 
-## The 10-Minute Top-Up
+## Grown Up Mode: The Conscious Top-Up
 
-The blocker is built around one small but important idea: when you want to return to a blocked app or website, you only unlock 10 minutes for the current session.
+The blocker is not trying to become your new parent. Grown Up Mode assumes you can make your own decisions—after looking at the clock.
 
-That keeps the app flexible enough for real life, but adds just enough friction to make the choice conscious. You can still continue when you need to, but endless scrolling becomes less automatic.
+When you want to return to a blocked app or website, first enter how much time you have already lost today. Then choose the top-up you genuinely need.
+
+It is a tiny reality check, but that is often enough to turn an automatic tap into a conscious choice. If you want more friction, you can also consider your own alternative activities or answer custom questions first.
 
 ## Lost Time Statistics
 
@@ -62,11 +63,11 @@ Blocking alone is rarely enough. 7III Life also gives you tools for the moments 
 - Choose one of your alternative activities
 - Answer a few questions and learn something before unlocking more time
 
-{{ image_sets(path="content/life/Life App Blocker Meditation Memento Mori Start.jpg", format="auto", op="fit_width", quality=100, alt="7III Life App start screen with App Blocker, Meditation, Memento Mori and Buddha Machine", caption='The start screen of Life, with App Blocker, Meditation, Death and Buddha Machine') }}
+{{ image_sets(path="content/life/Life App Blocker Meditation Memento Mori Start.jpg", format="auto", op="fit_width", quality=100, alt="7III Life start screen with App Blocker, Meditation, Memento Mori and Buddha Machine", caption='The start screen of Life, with App Blocker, Meditation, Death and Buddha Machine.') }}
 
 ## Buddha Machine
 
-Create evolving soundscapes by mixing atmospheric loops, live recorded loops, feedback textures, and white, brown or pink noise.
+Create evolving soundscapes by mixing atmospheric loops, live-recorded loops, feedback textures, and white, brown or pink noise.
 
 Use it for meditation, focus, relaxation, background sound, or masking your environment.
 
@@ -76,22 +77,21 @@ Use it for meditation, focus, relaxation, background sound, or masking your envi
 
 Receive randomly timed daily reminders with short reflections and stoic quotes. A small reminder that time is finite can help make your next choice more intentional.
 
-## Coming Soon
+## Get 7III Life
 
-7III Life is currently in beta.  
-[Join the TestFlight](https://testflight.apple.com/join/psRb8p48)
+7III Life is free to use on iPhone, iPad, Apple Watch and Mac.
 
-If you want to get informed once it launches, send us an [email](mailto:7+1@project7iii.com)!
+{{ appstore_button(tagline="Go on, make your phone a little less needy.", url="https://apps.apple.com/app/7iii-life-app-blocker/id6738342562") }}
 
 ## FAQ
 
 ### Is 7III Life just an app blocker?
 
-No. The blocker is the core, but 7III Life also includes lost-time statistics, mindful top-ups, alternative activities, custom questions, meditation, focus sounds, memento mori reminders, Apple Watch support, and a Mac companion app.
+No. The blocker is the core, but 7III Life also includes lost-time statistics, conscious top-ups, alternative activities, custom questions, meditation, focus sounds, memento mori reminders, Apple Watch support, and a Mac companion app.
 
-### How does the 10-minute top-up work?
+### How does Grown Up Mode work?
 
-When you unlock blocked apps or websites, you only get 10 minutes at a time. After that, you need to make another conscious choice instead of slipping into endless use.
+Before a top-up, 7III Life asks how much time you have already lost today. Once you answer correctly, you choose how much time you genuinely need. Grown Up Mode is on by default, but you can turn it off in Settings.
 
 ### Why show lost time?
 
@@ -107,7 +107,7 @@ Yes. The meditation timer includes Apple Watch support.
 
 ### Is 7III Life free?
 
-Yes. 7III Life is free to use.
+Yes. 7III Life is free to download and use.
 
 ### Is my data stored in the cloud?
 
@@ -125,5 +125,37 @@ We turned 73 into a modern text logo, very 21st century, and admittedly to confu
 <br>
 
 <div class="footnote-definition"><p>Check the <a href="/life/terms-and-conditions">terms & conditions</a> and <a href="/life/privacy-policy">privacy policy</a> for 7III Life.
-<br>iPhone, Apple Watch, Mac and iCloud are trademarks of Apple Inc., registered in the United States and other countries.</p>
+<br>iPhone, iPad, Apple Watch, Mac and iCloud are trademarks of Apple Inc., registered in the United States and other countries.</p>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "7III Life: App Blocker",
+  "url": "https://project7iii.com/life/",
+  "description": "Block distracting apps and websites, make every top-up a conscious choice, and track lost time with 7III Life.",
+  "image": "https://project7iii.com/life/Life%20App%20Blocker%20iPhone.jpg",
+  "downloadUrl": "https://apps.apple.com/app/7iii-life-app-blocker/id6738342562",
+  "applicationCategory": "ProductivityApplication",
+  "applicationSubCategory": "App and website blocker",
+  "operatingSystem": "iOS, iPadOS, watchOS, macOS",
+  "softwareVersion": "0.3.2",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "description": "Free download"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Simon Lang"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "project7III",
+    "url": "https://project7iii.com/"
+  }
+}
+</script>

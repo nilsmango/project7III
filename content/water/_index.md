@@ -3,14 +3,14 @@ title = "7III Water: Foiling & Water Sports Tracker"
 description = "Track downwind, wing, pump and other water sports with 7III Water for iPhone and Apple Watch. Foil statistics, Garmin GPX import and no required subscription."
 [extra]
 date = 2024-04-11
-updated = 2026-07-22
+updated = 2026-07-24
 share = true
 seo_title = "Foiling & Water Sports Tracker | 7III Water"
 featured_image = "7III Water Foiling Statistics.jpg"
 featured_image_alt = "7III Water sports tracker on iPhone showing a downwind foiling GPS route"
 +++
 
-<a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/history" class="btn" id="greenButton">Version History</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
+<a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/history" class="btn" id="greenButton">Version History</a> <a href="https://github.com/nilsmango/7III_Location_App" class="btn" id="greenButton">Contribute on GitHub</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
 
 **7III Water** is a **foiling** and **water sports tracker** built for riders who actually spend time on the water.  
 Track **downwind foiling**, **pump foiling**, **parawing**, **wake thief**, **wing**, **kite**, **SUP** and more on **iPhone, Apple Watch, Garmin and other smartwatches**.
@@ -20,6 +20,8 @@ Analyze every session with detailed GPS tracks, foil-specific statistics, flight
 Unlike many water sports tracking apps that require recurring payments, **7III Water is free to get started and offers a one-time lifetime upgrade**.
 
 No subscription required. No accounts. No cloud lock-in. Your data stays on your device.
+
+**Now open source:** use Water, study it, change it, and help make it better for every rider.
 
 🤙 Try it for free: [Download Water](https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780)
 
@@ -35,6 +37,7 @@ No subscription required. No accounts. No cloud lock-in. Your data stays on your
     <tr><th scope="row">Analysis</th><td>GPS routes, foil-specific statistics, flights, wind, speed, heart rate and trends</td></tr>
     <tr><th scope="row">Privacy</th><td>No account; workout data stays on your device and in Apple Health</td></tr>
     <tr><th scope="row">Price</th><td>Free for your 30 most recent sessions; one-time lifetime unlock available; subscription not required</td></tr>
+    <tr><th scope="row">Source</th><td><a href="https://github.com/nilsmango/water">Open source on GitHub</a> under the Mozilla Public License 2.0</td></tr>
   </tbody>
 </table>
 
@@ -101,7 +104,22 @@ Just a fast, beautiful foil tracker that helps you spend more time on the water.
 - E-Assist
 
 ## Roadmap
-Help shape the perfect water sports tracking app by [requesting features](/water/support#feature-requests).
+Help shape the perfect water sports tracking app by [requesting features](/water/support#feature-requests) or actually building them yourself (see below!).
+
+## Open Source — Built With You
+
+Want a feature? Found a bug? **7III Water is open source, and your contribution is genuinely wanted.**
+
+- [Request a feature or report a bug](https://github.com/nilsmango/water/issues/new/choose)
+- [Browse the source code](https://github.com/nilsmango/water)
+- Pick an issue, improve the app, and [open a pull request](https://github.com/nilsmango/water/pulls)
+- Point your AI coding assistant at the repository and ask it to help—then review, test, and submit the result
+
+Contributions from riders, designers, translators, testers, kooks and developers are all welcome. Real experience on the water is every bit as valuable as coding experience.
+
+Water is licensed under the [Mozilla Public License 2.0](https://github.com/nilsmango/water/blob/main/LICENSE). Everyone may use, study, modify, and share the code. When MPL-covered source files are distributed, those files and their modifications must remain available under the same open license.
+
+Please read the [contribution guide](https://github.com/nilsmango/water/blob/main/CONTRIBUTING.md), then bring your improvement back to the community.
 
 
 {{ appstore_button(tagline="The Water's nice — come try it out!", url="https://apps.apple.com/app/7iii-water-downwind-winging/id6495238780") }}
