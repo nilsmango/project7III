@@ -2,15 +2,16 @@
 title = "7III Tap Version History"
 description = "See every 7III Tap update, from the original iPhone Ableton Live controller through iPad support, step sequencers, automation tools, MPE, Simpler and version 2.1."
 date = 2025-06-27
-updated = 2026-09-08
+updated = 2026-09-15
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
 
 ## Version 2.1
-*August 2026*
-
+*September 2026*  
 Small but mighty changes:
+- Added audio clip editing with zoomable waveforms, Warp markers, loop controls, gain, pitch, cropping, and conversion tools
+- Added sample browsing and search for audio clips
 - Added better and custom parameter controls for Meld, Drift, Operator, Wavetable, Drum Sampler, Delay, Auto Filter, Beat Repeat, Hybrid Reverb, Grain Delay, and many other Audio and MIDI Effects
 - Simpler now supports sample loading, sample visualization, slicing, and more
 - Added Search to the Browser
@@ -21,7 +22,7 @@ Small but mighty changes:
 - Added Bluetooth MIDI connections
 - Added a clearer connection test with useful error details
 - Connection testing still works when the free playing time is over
-- Improved reconnection reliability across USB, Wi-Fi, and Bluetooth MIDI
+- Improved connection and reconnection reliability
 - Added 16-pitch and 64-pad layouts for Sliced Simpler and Drum Pads
 - Improved Automation recording and editing
 - Automation edits now use Live 12's actual automation points

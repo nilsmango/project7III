@@ -2,7 +2,7 @@
 title = "7III Tap Support"
 description = "Get help with 7III Tap, including Ableton Live connection setup, the MIDI Remote Script, Premium access, feature requests and controller troubleshooting."
 date = 2024-07-20
-updated = 2026-09-08
+updated = 2026-09-15
 +++
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
 
@@ -24,6 +24,9 @@ Yes, 7III Tap is free to test. Controlling Live is limited to 15 minutes every 2
 
 ### What Premium upgrades are available? 
 There is a one-time purchase for lifetime access to unlimited Tap use.
+
+### Can I edit audio clips and browse samples?
+Yes. Tap 2.1 adds audio clip editing with zoomable waveforms, Warp markers, loop controls, gain, pitch, cropping, and conversion tools. Use the Samples browser and search to find and load sounds. See the [audio clip guide](/tap/manual/#3-3-6-audio-clips) for the workflow. Available audio conversions depend on your Live edition.
 
 ### Where is Undo and Redo?
 Long-press on the arrows in the footer bar for undo and redo!

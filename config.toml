@@ -1,5 +1,7 @@
 # The URL the site will be built for
 base_url = "https://project7iii.com"
+# Agent instructions are source documentation, not website pages.
+ignored_content = ["**/AGENTS.md"]
 title = "project7III"
 description = "Independent apps and tools for music makers, foilers, mindful tech users and curious people."
 

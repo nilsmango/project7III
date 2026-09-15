@@ -2,7 +2,7 @@
 title = "Best Ableton Live Controllers in 2026"
 description = "Compare Ableton Live controllers including Push 3, Move, TouchAble, 7III Tap, Knobber and LK by price, workflow, sequencing, mixing, MPE and device control."
 date = 2025-12-13
-updated = 2026-09-08
+updated = 2026-09-15
 [extra]
 share = true
 featured_image = "Ableto Move vs Push vs Tap vs Knobber vs Touchable.jpg"
@@ -127,7 +127,8 @@ Tap is the controller in this comparison that most clearly goes beyond the usual
 - Flin, a clip-backed generative sequencer with 16 independent polymetric note streams, plus Companion and the Rhythm Generator.
 - Automation Editing, including decoupled automation that can run at a different length from the note loop.
 - Deep device integration with custom parameter banks, Simpler waveforms and actions, Browser search and preview, and direct sample loading.
-- Audio clip editing with waveform zoom, Warp markers, loop controls, gain, transpose, detune, crop, and conversion to Simpler, Drum Pad, or MIDI.
+- Audio clip editing with waveform zoom, Warp markers, loop controls, gain, transpose, detune, crop, and conversion to Simpler, Drum Pad, or MIDI where supported by Live.
+- Sample browsing and search to find and load sounds for audio clips.
 - Native Simpler integration (hurray, sample-based artists).
 - MPE pad expression with per-note Pitch Bend and Pressure or Slide.
 - Drum Rack layouts with **16 Pitches**, 16 pads, or 64 pads.
