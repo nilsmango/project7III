@@ -3,7 +3,7 @@ title = "7III Tap User Manual"
 description = "Install the 7III Tap MIDI Remote Script, connect iPhone or iPad to Ableton Live on Mac or Windows, and learn every controller view and performance feature."
 [extra]
 date = 2024-03-15
-updated = 2026-09-09
+updated = 2026-09-22
 share = true
 seo_title = "7III Tap User Manual & Ableton Live Setup Guide"
 featured_image = "mixer.jpg"
@@ -315,6 +315,7 @@ In Settings you can configure very useful things, like the connection or touch i
 - **Default MIDI Layout** sets which note layout Tap should use when you arrive in the MIDI pads of a MIDI track. You can choose the compact pad layouts, the larger pad layout, or the keyboard layout. On iPad the default "pad" choice is the 8 Pads layout; on iPhone it is the 4ths layout.
 - **Track Controls Expression** chooses whether the expression encoder in Track Controls sends **Slide (CC74)** or **Pressure**. Slide is the default.
 - **MPE Pads** makes all playable pad layouts expressive, including Drum Racks: touch height can set velocity, horizontal movement bends each note separately, and vertical movement sends Pressure or Slide. See [MPE Pads](#mpe-pads) for setup and playing details.
+- **Show Scene Names** displays Live's scene names on the Scene Launch buttons in Clips and Mixer Views instead of the play symbols. The buttons still launch scenes when tapped.
 - **Companion Presets** lets you import and export Companion presets, create folders, move presets between folders, reorder presets, and remove presets or folders.
 
 ### 3.2 Main Views
@@ -940,6 +941,7 @@ Shows the clips.
 - Start and stop clips by tapping on a clip. If you tap on an empty clip slot in a MIDI Track, Tap will take you to the [Device View](#3-3-device-view). If you tap an empty clip in an armed audio track (arm by long-press in the Tracks Bar, then tap "Toggle Arm"), the recording will start. Tap it again to stop the recording.
 - Long-press on any clip slot to bring up a context menu (see below).  
 - Pressing the Side Panel button in the [Footer Bar](#3-2-2-footer-bar) activates the Scene Launch buttons to launch scenes.  
+- Long-press a Scene Launch button and choose **Rename Scene** to change its name in Live. If that scene has a Tap Follow Action, renaming preserves it.
 - The selected device's Banks Bar and Encoders Section are displayed above the clip view, exactly like in the Device View.
 
 #### 3.4.1 Clip Slot Context Menu
@@ -981,6 +983,7 @@ Shows the mixer section.
   - Peak values (2-second hold) are indicated by little horizontal lines in the meter.
 - Below the mixer section, there is a compact Clips View that allows you to interact with clips.  
 - Pressing the Side Panel button in the [Footer Bar](#3-2-2-footer-bar) activates the Scene Launch buttons to launch scenes.
+- The same Scene Launch buttons can show scene names and be long-pressed to rename a scene, as described in [Clips View](#3-4-clips-view).
 
 {{ image_sets(path="content/tap/manual/mixer.jpg", format="auto", op="fit_width", quality=75, alt="7III Tap Mixer View", caption='The Mixer View.') }}
 
