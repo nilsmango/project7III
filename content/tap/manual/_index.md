@@ -72,7 +72,8 @@ For a one-to-one wireless connection, try Bluetooth MIDI before Network MIDI. Bl
 You do not need a Thunderbolt or USB 3 cable. A data-capable USB 2.0 cable is already fast enough for Tap. The important bit is the word <strong>data</strong>: a charge-only cable may charge your device, but it cannot create the MIDI connection. The USB-C cable supplied with your iPhone or iPad is suitable.
 
 #### 2.2.2 Windows: Wired MIDI interface setup
-This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi. Feeling brave? Try the even more direct setup [below](#2-2-3-windows-experimental-direct-usb-midi-host-bridge) and let us know if it works for you!
+This is the recommended Windows setup. It is wired, bidirectional, and does not rely on WiFi. But it needs two MIDI interfaces, the easiest setup for Windows probably is our new [Bluethoot MIDI setup](#2-2-5-windows-bluetooth-midi).  
+Feeling extra brave? Try the even more direct setup [below](#2-2-3-windows-experimental-direct-usb-midi-host-bridge) and let us know if it works for you!
 
 The connection is:
 
