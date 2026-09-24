@@ -2,10 +2,17 @@
 title = "7III Water Version History"
 description = "See every 7III Water update, including Apple Watch tracking, Garmin GPX import, foil statistics, flight analysis, wind dashboards and map improvements."
 date = 2025-06-27
-updated = 2026-07-24
+updated = 2026-09-23
 +++
 
 <a href="/water" class="btn" id="greenButton">← 7III Water</a> <a href="/water/support" class="btn" id="greenButton">Support</a> <a href="/water/best-water-sports-tracker" class="btn" id="blueButton">Take the Water Sports Tracker Quiz!</a>
+
+## Version 1.4.3
+*September 2026*<br>
+More insight for wind sports:
+
+- Automatically detects upwind angles and shows the average and best angle.
+- Upwind and downwind time, distance and time ratio help compare parawings and other wind gear. Enter a known wind bearing or reverse a session’s direction labels when needed.
 
 ## Version 1.4.2
 *July 2026*  

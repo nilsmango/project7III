@@ -3,7 +3,7 @@ title = "7III Water: Foiling & Water Sports Tracker"
 description = "Track downwind, wing, pump and other water sports with 7III Water for iPhone and Apple Watch. Foil statistics, Garmin GPX import and no required subscription."
 [extra]
 date = 2024-04-11
-updated = 2026-07-24
+updated = 2026-09-23
 share = true
 seo_title = "Foiling & Water Sports Tracker | 7III Water"
 featured_image = "7III Water Foiling Statistics.jpg"
@@ -59,6 +59,7 @@ Just a fast, beautiful foil tracker that helps you spend more time on the water.
 - GPX import for Garmin and other smartwatches
 - GPX export for easy sharing (for example, with [race.downwind.app](https://race.downwind.app/))
 - Wind dashboards: Add your favorite wind stations and see them all in one place 
+- Wind analysis for parawings and other wind gear: automatic upwind angles (average and best), upwind/downwind time and distance, and a downwind/upwind time ratio
 - Optimized for Apple Watch: Start and stop sessions without touching the screen—just turn the Digital Crown
 - Yearly and monthly stats like number of sessions, days on water, and distances covered at a glance
 - Track average speeds, speed distribution, time on foil, max distance, turns completed, jumps and more

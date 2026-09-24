@@ -2,7 +2,7 @@
 title = "7III Tap Version History"
 description = "See every 7III Tap update, from the original iPhone Ableton Live controller through iPad support, step sequencers, automation tools, MPE, Simpler and version 2.1.1."
 date = 2025-06-27
-updated = 2026-09-22
+updated = 2026-09-23
 +++
 
 <a href="/tap" class="btn" id="greenButton">← 7III Tap</a> <a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a>
@@ -11,9 +11,12 @@ updated = 2026-09-22
 *September 2026*  
 Small refinements and fixes:
 - Only Encoders stays connected while Ableton Live's MIDI Map Mode is open
-- Added an option to show Scene names and rename Scenes in Clips
-- Fixed playback position jumping in non-looping Clips
+- Scene names, tempo, and time signature are visible in Clips
+- Rename, duplicate, and delete Scenes and edit their tempo and time signature from Clip menus
+- Fixed playback position of non-looping Clips
+- Fixed long-press Undo/Redo on audio Clip navigation arrows
 - Reduced MIDI Remote Script work when devices are added to a track
+- Improved Remote Script loading and Tracks Bar sync with Ableton Live 11
 - Improved reliability when editing Automation points
 
 ## Version 2.1

@@ -9,7 +9,7 @@ seo_title = "Ableton Live Controller for iPhone & iPad | 7III Tap"
 featured_image = "7III Tap Ableton MIDI Controller Step Sequencer.jpg"
 featured_image_alt = "7III Tap Ableton Live Controller on an iPad"
 +++
-<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 2.1</a>
+<a href="/tap/manual" class="btn" id="greenButton">User Manual</a> <a href="/tap/videos" class="btn" id="greenButton">Videos</a> <a href="/tap/support" class="btn" id="greenButton">Support</a> <a href="/tap/history" class="btn" id="greenButton">Version History</a> <a href="/tap/best-ableton-live-controller" class="btn" id="greenButton">Controllers for Ableton Live</a> <a href="https://project7iii.com/tap/Tap.zip" class="btn" id="purpleButton">↓ MIDI Remote Script 2.1.1</a>
 
 >Last Update: **{{ date_updated() }}**  
 >Tap 2.1 has landed: browse samples, edit audio clips, play expressive MPE pads and Note Repeat, and explore deeper Simpler controls. Now with Bluetooth MIDI too!  
@@ -96,12 +96,10 @@ See the [audio clip guide](/tap/manual/#3-3-6-audio-clips) for controls and gest
 - Perfect for synths, drum machines, external apps, and master effects parameters.
 
 ### Connectivity
-- **Direct USB** (macOS)
-- **Wired USB MIDI interface setup** (Windows)
-- **Bluetooth MIDI** (macOS)
-- **Bluetooth MIDI via Windows MIDI Services preview** (experimental)
-- **Wi-Fi** (macOS)
-- **rtpMIDI over Wi-Fi** (Windows)
+- **Direct USB** (macOS only)
+- **Bluetooth MIDI**
+- **Wi-Fi**
+- **Wired USB MIDI interface setup**
 - Includes a custom Ableton Live Remote Script for deep integration
 - No server or Max for Live device required. Simply download the MIDI Remote Script and put it in the correct folder. More information [here](/tap/manual/#2-1-add-the-tap-midi-remote-script).
 
