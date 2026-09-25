@@ -304,6 +304,7 @@ Tap also has one extra view, which are customizable encoder pages to control jus
 ### 3.1 Home View
 This is where every adventure starts.
 - Select **Test connection to Ableton Live** and then **Play Tap** to play Tap. The connection test remains available when the free playing time is over.
+- Tap **Connection Helper** for step by step connection instructions.
 - Tap **Test Tap without Connection** to explore Tap without connection.  
 - Tap **Start Encoders** to go straight to the standalone [Encoders View](#3-6-encoders-view).  
 - Also available in the Home View: **Help** and [Settings](#3-1-1-settings).
@@ -702,7 +703,7 @@ Decoupled automation is ideal for slow filter movements and polymetric modulatio
 
 The Curve Generator replaces the selected parameter's complete automation envelope with a repeating shape. Choose **Sine**, **Dropping Ball**, **Triangle**, **Square**, ascending or descending **Saw**, rising or falling **Envelope** and **S** ramps, **Wander**, or **S & H** (Sample & Hold).
 
-Its four controls normally set **Rate**, **Phase**, **Top Space**, and **Bottom Space**. The synced half of Rate runs from 1/32 through the musical divisions—including 1/3 and 2/3—to 4 bars. Continue past the centre for free time in seconds or milliseconds. Phase moves the shape through its cycle; 0% and 100% are the same position. Top and Bottom Space keep the result away from the parameter's limits. Tap an already selected Wander or S & H shape again to create a new variation.
+Its four controls normally set **Rate**, **Phase**, **Top Space**, and **Bottom Space**. The synced half of Rate runs from 1/32 through the musical divisions—including 1/3 and 2/3—to 4 bars. Continue past the centre for free time in seconds or milliseconds. Phase moves the shape through its cycle. Top and Bottom Space keep the result away from the parameter's limits. Tap an already selected Wander or S & H shape again to create a new variation.
 
 For **Dropping Ball**, those first two controls become **Drop Rate** and **Bounce**. Drop Rate is the duration of one complete fall and bounce sequence, so shorter musical rates can place several drops in one bar. Bounce controls how many rebounds survive, how high they rise, and how quickly their spacing contracts.
 

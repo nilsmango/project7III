@@ -63,7 +63,8 @@ Just a fast, beautiful foil tracker that helps you spend more time on the water.
 - Optimized for Apple Watch: Start and stop sessions without touching the screen—just turn the Digital Crown
 - Yearly and monthly stats like number of sessions, days on water, and distances covered at a glance
 - Track average speeds, speed distribution, time on foil, max distance, turns completed, jumps and more
-- **NEW**: Flight tracking for Pump Foil, Wake Thief, Wake Foil, Surf and other flight-based disciplines
+- Flight tracking for Pump Foil, Wake Thief, Wake Foil, Surf and other flight-based disciplines
+- **NEW**: Auto upwind angles, auto upwind and downwind leg detection with ration and more
 - Analyze individual flights, flight count, longest flight and total flight time
 - Filter statistics by discipline, location, upwind angles, and tags
 - Editing of routes*
