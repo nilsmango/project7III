@@ -18,6 +18,12 @@ You can find the complete Tap Playlist here: [7III Tap Playlist](https://youtube
 
 >Got a video featuring Tap? <a href="mailto:7+1@project7III.com">Send it in</a> — we’re happy to share it.
 
+
+## Sample-based artists and MPE enthusiasts, rejoice!
+A look at everything new in Tap 2.1 and 2.1.1 — including audio Clip editing, sample browsing, MPE, Note Repeat, deeper Scene control, improved MIDI workflows, and lots of smaller improvements for controlling Ableton Live from your iPhone or iPad.
+
+{{ youtube(id="rewEWnO1ufg", start="0") }}
+
 ## Our Best Ableton Live Controller yet (Tap 2.0)
 Our biggest update yet, making Tap the best Ableton Live Controller yet.
 
