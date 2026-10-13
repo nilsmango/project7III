@@ -223,12 +223,17 @@ If you find any mistakes or notice anything missing in this user manual, please 
                         </li>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-4-4-bluetooth-midi-troubleshooting">2.4.4 Bluetooth MIDI troubleshooting</a>
+                            <a href="https://project7iii.com/tap/manual/#2-4-4-mac-refresh-the-midi-configuration">2.4.4 Mac: Refresh the MIDI configuration</a>
                             
                         </li>
                         
                         <li>
-                            <a href="https://project7iii.com/tap/manual/#2-4-5-live-still-does-not-react">2.4.5 Live still does not react</a>
+                            <a href="https://project7iii.com/tap/manual/#2-4-5-bluetooth-midi-troubleshooting">2.4.5 Bluetooth MIDI troubleshooting</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://project7iii.com/tap/manual/#2-4-6-live-still-does-not-react">2.4.6 Live still does not react</a>
                             
                         </li>
                         
@@ -678,9 +683,20 @@ Feeling extra brave? Try the even more direct setup <a href="https://project7iii
 <li>Open <strong>Audio MIDI Setup</strong> and make sure the iPhone or iPad is enabled in the <strong>Audio Devices</strong> window.</li>
 <li>Restart the iPhone or iPad and the Mac if the device does not appear.</li>
 </ol>
-<h4 id="2-4-4-bluetooth-midi-troubleshooting">2.4.4 Bluetooth MIDI troubleshooting</h4>
+<h4 id="2-4-4-mac-refresh-the-midi-configuration">2.4.4 Mac: Refresh the MIDI configuration</h4>
+<p>If Live's MIDI indicator flashes but Tap's connection test says the Remote Script did not answer, try a new MIDI configuration in Audio MIDI Setup. Keep the old configuration so you can switch back.</p>
+<ol>
+<li>Quit Ableton Live.</li>
+<li>Open <strong>Audio MIDI Setup</strong> → <strong>Window</strong> → <strong>Show MIDI Studio</strong>.</li>
+<li>Choose <strong>New Configuration</strong> from the configuration menu.</li>
+<li>If you use Network MIDI, create and enable the RTP session again.</li>
+<li>Open Live and select <strong>Tap</strong> with the same MIDI input and output.</li>
+</ol>
+<p>See <a href="https://support.apple.com/en-gb/guide/audio-midi-setup/-ams875bae1e0/mac" target="_blank">Apple's instructions for creating a MIDI configuration</a> and <a href="https://help.ableton.com/hc/en-us/articles/209069629-No-MIDI-ports-available-after-upgrading-macOS" target="_blank">Ableton's macOS MIDI troubleshooting guidance</a>.</p>
+<p>If Tap still does not connect, follow <a href="https://help.ableton.com/hc/en-us/articles/209070609-How-to-reset-Live" target="_blank">Ableton's Live reset steps</a>. Move <code>Preferences.cfg</code> to the Desktop as described there. This resets Live's audio and MIDI settings, so set them up again.</p>
+<h4 id="2-4-5-bluetooth-midi-troubleshooting">2.4.5 Bluetooth MIDI troubleshooting</h4>
 <p>If the Bluetooth MIDI device disappears, open Tap's Bluetooth MIDI panel. If it does not reconnect, turn on <strong>Advertise MIDI Service</strong> and connect again from the computer or Bluetooth MIDI adapter. A Bluetooth MIDI peripheral can normally connect to only one host at a time, so disconnect it from other computers, phones, or tablets first. If control or feedback feels slow in a complex Live Set, use USB or wired MIDI instead.</p>
-<h4 id="2-4-5-live-still-does-not-react">2.4.5 Live still does not react</h4>
+<h4 id="2-4-6-live-still-does-not-react">2.4.6 Live still does not react</h4>
 <p>If the connection appears to work but Live does not react:</p>
 <ol>
 <li>Check that <strong>Takeover Mode</strong> is set to <strong>None</strong>.</li>

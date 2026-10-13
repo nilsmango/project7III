@@ -283,10 +283,25 @@ On macOS, connection problems are usually caused by the USB cable.
 <li>Restart the iPhone or iPad and the Mac if the device does not appear.</li>
 </ol>
 
-#### 2.4.4 Bluetooth MIDI troubleshooting
+#### 2.4.4 Mac: Refresh the MIDI configuration
+If Live's MIDI indicator flashes but Tap's connection test says the Remote Script did not answer, try a new MIDI configuration in Audio MIDI Setup. Keep the old configuration so you can switch back.
+
+<ol>
+<li>Quit Ableton Live.</li>
+<li>Open <strong>Audio MIDI Setup</strong> → <strong>Window</strong> → <strong>Show MIDI Studio</strong>.</li>
+<li>Choose <strong>New Configuration</strong> from the configuration menu.</li>
+<li>If you use Network MIDI, create and enable the RTP session again.</li>
+<li>Open Live and select <strong>Tap</strong> with the same MIDI input and output.</li>
+</ol>
+
+See <a href="https://support.apple.com/en-gb/guide/audio-midi-setup/-ams875bae1e0/mac" target="_blank">Apple's instructions for creating a MIDI configuration</a> and <a href="https://help.ableton.com/hc/en-us/articles/209069629-No-MIDI-ports-available-after-upgrading-macOS" target="_blank">Ableton's macOS MIDI troubleshooting guidance</a>.
+
+If Tap still does not connect, follow <a href="https://help.ableton.com/hc/en-us/articles/209070609-How-to-reset-Live" target="_blank">Ableton's Live reset steps</a>. Move <code>Preferences.cfg</code> to the Desktop as described there. This resets Live's audio and MIDI settings, so set them up again.
+
+#### 2.4.5 Bluetooth MIDI troubleshooting
 If the Bluetooth MIDI device disappears, open Tap's Bluetooth MIDI panel. If it does not reconnect, turn on <strong>Advertise MIDI Service</strong> and connect again from the computer or Bluetooth MIDI adapter. A Bluetooth MIDI peripheral can normally connect to only one host at a time, so disconnect it from other computers, phones, or tablets first. If control or feedback feels slow in a complex Live Set, use USB or wired MIDI instead.
 
-#### 2.4.5 Live still does not react
+#### 2.4.6 Live still does not react
 If the connection appears to work but Live does not react:
 
 <ol>
@@ -295,6 +310,8 @@ If the connection appears to work but Live does not react:
 <li>Try disabling and re-enabling the Tap Control Surface in Live's MIDI preferences.</li>
 <li>Restart Live after changing the MIDI Remote Script folder or MIDI port setup.</li>
 </ol>
+
+
 
 ## 3. User Interface
 There are 5 views in Tap.  
