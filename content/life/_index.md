@@ -32,7 +32,7 @@ Now with **Grown Up Mode**: Before every top-up, 7III Life asks how much time yo
 - See your lost time in clear statistics
 - Sync lost time and settings with iCloud
 - Meditate with iPhone and Apple Watch
-- Mix atmospheric loops, live-recorded loops, feedback textures, and white, brown or pink noise
+- Mix and filter atmospheric loops, live-recorded loops, feedback textures, and white, brown or pink noise
 - Receive memento mori reminders with stoic reflections
 - Use the Mac companion app for website blocking and synced statistics
 - Completly free (you can upgrade to make us happy)
